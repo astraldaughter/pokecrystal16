@@ -279,6 +279,7 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_RockPolish
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2689,6 +2690,26 @@ BattleAnim_LeechLife:
 	anim_call BattleAnimSub_Drain
 	anim_wait 128
 	anim_wait 48
+	anim_ret
+
+BattleAnim_RockPolish:
+	anim_2gfx ANIM_GFX_REFLECT, ANIM_GFX_SHINE
+	anim_obp0 $0
+	anim_call BattleAnim_TargetObj_1Row
+	anim_sound 0, 0, SFX_SHINE
+	anim_bgeffect ANIM_BG_FADE_MON_TO_BLACK, $0, BG_EFFECT_USER, $40
+	anim_wait 8
+	anim_obj ANIM_OBJ_HARDEN, 48, 84, $0
+	anim_wait 32
+	anim_call BattleAnim_ShowMon_0
+	anim_wait 8
+	anim_sound 0, 0, SFX_SHINE
+	anim_obj ANIM_OBJ_FORESIGHT, 58, 84, $0
+	anim_wait 16
+	anim_sound 0, 0, SFX_SHINE
+	anim_obj ANIM_OBJ_FORESIGHT, 38, 94, $0
+	anim_wait 32
+	anim_incbgeffect ANIM_BG_FADE_MON_TO_BLACK
 	anim_ret
 
 BattleAnim_Harden:
