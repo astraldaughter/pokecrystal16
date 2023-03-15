@@ -280,6 +280,12 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 	dw BattleAnim_RockPolish
+	dw BattleAnim_Moonblast
+	dw BattleAnim_EarthPower
+	dw BattleAnim_MeteorBeam
+	dw BattleAnim_DualWingbeat
+	dw BattleAnim_NastyPlot
+	dw BattleAnim_PowerGem
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -3068,6 +3074,7 @@ BattleAnim_LowKick:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_DualWingbeat:
 BattleAnim_WingAttack:
 	anim_1gfx ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_WING_ATTACK
@@ -4466,6 +4473,7 @@ BattleAnim_MirrorCoat:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_NastyPlot:
 BattleAnim_PsychUp:
 	anim_1gfx ANIM_GFX_STATUS
 	anim_call BattleAnim_TargetObj_1Row
@@ -4612,6 +4620,117 @@ BattleAnim_BeatUp:
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 48, $0
 	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
+	anim_ret
+
+BattleAnim_Moonblast:
+	anim_2gfx ANIM_GFX_SHINE, ANIM_GFX_BEAM
+	anim_bgp $1b
+	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 0, 40, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 16, 56, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 32, 72, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 48, 88, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 64, 104, $0
+	anim_wait 1
+	anim_sound 0, 0, SFX_MOONLIGHT
+	anim_wait 63
+	anim_call BattleAnimSub_Beam
+	anim_wait 48
+	anim_ret
+
+BattleAnim_EarthPower:
+	anim_2gfx ANIM_GFX_FIRE, ANIM_GFX_ROCKS
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgp $1b
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj ANIM_OBJ_ROCK_SMASH, 120, 68, $5c
+	anim_obj ANIM_OBJ_ROCK_SMASH, 120, 68, $e8
+	anim_obj ANIM_OBJ_ROCK_SMASH, 120, 68, $9c
+	anim_obj ANIM_OBJ_ROCK_SMASH, 120, 68, $50
+	anim_obj ANIM_OBJ_EMBER, 120, 68, $30
+	anim_wait 40
+	anim_clearobjs
+	anim_wait 8
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj ANIM_OBJ_ROCK_SMASH, 144, 68, $5c
+	anim_obj ANIM_OBJ_ROCK_SMASH, 144, 68, $e8
+	anim_obj ANIM_OBJ_ROCK_SMASH, 144, 68, $d0
+	anim_obj ANIM_OBJ_ROCK_SMASH, 144, 68, $10
+	anim_obj ANIM_OBJ_EMBER, 144, 68, $30
+	anim_wait 40
+	anim_clearobjs
+	anim_wait 8
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj ANIM_OBJ_ROCK_SMASH, 132, 68, $28
+	anim_obj ANIM_OBJ_ROCK_SMASH, 132, 68, $e8
+	anim_obj ANIM_OBJ_ROCK_SMASH, 132, 68, $d0
+	anim_obj ANIM_OBJ_ROCK_SMASH, 132, 68, $50
+	anim_obj ANIM_OBJ_EMBER, 132, 68, $30
+	anim_wait 48
+	anim_ret
+
+BattleAnim_MeteorBeam:
+	anim_if_param_equal $1, BattleAnim_FocusEnergy
+	anim_1gfx ANIM_GFX_BEAM
+	anim_bgp $1b
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $50, $4, $10
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_sound 0, 0, SFX_HYPER_BEAM
+	anim_obj ANIM_OBJ_BEAM, 80, 84, $0
+	anim_wait 2
+	anim_sound 0, 1, SFX_HYPER_BEAM
+	anim_obj ANIM_OBJ_BEAM, 96, 76, $0
+	anim_wait 2
+	anim_sound 0, 1, SFX_HYPER_BEAM
+	anim_obj ANIM_OBJ_BEAM, 112, 68, $0
+	anim_obj ANIM_OBJ_BEAM_TIP, 126, 62, $0
+	anim_wait 48
+	anim_ret
+
+BattleAnim_PowerGem:
+	anim_bgp $1b
+	anim_1gfx ANIM_GFX_SHINE
+	anim_sound 0, 0, SFX_METRONOME
+	anim_obj ANIM_OBJ_POWER_GEM, 46, 88, $0
+	anim_wait 1
+	anim_obj ANIM_OBJ_POWER_GEM, 24, 90, $0
+	anim_wait 1
+	anim_obj ANIM_OBJ_POWER_GEM, 36, 72, $0
+	anim_wait 1
+	anim_obj ANIM_OBJ_POWER_GEM, 44, 112, $0
+	anim_wait 1
+	anim_obj ANIM_OBJ_POWER_GEM, 30, 106, $0
+	anim_wait 1
+	anim_obj ANIM_OBJ_POWER_GEM, 64, 104, $0
+	anim_wait 1
+	anim_obj ANIM_OBJ_POWER_GEM, 54, 68, $0
+	anim_wait 1
+	anim_obj ANIM_OBJ_POWER_GEM, 72, 82, $0
+	anim_wait 80
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  5
+	anim_wait 2
+	anim_incobj  1
+	anim_wait 2
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  3
+	anim_wait 4
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  8
+	anim_wait 2
+	anim_incobj  2
+	anim_wait 2
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  4
+	anim_wait 2
+	anim_incobj  6
+	anim_wait 2
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  7
+	anim_wait 2
+	anim_wait 32
 	anim_ret
 
 BattleAnimSub_Drain:

@@ -139,3 +139,5 @@ BattleCommand_SleepTalk:
 	ret z
 	cp EFFECT_BIDE
 	ret
+	cp EFFECT_METEOR_BEAM
+	ret

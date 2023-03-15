@@ -258,6 +258,12 @@
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
 	const ROCK_POLISH  ; fc
+	const MOONBLAST	   ; fd
+	const EARTH_POWER  ; fe
+	const METEOR_BEAM  ; ff
+	const DUAL_WINGBEAT; 100
+	const NASTY_PLOT   ; 101
+	const POWER_GEM	   ; 102
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

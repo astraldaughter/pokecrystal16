@@ -257,6 +257,12 @@ MoveDescriptions1:
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw RockPolishDescription
+	dw MoonblastDescription
+	dw EarthPowerDescription
+	dw MeteorBeamDescription
+	dw DualWingbeatDescription
+	dw NastyPlotDescription
+	dw PowerGemDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1228,7 +1234,7 @@ SunnyDayDescription:
 
 CrunchDescription:
 	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	next "lower DEF.@"
 
 MirrorCoatDescription:
 	db   "Counters a SPCL."
@@ -1269,3 +1275,27 @@ BeatUpDescription:
 RockPolishDescription:
 	db   "Sharply increases"
 	next "the user's SPEED.@"
+
+MoonblastDescription:
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
+
+EarthPowerDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"
+
+MeteorBeamDescription:
+	db   "1st turn: Prepare"
+	next "2nd turn: Attack@"
+
+DualWingbeatDescription:
+	db   "Strikes twice"
+	next "with wings.@"
+
+NastyPlotDescription:
+	db   "Sharply raises the"
+	next "user's SPCL.ATK.@"
+
+PowerGemDescription:
+	db   "Attacks with a"
+	next "sparkling light."

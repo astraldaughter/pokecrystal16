@@ -252,4 +252,10 @@ MoveNames::
 	li "WHIRLPOOL"
 	li "BEAT UP"
 	li "ROCK POLISH"
+	li "MOONBLAST"
+	li "EARTH POWER"
+	li "METEOR BEAM"
+	li "DUALWINGBEAT"
+	li "NASTY PLOT"
+	li "POWER GEM"
 	assert_list_length NUM_ATTACKS

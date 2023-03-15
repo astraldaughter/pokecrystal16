@@ -735,6 +735,11 @@ _BattleDugText::
 	line "dug a hole!"
 	prompt
 
+_BattleSpacePowerText::
+	text_start
+	line "is shimmering!"
+	prompt
+
 _ActorNameText::
 	text "<USER>@"
 	text_end
