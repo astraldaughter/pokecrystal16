@@ -80,7 +80,7 @@ HurtByCurseText:
 	prompt
 
 SandstormHitsText:
-	text "The SANDSTORM hits"
+	text "The sandstorm hits"
 	line "<USER>!"
 	prompt
 
@@ -141,8 +141,13 @@ BattleText_TheSunlightIsStrong:
 	prompt
 
 BattleText_TheSandstormRages:
-	text "The SANDSTORM"
+	text "The sandstorm"
 	line "rages."
+	prompt
+
+BattleText_TheSnowFalls:
+	text "Snow continues to"
+	line "fall."
 	prompt
 
 BattleText_TheRainStopped:
@@ -155,8 +160,12 @@ BattleText_TheSunlightFaded:
 	prompt
 
 BattleText_TheSandstormSubsided:
-	text "The SANDSTORM"
+	text "The sandstorm"
 	line "subsided."
+	prompt
+
+BattleText_TheSnowStopped:
+	text "The snow stopped."
 	prompt
 
 BattleText_EnemyMonFainted:
@@ -689,6 +698,16 @@ AlreadyAsleepText:
 	line "already asleep!"
 	prompt
 
+AlreadyBurnedText:
+	text "<TARGET>'s"
+	line "already burned!"
+	prompt
+
+AlreadyFrozenText:
+	text "<TARGET>'s"
+	line "already frozen!"
+	prompt
+
 WasPoisonedText:
 	text "<TARGET>"
 	line "was poisoned!"
@@ -1003,7 +1022,7 @@ StartPerishText:
 	prompt
 
 SandstormBrewedText:
-	text "A SANDSTORM"
+	text "A sandstorm"
 	line "brewed!"
 	prompt
 
@@ -1106,3 +1125,13 @@ BattleText_NoTimeLeftToday: ; unreferenced
 	text "There is no time"
 	line "left today!"
 	done
+
+ItStartedToSnowText:
+	text "It started"
+	line "to snow!"
+	prompt
+
+HealedBySnowText:
+	text "<USER>"
+	line "is healed by snow!"
+	prompt

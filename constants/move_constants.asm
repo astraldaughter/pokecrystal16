@@ -264,6 +264,7 @@
 	const DUAL_WINGBEAT; 100
 	const NASTY_PLOT   ; 101
 	const POWER_GEM	   ; 102
+	const SNOWFALL	   ; 103
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
@@ -283,6 +284,7 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const ANIM_ENEMY_DAMAGE      ;  -7 (fff9)
 	const ANIM_MISS              ;  -8 (fff8)
 ; battle anims
+	const ANIM_IN_SNOW
 	const ANIM_IN_WHIRLPOOL      ;  -9 (fff7)
 	const ANIM_IN_NIGHTMARE      ;  -a (fff6)
 	const ANIM_IN_SANDSTORM      ;  -b (fff5)

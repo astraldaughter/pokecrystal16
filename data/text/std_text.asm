@@ -253,7 +253,7 @@ ContestResults_JoinUsNextTimeText:
 
 ContestResults_ConsolationPrizeText:
 	text "Everyone else gets"
-	line "a BERRY as a con-"
+	line "a ORAN BERRY as a con-"
 	cont "solation prize!"
 	done
 

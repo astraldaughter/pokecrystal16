@@ -258,4 +258,5 @@ MoveNames::
 	li "DUALWINGBEAT"
 	li "NASTY PLOT"
 	li "POWER GEM"
+	li "SNOWFALL"
 	assert_list_length NUM_ATTACKS

@@ -2099,3 +2099,10 @@ MeteorBeam:
 	specialattackup
 	statupmessage
 	endmove
+
+Snowfall:
+	checkobedience
+	usedmovetext
+	doturn
+	startsnow
+	endmove

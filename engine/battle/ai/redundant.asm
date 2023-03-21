@@ -44,6 +44,7 @@ AI_Redundant:
 	dbw EFFECT_MOONLIGHT,    .Moonlight
 	dbw EFFECT_SWAGGER,      .Swagger
 	dbw EFFECT_FUTURE_SIGHT, .FutureSight
+	dbw EFFECT_SNOWFALL,	 .Snowfall
 	db -1
 
 .LightScreen:
@@ -180,6 +181,13 @@ AI_Redundant:
 	ld a, [wEnemyFutureSightCount]
 	and a
 	ret
+
+.Snowfall:
+	ld a, [wBattleWeather]
+	cp WEATHER_SNOW
+	jr z, .Redundant
+	jr .NotRedundant
+
 
 .Heal:
 .MorningSun:

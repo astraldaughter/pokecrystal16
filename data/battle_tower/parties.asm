@@ -6,7 +6,7 @@ BattleTowerMons:
 ; BattleTowerMons group 1
 
 	dw JOLTEON
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw THUNDERBOLT, HYPER_BEAM, SHADOW_BALL, ROAR
 
 	dw 0 ; OT ID
@@ -114,7 +114,7 @@ BattleTowerMons:
 	db "SO-NANSU@@@"
 
 	dw KANGASKHAN
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw REVERSAL, HYPER_BEAM, EARTHQUAKE, ATTRACT
 
 	dw 0 ; OT ID
@@ -222,7 +222,7 @@ BattleTowerMons:
 	db "PUTERA@@@@@"
 
 	dw LAPRAS
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw BLIZZARD, SURF, THUNDERBOLT, PSYCHIC_M
 
 	dw 0 ; OT ID
@@ -411,7 +411,7 @@ BattleTowerMons:
 	db "HAPINASU@@@"
 
 	dw SNORLAX
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw HEADBUTT, PROTECT, SNORE, SURF
 
 	dw 0 ; OT ID
@@ -492,7 +492,7 @@ BattleTowerMons:
 	db "HERAKUROSU@"
 
 	dw UNOWN
-	db BERRY
+	db ORAN_BERRY
 	dw HIDDEN_POWER, 0, 0, 0
 
 	dw 0 ; OT ID
@@ -630,7 +630,7 @@ BattleTowerMons:
 	db "SUTA-MI-@@@"
 
 	dw GYARADOS
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw HYPER_BEAM, DRAGON_RAGE, THUNDERBOLT, FIRE_BLAST
 
 	dw 0 ; OT ID
@@ -1062,7 +1062,7 @@ BattleTowerMons:
 	db "PUKURIN@@@@"
 
 	dw WIGGLYTUFF
-	db PINK_BOW
+	db SILK_SCARF
 	dw PSYCHIC_M, SWAGGER, PSYCH_UP, HEADBUTT
 
 	dw 0 ; OT ID
@@ -1089,7 +1089,7 @@ BattleTowerMons:
 	db "PUKURIN@@@@"
 
 	dw NIDOKING
-	db BERRY
+	db ORAN_BERRY
 	dw BLIZZARD, EARTHQUAKE, SURF, THUNDERPUNCH
 
 	dw 0 ; OT ID
@@ -1146,7 +1146,7 @@ BattleTowerMons:
 ; BattleTowerMons group 3
 
 	dw JOLTEON
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw THUNDERBOLT, THUNDER_WAVE, ROAR, MUD_SLAP
 
 	dw 0 ; OT ID
@@ -1362,7 +1362,7 @@ BattleTowerMons:
 	db "HERUGA-@@@@"
 
 	dw MACHAMP
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw CROSS_CHOP, ICE_PUNCH, EARTHQUAKE, FIRE_BLAST
 
 	dw 0 ; OT ID
@@ -1551,7 +1551,7 @@ BattleTowerMons:
 	db "RANTA-N@@@@"
 
 	dw ESPEON
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw CONFUSION, SWIFT, TOXIC, PSYCH_UP
 
 	dw 0 ; OT ID
@@ -1686,7 +1686,7 @@ BattleTowerMons:
 	db "ONIDORIRU@@"
 
 	dw PRIMEAPE
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw LOW_KICK, KARATE_CHOP, REVERSAL, FOCUS_ENERGY
 
 	dw 0 ; OT ID
@@ -2013,7 +2013,7 @@ BattleTowerMons:
 	db "DAGUTORIO@@"
 
 	dw SLOWBRO
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw SURF, PSYCHIC_M, EARTHQUAKE, BLIZZARD
 
 	dw 0 ; OT ID
@@ -2313,7 +2313,7 @@ BattleTowerMons:
 	db "KINGUDORA@@"
 
 	dw HOUNDOOM
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw REST, CRUNCH, DREAM_EATER, FLAMETHROWER
 
 	dw 0 ; OT ID
@@ -2475,7 +2475,7 @@ BattleTowerMons:
 	db "HAtuSAMU@@@"
 
 	dw SLOWKING
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw REST, SURF, PSYCHIC_M, AMNESIA
 
 	dw 0 ; OT ID
@@ -2583,7 +2583,7 @@ BattleTowerMons:
 	db "DAGUTORIO@@"
 
 	dw ELECTRODE
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw THUNDERBOLT, EXPLOSION, MIRROR_COAT, REST
 
 	dw 0 ; OT ID
@@ -2664,7 +2664,7 @@ BattleTowerMons:
 	db "KUROBAtuTO@"
 
 	dw ZAPDOS
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw DRILL_PECK, THUNDERBOLT, THUNDER_WAVE, HYPER_BEAM
 
 	dw 0 ; OT ID
@@ -2745,7 +2745,7 @@ BattleTowerMons:
 	db "HUoRETOSU@@"
 
 	dw STEELIX
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw SANDSTORM, IRON_TAIL, REST, EARTHQUAKE
 
 	dw 0 ; OT ID
@@ -2799,7 +2799,7 @@ BattleTowerMons:
 	db "KIRINRIKI@@"
 
 	dw GYARADOS
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw HYPER_BEAM, SURF, RAIN_DANCE, ZAP_CANNON
 
 	dw 0 ; OT ID
@@ -2910,7 +2910,7 @@ BattleTowerMons:
 	db "BANGIRASU@@"
 
 	dw HOUNDOOM
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw FLAMETHROWER, CRUNCH, DREAM_EATER, REST
 
 	dw 0 ; OT ID
@@ -2991,7 +2991,7 @@ BattleTowerMons:
 	db "KAIRIKI-@@@"
 
 	dw ZAPDOS
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw REST, DRILL_PECK, THUNDERBOLT, THUNDER_WAVE
 
 	dw 0 ; OT ID
@@ -3072,7 +3072,7 @@ BattleTowerMons:
 	db "PUTERA@@@@@"
 
 	dw DRAGONITE
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw HYPER_BEAM, ICY_WIND, THUNDERBOLT, SURF
 
 	dw 0 ; OT ID
@@ -3153,7 +3153,7 @@ BattleTowerMons:
 	db "UINDEi@@@@@"
 
 	dw SKARMORY
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw STEEL_WING, FLY, TOXIC, PROTECT
 
 	dw 0 ; OT ID
@@ -3207,7 +3207,7 @@ BattleTowerMons:
 	db "HAPINASU@@@"
 
 	dw SNORLAX
-	db PINK_BOW
+	db SILK_SCARF
 	dw ROCK_SLIDE, SURF, BODY_SLAM, EARTHQUAKE
 
 	dw 0 ; OT ID
@@ -3261,7 +3261,7 @@ BattleTowerMons:
 	db "HERAKUROSU@"
 
 	dw JYNX
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw BLIZZARD, PSYCHIC_M, SHADOW_BALL, ICY_WIND
 
 	dw 0 ; OT ID
@@ -3426,7 +3426,7 @@ BattleTowerMons:
 ; BattleTowerMons group 7
 
 	dw JOLTEON
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw THUNDERBOLT, HYPER_BEAM, SHADOW_BALL, ROAR
 
 	dw 0 ; OT ID
@@ -3642,7 +3642,7 @@ BattleTowerMons:
 	db "SANDA-@@@@@"
 
 	dw EXEGGUTOR
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw REST, EXPLOSION, PSYCHIC_M, GIGA_DRAIN
 
 	dw 0 ; OT ID
@@ -3723,7 +3723,7 @@ BattleTowerMons:
 	db "GIyaRADOSU@"
 
 	dw QUAGSIRE
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw EARTHQUAKE, SURF, SLUDGE_BOMB, IRON_TAIL
 
 	dw 0 ; OT ID
@@ -3996,7 +3996,7 @@ BattleTowerMons:
 ; BattleTowerMons group 8
 
 	dw JOLTEON
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw THUNDER_WAVE, THUNDERBOLT, IRON_TAIL, ROAR
 
 	dw 0 ; OT ID
@@ -4050,7 +4050,7 @@ BattleTowerMons:
 	db "KABIGON@@@@"
 
 	dw HOUNDOOM
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw REST, CRUNCH, FLAMETHROWER, SUNNY_DAY
 
 	dw 0 ; OT ID
@@ -4104,7 +4104,7 @@ BattleTowerMons:
 	db "KENTAROSU@@"
 
 	dw LAPRAS
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw REST, SURF, CONFUSE_RAY, PSYCHIC_M
 
 	dw 0 ; OT ID
@@ -4131,7 +4131,7 @@ BattleTowerMons:
 	db "RAPURASU@@@"
 
 	dw TYRANITAR
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw REST, CRUNCH, EARTHQUAKE, ROCK_SLIDE
 
 	dw 0 ; OT ID
@@ -4212,7 +4212,7 @@ BattleTowerMons:
 	db "HUoRETOSU@@"
 
 	dw KINGDRA
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw REST, SURF, BLIZZARD, DRAGONBREATH
 
 	dw 0 ; OT ID
@@ -4401,7 +4401,7 @@ BattleTowerMons:
 	db "HUaIYA-@@@@"
 
 	dw AERODACTYL
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw HYPER_BEAM, REST, EARTHQUAKE, ROAR
 
 	dw 0 ; OT ID
@@ -4782,7 +4782,7 @@ BattleTowerMons:
 	db "BANGIRASU@@"
 
 	dw LAPRAS
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw REST, SURF, THUNDERBOLT, PSYCHIC_M
 
 	dw 0 ; OT ID
@@ -4863,7 +4863,7 @@ BattleTowerMons:
 	db "KAIRIKI-@@@"
 
 	dw SNORLAX
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw FIRE_BLAST, SURF, EARTHQUAKE, HYPER_BEAM
 
 	dw 0 ; OT ID
@@ -4890,7 +4890,7 @@ BattleTowerMons:
 	db "KABIGON@@@@"
 
 	dw ARCANINE
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw SUNNY_DAY, FLAMETHROWER, EXTREMESPEED, REST
 
 	dw 0 ; OT ID
@@ -5025,7 +5025,7 @@ BattleTowerMons:
 	db "TUBOTUBO@@@"
 
 	dw FLAREON
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw HYPER_BEAM, FLAMETHROWER, SHADOW_BALL, ROAR
 
 	dw 0 ; OT ID
@@ -5079,7 +5079,7 @@ BattleTowerMons:
 	db "MIRUTANKU@@"
 
 	dw TAUROS
-	db PINK_BOW
+	db SILK_SCARF
 	dw THUNDERBOLT, HYPER_BEAM, ATTRACT, EARTHQUAKE
 
 	dw 0 ; OT ID
@@ -5136,7 +5136,7 @@ BattleTowerMons:
 ; BattleTowerMons group 10
 
 	dw HOUNDOOM
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw CRUNCH, FLAMETHROWER, ROAR, REST
 
 	dw 0 ; OT ID
@@ -5352,7 +5352,7 @@ BattleTowerMons:
 	db "MARUMAIN@@@"
 
 	dw RHYDON
-	db MIRACLEBERRY
+	db LUM_BERRY
 	dw SURF, EARTHQUAKE, HYPER_BEAM, ROCK_SLIDE
 
 	dw 0 ; OT ID
@@ -5541,7 +5541,7 @@ BattleTowerMons:
 	db "HAPINASU@@@"
 
 	dw PILOSWINE
-	db MINT_BERRY
+	db CHESTO_BERRY
 	dw REST, BLIZZARD, HYPER_BEAM, EARTHQUAKE
 
 	dw 0 ; OT ID

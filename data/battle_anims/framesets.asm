@@ -187,6 +187,7 @@ BattleAnimFrameData:
 	dw .Frameset_b7 ; BATTLEANIMFRAMESET_B7
 	dw .Frameset_b8 ; BATTLEANIMFRAMESET_B8
 	dw .Frameset_b9 ; BATTLEANIMFRAMESET_B9
+	dw .Frameset_Snow ; BATTLEANIMFRAMESET_SNOW
 	assert_table_length NUM_BATTLEANIMFRAMESETS
 
 .Frameset_00:
@@ -1273,3 +1274,7 @@ BattleAnimFrameData:
 .Frameset_b9:
 	frame BATTLEANIMOAMSET_54, 40
 	endanim
+
+.Frameset_Snow:
+	oamframe BATTLEANIMOAMSET_SNOW, 32
+	oamend
