@@ -341,7 +341,6 @@ WRAMX 2
 	"Pic Animations"
 	align 8
 	"16-bit WRAM tables"
-	"Surrounding Data"
 WRAMX 3
 	"Battle Tower RAM"
 WRAMX 4
