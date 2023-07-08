@@ -274,7 +274,7 @@ Route36Officer_ContestHasConcluded:
 .Berry:
 	writetext Route36NationalParkGateOfficer1HeresThePrizeText
 	promptbutton
-	verbosegiveitem ORAN_BERRY
+	verbosegiveitem BERRY
 	iffalse .BagFull
 	clearevent EVENT_CONTEST_OFFICER_HAS_BERRY
 	closetext

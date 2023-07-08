@@ -263,7 +263,6 @@ MoveDescriptions1:
 	dw DualWingbeatDescription
 	dw NastyPlotDescription
 	dw PowerGemDescription
-	dw SnowfallDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1300,7 +1299,3 @@ NastyPlotDescription:
 PowerGemDescription:
 	db   "Attacks with a"
 	next "sparkling light."
-
-SnowfallDescription:
-	db   "Heals ICE-types"
-	next "every turn.@"

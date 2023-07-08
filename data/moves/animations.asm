@@ -16,7 +16,6 @@
 	dw BattleAnim_InSandstorm
 	dw BattleAnim_InNightmare
 	dw BattleAnim_InWhirlpool
-	dw BattleAnim_InSnow
 	dw BattleAnim_Miss
 	dw BattleAnim_EnemyDamage
 	dw BattleAnim_EnemyStatDown
@@ -287,7 +286,6 @@ BattleAnimations::
 	dw BattleAnim_DualWingbeat
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_PowerGem
-	dw BattleAnim_Snowfall
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -4733,22 +4731,6 @@ BattleAnim_PowerGem:
 	anim_incobj  7
 	anim_wait 2
 	anim_wait 32
-	anim_ret
-
-BattleAnim_Snowfall:
-BattleAnim_InSnow:
-	anim_1gfx ANIM_GFX_ICE
-	anim_bgeffect ANIM_BG_WHITE_HUES, $0, $8, $0
-	anim_obj ANIM_OBJ_SNOW, 88, 0, $0
-	anim_wait 8
-	anim_obj ANIM_OBJ_SNOW, 72, 0, $1
-	anim_wait 8
-	anim_obj ANIM_OBJ_SNOW, 56, 0, $2
-.loop
-	anim_sound 0, 1, SFX_SHINE
-	anim_wait 8
-	anim_loop 8, .loop
-	anim_wait 8
 	anim_ret
 
 BattleAnimSub_Drain:

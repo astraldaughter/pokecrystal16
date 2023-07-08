@@ -87,17 +87,17 @@ ItemEffects:
 	dw NoEffect            ; SILVER_WING
 	dw RestoreHPEffect     ; MOOMOO_MILK
 	dw NoEffect            ; QUICK_CLAW
-	dw StatusHealingEffect ; PECHA_BERRY
+	dw StatusHealingEffect ; PSNCUREBERRY
 	dw NoEffect            ; GOLD_LEAF
 	dw NoEffect            ; SOFT_SAND
 	dw NoEffect            ; SHARP_BEAK
-	dw StatusHealingEffect ; CHERI_BERRY
-	dw StatusHealingEffect ; ASPEAR_BERRY
-	dw StatusHealingEffect ; RAWST_BERRY
+	dw StatusHealingEffect ; PRZCUREBERRY
+	dw StatusHealingEffect ; BURNT_BERRY
+	dw StatusHealingEffect ; ICE_BERRY
 	dw NoEffect            ; POISON_BARB
 	dw NoEffect            ; KINGS_ROCK
-	dw PersimBerryEffect   ; PERSIM_BERRY
-	dw StatusHealingEffect ; CHESTO_BERRY
+	dw BitterBerryEffect   ; BITTER_BERRY
+	dw StatusHealingEffect ; MINT_BERRY
 	dw NoEffect            ; RED_APRICORN
 	dw NoEffect            ; TINYMUSHROOM
 	dw NoEffect            ; BIG_MUSHROOM
@@ -117,12 +117,12 @@ ItemEffects:
 	dw NoEffect            ; PNK_APRICORN
 	dw NoEffect            ; BLACKGLASSES
 	dw NoEffect            ; SLOWPOKETAIL
-	dw NoEffect            ; SILK_SCARF
+	dw NoEffect            ; PINK_BOW
 	dw NoEffect            ; STICK
 	dw NoEffect            ; SMOKE_BALL
 	dw NoEffect            ; NEVERMELTICE
 	dw NoEffect            ; MAGNET
-	dw StatusHealingEffect ; LUM_BERRY
+	dw StatusHealingEffect ; MIRACLEBERRY
 	dw NoEffect            ; PEARL
 	dw NoEffect            ; BIG_PEARL
 	dw NoEffect            ; EVERSTONE
@@ -163,7 +163,7 @@ ItemEffects:
 	dw NoEffect            ; ITEM_93
 	dw NoEffect            ; ITEM_94
 	dw NoEffect            ; ITEM_95
-	dw RestorePPEffect     ; LEPPA_BERRY
+	dw RestorePPEffect     ; MYSTERYBERRY
 	dw NoEffect            ; DRAGON_SCALE
 	dw NoEffect            ; BERSERK_GENE
 	dw NoEffect            ; ITEM_99
@@ -186,7 +186,7 @@ ItemEffects:
 	dw NoEffect            ; POLKADOT_BOW
 	dw NoEffect            ; ITEM_AB
 	dw NoEffect            ; UP_GRADE
-	dw RestoreHPEffect     ; ORAN_BERRY
+	dw RestoreHPEffect     ; BERRY
 	dw RestoreHPEffect     ; GOLD_BERRY
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
 	dw NoEffect            ; ITEM_B0
@@ -1603,7 +1603,7 @@ FullRestoreEffect:
 	ld a, 0
 	ret
 
-PersimBerryEffect:
+BitterBerryEffect:
 	ld hl, wPlayerSubStatus3
 	bit SUBSTATUS_CONFUSED, [hl]
 	ld a, 1
@@ -2497,7 +2497,7 @@ RestorePP:
 	jr z, .restore_all
 
 	ld c, 5
-	cp LEPPA_BERRY
+	cp MYSTERYBERRY
 	jr z, .restore_some
 
 	ld c, 10

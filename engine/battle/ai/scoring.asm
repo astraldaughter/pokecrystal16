@@ -389,7 +389,6 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_SOLARBEAM,        AI_Smart_Solarbeam
 	dbw EFFECT_THUNDER,          AI_Smart_Thunder
 	dbw EFFECT_FLY,              AI_Smart_Fly
-	dbw EFFECT_SNOWFALL,		 AI_Smart_Snowfall
 	db -1 ; end
 
 AI_Smart_Sleep:
@@ -2094,46 +2093,6 @@ AI_Smart_Sandstorm:
 	db GROUND
 	db STEEL
 	db -1 ; end
-
-AI_Smart_Snowfall:
-; Encourage this move if the player is immune to Snow damage.
-	ld a, [wEnemyMonType1]
-	cp ICE
-	jr z, .encourage
-
-	ld a, [wEnemyMonType2]
-	cp ICE
-	jr z, .encourage
-
-; Discourage this move if player's HP is below 50%.
-	call AICheckEnemyHalfHP
-	jr nc, .discourage
-
-; Encourage move if AI has good Snow moves
-	push hl
-	ld hl, .GoodSnowMoves
-	call AIHasMoveInArray
-	pop hl
-	jr c, .encourage
-
-; 50% chance to encourage this move otherwise.
-	call AI_50_50
-	ret c
-
-.encourage
-	dec [hl]
-	ret
-
-.greatly_discourage
-	inc [hl]
-.discourage
-	inc [hl]
-	ret
-
-.GoodSnowMoves
-	db BLIZZARD
-	db -1 ; end
-
 
 AI_Smart_Endure:
 ; Greatly discourage this move if the enemy already used Protect.

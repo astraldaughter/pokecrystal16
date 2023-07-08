@@ -159,6 +159,4 @@ MoveEffectsPointers:
 	dw Fly
 	dw DefenseCurl
 	dw MeteorBeam
-	dw FreezeHit ; for Blizzard, purposefully with different EFFECT_* constant
-	dw Snowfall
 	assert_table_length NUM_MOVE_EFFECTS

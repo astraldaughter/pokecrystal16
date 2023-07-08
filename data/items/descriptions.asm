@@ -74,17 +74,17 @@ ItemDescriptions:
 	dw SilverWingDesc
 	dw MoomooMilkDesc
 	dw QuickClawDesc
-	dw PechaBerryDesc
+	dw PsnCureBerryDesc
 	dw GoldLeafDesc
 	dw SoftSandDesc
 	dw SharpBeakDesc
-	dw CheriBerryDesc
-	dw AspearBerryDesc
-	dw RawstBerryDesc
+	dw PrzCureBerryDesc
+	dw BurntBerryDesc
+	dw IceBerryDesc
 	dw PoisonBarbDesc
 	dw KingsRockDesc
-	dw PersimBerryDesc
-	dw ChestoBerryDesc
+	dw BitterBerryDesc
+	dw MintBerryDesc
 	dw RedApricornDesc
 	dw TinyMushroomDesc
 	dw BigMushroomDesc
@@ -104,12 +104,12 @@ ItemDescriptions:
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
-	dw SilkScarfDesc
+	dw PinkBowDesc
 	dw StickDesc
 	dw SmokeBallDesc
 	dw NeverMeltIceDesc
 	dw MagnetDesc
-	dw LumBerryDesc
+	dw MiracleBerryDesc
 	dw PearlDesc
 	dw BigPearlDesc
 	dw EverStoneDesc
@@ -150,7 +150,7 @@ ItemDescriptions:
 	dw QuestionMarkDesc
 	dw QuestionMarkDesc
 	dw QuestionMarkDesc
-	dw LeppaBerryDesc
+	dw MysteryBerryDesc
 	dw DragonScaleDesc
 	dw BerserkGeneDesc
 	dw QuestionMarkDesc
@@ -173,7 +173,7 @@ ItemDescriptions:
 	dw PolkadotBowDesc
 	dw QuestionMarkDesc
 	dw UpGradeDesc
-	dw OranBerryDesc
+	dw BerryDesc
 	dw GoldBerryDesc
 	dw SquirtBottleDesc
 	dw QuestionMarkDesc
@@ -531,7 +531,7 @@ QuickClawDesc:
 	db   "Raises 1st strike"
 	next "ratio. (HOLD)@"
 
-PechaBerryDesc:
+PsnCureBerryDesc:
 	db   "A self-cure for"
 	next "poison. (HOLD)@"
 
@@ -547,15 +547,15 @@ SharpBeakDesc:
 	db   "Powers up flying-"
 	next "type moves. (HOLD)@"
 
-CheriBerryDesc:
+PrzCureBerryDesc:
 	db   "A self-cure for"
 	next "paralysis. (HOLD)@"
 
-AspearBerryDesc:
+BurntBerryDesc:
 	db   "A self-cure for"
 	next "freezing. (HOLD)@"
 
-RawstBerryDesc:
+IceBerryDesc:
 	db   "A self-heal for a"
 	next "burn. (HOLD)@"
 
@@ -567,11 +567,11 @@ KingsRockDesc:
 	db   "May make the foe"
 	next "flinch. (HOLD)@"
 
-PersimBerryDesc:
+BitterBerryDesc:
 	db   "A self-cure for"
 	next "confusion. (HOLD)@"
 
-ChestoBerryDesc:
+MintBerryDesc:
 	db   "A self-awakening"
 	next "for sleep. (HOLD)@"
 
@@ -638,7 +638,7 @@ SlowpokeTailDesc:
 	db   "Very tasty. Sell"
 	next "high.@"
 
-SilkScarfDesc:
+PinkBowDesc:
 	db   "Powers up normal-"
 	next "type moves. (HOLD)@"
 
@@ -658,7 +658,7 @@ MagnetDesc:
 	db   "Boosts electric-"
 	next "type moves. (HOLD)@"
 
-LumBerryDesc:
+MiracleBerryDesc:
 	db   "Cures all status"
 	next "problems. (HOLD)@"
 
@@ -781,7 +781,7 @@ LeftoversDesc:
 	db   "Restores HP during"
 	next "battle. (HOLD)@"
 
-LeppaBerryDesc:
+MysteryBerryDesc:
 	db   "A self-restore"
 	next "for PP. (HOLD)@"
 
@@ -846,14 +846,14 @@ SunStoneDesc:
 	next "kinds of #MON.@"
 
 PolkadotBowDesc:
-	db   "Powers up FAIRY-"
+	db   "Powers up normal-"
 	next "type moves. (HOLD)@"
 
 UpGradeDesc:
 	db   "A mysterious box"
 	next "made by SILPH CO.@"
 
-OranBerryDesc:
+BerryDesc:
 	db   "A self-restore"
 	next "item. (10HP, HOLD)@"
 

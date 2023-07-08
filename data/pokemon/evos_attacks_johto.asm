@@ -154,10 +154,10 @@ MeganiumEvosAttacks:
 CyndaquilEvosAttacks:
 	dbbw EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, LEER
-	dbw 1, SNOWFALL
-	dbw 1, SANDSTORM
+	dbw 1, DUAL_WINGBEAT
+	dbw 1, METEOR_BEAM
+	dbw 1, GROWTH
+	dbw 1, POWER_GEM
 	dbw 6, SMOKESCREEN
 	dbw 12, EMBER
 	dbw 19, QUICK_ATTACK
