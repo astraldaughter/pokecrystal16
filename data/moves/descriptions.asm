@@ -260,7 +260,7 @@ MoveDescriptions1:
 	dw MoonblastDescription
 	dw EarthPowerDescription
 	dw MeteorBeamDescription
-	dw DualWingbeatDescription
+	dw AerialAceDescription
 	dw NastyPlotDescription
 	dw PowerGemDescription
 .IndirectEnd::
@@ -1288,9 +1288,9 @@ MeteorBeamDescription:
 	db   "1st turn: Prepare"
 	next "2nd turn: Attack@"
 
-DualWingbeatDescription:
-	db   "Strikes twice"
-	next "with wings.@"
+AerialAceDescription:
+	db   "An attack that"
+	next "never misses.@"
 
 NastyPlotDescription:
 	db   "Sharply raises the"
@@ -1298,4 +1298,4 @@ NastyPlotDescription:
 
 PowerGemDescription:
 	db   "Attacks with a"
-	next "sparkling light."
+	next "sparkling light.@"

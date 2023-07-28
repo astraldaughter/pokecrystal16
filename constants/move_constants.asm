@@ -261,7 +261,7 @@
 	const MOONBLAST	   ; fd
 	const EARTH_POWER  ; fe
 	const METEOR_BEAM  ; ff
-	const DUAL_WINGBEAT; 100
+	const AERIAL_ACE; 100
 	const NASTY_PLOT   ; 101
 	const POWER_GEM	   ; 102
 DEF NUM_ATTACKS EQU const_value - 1

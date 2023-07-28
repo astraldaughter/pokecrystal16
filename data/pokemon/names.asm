@@ -7,7 +7,7 @@ PokemonNames::
 	db "BULBASAUR@"
 	db "IVYSAUR@@@"
 	db "VENUSAUR@@"
-	db "CHARMANDER"
+	db "KINDLANT@@"
 	db "CHARMELEON"
 	db "CHARIZARD@"
 	db "SQUIRTLE@@"

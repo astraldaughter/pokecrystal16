@@ -207,7 +207,7 @@ VenusaurEvosAttacks:
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, CHARMELEON
+	dbbw EVOLVE_LEVEL, 6, CHARIZARD
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, GROWL

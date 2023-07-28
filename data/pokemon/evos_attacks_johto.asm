@@ -154,7 +154,7 @@ MeganiumEvosAttacks:
 CyndaquilEvosAttacks:
 	dbbw EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
-	dbw 1, DUAL_WINGBEAT
+	dbw 1, AERIAL_ACE
 	dbw 1, METEOR_BEAM
 	dbw 1, GROWTH
 	dbw 1, POWER_GEM

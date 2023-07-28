@@ -283,7 +283,7 @@ BattleAnimations::
 	dw BattleAnim_Moonblast
 	dw BattleAnim_EarthPower
 	dw BattleAnim_MeteorBeam
-	dw BattleAnim_DualWingbeat
+	dw BattleAnim_AerialAce
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_PowerGem
 	assert_table_length NUM_ATTACKS + 1
@@ -1540,6 +1540,7 @@ BattleAnim_FurySwipes:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_AerialAce:
 BattleAnim_Cut:
 	anim_1gfx ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
@@ -3074,7 +3075,6 @@ BattleAnim_LowKick:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_DualWingbeat:
 BattleAnim_WingAttack:
 	anim_1gfx ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_WING_ATTACK

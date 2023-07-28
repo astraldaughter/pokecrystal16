@@ -255,7 +255,7 @@ MoveNames::
 	li "MOONBLAST"
 	li "EARTH POWER"
 	li "METEOR BEAM"
-	li "DUALWINGBEAT"
+	li "AERIAL ACE"
 	li "NASTY PLOT"
 	li "POWER GEM"
 	assert_list_length NUM_ATTACKS
