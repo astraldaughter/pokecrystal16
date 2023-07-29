@@ -126,3 +126,11 @@
 	tilecoll WALL, WALL, WALL, WALL ; 7d
 	tilecoll WALL, WALL, WALL, WALL ; 7e
 	tilecoll WALL, WALL, WALL, WALL ; 7f
+	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, WALL ; 80
+	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, WALL ; 81
+	tilecoll WALL, WALL, WALL, WALL ; 82
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 83
+	tilecoll WALL, WALL, WALL, DOOR ; 84
+	tilecoll WALL, WALL, WALL, WALL ; 85
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 86
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 87
