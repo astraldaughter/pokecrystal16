@@ -1234,7 +1234,7 @@ JohtoGrassWildMons:
 	dbw 23, GOLBAT
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_29
+	def_grass_wildmons ROUTE_51
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 2, PIDGEY
@@ -1262,7 +1262,7 @@ JohtoGrassWildMons:
 	dbw 3, HOOTHOOT
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_30
+	def_grass_wildmons ROUTE_52
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 3, LEDYBA
@@ -1654,7 +1654,7 @@ JohtoGrassWildMons:
 	dbw 27, GRAVELER
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_46
+	def_grass_wildmons ROUTE_53
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 2, GEODUDE

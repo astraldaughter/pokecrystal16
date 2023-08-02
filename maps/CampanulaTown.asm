@@ -1,29 +1,29 @@
 	object_const_def
-	const CHERRYGROVECITY_GRAMPS
-	const CHERRYGROVECITY_RIVAL
-	const CHERRYGROVECITY_TEACHER
-	const CHERRYGROVECITY_YOUNGSTER
-	const CHERRYGROVECITY_FISHER
+	const CAMPANULATOWN_GRAMPS
+	const CAMPANULATOWN_RIVAL
+	const CAMPANULATOWN_TEACHER
+	const CAMPANULATOWN_YOUNGSTER
+	const CAMPANULATOWN_FISHER
 
-CherrygroveCity_MapScripts:
+CampanulaTown_MapScripts:
 	def_scene_scripts
-	scene_script CherrygroveCityNoop1Scene, SCENE_CHERRYGROVECITY_NOOP
-	scene_script CherrygroveCityNoop2Scene, SCENE_CHERRYGROVECITY_MEET_RIVAL
+	scene_script CampanulaTownNoop1Scene, SCENE_CAMPANULATOWN_NOOP
+	scene_script CampanulaTownNoop2Scene, SCENE_CAMPANULATOWN_MEET_RIVAL
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, CherrygroveCityFlypointCallback
+	callback MAPCALLBACK_NEWMAP, CampanulaTownFlypointCallback
 
-CherrygroveCityNoop1Scene:
+CampanulaTownNoop1Scene:
 	end
 
-CherrygroveCityNoop2Scene:
+CampanulaTownNoop2Scene:
 	end
 
-CherrygroveCityFlypointCallback:
-	setflag ENGINE_FLYPOINT_CHERRYGROVE
+CampanulaTownFlypointCallback:
+	setflag ENGINE_FLYPOINT_CAMPANULA
 	endcallback
 
-CherrygroveCityGuideGent:
+CampanulaTownGuideGent:
 	faceplayer
 	opentext
 	writetext GuideGentIntroText
@@ -35,34 +35,34 @@ CherrygroveCityGuideGent:
 	waitbutton
 	closetext
 	playmusic MUSIC_SHOW_ME_AROUND
-	follow CHERRYGROVECITY_GRAMPS, PLAYER
-	applymovement CHERRYGROVECITY_GRAMPS, GuideGentMovement1
+	follow CAMPANULATOWN_GRAMPS, PLAYER
+	applymovement CAMPANULATOWN_GRAMPS, GuideGentMovement1
 	opentext
 	writetext GuideGentPokecenterText
 	waitbutton
 	closetext
-	applymovement CHERRYGROVECITY_GRAMPS, GuideGentMovement2
+	applymovement CAMPANULATOWN_GRAMPS, GuideGentMovement2
 	turnobject PLAYER, UP
 	opentext
 	writetext GuideGentMartText
 	waitbutton
 	closetext
-	applymovement CHERRYGROVECITY_GRAMPS, GuideGentMovement3
+	applymovement CAMPANULATOWN_GRAMPS, GuideGentMovement3
 	turnobject PLAYER, UP
 	opentext
-	writetext GuideGentRoute30Text
+	writetext GuideGentRoute52Text
 	waitbutton
 	closetext
-	applymovement CHERRYGROVECITY_GRAMPS, GuideGentMovement4
+	applymovement CAMPANULATOWN_GRAMPS, GuideGentMovement4
 	turnobject PLAYER, LEFT
 	opentext
 	writetext GuideGentSeaText
 	waitbutton
 	closetext
-	applymovement CHERRYGROVECITY_GRAMPS, GuideGentMovement5
+	applymovement CAMPANULATOWN_GRAMPS, GuideGentMovement5
 	turnobject PLAYER, UP
 	pause 60
-	turnobject CHERRYGROVECITY_GRAMPS, LEFT
+	turnobject CAMPANULATOWN_GRAMPS, LEFT
 	turnobject PLAYER, RIGHT
 	opentext
 	writetext GuideGentGiftText
@@ -78,10 +78,10 @@ CherrygroveCityGuideGent:
 	stopfollow
 	special RestartMapMusic
 	turnobject PLAYER, UP
-	applymovement CHERRYGROVECITY_GRAMPS, GuideGentMovement6
+	applymovement CAMPANULATOWN_GRAMPS, GuideGentMovement6
 	playsound SFX_ENTER_DOOR
-	disappear CHERRYGROVECITY_GRAMPS
-	clearevent EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
+	disappear CAMPANULATOWN_GRAMPS
+	clearevent EVENT_GUIDE_GENT_VISIBLE_IN_CAMPANULA
 	waitsfx
 	end
 
@@ -98,27 +98,27 @@ CherrygroveCityGuideGent:
 	closetext
 	end
 
-CherrygroveRivalSceneSouth:
-	moveobject CHERRYGROVECITY_RIVAL, 39, 7
-CherrygroveRivalSceneNorth:
+CampanulaRivalSceneSouth:
+	moveobject CAMPANULATOWN_RIVAL, 39, 7
+CampanulaRivalSceneNorth:
 	turnobject PLAYER, RIGHT
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special FadeOutMusic
 	pause 15
-	appear CHERRYGROVECITY_RIVAL
-	applymovement CHERRYGROVECITY_RIVAL, CherrygroveCity_RivalWalksToYou
+	appear CAMPANULATOWN_RIVAL
+	applymovement CAMPANULATOWN_RIVAL, CampanulaTown_RivalWalksToYou
 	turnobject PLAYER, RIGHT
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	opentext
-	writetext CherrygroveRivalText_Seen
+	writetext CampanulaRivalText_Seen
 	waitbutton
 	closetext
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftrue .Totodile
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .Chikorita
-	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
-	setlasttalked CHERRYGROVECITY_RIVAL
+	winlosstext RivalCampanulaWinText, RivalCampanulaLossText
+	setlasttalked CAMPANULATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_1_TOTODILE
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -128,8 +128,8 @@ CherrygroveRivalSceneNorth:
 	sjump .AfterYourDefeat
 
 .Totodile:
-	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
-	setlasttalked CHERRYGROVECITY_RIVAL
+	winlosstext RivalCampanulaWinText, RivalCampanulaLossText
+	setlasttalked CAMPANULATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_1_CHIKORITA
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -139,8 +139,8 @@ CherrygroveRivalSceneNorth:
 	sjump .AfterYourDefeat
 
 .Chikorita:
-	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
-	setlasttalked CHERRYGROVECITY_RIVAL
+	winlosstext RivalCampanulaWinText, RivalCampanulaLossText
+	setlasttalked CAMPANULATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_1_CYNDAQUIL
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -152,7 +152,7 @@ CherrygroveRivalSceneNorth:
 .AfterVictorious:
 	playmusic MUSIC_RIVAL_AFTER
 	opentext
-	writetext CherrygroveRivalText_YouWon
+	writetext CampanulaRivalText_YouWon
 	waitbutton
 	closetext
 	sjump .FinishRival
@@ -160,48 +160,48 @@ CherrygroveRivalSceneNorth:
 .AfterYourDefeat:
 	playmusic MUSIC_RIVAL_AFTER
 	opentext
-	writetext CherrygroveRivalText_YouLost
+	writetext CampanulaRivalText_YouLost
 	waitbutton
 	closetext
 .FinishRival:
 	playsound SFX_TACKLE
-	applymovement PLAYER, CherrygroveCity_RivalPushesYouOutOfTheWay
+	applymovement PLAYER, CampanulaTown_RivalPushesYouOutOfTheWay
 	turnobject PLAYER, LEFT
-	applymovement CHERRYGROVECITY_RIVAL, CherrygroveCity_RivalExitsStageLeft
-	disappear CHERRYGROVECITY_RIVAL
-	setscene SCENE_CHERRYGROVECITY_NOOP
+	applymovement CAMPANULATOWN_RIVAL, CampanulaTown_RivalExitsStageLeft
+	disappear CAMPANULATOWN_RIVAL
+	setscene SCENE_CAMPANULATOWN_NOOP
 	special HealParty
 	playmapmusic
 	end
 
-CherrygroveTeacherScript:
+CampanulaTeacherScript:
 	faceplayer
 	opentext
 	checkflag ENGINE_MAP_CARD
 	iftrue .HaveMapCard
-	writetext CherrygroveTeacherText_NoMapCard
+	writetext CampanulaTeacherText_NoMapCard
 	waitbutton
 	closetext
 	end
 
 .HaveMapCard:
-	writetext CherrygroveTeacherText_HaveMapCard
+	writetext CampanulaTeacherText_HaveMapCard
 	waitbutton
 	closetext
 	end
 
-CherrygroveYoungsterScript:
+CampanulaYoungsterScript:
 	faceplayer
 	opentext
 	checkflag ENGINE_POKEDEX
 	iftrue .HavePokedex
-	writetext CherrygroveYoungsterText_NoPokedex
+	writetext CampanulaYoungsterText_NoPokedex
 	waitbutton
 	closetext
 	end
 
 .HavePokedex:
-	writetext CherrygroveYoungsterText_HavePokedex
+	writetext CampanulaYoungsterText_HavePokedex
 	waitbutton
 	closetext
 	end
@@ -209,13 +209,13 @@ CherrygroveYoungsterScript:
 MysticWaterGuy:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_MYSTIC_WATER_IN_CHERRYGROVE
+	checkevent EVENT_GOT_MYSTIC_WATER_IN_CAMPANULA
 	iftrue .After
 	writetext MysticWaterGuyTextBefore
 	promptbutton
 	verbosegiveitem MYSTIC_WATER
 	iffalse .Exit
-	setevent EVENT_GOT_MYSTIC_WATER_IN_CHERRYGROVE
+	setevent EVENT_GOT_MYSTIC_WATER_IN_CAMPANULA
 .After:
 	writetext MysticWaterGuyTextAfter
 	waitbutton
@@ -223,16 +223,16 @@ MysticWaterGuy:
 	closetext
 	end
 
-CherrygroveCitySign:
-	jumptext CherrygroveCitySignText
+CampanulaTownSign:
+	jumptext CampanulaTownSignText
 
 GuideGentsHouseSign:
 	jumptext GuideGentsHouseSignText
 
-CherrygroveCityPokecenterSign:
+CampanulaTownPokecenterSign:
 	jumpstd PokecenterSignScript
 
-CherrygroveCityMartSign:
+CampanulaTownMartSign:
 	jumpstd MartSignScript
 
 GuideGentMovement1:
@@ -304,7 +304,7 @@ GuideGentMovement6:
 	step UP
 	step_end
 
-CherrygroveCity_RivalWalksToYou:
+CampanulaTown_RivalWalksToYou:
 	step LEFT
 	step LEFT
 	step LEFT
@@ -312,17 +312,17 @@ CherrygroveCity_RivalWalksToYou:
 	step LEFT
 	step_end
 
-CherrygroveCity_RivalPushesYouOutOfTheWay:
+CampanulaTown_RivalPushesYouOutOfTheWay:
 	big_step DOWN
 	turn_head UP
 	step_end
 
-CherrygroveCity_UnusedMovementData: ; unreferenced
+CampanulaTown_UnusedMovementData: ; unreferenced
 	step LEFT
 	turn_head DOWN
 	step_end
 
-CherrygroveCity_RivalExitsStageLeft:
+CampanulaTown_RivalExitsStageLeft:
 	big_step LEFT
 	big_step LEFT
 	big_step LEFT
@@ -377,7 +377,7 @@ GuideGentMartText:
 	line "useful items."
 	done
 
-GuideGentRoute30Text:
+GuideGentRoute52Text:
 	text "ROUTE 30 is out"
 	line "this way."
 
@@ -430,7 +430,7 @@ GuideGentNoText:
 	line "when you like."
 	done
 
-CherrygroveRivalText_Seen:
+CampanulaRivalText_Seen:
 	text "<……> <……> <……>"
 
 	para "You got a #MON"
@@ -451,12 +451,12 @@ CherrygroveRivalText_Seen:
 	line "what I mean!"
 	done
 
-RivalCherrygroveWinText:
+RivalCampanulaWinText:
 	text "Humph. Are you"
 	line "happy you won?"
 	done
 
-CherrygroveRivalText_YouLost:
+CampanulaRivalText_YouLost:
 	text "<……> <……> <……>"
 
 	para "My name's ???."
@@ -467,12 +467,12 @@ CherrygroveRivalText_YouLost:
 	cont "trainer."
 	done
 
-RivalCherrygroveLossText:
+RivalCampanulaLossText:
 	text "Humph. That was a"
 	line "waste of time."
 	done
 
-CherrygroveRivalText_YouWon:
+CampanulaRivalText_YouWon:
 	text "<……> <……> <……>"
 
 	para "My name's ???."
@@ -483,7 +483,7 @@ CherrygroveRivalText_YouWon:
 	cont "trainer."
 	done
 
-CherrygroveTeacherText_NoMapCard:
+CampanulaTeacherText_NoMapCard:
 	text "Did you talk to"
 	line "the old man by the"
 	cont "#MON CENTER?"
@@ -493,19 +493,19 @@ CherrygroveTeacherText_NoMapCard:
 	cont "#GEAR."
 	done
 
-CherrygroveTeacherText_HaveMapCard:
+CampanulaTeacherText_HaveMapCard:
 	text "When you're with"
 	line "#MON, going"
 	cont "anywhere is fun."
 	done
 
-CherrygroveYoungsterText_NoPokedex:
+CampanulaYoungsterText_NoPokedex:
 	text "MR.#MON's house"
 	line "is still farther"
 	cont "up ahead."
 	done
 
-CherrygroveYoungsterText_HavePokedex:
+CampanulaYoungsterText_HavePokedex:
 	text "I battled the"
 	line "trainers on the"
 	cont "road."
@@ -533,8 +533,8 @@ MysticWaterGuyTextAfter:
 	line "for me, then."
 	done
 
-CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+CampanulaTownSignText:
+	text "CAMPANULA CITY"
 
 	para "The City of Cute,"
 	line "Fragrant Flowers"
@@ -544,29 +544,29 @@ GuideGentsHouseSignText:
 	text "GUIDE GENT'S HOUSE"
 	done
 
-CherrygroveCity_MapEvents:
+CampanulaTown_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 23,  3, CHERRYGROVE_MART, 2
-	warp_event 29,  3, CHERRYGROVE_POKECENTER_1F, 1
-	warp_event 17,  7, CHERRYGROVE_GYM_SPEECH_HOUSE, 1
-	warp_event 25,  9, GUIDE_GENTS_HOUSE, 1
-	warp_event 31, 11, CHERRYGROVE_EVOLUTION_SPEECH_HOUSE, 1
+	warp_event 21,  7, CAMPANULA_MART, 2
+	warp_event 15,  7, CAMPANULA_POKECENTER_1F, 1
+	warp_event  9,  7, CAMPANULA_GYM_SPEECH_HOUSE, 1
+	warp_event  7, 11, GUIDE_GENTS_HOUSE, 1
+	warp_event 27,  9, CAMPANULA_EVOLUTION_SPEECH_HOUSE, 1
 
 	def_coord_events
-	coord_event 33,  6, SCENE_CHERRYGROVECITY_MEET_RIVAL, CherrygroveRivalSceneNorth
-	coord_event 33,  7, SCENE_CHERRYGROVECITY_MEET_RIVAL, CherrygroveRivalSceneSouth
+	coord_event 23,  6, SCENE_CAMPANULATOWN_MEET_RIVAL, CampanulaRivalSceneNorth
+	coord_event 23,  7, SCENE_CAMPANULATOWN_MEET_RIVAL, CampanulaRivalSceneSouth
 
 	def_bg_events
-	bg_event 30,  8, BGEVENT_READ, CherrygroveCitySign
-	bg_event 23,  9, BGEVENT_READ, GuideGentsHouseSign
-	bg_event 24,  3, BGEVENT_READ, CherrygroveCityMartSign
-	bg_event 30,  3, BGEVENT_READ, CherrygroveCityPokecenterSign
+	bg_event 17,  9, BGEVENT_READ, CampanulaTownSign
+	bg_event  5, 11, BGEVENT_READ, GuideGentsHouseSign
+	bg_event 22,  7, BGEVENT_READ, CampanulaTownMartSign
+	bg_event 16,  7, BGEVENT_READ, CampanulaTownPokecenterSign
 
 	def_object_events
-	object_event 32,  6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygroveCityGuideGent, EVENT_GUIDE_GENT_IN_HIS_HOUSE
-	object_event 39,  6, SPRITE_RIVAL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_CHERRYGROVE_CITY
-	object_event 27, 12, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CherrygroveTeacherScript, -1
-	object_event 23,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CherrygroveYoungsterScript, -1
-	object_event  7, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MysticWaterGuy, -1
+	object_event 22,  6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CampanulaTownGuideGent, EVENT_GUIDE_GENT_IN_HIS_HOUSE
+	object_event 29,  6, SPRITE_RIVAL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_CAMPANULA_TOWN
+	object_event 17, 12, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CampanulaTeacherScript, -1
+	object_event 11,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CampanulaYoungsterScript, -1
+	object_event  5, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MysticWaterGuy, -1

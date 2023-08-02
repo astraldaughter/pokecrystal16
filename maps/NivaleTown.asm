@@ -1,42 +1,42 @@
 	object_const_def
-	const NEWBARKTOWN_TEACHER
-	const NEWBARKTOWN_FISHER
-	const NEWBARKTOWN_RIVAL
+	const NIVALETOWN_TEACHER
+	const NIVALETOWN_FISHER
+	const NIVALETOWN_RIVAL
 
-NewBarkTown_MapScripts:
+NivaleTown_MapScripts:
 	def_scene_scripts
-	scene_script NewBarkTownNoop1Scene, SCENE_NEWBARKTOWN_TEACHER_STOPS_YOU
-	scene_script NewBarkTownNoop2Scene, SCENE_NEWBARKTOWN_NOOP
+	scene_script NivaleTownNoop1Scene, SCENE_NIVALETOWN_TEACHER_STOPS_YOU
+	scene_script NivaleTownNoop2Scene, SCENE_NIVALETOWN_NOOP
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, NewBarkTownFlypointCallback
+	callback MAPCALLBACK_NEWMAP, NivaleTownFlypointCallback
 
-NewBarkTownNoop1Scene:
+NivaleTownNoop1Scene:
 	end
 
-NewBarkTownNoop2Scene:
+NivaleTownNoop2Scene:
 	end
 
-NewBarkTownFlypointCallback:
+NivaleTownFlypointCallback:
 	setflag ENGINE_FLYPOINT_NEW_BARK
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	endcallback
 
-NewBarkTown_TeacherStopsYouScene1:
+NivaleTown_TeacherStopsYouScene1:
 	playmusic MUSIC_MOM
-	turnobject NEWBARKTOWN_TEACHER, LEFT
+	turnobject NIVALETOWN_TEACHER, LEFT
 	opentext
 	writetext Text_WaitPlayer
 	waitbutton
 	closetext
 	turnobject PLAYER, RIGHT
-	applymovement NEWBARKTOWN_TEACHER, NewBarkTown_TeacherRunsToYouMovement1
+	applymovement NIVALETOWN_TEACHER, NivaleTown_TeacherRunsToYouMovement1
 	opentext
 	writetext Text_WhatDoYouThinkYoureDoing
 	waitbutton
 	closetext
-	follow NEWBARKTOWN_TEACHER, PLAYER
-	applymovement NEWBARKTOWN_TEACHER, NewBarkTown_TeacherBringsYouBackMovement1
+	follow NIVALETOWN_TEACHER, PLAYER
+	applymovement NIVALETOWN_TEACHER, NivaleTown_TeacherBringsYouBackMovement1
 	stopfollow
 	opentext
 	writetext Text_ItsDangerousToGoAlone
@@ -45,22 +45,22 @@ NewBarkTown_TeacherStopsYouScene1:
 	special RestartMapMusic
 	end
 
-NewBarkTown_TeacherStopsYouScene2:
+NivaleTown_TeacherStopsYouScene2:
 	playmusic MUSIC_MOM
-	turnobject NEWBARKTOWN_TEACHER, LEFT
+	turnobject NIVALETOWN_TEACHER, LEFT
 	opentext
 	writetext Text_WaitPlayer
 	waitbutton
 	closetext
 	turnobject PLAYER, RIGHT
-	applymovement NEWBARKTOWN_TEACHER, NewBarkTown_TeacherRunsToYouMovement2
+	applymovement NIVALETOWN_TEACHER, NivaleTown_TeacherRunsToYouMovement2
 	turnobject PLAYER, UP
 	opentext
 	writetext Text_WhatDoYouThinkYoureDoing
 	waitbutton
 	closetext
-	follow NEWBARKTOWN_TEACHER, PLAYER
-	applymovement NEWBARKTOWN_TEACHER, NewBarkTown_TeacherBringsYouBackMovement2
+	follow NIVALETOWN_TEACHER, PLAYER
+	applymovement NIVALETOWN_TEACHER, NivaleTown_TeacherBringsYouBackMovement2
 	stopfollow
 	opentext
 	writetext Text_ItsDangerousToGoAlone
@@ -69,7 +69,7 @@ NewBarkTown_TeacherStopsYouScene2:
 	special RestartMapMusic
 	end
 
-NewBarkTownTeacherScript:
+NivaleTownTeacherScript:
 	faceplayer
 	opentext
 	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
@@ -101,50 +101,50 @@ NewBarkTownTeacherScript:
 	closetext
 	end
 
-NewBarkTownFisherScript:
+NivaleTownFisherScript:
 	jumptextfaceplayer Text_ElmDiscoveredNewMon
 
-NewBarkTownRivalScript:
+NivaleTownRivalScript:
 	opentext
-	writetext NewBarkTownRivalText1
+	writetext NivaleTownRivalText1
 	waitbutton
 	closetext
-	turnobject NEWBARKTOWN_RIVAL, LEFT
+	turnobject NIVALETOWN_RIVAL, LEFT
 	opentext
-	writetext NewBarkTownRivalText2
+	writetext NivaleTownRivalText2
 	waitbutton
 	closetext
-	follow PLAYER, NEWBARKTOWN_RIVAL
-	applymovement PLAYER, NewBarkTown_RivalPushesYouAwayMovement
+	follow PLAYER, NIVALETOWN_RIVAL
+	applymovement PLAYER, NivaleTown_RivalPushesYouAwayMovement
 	stopfollow
 	pause 5
-	turnobject NEWBARKTOWN_RIVAL, DOWN
+	turnobject NIVALETOWN_RIVAL, DOWN
 	pause 5
 	playsound SFX_TACKLE
-	applymovement PLAYER, NewBarkTown_RivalShovesYouOutMovement
-	applymovement NEWBARKTOWN_RIVAL, NewBarkTown_RivalReturnsToTheShadowsMovement
+	applymovement PLAYER, NivaleTown_RivalShovesYouOutMovement
+	applymovement NIVALETOWN_RIVAL, NivaleTown_RivalReturnsToTheShadowsMovement
 	end
 
-NewBarkTownSign:
-	jumptext NewBarkTownSignText
+NivaleTownSign:
+	jumptext NivaleTownSignText
 
-NewBarkTownPlayersHouseSign:
-	jumptext NewBarkTownPlayersHouseSignText
+NivaleTownPlayersHouseSign:
+	jumptext NivaleTownPlayersHouseSignText
 
-NewBarkTownElmsLabSign:
-	jumptext NewBarkTownElmsLabSignText
+NivaleTownElmsLabSign:
+	jumptext NivaleTownElmsLabSignText
 
-NewBarkTownElmsHouseSign:
-	jumptext NewBarkTownElmsHouseSignText
+NivaleTownElmsHouseSign:
+	jumptext NivaleTownElmsHouseSignText
 
-NewBarkTown_TeacherRunsToYouMovement1:
+NivaleTown_TeacherRunsToYouMovement1:
 	step LEFT
 	step LEFT
 	step LEFT
 	step LEFT
 	step_end
 
-NewBarkTown_TeacherRunsToYouMovement2:
+NivaleTown_TeacherRunsToYouMovement2:
 	step LEFT
 	step LEFT
 	step LEFT
@@ -153,7 +153,7 @@ NewBarkTown_TeacherRunsToYouMovement2:
 	turn_head DOWN
 	step_end
 
-NewBarkTown_TeacherBringsYouBackMovement1:
+NivaleTown_TeacherBringsYouBackMovement1:
 	step RIGHT
 	step RIGHT
 	step RIGHT
@@ -161,7 +161,7 @@ NewBarkTown_TeacherBringsYouBackMovement1:
 	turn_head LEFT
 	step_end
 
-NewBarkTown_TeacherBringsYouBackMovement2:
+NivaleTown_TeacherBringsYouBackMovement2:
 	step RIGHT
 	step RIGHT
 	step RIGHT
@@ -170,19 +170,19 @@ NewBarkTown_TeacherBringsYouBackMovement2:
 	turn_head LEFT
 	step_end
 
-NewBarkTown_RivalPushesYouAwayMovement:
+NivaleTown_RivalPushesYouAwayMovement:
 	turn_head UP
 	step DOWN
 	step_end
 
-NewBarkTown_RivalShovesYouOutMovement:
+NivaleTown_RivalShovesYouOutMovement:
 	turn_head UP
 	fix_facing
 	jump_step DOWN
 	remove_fixed_facing
 	step_end
 
-NewBarkTown_RivalReturnsToTheShadowsMovement:
+NivaleTown_RivalReturnsToTheShadowsMovement:
 	step RIGHT
 	step_end
 
@@ -246,7 +246,7 @@ Text_ElmDiscoveredNewMon:
 	cont "new #MON."
 	done
 
-NewBarkTownRivalText1:
+NivaleTownRivalText1:
 	text "<……>"
 
 	para "So this is the"
@@ -254,12 +254,12 @@ NewBarkTownRivalText1:
 	cont "LAB…"
 	done
 
-NewBarkTownRivalText2:
+NivaleTownRivalText2:
 	text "…What are you"
 	line "staring at?"
 	done
 
-NewBarkTownSignText:
+NivaleTownSignText:
 	text "NEW BARK TOWN"
 
 	para "The Town Where the"
@@ -267,19 +267,19 @@ NewBarkTownSignText:
 	cont "Beginning Blow"
 	done
 
-NewBarkTownPlayersHouseSignText:
+NivaleTownPlayersHouseSignText:
 	text "<PLAYER>'s House"
 	done
 
-NewBarkTownElmsLabSignText:
+NivaleTownElmsLabSignText:
 	text "ELM #MON LAB"
 	done
 
-NewBarkTownElmsHouseSignText:
+NivaleTownElmsHouseSignText:
 	text "ELM'S HOUSE"
 	done
 
-NewBarkTown_MapEvents:
+NivaleTown_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
@@ -289,16 +289,16 @@ NewBarkTown_MapEvents:
 	warp_event  5,  5, ELMS_HOUSE, 1
 
 	def_coord_events
-	coord_event  1,  8, SCENE_NEWBARKTOWN_TEACHER_STOPS_YOU, NewBarkTown_TeacherStopsYouScene1
-	coord_event  1,  9, SCENE_NEWBARKTOWN_TEACHER_STOPS_YOU, NewBarkTown_TeacherStopsYouScene2
+	coord_event  1,  8, SCENE_NIVALETOWN_TEACHER_STOPS_YOU, NivaleTown_TeacherStopsYouScene1
+	coord_event  1,  9, SCENE_NIVALETOWN_TEACHER_STOPS_YOU, NivaleTown_TeacherStopsYouScene2
 
 	def_bg_events
-	bg_event  7,  9, BGEVENT_READ, NewBarkTownSign
-	bg_event  9,  5, BGEVENT_READ, NewBarkTownPlayersHouseSign
-	bg_event 11, 13, BGEVENT_READ, NewBarkTownElmsLabSign
-	bg_event  3,  5, BGEVENT_READ, NewBarkTownElmsHouseSign
+	bg_event  7,  9, BGEVENT_READ, NivaleTownSign
+	bg_event  9,  5, BGEVENT_READ, NivaleTownPlayersHouseSign
+	bg_event 11, 13, BGEVENT_READ, NivaleTownElmsLabSign
+	bg_event  3,  5, BGEVENT_READ, NivaleTownElmsHouseSign
 
 	def_object_events
-	object_event  6,  8, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NewBarkTownTeacherScript, -1
-	object_event 11,  8, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NewBarkTownFisherScript, -1
-	object_event 11, 12, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NewBarkTownRivalScript, EVENT_RIVAL_NEW_BARK_TOWN
+	object_event  6,  8, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NivaleTownTeacherScript, -1
+	object_event 11,  8, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NivaleTownFisherScript, -1
+	object_event 11, 12, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NivaleTownRivalScript, EVENT_RIVAL_NIVALE_TOWN

@@ -208,16 +208,16 @@ DEF EMOTE_LENGTH EQU 6
 ; fruittree arguments
 ; FruitTreeItems indexes (see data/items/fruit_trees.asm)
 	const_def 1
-	const FRUITTREE_ROUTE_29      ; 01
-	const FRUITTREE_ROUTE_30_1    ; 02
+	const FRUITTREE_ROUTE_51      ; 01
+	const FRUITTREE_ROUTE_52_1    ; 02
 	const FRUITTREE_ROUTE_38      ; 03
-	const FRUITTREE_ROUTE_46_1    ; 04
-	const FRUITTREE_ROUTE_30_2    ; 05
+	const FRUITTREE_ROUTE_53_1    ; 04
+	const FRUITTREE_ROUTE_52_2    ; 05
 	const FRUITTREE_ROUTE_33      ; 06
 	const FRUITTREE_ROUTE_31      ; 07
 	const FRUITTREE_ROUTE_43      ; 08
 	const FRUITTREE_VIOLET_CITY   ; 09
-	const FRUITTREE_ROUTE_46_2    ; 0a
+	const FRUITTREE_ROUTE_53_2    ; 0a
 	const FRUITTREE_ROUTE_35      ; 0b
 	const FRUITTREE_ROUTE_45      ; 0c
 	const FRUITTREE_ROUTE_36      ; 0d

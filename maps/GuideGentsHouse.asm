@@ -29,8 +29,8 @@ GuideGentsHouse_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  7, CHERRYGROVE_CITY, 4
-	warp_event  3,  7, CHERRYGROVE_CITY, 4
+	warp_event  2,  7, CAMPANULA_TOWN, 4
+	warp_event  3,  7, CAMPANULA_TOWN, 4
 
 	def_coord_events
 
@@ -39,4 +39,4 @@ GuideGentsHouse_MapEvents:
 	bg_event  1,  1, BGEVENT_READ, GuideGentsHouseBookshelf
 
 	def_object_events
-	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GuideGentsHouseGuideGent, EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
+	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GuideGentsHouseGuideGent, EVENT_GUIDE_GENT_VISIBLE_IN_CAMPANULA

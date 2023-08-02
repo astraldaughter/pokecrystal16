@@ -1998,7 +1998,7 @@ Most trainer classes always use the same sprite and color for their overworld NP
 
 Most of the NPCs in [maps/NationalParkBugContest.asm](https://github.com/pret/pokecrystal/blob/master/maps/NationalParkBugContest.asm) and [maps/Route36NationalParkGate.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route36NationalParkGate.asm) are also inconsistent with their trainers from other maps:
 
-- `BugCatchingContestant1AScript` and `BugCatchingContestant1BScript`: `BUG_CATCHER DON` from [maps/Route30.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route30.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_YOUNGSTER` and `PAL_NPC_RED`
+- `BugCatchingContestant1AScript` and `BugCatchingContestant1BScript`: `BUG_CATCHER DON` from [maps/Route52.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route52.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_YOUNGSTER` and `PAL_NPC_RED`
 - `BugCatchingContestant2AScript` and `BugCatchingContestant2BScript`: `BUG_CATCHER ED` from [maps/Route2.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route2.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_YOUNGSTER` and `PAL_NPC_GREEN`
 - `BugCatchingContestant3AScript` and `BugCatchingContestant3BScript`: `COOLTRAINERM NICK` from [maps/UnionCaveB2F.asm](https://github.com/pret/pokecrystal/blob/master/maps/UnionCaveB2F.asm) should use `SPRITE_COOLTRAINER_M` and `PAL_NPC_RED`, not `SPRITE_ROCKER` and `PAL_NPC_BLUE`
 - `BugCatchingContestant4AScript` and `BugCatchingContestant4BScript`: `POKEFANM WILLIAM` from [maps/NationalPark.asm](https://github.com/pret/pokecrystal/blob/master/maps/NationalPark.asm) should use `PAL_NPC_RED`, not `PAL_NPC_BROWN`

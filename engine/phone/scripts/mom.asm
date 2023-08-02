@@ -27,8 +27,8 @@ MomPhoneLandmark:
 
 MomPhoneInTown:
 	readvar VAR_MAPGROUP
-	ifequal GROUP_NEW_BARK_TOWN, .newbark
-	ifequal GROUP_CHERRYGROVE_CITY, .cherrygrove
+	ifequal GROUP_NIVALE_TOWN, .nivale
+	ifequal GROUP_CAMPANULA_TOWN, .campanula
 	ifequal GROUP_VIOLET_CITY, .violet
 	ifequal GROUP_AZALEA_TOWN, .azalea
 	ifequal GROUP_GOLDENROD_CITY, .goldenrod
@@ -36,13 +36,13 @@ MomPhoneInTown:
 	promptbutton
 	sjump MomSavingMoney
 
-.newbark
-	farwritetext MomPhoneNewBarkText
+.nivale
+	farwritetext MomPhoneNivaleText
 	promptbutton
 	sjump MomSavingMoney
 
-.cherrygrove
-	farwritetext MomPhoneCherrygroveText
+.campanula
+	farwritetext MomPhoneCampanulaText
 	promptbutton
 	sjump MomSavingMoney
 

@@ -128,7 +128,7 @@ JohtoWaterWildMons:
 	dbw 20, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_30
+	def_water_wildmons ROUTE_52
 	db 2 percent ; encounter rate
 	dbw 20, POLIWAG
 	dbw 15, POLIWAG
@@ -205,14 +205,14 @@ JohtoWaterWildMons:
 	dbw 5, MAGIKARP
 	end_water_wildmons
 
-	def_water_wildmons NEW_BARK_TOWN
+	def_water_wildmons NIVALE_TOWN
 	db 6 percent ; encounter rate
 	dbw 20, TENTACOOL
 	dbw 15, TENTACOOL
 	dbw 20, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons CHERRYGROVE_CITY
+	def_water_wildmons CAMPANULA_TOWN
 	db 6 percent ; encounter rate
 	dbw 20, TENTACOOL
 	dbw 15, TENTACOOL

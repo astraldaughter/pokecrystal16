@@ -40,6 +40,7 @@ MeetMomScript:
 	scall PlayersHouse1FReceiveItemStd
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
+	setflag ENGINE_MAP_CARD
 	addcellnum PHONE_MOM
 	setscene SCENE_PLAYERSHOUSE1F_NOOP
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
@@ -387,8 +388,8 @@ PlayersHouse1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  6,  7, NEW_BARK_TOWN, 2
-	warp_event  7,  7, NEW_BARK_TOWN, 2
+	warp_event  6,  7, NIVALE_TOWN, 2
+	warp_event  7,  7, NIVALE_TOWN, 2
 	warp_event  9,  0, PLAYERS_HOUSE_2F, 1
 
 	def_coord_events

@@ -2,10 +2,10 @@
 	const_def
 	const LANDMARK_SPECIAL           ; 00
 ; Johto landmarks
-	const LANDMARK_NEW_BARK_TOWN     ; 01
-	const LANDMARK_ROUTE_29          ; 02
-	const LANDMARK_CHERRYGROVE_CITY  ; 03
-	const LANDMARK_ROUTE_30          ; 04
+	const LANDMARK_NIVALE_TOWN     ; 01
+	const LANDMARK_ROUTE_51          ; 02
+	const LANDMARK_CAMPANULA_TOWN  ; 03
+	const LANDMARK_ROUTE_52          ; 04
 	const LANDMARK_ROUTE_31          ; 05
 	const LANDMARK_VIOLET_CITY       ; 06
 	const LANDMARK_SPROUT_TOWER      ; 07
@@ -46,7 +46,8 @@
 	const LANDMARK_DRAGONS_DEN       ; 2a
 	const LANDMARK_ROUTE_45          ; 2b
 	const LANDMARK_DARK_CAVE         ; 2c
-	const LANDMARK_ROUTE_46          ; 2d
+	const LANDMARK_ROUTE_53          ; 2d
+	const LANDMARK_DIGLETTS_CAVE     ; 3e
 	const LANDMARK_SILVER_CAVE       ; 2e
 DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_PALLET_TOWN       ; 2f
@@ -64,7 +65,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_UNDERGROUND_PATH  ; 3b
 	const LANDMARK_ROUTE_6           ; 3c
 	const LANDMARK_VERMILION_CITY    ; 3d
-	const LANDMARK_DIGLETTS_CAVE     ; 3e
 	const LANDMARK_ROUTE_7           ; 3f
 	const LANDMARK_ROUTE_8           ; 40
 	const LANDMARK_ROUTE_9           ; 41

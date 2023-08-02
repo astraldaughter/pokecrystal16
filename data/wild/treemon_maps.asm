@@ -7,8 +7,8 @@ TreeMonMaps:
 	treemon_map ROUTE_26,                  TREEMON_SET_KANTO
 	treemon_map ROUTE_27,                  TREEMON_SET_KANTO
 	treemon_map ROUTE_28,                  TREEMON_SET_CITY
-	treemon_map ROUTE_29,                  TREEMON_SET_ROUTE
-	treemon_map ROUTE_30,                  TREEMON_SET_ROUTE
+	treemon_map ROUTE_51,                  TREEMON_SET_ROUTE
+	treemon_map ROUTE_52,                  TREEMON_SET_ROUTE
 	treemon_map ROUTE_31,                  TREEMON_SET_ROUTE
 	treemon_map ROUTE_32,                  TREEMON_SET_KANTO
 	treemon_map ROUTE_33,                  TREEMON_SET_TOWN
@@ -24,9 +24,9 @@ TreeMonMaps:
 	treemon_map ROUTE_43,                  TREEMON_SET_LAKE
 	treemon_map ROUTE_44,                  TREEMON_SET_CANYON
 	treemon_map ROUTE_45,                  TREEMON_SET_CANYON
-	treemon_map ROUTE_46,                  TREEMON_SET_CANYON
-	treemon_map NEW_BARK_TOWN,             TREEMON_SET_CITY
-	treemon_map CHERRYGROVE_CITY,          TREEMON_SET_CITY
+	treemon_map ROUTE_53,                  TREEMON_SET_CANYON
+	treemon_map NIVALE_TOWN,             TREEMON_SET_CITY
+	treemon_map CAMPANULA_TOWN,          TREEMON_SET_CITY
 	treemon_map VIOLET_CITY,               TREEMON_SET_CITY
 	treemon_map AZALEA_TOWN,               TREEMON_SET_TOWN
 	treemon_map CIANWOOD_CITY,             TREEMON_SET_CITY

@@ -30,7 +30,7 @@ MomPhoneGenericAreaText:
 	cont "of neat, <PLAYER>."
 	done
 
-MomPhoneNewBarkText:
+MomPhoneNivaleText:
 	text "What? You're in"
 	line "@"
 	text_ram wStringBuffer3
@@ -40,7 +40,7 @@ MomPhoneNewBarkText:
 	line "sometime!"
 	done
 
-MomPhoneCherrygroveText:
+MomPhoneCampanulaText:
 	text "You're visiting"
 	line "@"
 	text_ram wStringBuffer3

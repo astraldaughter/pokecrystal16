@@ -1,16 +1,16 @@
 FruitTreeItems:
 ; entries correspond to FRUITTREE_* constants
 	table_width 1, FruitTreeItems
-	db BERRY        ; ROUTE_29
-	db BERRY        ; ROUTE_30_1
+	db BERRY        ; ROUTE_51
+	db BERRY        ; ROUTE_52_1
 	db BERRY        ; ROUTE_38
-	db BERRY        ; ROUTE_46_1
-	db PSNCUREBERRY ; ROUTE_30_2
+	db BERRY        ; ROUTE_53_1
+	db PSNCUREBERRY ; ROUTE_52_2
 	db PSNCUREBERRY ; ROUTE_33
 	db BITTER_BERRY ; ROUTE_31
 	db BITTER_BERRY ; ROUTE_43
 	db PRZCUREBERRY ; VIOLET_CITY
-	db PRZCUREBERRY ; ROUTE_46_2
+	db PRZCUREBERRY ; ROUTE_53_2
 	db MYSTERYBERRY ; ROUTE_35
 	db MYSTERYBERRY ; ROUTE_45
 	db ICE_BERRY    ; ROUTE_36

@@ -408,7 +408,7 @@ Route31SignText:
 	text "ROUTE 31"
 
 	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	line "CAMPANULA CITY"
 	done
 
 DarkCaveSignText:

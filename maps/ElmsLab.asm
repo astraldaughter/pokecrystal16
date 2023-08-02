@@ -276,9 +276,9 @@ endc
 	waitbutton
 	closetext
 	setevent EVENT_GOT_A_POKEMON_FROM_ELM
-	setevent EVENT_RIVAL_CHERRYGROVE_CITY
+	setevent EVENT_RIVAL_CAMPANULA_TOWN
 	setscene SCENE_ELMSLAB_AIDE_GIVES_POTION
-	setmapscene NEW_BARK_TOWN, SCENE_NEWBARKTOWN_NOOP
+	setmapscene NIVALE_TOWN, SCENE_NIVALETOWN_NOOP
 	end
 
 ElmDescribesMrPokemonScript:
@@ -344,9 +344,9 @@ ElmAfterTheftScript:
 	promptbutton
 	setevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	setflag ENGINE_MAIN_MENU_MOBILE_CHOICES
-	setmapscene ROUTE_29, SCENE_ROUTE29_CATCH_TUTORIAL
-	clearevent EVENT_ROUTE_30_YOUNGSTER_JOEY
-	setevent EVENT_ROUTE_30_BATTLE
+	setmapscene ROUTE_51, SCENE_ROUTE51_CATCH_TUTORIAL
+	clearevent EVENT_ROUTE_52_YOUNGSTER_JOEY
+	setevent EVENT_ROUTE_52_BATTLE
 	writetext ElmAfterTheftText6
 	waitbutton
 	closetext
@@ -905,7 +905,7 @@ ElmDirectionsText1:
 	text "MR.#MON lives a"
 	line "little bit beyond"
 
-	para "CHERRYGROVE, the"
+	para "CAMPANULA, the"
 	line "next city over."
 
 	para "It's almost a"
@@ -1380,8 +1380,8 @@ ElmsLab_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  4, 11, NEW_BARK_TOWN, 1
-	warp_event  5, 11, NEW_BARK_TOWN, 1
+	warp_event  4, 11, NIVALE_TOWN, 1
+	warp_event  5, 11, NIVALE_TOWN, 1
 
 	def_coord_events
 	coord_event  4,  6, SCENE_ELMSLAB_CANT_LEAVE, LabTryToLeaveScript

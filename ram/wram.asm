@@ -3065,11 +3065,11 @@ wKarensRoomSceneID::                              db
 wLancesRoomSceneID::                              db
 wHallOfFameSceneID::                              db
 wRoute27SceneID::                                 db
-wNewBarkTownSceneID::                             db
+wNivaleTownSceneID::                             db
 wElmsLabSceneID::                                 db
 wPlayersHouse1FSceneID::                          db
-wRoute29SceneID::                                 db
-wCherrygroveCitySceneID::                         db
+wRoute51SceneID::                                 db
+wCampanulaTownSceneID::                         db
 wMrPokemonsHouseSceneID::                         db
 wRoute32SceneID::                                 db
 wRoute35NationalParkGateSceneID::                 db

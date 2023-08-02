@@ -97,13 +97,13 @@ MACRO connection
 ENDM
 
 
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $05, WEST | EAST
-	connection west, Route29, ROUTE_29, 0
-	connection east, Route27, ROUTE_27, 0
+	map_attributes NivaleTown, NIVALE_TOWN, $05, WEST | EAST
+	connection west, Route27, ROUTE_27, 0
+	connection east, Route51, ROUTE_51, 0
 
-	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $35, NORTH | EAST
-	connection north, Route30, ROUTE_30, 5
-	connection east, Route29, ROUTE_29, 0
+	map_attributes CampanulaTown, CAMPANULA_TOWN, $05, SOUTH | WEST
+	connection south, Route52, ROUTE_52, 5
+	connection west, Route51, ROUTE_51, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $05, SOUTH | WEST | EAST
 	connection south, Route32, ROUTE_32, 0
@@ -149,23 +149,21 @@ ENDM
 	connection west, Route27, ROUTE_27, 45
 
 	map_attributes Route27, ROUTE_27, $35, WEST | EAST
-	connection west, NewBarkTown, NEW_BARK_TOWN, 0
+	connection west, NivaleTown, NIVALE_TOWN, 0
 	connection east, Route26, ROUTE_26, -45
 
 	map_attributes Route28, ROUTE_28, $2c, WEST
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -9
 
-	map_attributes Route29, ROUTE_29, $05, NORTH | WEST | EAST
-	connection north, Route46, ROUTE_46, 10
-	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
-	connection east, NewBarkTown, NEW_BARK_TOWN, 0
+	map_attributes Route51, ROUTE_51, $05, SOUTH | WEST | EAST
+	connection south, Route53, ROUTE_53, 12
+	connection west, NivaleTown, NIVALE_TOWN, 0
+	connection east, CampanulaTown, CAMPANULA_TOWN, 0
 
-	map_attributes Route30, ROUTE_30, $05, NORTH | SOUTH
-	connection north, Route31, ROUTE_31, -10
-	connection south, CherrygroveCity, CHERRYGROVE_CITY, -5
+	map_attributes Route52, ROUTE_52, $05, NORTH
+	connection north, CampanulaTown, CAMPANULA_TOWN, -5
 
-	map_attributes Route31, ROUTE_31, $05, SOUTH | WEST
-	connection south, Route30, ROUTE_30, 10
+	map_attributes Route31, ROUTE_31, $05, WEST
 	connection west, VioletCity, VIOLET_CITY, -9
 
 	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH
@@ -223,10 +221,10 @@ ENDM
 
 	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
 	connection north, BlackthornCity, BLACKTHORN_CITY, 0
-	connection west, Route46, ROUTE_46, 36
+	connection west, Route53, ROUTE_53, 36
 
-	map_attributes Route46, ROUTE_46, $05, SOUTH | EAST
-	connection south, Route29, ROUTE_29, -10
+	map_attributes Route53, ROUTE_53, $05, NORTH | EAST
+	connection north, Route51, ROUTE_51, -12
 	connection east, Route45, ROUTE_45, -36
 
 	map_attributes PewterCity, PEWTER_CITY, $0f, SOUTH | EAST
@@ -673,7 +671,7 @@ ENDM
 	map_attributes Route26HealHouse, ROUTE_26_HEAL_HOUSE, $00, 0
 	map_attributes DayOfWeekSiblingsHouse, DAY_OF_WEEK_SIBLINGS_HOUSE, $00, 0
 	map_attributes Route27SandstormHouse, ROUTE_27_SANDSTORM_HOUSE, $00, 0
-	map_attributes Route29Route46Gate, ROUTE_29_ROUTE_46_GATE, $00, 0
+	map_attributes Route51Route53Gate, ROUTE_51_ROUTE_53_GATE, $00, 0
 	map_attributes FightingDojo, FIGHTING_DOJO, $00, 0
 	map_attributes SaffronGym, SAFFRON_GYM, $00, 0
 	map_attributes SaffronMart, SAFFRON_MART, $00, 0
@@ -687,11 +685,11 @@ ENDM
 	map_attributes Route5UndergroundPathEntrance, ROUTE_5_UNDERGROUND_PATH_ENTRANCE, $00, 0
 	map_attributes Route5SaffronGate, ROUTE_5_SAFFRON_GATE, $00, 0
 	map_attributes Route5CleanseTagHouse, ROUTE_5_CLEANSE_TAG_HOUSE, $00, 0
-	map_attributes CherrygroveMart, CHERRYGROVE_MART, $00, 0
-	map_attributes CherrygrovePokecenter1F, CHERRYGROVE_POKECENTER_1F, $00, 0
-	map_attributes CherrygroveGymSpeechHouse, CHERRYGROVE_GYM_SPEECH_HOUSE, $00, 0
+	map_attributes CampanulaMart, CAMPANULA_MART, $00, 0
+	map_attributes CampanulaPokecenter1F, CAMPANULA_POKECENTER_1F, $00, 0
+	map_attributes CampanulaGymSpeechHouse, CAMPANULA_GYM_SPEECH_HOUSE, $00, 0
 	map_attributes GuideGentsHouse, GUIDE_GENTS_HOUSE, $00, 0
-	map_attributes CherrygroveEvolutionSpeechHouse, CHERRYGROVE_EVOLUTION_SPEECH_HOUSE, $00, 0
-	map_attributes Route30BerryHouse, ROUTE_30_BERRY_HOUSE, $00, 0
+	map_attributes CampanulaEvolutionSpeechHouse, CAMPANULA_EVOLUTION_SPEECH_HOUSE, $00, 0
+	map_attributes Route52BerryHouse, ROUTE_52_BERRY_HOUSE, $00, 0
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $00, 0
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0

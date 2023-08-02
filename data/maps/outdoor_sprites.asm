@@ -27,9 +27,9 @@ OutdoorSprites:
 	dw CeladonGroupSprites
 	dw CianwoodGroupSprites
 	dw ViridianGroupSprites
-	dw NewBarkGroupSprites
+	dw NivaleGroupSprites
 	dw SaffronGroupSprites
-	dw CherrygroveGroupSprites
+	dw CampanulaGroupSprites
 	assert_table_length NUM_MAP_GROUPS
 
 PalletGroupSprites:
@@ -307,7 +307,7 @@ IndigoGroupSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_BOULDER
 
-NewBarkGroupSprites:
+NivaleGroupSprites:
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_FAMICOM
@@ -332,7 +332,7 @@ NewBarkGroupSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 
-CherrygroveGroupSprites:
+CampanulaGroupSprites:
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_FAMICOM

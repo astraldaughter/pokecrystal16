@@ -1,45 +1,45 @@
 	object_const_def
-	const ROUTE29_COOLTRAINER_M1
-	const ROUTE29_YOUNGSTER
-	const ROUTE29_TEACHER1
-	const ROUTE29_FRUIT_TREE
-	const ROUTE29_FISHER
-	const ROUTE29_COOLTRAINER_M2
-	const ROUTE29_TUSCANY
-	const ROUTE29_POKE_BALL
+	const ROUTE51_COOLTRAINER_M1
+	const ROUTE51_YOUNGSTER
+	const ROUTE51_TEACHER1
+	const ROUTE51_FRUIT_TREE
+	const ROUTE51_FISHER
+	const ROUTE51_COOLTRAINER_M2
+	const ROUTE51_TUSCANY
+	const ROUTE51_POKE_BALL
 
-Route29_MapScripts:
+Route51_MapScripts:
 	def_scene_scripts
-	scene_script Route29Noop1Scene, SCENE_ROUTE29_NOOP
-	scene_script Route29Noop2Scene, SCENE_ROUTE29_CATCH_TUTORIAL
+	scene_script Route51Noop1Scene, SCENE_ROUTE51_NOOP
+	scene_script Route51Noop2Scene, SCENE_ROUTE51_CATCH_TUTORIAL
 
 	def_callbacks
-	callback MAPCALLBACK_OBJECTS, Route29TuscanyCallback
+	callback MAPCALLBACK_OBJECTS, Route51TuscanyCallback
 
-Route29Noop1Scene:
+Route51Noop1Scene:
 	end
 
-Route29Noop2Scene:
+Route51Noop2Scene:
 	end
 
-Route29TuscanyCallback:
+Route51TuscanyCallback:
 	checkflag ENGINE_ZEPHYRBADGE
 	iftrue .DoesTuscanyAppear
 
 .TuscanyDisappears:
-	disappear ROUTE29_TUSCANY
+	disappear ROUTE51_TUSCANY
 	endcallback
 
 .DoesTuscanyAppear:
 	readvar VAR_WEEKDAY
 	ifnotequal TUESDAY, .TuscanyDisappears
-	appear ROUTE29_TUSCANY
+	appear ROUTE51_TUSCANY
 	endcallback
 
-Route29Tutorial1:
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	showemote EMOTE_SHOCK, ROUTE29_COOLTRAINER_M1, 15
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1a
+Route51Tutorial1:
+	turnobject ROUTE51_COOLTRAINER_M1, UP
+	showemote EMOTE_SHOCK, ROUTE51_COOLTRAINER_M1, 15
+	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData1a
 	turnobject PLAYER, LEFT
 	setevent EVENT_DUDE_TALKED_TO_YOU
 	opentext
@@ -47,24 +47,24 @@ Route29Tutorial1:
 	yesorno
 	iffalse Script_RefusedTutorial1
 	closetext
-	follow ROUTE29_COOLTRAINER_M1, PLAYER
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
+	follow ROUTE51_COOLTRAINER_M1, PLAYER
+	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData1b
 	stopfollow
 	loadwildmon RATTATA, 5
 	catchtutorial BATTLETYPE_TUTORIAL
-	turnobject ROUTE29_COOLTRAINER_M1, UP
+	turnobject ROUTE51_COOLTRAINER_M1, UP
 	opentext
 	writetext CatchingTutorialDebriefText
 	waitbutton
 	closetext
-	setscene SCENE_ROUTE29_NOOP
+	setscene SCENE_ROUTE51_NOOP
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	end
 
-Route29Tutorial2:
-	turnobject ROUTE29_COOLTRAINER_M1, UP
-	showemote EMOTE_SHOCK, ROUTE29_COOLTRAINER_M1, 15
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2a
+Route51Tutorial2:
+	turnobject ROUTE51_COOLTRAINER_M1, UP
+	showemote EMOTE_SHOCK, ROUTE51_COOLTRAINER_M1, 15
+	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData2a
 	turnobject PLAYER, LEFT
 	setevent EVENT_DUDE_TALKED_TO_YOU
 	opentext
@@ -72,17 +72,17 @@ Route29Tutorial2:
 	yesorno
 	iffalse Script_RefusedTutorial2
 	closetext
-	follow ROUTE29_COOLTRAINER_M1, PLAYER
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
+	follow ROUTE51_COOLTRAINER_M1, PLAYER
+	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData2b
 	stopfollow
 	loadwildmon RATTATA, 5
 	catchtutorial BATTLETYPE_TUTORIAL
-	turnobject ROUTE29_COOLTRAINER_M1, UP
+	turnobject ROUTE51_COOLTRAINER_M1, UP
 	opentext
 	writetext CatchingTutorialDebriefText
 	waitbutton
 	closetext
-	setscene SCENE_ROUTE29_NOOP
+	setscene SCENE_ROUTE51_NOOP
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	end
 
@@ -90,16 +90,16 @@ Script_RefusedTutorial1:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
 	closetext
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
-	setscene SCENE_ROUTE29_NOOP
+	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData1b
+	setscene SCENE_ROUTE51_NOOP
 	end
 
 Script_RefusedTutorial2:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
 	closetext
-	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
-	setscene SCENE_ROUTE29_NOOP
+	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData2b
+	setscene SCENE_ROUTE51_NOOP
 	end
 
 CatchingTutorialDudeScript:
@@ -136,16 +136,16 @@ CatchingTutorialDudeScript:
 	closetext
 	end
 
-Route29YoungsterScript:
-	jumptextfaceplayer Route29YoungsterText
+Route51YoungsterScript:
+	jumptextfaceplayer Route51YoungsterText
 
-Route29TeacherScript:
-	jumptextfaceplayer Route29TeacherText
+Route51TeacherScript:
+	jumptextfaceplayer Route51TeacherText
 
-Route29FisherScript:
-	jumptextfaceplayer Route29FisherText
+Route51FisherScript:
+	jumptextfaceplayer Route51FisherText
 
-Route29CooltrainerMScript:
+Route51CooltrainerMScript:
 	faceplayer
 	opentext
 	checktime DAY
@@ -153,13 +153,13 @@ Route29CooltrainerMScript:
 	checktime NITE
 	iftrue .nite
 .day_morn
-	writetext Route29CooltrainerMText_WaitingForNight
+	writetext Route51CooltrainerMText_WaitingForNight
 	waitbutton
 	closetext
 	end
 
 .nite
-	writetext Route29CooltrainerMText_WaitingForMorning
+	writetext Route51CooltrainerMText_WaitingForMorning
 	waitbutton
 	closetext
 	end
@@ -200,16 +200,16 @@ TuscanyNotTuesdayScript:
 	closetext
 	end
 
-Route29Sign1:
-	jumptext Route29Sign1Text
+Route51Sign1:
+	jumptext Route51Sign1Text
 
-Route29Sign2:
-	jumptext Route29Sign2Text
+Route51Sign2:
+	jumptext Route51Sign2Text
 
-Route29FruitTree:
-	fruittree FRUITTREE_ROUTE_29
+Route51FruitTree:
+	fruittree FRUITTREE_ROUTE_51
 
-Route29Potion:
+Route51Potion:
 	itemball POTION
 
 DudeMovementData1a:
@@ -291,7 +291,7 @@ CatchingTutorialRepeatText:
 	cont "catch #MON?"
 	done
 
-Route29YoungsterText:
+Route51YoungsterText:
 	text "Yo. How are your"
 	line "#MON?"
 
@@ -302,7 +302,7 @@ Route29YoungsterText:
 	line "of the grass."
 	done
 
-Route29TeacherText:
+Route51TeacherText:
 	text "See those ledges?"
 	line "It's scary to jump"
 	cont "off them."
@@ -314,7 +314,7 @@ Route29TeacherText:
 	line "the grass."
 	done
 
-Route29FisherText:
+Route51FisherText:
 	text "I wanted to take a"
 	line "break, so I saved"
 
@@ -322,7 +322,7 @@ Route29FisherText:
 	line "progress."
 	done
 
-Route29CooltrainerMText_WaitingForDay: ; unreferenced
+Route51CooltrainerMText_WaitingForDay: ; unreferenced
 	text "I'm waiting for"
 	line "#MON that"
 
@@ -330,7 +330,7 @@ Route29CooltrainerMText_WaitingForDay: ; unreferenced
 	line "daytime."
 	done
 
-Route29CooltrainerMText_WaitingForNight:
+Route51CooltrainerMText_WaitingForNight:
 	text "I'm waiting for"
 	line "#MON that"
 
@@ -338,7 +338,7 @@ Route29CooltrainerMText_WaitingForNight:
 	line "night."
 	done
 
-Route29CooltrainerMText_WaitingForMorning:
+Route51CooltrainerMText_WaitingForMorning:
 	text "I'm waiting for"
 	line "#MON that"
 
@@ -398,40 +398,40 @@ TuscanyNotTuesdayText:
 	cont "is unfortunate…"
 	done
 
-Route29Sign1Text:
+Route51Sign1Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
+	para "CAMPANULA CITY -"
 	line "NEW BARK TOWN"
 	done
 
-Route29Sign2Text:
+Route51Sign2Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
+	para "CAMPANULA CITY -"
 	line "NEW BARK TOWN"
 	done
 
-Route29_MapEvents:
+Route51_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 27,  1, ROUTE_29_ROUTE_46_GATE, 3
+	warp_event 27,  1, ROUTE_51_ROUTE_53_GATE, 3
 
 	def_coord_events
-	coord_event 53,  8, SCENE_ROUTE29_CATCH_TUTORIAL, Route29Tutorial1
-	coord_event 53,  9, SCENE_ROUTE29_CATCH_TUTORIAL, Route29Tutorial2
+	coord_event 53,  8, SCENE_ROUTE51_CATCH_TUTORIAL, Route51Tutorial1
+	coord_event 53,  9, SCENE_ROUTE51_CATCH_TUTORIAL, Route51Tutorial2
 
 	def_bg_events
-	bg_event 51,  7, BGEVENT_READ, Route29Sign1
-	bg_event  3,  5, BGEVENT_READ, Route29Sign2
+	bg_event 51,  7, BGEVENT_READ, Route51Sign1
+	bg_event  7,  7, BGEVENT_READ, Route51Sign2
 
 	def_object_events
 	object_event 50, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CatchingTutorialDudeScript, -1
-	object_event 27, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route29YoungsterScript, -1
-	object_event 15, 11, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route29TeacherScript, -1
-	object_event 12,  2, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route29FruitTree, -1
-	object_event 25,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route29FisherScript, -1
-	object_event 13,  4, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route29CooltrainerMScript, -1
-	object_event 29, 12, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TuscanyScript, EVENT_ROUTE_29_TUSCANY_OF_TUESDAY
-	object_event 48,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route29Potion, EVENT_ROUTE_29_POTION
+	object_event 27, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route51YoungsterScript, -1
+	object_event 15, 11, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route51TeacherScript, -1
+	object_event 12,  2, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route51FruitTree, -1
+	object_event 25,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route51FisherScript, -1
+	object_event 13,  4, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route51CooltrainerMScript, -1
+	object_event 29, 12, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TuscanyScript, EVENT_ROUTE_51_TUSCANY_OF_TUESDAY
+	object_event 48,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route51Potion, EVENT_ROUTE_51_POTION

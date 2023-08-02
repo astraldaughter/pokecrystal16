@@ -1,17 +1,17 @@
 	object_const_def
-	const ROUTE30_YOUNGSTER1
-	const ROUTE30_YOUNGSTER2
-	const ROUTE30_YOUNGSTER3
-	const ROUTE30_BUG_CATCHER
-	const ROUTE30_YOUNGSTER4
-	const ROUTE30_MONSTER1
-	const ROUTE30_MONSTER2
-	const ROUTE30_FRUIT_TREE1
-	const ROUTE30_FRUIT_TREE2
-	const ROUTE30_COOLTRAINER_F
-	const ROUTE30_POKE_BALL
+	const ROUTE52_YOUNGSTER1
+	const ROUTE52_YOUNGSTER2
+	const ROUTE52_YOUNGSTER3
+	const ROUTE52_BUG_CATCHER
+	const ROUTE52_YOUNGSTER4
+	const ROUTE52_MONSTER1
+	const ROUTE52_MONSTER2
+	const ROUTE52_FRUIT_TREE1
+	const ROUTE52_FRUIT_TREE2
+	const ROUTE52_COOLTRAINER_F
+	const ROUTE52_POKE_BALL
 
-Route30_MapScripts:
+Route52_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
@@ -24,15 +24,15 @@ YoungsterJoey_ImportantBattleScript:
 	pause 30
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE30_MONSTER2, Route30_JoeysRattataAttacksMovement
+	applymovement ROUTE52_MONSTER2, Route52_JoeysRattataAttacksMovement
 	opentext
 	faceplayer
 	writetext Text_ThisIsABigBattle
 	waitbutton
-	turnobject ROUTE30_YOUNGSTER1, UP
+	turnobject ROUTE52_YOUNGSTER1, UP
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE30_MONSTER1, Route30_MikeysRattataAttacksMovement
+	applymovement ROUTE52_MONSTER1, Route52_MikeysRattataAttacksMovement
 	special RestartMapMusic
 	end
 
@@ -205,27 +205,27 @@ TrainerBugCatcherDon:
 	closetext
 	end
 
-Route30YoungsterScript:
+Route52YoungsterScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue .CompletedEggQuest
-	writetext Route30YoungsterText_DirectionsToMrPokemonsHouse
+	writetext Route52YoungsterText_DirectionsToMrPokemonsHouse
 	waitbutton
 	closetext
 	end
 
 .CompletedEggQuest:
-	writetext Route30YoungsterText_EveryoneIsBattling
+	writetext Route52YoungsterText_EveryoneIsBattling
 	waitbutton
 	closetext
 	end
 
-Route30CooltrainerFScript:
-	jumptextfaceplayer Route30CooltrainerFText
+Route52CooltrainerFScript:
+	jumptextfaceplayer Route52CooltrainerFText
 
-Route30Sign:
-	jumptext Route30SignText
+Route52Sign:
+	jumptext Route52SignText
 
 MrPokemonsHouseDirectionsSign:
 	jumptext MrPokemonsHouseDirectionsSignText
@@ -233,28 +233,28 @@ MrPokemonsHouseDirectionsSign:
 MrPokemonsHouseSign:
 	jumptext MrPokemonsHouseSignText
 
-Route30TrainerTips:
-	jumptext Route30TrainerTipsText
+Route52TrainerTips:
+	jumptext Route52TrainerTipsText
 
-Route30Antidote:
+Route52Antidote:
 	itemball ANTIDOTE
 
-Route30FruitTree1:
-	fruittree FRUITTREE_ROUTE_30_1
+Route52FruitTree1:
+	fruittree FRUITTREE_ROUTE_52_1
 
-Route30FruitTree2:
-	fruittree FRUITTREE_ROUTE_30_2
+Route52FruitTree2:
+	fruittree FRUITTREE_ROUTE_52_2
 
-Route30HiddenPotion:
-	hiddenitem POTION, EVENT_ROUTE_30_HIDDEN_POTION
+Route52HiddenPotion:
+	hiddenitem POTION, EVENT_ROUTE_52_HIDDEN_POTION
 
-Route30_JoeysRattataAttacksMovement:
+Route52_JoeysRattataAttacksMovement:
 	fix_facing
 	big_step UP
 	big_step DOWN
 	step_end
 
-Route30_MikeysRattataAttacksMovement:
+Route52_MikeysRattataAttacksMovement:
 	fix_facing
 	big_step DOWN
 	big_step UP
@@ -342,19 +342,19 @@ BugCatcherDonAfterText:
 	line "some more…"
 	done
 
-Route30YoungsterText_DirectionsToMrPokemonsHouse:
+Route52YoungsterText_DirectionsToMrPokemonsHouse:
 	text "MR.#MON's"
 	line "house? It's a bit"
 	cont "farther ahead."
 	done
 
-Route30YoungsterText_EveryoneIsBattling:
+Route52YoungsterText_EveryoneIsBattling:
 	text "Everyone's having"
 	line "fun battling!"
 	cont "You should too!"
 	done
 
-Route30CooltrainerFText:
+Route52CooltrainerFText:
 	text "I'm not a trainer."
 
 	para "But if you look"
@@ -362,11 +362,11 @@ Route30CooltrainerFText:
 	cont "prepare to battle."
 	done
 
-Route30SignText:
+Route52SignText:
 	text "ROUTE 30"
 
 	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	line "CAMPANULA CITY"
 	done
 
 MrPokemonsHouseDirectionsSignText:
@@ -378,7 +378,7 @@ MrPokemonsHouseSignText:
 	text "MR.#MON'S HOUSE"
 	done
 
-Route30TrainerTipsText:
+Route52TrainerTipsText:
 	text "TRAINER TIPS"
 
 	para "No stealing other"
@@ -404,31 +404,31 @@ YoungsterJoeyText_GiveHPUpAfterBattle:
 	line "tougher too."
 	done
 
-Route30_MapEvents:
+Route52_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  7, 39, ROUTE_30_BERRY_HOUSE, 1
-	warp_event 17,  5, MR_POKEMONS_HOUSE, 1
+	warp_event 13, 39, ROUTE_52_BERRY_HOUSE, 1
+	warp_event 23,  5, MR_POKEMONS_HOUSE, 1
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  9, 43, BGEVENT_READ, Route30Sign
-	bg_event 13, 29, BGEVENT_READ, MrPokemonsHouseDirectionsSign
-	bg_event 15,  5, BGEVENT_READ, MrPokemonsHouseSign
-	bg_event  3, 21, BGEVENT_READ, Route30TrainerTips
-	bg_event 14,  9, BGEVENT_ITEM, Route30HiddenPotion
+	bg_event 15, 43, BGEVENT_READ, Route52Sign
+	bg_event 19, 29, BGEVENT_READ, MrPokemonsHouseDirectionsSign
+	bg_event 21,  5, BGEVENT_READ, MrPokemonsHouseSign
+	bg_event  9, 21, BGEVENT_READ, Route52TrainerTips
+	bg_event 20,  9, BGEVENT_ITEM, Route52HiddenPotion
 
 	def_object_events
-	object_event  5, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, YoungsterJoey_ImportantBattleScript, EVENT_ROUTE_30_BATTLE
-	object_event  2, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, EVENT_ROUTE_30_YOUNGSTER_JOEY
-	object_event  5, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerYoungsterMikey, -1
-	object_event  1,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherDon, -1
-	object_event  7, 30, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route30YoungsterScript, -1
-	object_event  5, 24, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
-	object_event  5, 25, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
-	object_event  5, 39, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree1, -1
-	object_event 11,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree2, -1
-	object_event  2, 13, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30CooltrainerFScript, -1
-	object_event  8, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route30Antidote, EVENT_ROUTE_30_ANTIDOTE
+	object_event 11, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, YoungsterJoey_ImportantBattleScript, EVENT_ROUTE_52_BATTLE
+	object_event  8, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, EVENT_ROUTE_52_YOUNGSTER_JOEY
+	object_event 11, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerYoungsterMikey, -1
+	object_event  7,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherDon, -1
+	object_event 13, 30, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route52YoungsterScript, -1
+	object_event 11, 24, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_52_BATTLE
+	object_event 11, 25, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_52_BATTLE
+	object_event 11, 39, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route52FruitTree1, -1
+	object_event 17,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route52FruitTree2, -1
+	object_event  8, 13, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route52CooltrainerFScript, -1
+	object_event 14, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route52Antidote, EVENT_ROUTE_52_ANTIDOTE

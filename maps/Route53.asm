@@ -1,12 +1,12 @@
 	object_const_def
-	const ROUTE46_POKEFAN_M
-	const ROUTE46_YOUNGSTER
-	const ROUTE46_LASS
-	const ROUTE46_FRUIT_TREE1
-	const ROUTE46_FRUIT_TREE2
-	const ROUTE46_POKE_BALL
+	const ROUTE53_POKEFAN_M
+	const ROUTE53_YOUNGSTER
+	const ROUTE53_LASS
+	const ROUTE53_FRUIT_TREE1
+	const ROUTE53_FRUIT_TREE2
+	const ROUTE53_POKE_BALL
 
-Route46_MapScripts:
+Route53_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
@@ -32,27 +32,27 @@ TrainerPicnickerErin1:
 	checkflag ENGINE_ERIN_READY_FOR_REMATCH
 	iftrue .WantsBattle
 	checkcellnum PHONE_PICNICKER_ERIN
-	iftrue Route46NumberAcceptedF
+	iftrue Route53NumberAcceptedF
 	checkevent EVENT_ERIN_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
 	writetext PicnickerErinAfterBattleText
 	promptbutton
 	setevent EVENT_ERIN_ASKED_FOR_PHONE_NUMBER
-	scall Route46AskNumber1F
+	scall Route53AskNumber1F
 	sjump .AskForNumber
 
 .AskedAlready:
-	scall Route46AskNumber2F
+	scall Route53AskNumber2F
 .AskForNumber:
 	askforphonenumber PHONE_PICNICKER_ERIN
-	ifequal PHONE_CONTACTS_FULL, Route46PhoneFullF
-	ifequal PHONE_CONTACT_REFUSED, Route46NumberDeclinedF
+	ifequal PHONE_CONTACTS_FULL, Route53PhoneFullF
+	ifequal PHONE_CONTACT_REFUSED, Route53NumberDeclinedF
 	gettrainername STRING_BUFFER_3, PICNICKER, ERIN1
-	scall Route46RegisteredNumberF
-	sjump Route46NumberAcceptedF
+	scall Route53RegisteredNumberF
+	sjump Route53NumberAcceptedF
 
 .WantsBattle:
-	scall Route46RematchF
+	scall Route53RematchF
 	winlosstext PicnickerErin1BeatenText, 0
 	readmem wErinFightCount
 	ifequal 2, .Fight2
@@ -89,11 +89,11 @@ TrainerPicnickerErin1:
 	iftrue .HasCalcium
 	checkevent EVENT_GOT_CALCIUM_FROM_ERIN
 	iftrue .GotCalciumAlready
-	scall Route46RematchGiftF
+	scall Route53RematchGiftF
 	verbosegiveitem CALCIUM
 	iffalse ErinNoRoomForCalcium
 	setevent EVENT_GOT_CALCIUM_FROM_ERIN
-	sjump Route46NumberAcceptedF
+	sjump Route53NumberAcceptedF
 
 .GotCalciumAlready:
 	end
@@ -106,33 +106,33 @@ TrainerPicnickerErin1:
 	iffalse ErinNoRoomForCalcium
 	clearevent EVENT_ERIN_CALCIUM
 	setevent EVENT_GOT_CALCIUM_FROM_ERIN
-	sjump Route46NumberAcceptedF
+	sjump Route53NumberAcceptedF
 
-Route46AskNumber1F:
+Route53AskNumber1F:
 	jumpstd AskNumber1FScript
 	end
 
-Route46AskNumber2F:
+Route53AskNumber2F:
 	jumpstd AskNumber2FScript
 	end
 
-Route46RegisteredNumberF:
+Route53RegisteredNumberF:
 	jumpstd RegisteredNumberFScript
 	end
 
-Route46NumberAcceptedF:
+Route53NumberAcceptedF:
 	jumpstd NumberAcceptedFScript
 	end
 
-Route46NumberDeclinedF:
+Route53NumberDeclinedF:
 	jumpstd NumberDeclinedFScript
 	end
 
-Route46PhoneFullF:
+Route53PhoneFullF:
 	jumpstd PhoneFullFScript
 	end
 
-Route46RematchF:
+Route53RematchF:
 	jumpstd RematchFScript
 	end
 
@@ -141,7 +141,7 @@ ErinNoRoomForCalcium:
 	jumpstd PackFullFScript
 	end
 
-Route46RematchGiftF:
+Route53RematchGiftF:
 	jumpstd RematchGiftFScript
 	end
 
@@ -156,17 +156,17 @@ TrainerHikerBailey:
 	closetext
 	end
 
-Route46Sign:
-	jumptext Route46SignText
+Route53Sign:
+	jumptext Route53SignText
 
-Route46XSpeed:
+Route53XSpeed:
 	itemball X_SPEED
 
-Route46FruitTree1:
-	fruittree FRUITTREE_ROUTE_46_1
+Route53FruitTree1:
+	fruittree FRUITTREE_ROUTE_53_1
 
-Route46FruitTree2:
-	fruittree FRUITTREE_ROUTE_46_2
+Route53FruitTree2:
+	fruittree FRUITTREE_ROUTE_53_2
 
 HikerBaileySeenText:
 	text "Awright! I'll show"
@@ -243,28 +243,28 @@ PicnickerErin2BeatenText:
 	cont "the other time."
 	done
 
-Route46SignText:
+Route53SignText:
 	text "ROUTE 46"
 	line "MOUNTAIN RD. AHEAD"
 	done
 
-Route46_MapEvents:
+Route53_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  7, 33, ROUTE_29_ROUTE_46_GATE, 1
-	warp_event  8, 33, ROUTE_29_ROUTE_46_GATE, 2
+	warp_event  7, 33, ROUTE_51_ROUTE_53_GATE, 1
+	warp_event  8, 33, ROUTE_51_ROUTE_53_GATE, 2
 	warp_event 14,  5, DARK_CAVE_VIOLET_ENTRANCE, 3
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  9, 27, BGEVENT_READ, Route46Sign
+	bg_event  9, 27, BGEVENT_READ, Route53Sign
 
 	def_object_events
 	object_event 12, 19, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHikerBailey, -1
 	object_event  4, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerCamperTed, -1
 	object_event  2, 13, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerPicnickerErin1, -1
-	object_event  7,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route46FruitTree1, -1
-	object_event  8,  6, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route46FruitTree2, -1
-	object_event  1, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route46XSpeed, EVENT_ROUTE_46_X_SPEED
+	object_event  7,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route53FruitTree1, -1
+	object_event  8,  6, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route53FruitTree2, -1
+	object_event  1, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route53XSpeed, EVENT_ROUTE_53_X_SPEED
