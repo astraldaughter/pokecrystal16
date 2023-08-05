@@ -263,6 +263,8 @@ MoveDescriptions1:
 	dw AerialAceDescription
 	dw NastyPlotDescription
 	dw PowerGemDescription
+	dw ChargeBeamDescription
+	dw SuperpowerDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1299,3 +1301,11 @@ NastyPlotDescription:
 PowerGemDescription:
 	db   "Attacks with a"
 	next "sparkling light.@"
+
+ChargeBeamDescription:
+	db   "An attack that ups"
+	next "user's SPCL.ATK.@"
+
+SuperpowerDescription:
+	db	"Powerful, but"
+	next "lowers stats.@"

@@ -258,4 +258,6 @@ MoveNames::
 	li "AERIAL ACE"
 	li "NASTY PLOT"
 	li "POWER GEM"
+	li "CHARGE BEAM"
+	li "SUPERPOWER"
 	assert_list_length NUM_ATTACKS

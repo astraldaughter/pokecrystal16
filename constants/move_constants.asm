@@ -261,9 +261,11 @@
 	const MOONBLAST	   ; fd
 	const EARTH_POWER  ; fe
 	const METEOR_BEAM  ; ff
-	const AERIAL_ACE; 100
+	const AERIAL_ACE   ; 100
 	const NASTY_PLOT   ; 101
 	const POWER_GEM	   ; 102
+	const CHARGE_BEAM  ; 103
+	const SUPERPOWER   ; 104
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

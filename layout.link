@@ -305,6 +305,7 @@ ROMX $78
 	"Tileset Data 8"
 ROMX $7b
 	"Battle Tower Text"
+	"bank32_2"
 ROMX $7c
 	"Battle Tower Trainer Data"
 ROMX $7d

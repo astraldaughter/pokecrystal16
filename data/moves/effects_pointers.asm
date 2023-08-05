@@ -141,6 +141,7 @@ MoveEffectsPointers:
 	dw SunnyDay
 	dw DefenseUpHit
 	dw AttackUpHit
+	dw SpecialAttackUpHit
 	dw AllUpHit
 	dw FakeOut
 	dw BellyDrum
@@ -159,4 +160,5 @@ MoveEffectsPointers:
 	dw Fly
 	dw DefenseCurl
 	dw MeteorBeam
+	dw Superpower
 	assert_table_length NUM_MOVE_EFFECTS

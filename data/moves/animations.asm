@@ -286,6 +286,8 @@ BattleAnimations::
 	dw BattleAnim_AerialAce
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_PowerGem
+	dw BattleAnim_ChargeBeam
+	dw BattleAnim_Superpower
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -4731,6 +4733,48 @@ BattleAnim_PowerGem:
 	anim_incobj  7
 	anim_wait 2
 	anim_wait 32
+	anim_ret
+
+BattleAnim_ChargeBeam:
+	anim_3gfx ANIM_GFX_LIGHTNING, ANIM_GFX_BEAM, ANIM_GFX_EXPLOSION
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $3
+	anim_obj ANIM_OBJ_THUNDER_WAVE, 48, 92, $0
+	anim_wait 24
+	anim_setobj $1, $3
+	anim_call BattleAnimSub_Beam
+	anim_wait 48
+	anim_clearobjs
+	anim_obj ANIM_OBJ_THUNDERSHOCK_BALL, 136, 56, $2
+	anim_wait 16
+	anim_sound 0, 1, SFX_THUNDERSHOCK
+	anim_obj ANIM_OBJ_SPARKS_CIRCLE, 136, 56, $0
+	anim_wait 96
+	anim_ret
+
+BattleAnim_Superpower:
+	anim_2gfx ANIM_GFX_CHARGE, ANIM_GFX_HIT
+	anim_sound 0, 0, SFX_SWORDS_DANCE
+	anim_obj ANIM_OBJ_GROWTH, 48, 108, $0
+	anim_obj ANIM_OBJ_GROWTH, 48, 108, $8
+	anim_obj ANIM_OBJ_GROWTH, 48, 108, $10
+	anim_obj ANIM_OBJ_GROWTH, 48, 108, $18
+	anim_obj ANIM_OBJ_GROWTH, 48, 108, $20
+	anim_obj ANIM_OBJ_GROWTH, 48, 108, $28
+	anim_obj ANIM_OBJ_GROWTH, 48, 108, $30
+	anim_obj ANIM_OBJ_GROWTH, 48, 108, $38
+	anim_wait 64
+	anim_call BattleAnim_TargetObj_1Row
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $10
+	anim_bgeffect ANIM_BG_TACKLE, $0, BG_EFFECT_USER, $0
+	anim_wait 3
+	anim_sound 0, 1, SFX_TACKLE
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 128, 48, $0
+	anim_wait 6
+	anim_sound 0, 1, SFX_TACKLE
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 144, 48, $0
+	anim_wait 3
+	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnimSub_Drain:

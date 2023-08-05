@@ -733,6 +733,28 @@ AttackUpHit:
 	buildopponentrage
 	endmove
 
+SpecialAttackUpHit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	specialattackup
+	statupmessage
+	checkfaint
+	buildopponentrage
+	endmove
+
 AllUpHit:
 	checkobedience
 	usedmovetext
@@ -2098,4 +2120,26 @@ MeteorBeam:
 	endturn
 	specialattackup
 	statupmessage
+	endmove
+
+Superpower:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	superpower
+	checkfaint
+	buildopponentrage
+	kingsrock
 	endmove
