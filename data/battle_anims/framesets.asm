@@ -1271,5 +1271,5 @@ BattleAnimFrameData:
 	oamend
 
 .Frameset_b9:
-	frame BATTLEANIMOAMSET_54, 40
-	endanim
+	oamframe BATTLEANIMOAMSET_54, 40
+	oamend
