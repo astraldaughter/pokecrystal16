@@ -56,27 +56,14 @@ ElmsHousePokemonFoodText: ; unreferenced
 	done
 
 ElmsHousePCText:
-	text "#MON. Where do"
-	line "they come from? "
+	text "Looks like a"
+	line "research paper"
 
-	para "Where are they"
-	line "going?"
+	para "that PROF. FIR"
+	line "is reading."
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
-
-	para "I want to know! I"
-	line "will dedicate my"
-
-	para "life to the study"
-	line "of #MON!"
-
-	para "…"
-
-	para "It's a part of"
-	line "PROF.ELM's re-"
-	cont "search papers."
+	para "It hurts your"
+	line "head to read…"
 	done
 
 ElmsHouse_MapEvents:

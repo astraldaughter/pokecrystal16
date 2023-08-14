@@ -1,7 +1,6 @@
 	object_const_def
 	const NIVALETOWN_TEACHER
 	const NIVALETOWN_FISHER
-	const NIVALETOWN_RIVAL
 
 NivaleTown_MapScripts:
 	def_scene_scripts
@@ -24,12 +23,12 @@ NivaleTownFlypointCallback:
 
 NivaleTown_TeacherStopsYouScene1:
 	playmusic MUSIC_MOM
-	turnobject NIVALETOWN_TEACHER, LEFT
+	turnobject NIVALETOWN_TEACHER, RIGHT
 	opentext
 	writetext Text_WaitPlayer
 	waitbutton
 	closetext
-	turnobject PLAYER, RIGHT
+	turnobject PLAYER, LEFT
 	applymovement NIVALETOWN_TEACHER, NivaleTown_TeacherRunsToYouMovement1
 	opentext
 	writetext Text_WhatDoYouThinkYoureDoing
@@ -47,12 +46,12 @@ NivaleTown_TeacherStopsYouScene1:
 
 NivaleTown_TeacherStopsYouScene2:
 	playmusic MUSIC_MOM
-	turnobject NIVALETOWN_TEACHER, LEFT
+	turnobject NIVALETOWN_TEACHER, RIGHT
 	opentext
 	writetext Text_WaitPlayer
 	waitbutton
 	closetext
-	turnobject PLAYER, RIGHT
+	turnobject PLAYER, LEFT
 	applymovement NIVALETOWN_TEACHER, NivaleTown_TeacherRunsToYouMovement2
 	turnobject PLAYER, UP
 	opentext
@@ -102,28 +101,7 @@ NivaleTownTeacherScript:
 	end
 
 NivaleTownFisherScript:
-	jumptextfaceplayer Text_ElmDiscoveredNewMon
-
-NivaleTownRivalScript:
-	opentext
-	writetext NivaleTownRivalText1
-	waitbutton
-	closetext
-	turnobject NIVALETOWN_RIVAL, LEFT
-	opentext
-	writetext NivaleTownRivalText2
-	waitbutton
-	closetext
-	follow PLAYER, NIVALETOWN_RIVAL
-	applymovement PLAYER, NivaleTown_RivalPushesYouAwayMovement
-	stopfollow
-	pause 5
-	turnobject NIVALETOWN_RIVAL, DOWN
-	pause 5
-	playsound SFX_TACKLE
-	applymovement PLAYER, NivaleTown_RivalShovesYouOutMovement
-	applymovement NIVALETOWN_RIVAL, NivaleTown_RivalReturnsToTheShadowsMovement
-	end
+	jumptextfaceplayer Text_TechnologyIncredible
 
 NivaleTownSign:
 	jumptext NivaleTownSignText
@@ -138,36 +116,32 @@ NivaleTownElmsHouseSign:
 	jumptext NivaleTownElmsHouseSignText
 
 NivaleTown_TeacherRunsToYouMovement1:
-	step LEFT
-	step LEFT
-	step LEFT
-	step LEFT
+	step RIGHT
+	step RIGHT
+	step RIGHT
 	step_end
 
 NivaleTown_TeacherRunsToYouMovement2:
-	step LEFT
-	step LEFT
-	step LEFT
-	step LEFT
-	step LEFT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
 	turn_head DOWN
 	step_end
 
 NivaleTown_TeacherBringsYouBackMovement1:
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	turn_head LEFT
+	step LEFT
+	step LEFT
+	step LEFT
+	turn_head RIGHT
 	step_end
 
 NivaleTown_TeacherBringsYouBackMovement2:
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	turn_head LEFT
+	step LEFT
+	step LEFT
+	step LEFT
+	step LEFT
+	turn_head RIGHT
 	step_end
 
 NivaleTown_RivalPushesYouAwayMovement:
@@ -238,33 +212,21 @@ Text_CallMomOnGear:
 	line "you're doing."
 	done
 
-Text_ElmDiscoveredNewMon:
-	text "Yo, <PLAYER>!"
+Text_TechnologyIncredible:
+	text "Technology
+	line "is incredible!"
 
-	para "I hear PROF.ELM"
-	line "discovered some"
-	cont "new #MON."
-	done
-
-NivaleTownRivalText1:
-	text "<……>"
-
-	para "So this is the"
-	line "famous ELM #MON"
-	cont "LAB…"
-	done
-
-NivaleTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	para "You can talk"
+	line "with people all"
+	cont "over the world."
 	done
 
 NivaleTownSignText:
-	text "NEW BARK TOWN"
+	text "NIVALE TOWN"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "A Town of Gentle"
+	line "Winds and Fresh"
+	cont "Starts"
 	done
 
 NivaleTownPlayersHouseSignText:
@@ -272,11 +234,11 @@ NivaleTownPlayersHouseSignText:
 	done
 
 NivaleTownElmsLabSignText:
-	text "ELM #MON LAB"
+	text "FIR #MON LAB"
 	done
 
 NivaleTownElmsHouseSignText:
-	text "ELM'S HOUSE"
+	text "FIR'S HOUSE"
 	done
 
 NivaleTown_MapEvents:
@@ -289,8 +251,8 @@ NivaleTown_MapEvents:
 	warp_event  5,  5, ELMS_HOUSE, 1
 
 	def_coord_events
-	coord_event  1,  8, SCENE_NIVALETOWN_TEACHER_STOPS_YOU, NivaleTown_TeacherStopsYouScene1
-	coord_event  1,  9, SCENE_NIVALETOWN_TEACHER_STOPS_YOU, NivaleTown_TeacherStopsYouScene2
+	coord_event  16,  8, SCENE_NIVALETOWN_TEACHER_STOPS_YOU, NivaleTown_TeacherStopsYouScene1
+	coord_event  16,  9, SCENE_NIVALETOWN_TEACHER_STOPS_YOU, NivaleTown_TeacherStopsYouScene2
 
 	def_bg_events
 	bg_event  7,  9, BGEVENT_READ, NivaleTownSign
@@ -299,6 +261,5 @@ NivaleTown_MapEvents:
 	bg_event  3,  5, BGEVENT_READ, NivaleTownElmsHouseSign
 
 	def_object_events
-	object_event  6,  8, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NivaleTownTeacherScript, -1
-	object_event 11,  8, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NivaleTownFisherScript, -1
-	object_event 11, 12, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NivaleTownRivalScript, EVENT_RIVAL_NIVALE_TOWN
+	object_event 12,  8, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NivaleTownTeacherScript, -1
+	object_event  6,  8, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NivaleTownFisherScript, -1

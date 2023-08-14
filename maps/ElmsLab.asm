@@ -728,75 +728,79 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAY_G>!"
-	line "There you are!"
+	text "FIR: <PLAY_G>!"
+	line "Just who I was"
+	cont "looking for!"
 
 if !DEF(_DEBUG)
 	para "I needed to ask"
 	line "you a favor."
 
-	para "I'm conducting new"
-	line "#MON research"
+	para "We're hard at work"
+	line "with our research"
 
-	para "right now. I was"
-	line "wondering if you"
+	para "right now, and I"
+	line "was wondering if"
 
-	para "could help me with"
-	line "it, <PLAY_G>."
+	para "you'd be willing"
+	line "to help us with"
 
-	para "You see…"
+	para "it."
 
-	para "I'm writing a"
-	line "paper that I want"
+	para "You see, we want"
+	line "to gather data"
 
-	para "to present at a"
-	line "conference."
+	para "from across the"
+	line "NOSTA region."
 
-	para "But there are some"
-	line "things I don't"
+	para "But there aren't"
+	line "many of us, and"
 
-	para "quite understand"
-	line "yet."
+	para "we're all tied"
+	line "up with labwork."
 
-	para "So!"
+	para "With that said…"
 
 	para "I'd like you to"
-	line "raise a #MON"
+	line "travel across"
 
-	para "that I recently"
-	line "caught."
+	para "NOSTA on our"
+	line "behalf."
+
+	para "You can have one"
+	line "of those #MON."
 endc
 	done
 
 ElmText_Accepted:
 	text "Thanks, <PLAY_G>!"
 
-	para "You're a great"
-	line "help!"
+	para "I really"
+	line "appreciate it."
 	done
 
 ElmText_Refused:
-	text "But… Please, I"
-	line "need your help!"
+	text "Please… I could"
+	line "use your help!"
 	done
 
 ElmText_ResearchAmbitions:
-	text "When I announce my"
-	line "findings, I'm sure"
+	text "There are so many"
+	line "mysteries about"
 
-	para "we'll delve a bit"
-	line "deeper into the"
+	para "#MON we're on"
+	line "the cusp of"
 
-	para "many mysteries of"
-	line "#MON."
+	para "solving…"
 
-	para "You can count on"
-	line "it!"
+	para "Your field data"
+	line "will be a great"
+	cont "help."
 	done
 
 ElmText_GotAnEmail:
-	text "Oh, hey! I got an"
-	line "e-mail!"
+	text "Oh! I recieved"
+	line "an e-mail!"
 
 	para "<……><……><……>"
 	line "Hm… Uh-huh…"
@@ -807,48 +811,43 @@ ElmText_GotAnEmail:
 ElmText_MissionFromMrPokemon:
 	text "Hey, listen."
 
-	para "I have an acquain-"
-	line "tance called MR."
-	cont "#MON."
+	para "One of my"
+	line "colleagues"
+	cont "just emailed me."
 
-	para "He keeps finding"
-	line "weird things and"
+	para "Apparently, he's"
+	line "got some research"
 
-	para "raving about his"
-	line "discoveries."
+	para "notes he wants to"
+	line "show me."
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "He's a brilliant"
+	line "scientist, but…"
 
-	para "saying that this"
-	line "time it's real."
+	para "None of us can"
+	line "go and visit him"
+	cont "right now…"
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "Ah!"
 
-	para "with our #MON"
-	line "research…"
-
-	para "Wait!"
-
-	para "I know!"
+	para "Of course!"
 
 	para "<PLAY_G>, can you"
-	line "go in our place?"
+	line "go pick them up?"
 	done
 
 ElmText_ChooseAPokemon:
 	text "I want you to"
-	line "raise one of the"
+	line "take one of the"
 
 	para "#MON contained"
 	line "in these BALLS."
 
-	para "You'll be that"
-	line "#MON's first"
+	para "You'll be each"
+	line "other's first"
 	cont "partner, <PLAY_G>!"
 
-	para "Go on. Pick one!"
+	para "Go ahead, choose!"
 	done
 
 ElmText_LetYourMonBattleIt:
@@ -858,19 +857,19 @@ ElmText_LetYourMonBattleIt:
 	done
 
 LabWhereGoingText:
-	text "ELM: Wait! Where"
+	text "FIR: Wait! Where"
 	line "are you going?"
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
+	text "You'll take"
+	line "KINDLANT, the"
 	cont "fire #MON?"
 	done
 
 TakeTotodileText:
 	text "ELM: Do you want"
-	line "TOTODILE, the"
+	line "FOALAKE, the"
 	cont "water #MON?"
 	done
 
@@ -881,17 +880,19 @@ TakeChikoritaText:
 	done
 
 DidntChooseStarterText:
-	text "ELM: Think it over"
+	text "FIR: Think it over"
 	line "carefully."
 
-	para "Your partner is"
-	line "important."
+	para "Your first"
+	line "#MON…"
+
+	para "It's a big"
+	line "decision!"
 	done
 
 ChoseStarterText:
-	text "ELM: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "FIR: That's"
+	line "a great choice!"
 	done
 
 ReceivedStarterText:
@@ -902,60 +903,59 @@ ReceivedStarterText:
 	done
 
 ElmDirectionsText1:
-	text "MR.#MON lives a"
-	line "little bit beyond"
+	text "My colleague"
+	line "lives on ROUTE"
 
-	para "CAMPANULA, the"
-	line "next city over."
+	para "52, just past"
+	line "CAMPANULA."
 
-	para "It's almost a"
-	line "direct route"
+	para "The road leads"
+	line "to the edge"
 
-	para "there, so you"
-	line "can't miss it."
+	para "of the nearby"
+	line "forest."
 
-	para "But just in case,"
-	line "here's my phone"
+	para "His house is"
+	line "just off the"
+	cont "main road."
 
-	para "number. Call me if"
-	line "anything comes up!"
+	para "In case you get"
+	line "lost, here's my"
+
+	para "number. Feel free"
+	line "to call if you"
+	cont "need me."
 	done
 
 ElmDirectionsText2:
-	text "If your #MON is"
-	line "hurt, you should"
-
-	para "heal it with this"
-	line "machine."
-
-	para "Feel free to use"
-	line "it anytime."
+	text "If your #MON gets"
+	line "hurt, heal it"
+	cont "with this machine."
 	done
 
 ElmDirectionsText3:
-	text "<PLAY_G>, I'm"
-	line "counting on you!"
+	text "<PLAY_G>, thanks"
+	line "in advance."
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got ELM's"
+	text "<PLAYER> got FIR's"
 	line "phone number."
 	done
 
 ElmDescribesMrPokemonText:
-	text "MR.#MON goes"
-	line "everywhere and"
-	cont "finds rarities."
+	text "I wonder what"
+	line "it is that my
+	cont "colleague wants"
 
-	para "Too bad they're"
-	line "just rare and"
-	cont "not very useful…"
+	para "me to see so"
+	line "urgently…"
 	done
 
 ElmPokeBallText:
 	text "It contains a"
 	line "#MON caught by"
-	cont "PROF.ELM."
+	cont "PROF.FIR."
 	done
 
 ElmsLabHealingMachineText1:

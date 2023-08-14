@@ -63,22 +63,6 @@ MeetMomScript:
 	iffalse .SetDayOfWeek
 .DayOfWeekDone:
 	writetext ComeHomeForDSTText
-	yesorno
-	iffalse .ExplainPhone
-	sjump .KnowPhone
-
-.KnowPhone:
-	writetext KnowTheInstructionsText
-	promptbutton
-	sjump .FinishPhone
-
-.ExplainPhone:
-	writetext DontKnowTheInstructionsText
-	promptbutton
-	sjump .FinishPhone
-
-.FinishPhone:
-	writetext InstructionsNextText
 	waitbutton
 	closetext
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
@@ -212,21 +196,20 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF."
+	text "Oh, <PLAYER>…!"
+	line "You're finally up!"
 
-	para "ELM, was looking"
-	line "for you."
+	para "PROF. FIR's"
+	line "looking for you."
 
-	para "He said he wanted"
-	line "you to do some-"
-	cont "thing for him."
+	para "It sounded impor-"
+	line "tant, whatever it"
+	cont "was."
 
-	para "Oh! I almost for-"
-	line "got! Your #MON"
+	para "Oh, by the way…!"
 
-	para "GEAR is back from"
-	line "the repair shop."
+	para "Your #GEAR"
+	line "finally came!"
 
 	para "Here you go!"
 	done
@@ -258,41 +241,14 @@ ComeHomeForDSTText:
 	para "for Daylight"
 	line "Saving Time."
 
-	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
-	done
-
-KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
-
-	para "on and select the"
-	line "PHONE icon?"
-	done
-
-DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
-
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
-	done
-
-InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
-
-	para "Just choose a name"
-	line "you want to call."
-
-	para "Gee, isn't that"
-	line "convenient?"
+	para "Now then…"
+	
+	para "Get out there"
+	line "and do your best!"
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF.ELM is wait-"
+	text "PROF.FIR is wait-"
 	line "ing for you."
 
 	para "Hurry up, baby!"
@@ -300,7 +256,7 @@ HurryUpElmIsWaitingText:
 
 SoWhatWasProfElmsErrandText:
 	text "So, what was PROF."
-	line "ELM's errand?"
+	line "FIR's errand?"
 
 	para "…"
 
