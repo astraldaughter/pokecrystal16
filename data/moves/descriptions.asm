@@ -265,6 +265,8 @@ MoveDescriptions1:
 	dw PowerGemDescription
 	dw ChargeBeamDescription
 	dw SuperpowerDescription
+	dw EcholocationDescription
+	dw UndertowDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1309,3 +1311,11 @@ ChargeBeamDescription:
 SuperpowerDescription:
 	db	"Powerful, but"
 	next "lowers stats.@"
+
+EcholocationDescription:
+	db   "Raises the user's"
+	next "accuracy.@"
+
+UndertowDescription:
+	db 	 "An attack that may"
+	next "lower EVASION.@"

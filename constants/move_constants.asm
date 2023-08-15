@@ -266,6 +266,8 @@
 	const POWER_GEM	   ; 102
 	const CHARGE_BEAM  ; 103
 	const SUPERPOWER   ; 104
+	const ECHOLOCATION ; 105
+	const UNDERTOW	   ; 106
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

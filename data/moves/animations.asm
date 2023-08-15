@@ -288,6 +288,8 @@ BattleAnimations::
 	dw BattleAnim_PowerGem
 	dw BattleAnim_ChargeBeam
 	dw BattleAnim_Superpower
+	dw BattleAnim_Echolocation
+	dw BattleAnim_Undertow
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -4590,6 +4592,7 @@ BattleAnim_RockSmash:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_Undertow:
 BattleAnim_Whirlpool:
 	anim_1gfx ANIM_GFX_WIND
 	anim_bgeffect ANIM_BG_WHIRLPOOL, $0, $0, $0
@@ -4775,6 +4778,19 @@ BattleAnim_Superpower:
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 144, 48, $0
 	anim_wait 3
 	anim_call BattleAnim_ShowMon_0
+	anim_ret
+
+BattleAnim_Echolocation:
+	anim_1gfx ANIM_GFX_MISC
+	anim_sound 0, 1, SFX_MIND_READER
+.loop
+	anim_obj ANIM_OBJ_MIND_READER, 48, 88, $3
+	anim_obj ANIM_OBJ_MIND_READER, 48, 88, $12
+	anim_obj ANIM_OBJ_MIND_READER, 48, 88, $20
+	anim_obj ANIM_OBJ_MIND_READER, 48, 88, $31
+	anim_wait 16
+	anim_loop 2, .loop
+	anim_wait 32
 	anim_ret
 
 BattleAnimSub_Drain:

@@ -260,4 +260,6 @@ MoveNames::
 	li "POWER GEM"
 	li "CHARGE BEAM"
 	li "SUPERPOWER"
+	li "ECHOLOCATION"
+	li "UNDERTOW"
 	assert_list_length NUM_ATTACKS
