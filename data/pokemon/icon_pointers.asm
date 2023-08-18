@@ -8,7 +8,7 @@ IconPointers:
 	dw BulbasaurIcon
 	dw IvysaurIcon
 	dw VenusaurIcon
-	dw CharmanderIcon
+	dw KindlantIcon
 	dw CharmeleonIcon
 	dw CharizardIcon
 	dw SquirtleIcon
@@ -20,8 +20,8 @@ IconPointers:
 	dw WeedleIcon
 	dw KakunaIcon
 	dw BeedrillIcon
-	dw PidgeyIcon
-	dw PidgeottoIcon
+	dw SpreaselIcon
+	dw BoingooseIcon
 	dw PidgeotIcon
 	dw RattataIcon
 	dw RaticateIcon

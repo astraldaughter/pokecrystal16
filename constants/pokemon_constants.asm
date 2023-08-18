@@ -22,7 +22,7 @@
 	const BULBASAUR  ; 01
 	const IVYSAUR    ; 02
 	const VENUSAUR   ; 03
-	const CHARMANDER ; 04
+	const KINDLANT ; 04
 	const CHARMELEON ; 05
 	const CHARIZARD  ; 06
 	const SQUIRTLE   ; 07
@@ -34,8 +34,8 @@
 	const WEEDLE     ; 0d
 	const KAKUNA     ; 0e
 	const BEEDRILL   ; 0f
-	const PIDGEY     ; 10
-	const PIDGEOTTO  ; 11
+	const SPREASEL     ; 10
+	const BOINGOOSE  ; 11
 	const PIDGEOT    ; 12
 	const RATTATA    ; 13
 	const RATICATE   ; 14

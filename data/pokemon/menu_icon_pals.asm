@@ -13,7 +13,7 @@ MonMenuIconPals:
 	icon_pals TEAL,   GREEN  ; BULBASAUR
 	icon_pals TEAL,   GREEN  ; IVYSAUR
 	icon_pals TEAL,   GREEN  ; VENUSAUR
-	icon_pals RED,    BROWN  ; CHARMANDER
+	icon_pals RED,    BROWN  ; KINDLANT
 	icon_pals RED,    BROWN  ; CHARMELEON
 	icon_pals RED,    PURPLE ; CHARIZARD
 	icon_pals BLUE,   TEAL   ; SQUIRTLE
@@ -25,8 +25,8 @@ MonMenuIconPals:
 	icon_pals RED,    GREEN  ; WEEDLE
 	icon_pals BROWN,  GREEN  ; KAKUNA
 	icon_pals RED,    BLUE   ; BEEDRILL
-	icon_pals BROWN,  RED    ; PIDGEY
-	icon_pals BROWN,  BROWN  ; PIDGEOTTO
+	icon_pals BROWN,  RED    ; SPREASEL
+	icon_pals BROWN,  BROWN  ; BOINGOOSE
 	icon_pals BROWN,  GREEN  ; PIDGEOT
 	icon_pals PURPLE, GRAY   ; RATTATA
 	icon_pals BROWN,  BROWN  ; RATICATE

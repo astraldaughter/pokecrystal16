@@ -5,7 +5,7 @@ KantoMonSpecials:
 	db  65 ; BULBASAUR
 	db  80 ; IVYSAUR
 	db 100 ; VENUSAUR
-	db  50 ; CHARMANDER
+	db  50 ; KINDLANT
 	db  65 ; CHARMELEON
 	db  85 ; CHARIZARD
 	db  50 ; SQUIRTLE
@@ -17,8 +17,8 @@ KantoMonSpecials:
 	db  20 ; WEEDLE
 	db  25 ; KAKUNA
 	db  45 ; BEEDRILL
-	db  35 ; PIDGEY
-	db  50 ; PIDGEOTTO
+	db  35 ; SPREASEL
+	db  50 ; BOINGOOSE
 	db  70 ; PIDGEOT
 	db  25 ; RATTATA
 	db  50 ; RATICATE

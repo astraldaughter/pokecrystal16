@@ -4,9 +4,9 @@ FirstEvoStages::
 	dw BULBASAUR
 	dw BULBASAUR
 	dw BULBASAUR
-	dw CHARMANDER
-	dw CHARMANDER
-	dw CHARMANDER
+	dw KINDLANT
+	dw KINDLANT
+	dw KINDLANT
 	dw SQUIRTLE
 	dw SQUIRTLE   ;08
 	dw SQUIRTLE
@@ -16,10 +16,10 @@ FirstEvoStages::
 	dw WEEDLE
 	dw WEEDLE
 	dw WEEDLE
-	dw PIDGEY     ;10
-	dw PIDGEY
-	dw PIDGEY
-	dw RATTATA
+	dw SPREASEL     ;10
+	dw SPREASEL
+	dw PIDGEOT
+	dw PIDGEOT
 	dw RATTATA
 	dw SPEAROW
 	dw SPEAROW

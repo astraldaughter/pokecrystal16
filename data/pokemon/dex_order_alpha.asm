@@ -24,7 +24,7 @@ AlphabeticalPokedexOrder:
 	dw CELEBI
 	dw CHANSEY
 	dw CHARIZARD
-	dw CHARMANDER
+	dw KINDLANT
 	dw CHARMELEON
 	dw CHIKORITA
 	dw CHINCHOU
@@ -160,8 +160,8 @@ AlphabeticalPokedexOrder:
 	dw PHANPY
 	dw PICHU
 	dw PIDGEOT
-	dw PIDGEOTTO
-	dw PIDGEY
+	dw BOINGOOSE
+	dw SPREASEL
 	dw PIKACHU
 	dw PILOSWINE
 	dw PINECO

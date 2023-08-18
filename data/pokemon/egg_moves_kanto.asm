@@ -4,7 +4,7 @@ EggMovePointers1:
 	dw BulbasaurEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw CharmanderEggMoves
+	dw KindlantEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw SquirtleEggMoves
@@ -16,7 +16,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw PidgeyEggMoves
+	dw SpreaselEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw RattataEggMoves
@@ -162,7 +162,7 @@ BulbasaurEggMoves:
 	dw PETAL_DANCE
 	dw -1 ; end
 
-CharmanderEggMoves:
+KindlantEggMoves:
 	dw BELLY_DRUM
 	dw ANCIENTPOWER
 	dw ROCK_SLIDE
@@ -180,7 +180,7 @@ SquirtleEggMoves:
 	dw FLAIL
 	dw -1 ; end
 
-PidgeyEggMoves:
+SpreaselEggMoves:
 	dw PURSUIT
 	dw FAINT_ATTACK
 	dw FORESIGHT

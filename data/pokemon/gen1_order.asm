@@ -35,7 +35,7 @@ Pokered_MonIndices:
 	db GROWLITHE
 	db ONIX
 	db FEAROW
-	db PIDGEY
+	db SPREASEL
 	db SLOWPOKE
 	db KADABRA
 	db GRAVELER
@@ -149,7 +149,7 @@ Pokered_MonIndices:
 	db HAUNTER
 	db ABRA
 	db ALAKAZAM
-	db PIDGEOTTO
+	db BOINGOOSE
 	db PIDGEOT
 	db STARMIE
 	db BULBASAUR
@@ -175,7 +175,7 @@ Pokered_MonIndices:
 	db MAGNEMITE
 	db ENTEI ; MISSINGNO.
 	db SUICUNE ; MISSINGNO.
-	db CHARMANDER
+	db KINDLANT
 	db SQUIRTLE
 	db CHARMELEON
 	db WARTORTLE

@@ -38,7 +38,7 @@ SwarmGrassWildMons:
 	dbw 12, NIDORAN_F
 	dbw 12, YANMA
 	dbw 14, YANMA
-	dbw 14, PIDGEY
+	dbw 14, SPREASEL
 	dbw 10, DITTO
 	dbw 10, DITTO
 	; day
@@ -46,7 +46,7 @@ SwarmGrassWildMons:
 	dbw 12, NIDORAN_F
 	dbw 12, YANMA
 	dbw 14, YANMA
-	dbw 14, PIDGEY
+	dbw 14, SPREASEL
 	dbw 10, DITTO
 	dbw 10, DITTO
 	; nite

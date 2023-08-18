@@ -163,8 +163,8 @@ CyndaquilPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CHARMANDER
-	cry CHARMANDER
+	pokepic KINDLANT
+	cry KINDLANT
 	waitbutton
 	closepokepic
 	opentext
@@ -176,13 +176,17 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, CHARMANDER
+	getmonname STRING_BUFFER_3, KINDLANT
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CHARMANDER, 5, BERRY
+	givepoke BOINGOOSE, 5, BERRY
 	closetext
+	loadwildmon KINDLANT, 5
+	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
+	startbattle
+	reloadmapafterbattle
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
 	applymovement PLAYER, AfterCyndaquilMovement
@@ -945,7 +949,7 @@ GotElmsNumberText:
 
 ElmDescribesMrPokemonText:
 	text "I wonder what"
-	line "it is that my
+	line "it is that my"
 	cont "colleague wants"
 
 	para "me to see so"

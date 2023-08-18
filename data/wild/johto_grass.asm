@@ -344,7 +344,7 @@ JohtoGrassWildMons:
 	dbw 12, NIDORAN_M
 	dbw 12, NIDORAN_F
 	dbw 14, LEDYBA
-	dbw 13, PIDGEY
+	dbw 13, SPREASEL
 	dbw 10, CATERPIE
 	dbw 10, WEEDLE
 	dbw 10, WEEDLE
@@ -352,7 +352,7 @@ JohtoGrassWildMons:
 	dbw 12, NIDORAN_F
 	dbw 12, NIDORAN_M
 	dbw 14, SUNKERN
-	dbw 13, PIDGEY
+	dbw 13, SPREASEL
 	dbw 10, CATERPIE
 	dbw 10, WEEDLE
 	dbw 10, WEEDLE
@@ -569,7 +569,7 @@ JohtoGrassWildMons:
 	dbw 5, WEEDLE
 	dbw 7, METAPOD
 	dbw 7, KAKUNA
-	dbw 7, PIDGEY
+	dbw 7, SPREASEL
 	dbw 6, PARAS
 	dbw 6, PARAS
 	; day
@@ -577,7 +577,7 @@ JohtoGrassWildMons:
 	dbw 5, WEEDLE
 	dbw 7, METAPOD
 	dbw 7, KAKUNA
-	dbw 7, PIDGEY
+	dbw 7, SPREASEL
 	dbw 6, PARAS
 	dbw 6, PARAS
 	; nite
@@ -1237,17 +1237,17 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_51
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, PIDGEY
+	dbw 2, SPREASEL
 	dbw 2, SENTRET
-	dbw 3, PIDGEY
+	dbw 3, SPREASEL
 	dbw 3, SENTRET
 	dbw 2, RATTATA
 	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; day
-	dbw 2, PIDGEY
+	dbw 2, SPREASEL
 	dbw 2, SENTRET
-	dbw 3, PIDGEY
+	dbw 3, SPREASEL
 	dbw 3, SENTRET
 	dbw 2, RATTATA
 	dbw 3, HOPPIP
@@ -1268,15 +1268,15 @@ JohtoGrassWildMons:
 	dbw 3, LEDYBA
 	dbw 3, CATERPIE
 	dbw 4, CATERPIE
-	dbw 4, PIDGEY
+	dbw 4, SPREASEL
 	dbw 3, WEEDLE
 	dbw 4, HOPPIP
 	dbw 4, HOPPIP
 	; day
-	dbw 3, PIDGEY
+	dbw 3, SPREASEL
 	dbw 3, CATERPIE
 	dbw 4, CATERPIE
-	dbw 4, PIDGEY
+	dbw 4, SPREASEL
 	dbw 3, WEEDLE
 	dbw 4, HOPPIP
 	dbw 4, HOPPIP
@@ -1296,15 +1296,15 @@ JohtoGrassWildMons:
 	dbw 4, LEDYBA
 	dbw 4, CATERPIE
 	dbw 5, BELLSPROUT
-	dbw 5, PIDGEY
+	dbw 5, SPREASEL
 	dbw 4, WEEDLE
 	dbw 5, HOPPIP
 	dbw 5, HOPPIP
 	; day
-	dbw 4, PIDGEY
+	dbw 4, SPREASEL
 	dbw 4, CATERPIE
 	dbw 5, BELLSPROUT
-	dbw 5, PIDGEY
+	dbw 5, SPREASEL
 	dbw 4, WEEDLE
 	dbw 5, HOPPIP
 	dbw 5, HOPPIP
@@ -1325,7 +1325,7 @@ JohtoGrassWildMons:
 	dbw 5, RATTATA
 	dbw 7, BELLSPROUT
 	dbw 6, HOPPIP
-	dbw 7, PIDGEY
+	dbw 7, SPREASEL
 	dbw 7, HOPPIP
 	dbw 7, HOPPIP
 	; day
@@ -1333,7 +1333,7 @@ JohtoGrassWildMons:
 	dbw 5, RATTATA
 	dbw 7, BELLSPROUT
 	dbw 6, HOPPIP
-	dbw 7, PIDGEY
+	dbw 7, SPREASEL
 	dbw 7, HOPPIP
 	dbw 7, HOPPIP
 	; nite
@@ -1379,7 +1379,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 10, SNUBBULL
 	dbw 11, RATTATA
-	dbw 12, PIDGEY
+	dbw 12, SPREASEL
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
 	dbw 10, DITTO
@@ -1387,7 +1387,7 @@ JohtoGrassWildMons:
 	; day
 	dbw 10, SNUBBULL
 	dbw 11, RATTATA
-	dbw 12, PIDGEY
+	dbw 12, SPREASEL
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
 	dbw 10, DITTO
@@ -1406,7 +1406,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 12, SNUBBULL
-	dbw 14, PIDGEY
+	dbw 14, SPREASEL
 	dbw 13, GROWLITHE
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
@@ -1414,7 +1414,7 @@ JohtoGrassWildMons:
 	dbw 12, YANMA
 	; day
 	dbw 12, SNUBBULL
-	dbw 14, PIDGEY
+	dbw 14, SPREASEL
 	dbw 13, GROWLITHE
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
@@ -1434,20 +1434,20 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 4, LEDYBA
-	dbw 4, PIDGEY
+	dbw 4, SPREASEL
 	dbw 5, BELLSPROUT
 	dbw 5, GROWLITHE
-	dbw 5, PIDGEY
-	dbw 6, PIDGEY
-	dbw 6, PIDGEY
+	dbw 5, SPREASEL
+	dbw 6, SPREASEL
+	dbw 6, SPREASEL
 	; day
-	dbw 4, PIDGEY
-	dbw 4, PIDGEY
+	dbw 4, SPREASEL
+	dbw 4, SPREASEL
 	dbw 5, BELLSPROUT
 	dbw 5, GROWLITHE
-	dbw 5, PIDGEY
-	dbw 6, PIDGEY
-	dbw 6, PIDGEY
+	dbw 5, SPREASEL
+	dbw 6, SPREASEL
+	dbw 6, SPREASEL
 	; nite
 	dbw 4, SPINARAK
 	dbw 4, HOOTHOOT
@@ -1463,19 +1463,19 @@ JohtoGrassWildMons:
 	; morn
 	dbw 13, LEDYBA
 	dbw 14, GROWLITHE
-	dbw 15, PIDGEY
+	dbw 15, SPREASEL
 	dbw 16, GROWLITHE
-	dbw 15, PIDGEOTTO
+	dbw 15, BOINGOOSE
 	dbw 15, LEDIAN
 	dbw 15, LEDIAN
 	; day
-	dbw 13, PIDGEY
+	dbw 13, SPREASEL
 	dbw 14, GROWLITHE
-	dbw 15, PIDGEY
+	dbw 15, SPREASEL
 	dbw 16, GROWLITHE
-	dbw 15, PIDGEOTTO
-	dbw 15, PIDGEY
-	dbw 15, PIDGEY
+	dbw 15, BOINGOOSE
+	dbw 15, SPREASEL
+	dbw 15, SPREASEL
 	; nite
 	dbw 13, SPINARAK
 	dbw 14, STANTLER
@@ -1492,7 +1492,7 @@ JohtoGrassWildMons:
 	dbw 16, RATTATA
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
-	dbw 16, PIDGEOTTO
+	dbw 16, BOINGOOSE
 	dbw 13, TAUROS
 	dbw 13, MILTANK
 	dbw 13, MILTANK
@@ -1500,7 +1500,7 @@ JohtoGrassWildMons:
 	dbw 16, RATTATA
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
-	dbw 16, PIDGEOTTO
+	dbw 16, BOINGOOSE
 	dbw 13, TAUROS
 	dbw 13, MILTANK
 	dbw 13, MILTANK
@@ -1520,7 +1520,7 @@ JohtoGrassWildMons:
 	dbw 16, RATTATA
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
-	dbw 16, PIDGEOTTO
+	dbw 16, BOINGOOSE
 	dbw 15, MILTANK
 	dbw 15, TAUROS
 	dbw 15, TAUROS
@@ -1528,7 +1528,7 @@ JohtoGrassWildMons:
 	dbw 16, RATTATA
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
-	dbw 16, PIDGEOTTO
+	dbw 16, BOINGOOSE
 	dbw 15, MILTANK
 	dbw 15, TAUROS
 	dbw 15, TAUROS
@@ -1574,7 +1574,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 15, SENTRET
-	dbw 16, PIDGEOTTO
+	dbw 16, BOINGOOSE
 	dbw 16, FARFETCH_D
 	dbw 15, FURRET
 	dbw 17, RATICATE
@@ -1582,7 +1582,7 @@ JohtoGrassWildMons:
 	dbw 17, FURRET
 	; day
 	dbw 15, SENTRET
-	dbw 16, PIDGEOTTO
+	dbw 16, BOINGOOSE
 	dbw 16, FARFETCH_D
 	dbw 15, FURRET
 	dbw 17, RATICATE

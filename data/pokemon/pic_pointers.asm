@@ -19,8 +19,8 @@ PokemonPicPointers::
 	dba IvysaurBackpic
 	dba VenusaurFrontpic
 	dba VenusaurBackpic
-	dba CharmanderFrontpic
-	dba CharmanderBackpic
+	dba KindlantFrontpic
+	dba KindlantBackpic
 	dba CharmeleonFrontpic
 	dba CharmeleonBackpic
 	dba CharizardFrontpic
@@ -43,10 +43,10 @@ PokemonPicPointers::
 	dba KakunaBackpic
 	dba BeedrillFrontpic
 	dba BeedrillBackpic
-	dba PidgeyFrontpic
-	dba PidgeyBackpic
-	dba PidgeottoFrontpic
-	dba PidgeottoBackpic
+	dba SpreaselFrontpic
+	dba SpreaselBackpic
+	dba BoingooseFrontpic
+	dba BoingooseBackpic
 	dba PidgeotFrontpic
 	dba PidgeotBackpic
 	dba RattataFrontpic

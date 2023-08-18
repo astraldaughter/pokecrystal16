@@ -4,7 +4,7 @@ EvosAttacksPointers1::
 	dw BulbasaurEvosAttacks
 	dw IvysaurEvosAttacks
 	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
+	dw KindlantEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
 	dw SquirtleEvosAttacks
@@ -16,8 +16,8 @@ EvosAttacksPointers1::
 	dw WeedleEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
-	dw PidgeyEvosAttacks
-	dw PidgeottoEvosAttacks
+	dw SpreaselEvosAttacks
+	dw BoingooseEvosAttacks
 	dw PidgeotEvosAttacks
 	dw RattataEvosAttacks
 	dw RaticateEvosAttacks
@@ -206,7 +206,7 @@ VenusaurEvosAttacks:
 	dbw 65, SOLARBEAM
 	db 0 ; no more level-up moves
 
-CharmanderEvosAttacks:
+KindlantEvosAttacks:
 	dbbw EVOLVE_LEVEL, 6, CHARIZARD
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
@@ -361,8 +361,8 @@ BeedrillEvosAttacks:
 	dbw 40, AGILITY
 	db 0 ; no more level-up moves
 
-PidgeyEvosAttacks:
-	dbbw EVOLVE_LEVEL, 18, PIDGEOTTO
+SpreaselEvosAttacks:
+	dbbw EVOLVE_LEVEL, 18, BOINGOOSE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 5, SAND_ATTACK
@@ -374,7 +374,7 @@ PidgeyEvosAttacks:
 	dbw 47, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-PidgeottoEvosAttacks:
+BoingooseEvosAttacks:
 	dbbw EVOLVE_LEVEL, 36, PIDGEOT
 	db 0 ; no more evolutions
 	dbw 1, TACKLE

@@ -9,7 +9,7 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,   128,  129 ; BULBASAUR
 	mon_cry CRY_BULBASAUR,    32,  256 ; IVYSAUR
 	mon_cry CRY_BULBASAUR,     0,  320 ; VENUSAUR
-	mon_cry CRY_CATERPIE,     56,  192 ; CHARMANDER
+	mon_cry CRY_CATERPIE,     56,  192 ; KINDLANT
 	mon_cry CRY_CATERPIE, 	  48,  256 ; CHARMELEON
 	mon_cry CRY_BLASTOISE,    48,  256 ; CHARIZARD
 	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
@@ -21,8 +21,8 @@ PokemonCries::
 	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
-	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
-	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
+	mon_cry CRY_SENTRET,     106,  138 ; SPREASEL
+	mon_cry CRY_SENTRET,      36,  360 ; BOINGOOSE
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
 	mon_cry CRY_RATTATA,       0,  256 ; RATTATA
 	mon_cry CRY_RATTATA,      32,  383 ; RATICATE

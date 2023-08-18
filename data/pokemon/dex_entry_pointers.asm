@@ -4,7 +4,7 @@ PokedexDataPointerTable:
 	dba BulbasaurPokedexEntry
 	dba IvysaurPokedexEntry
 	dba VenusaurPokedexEntry
-	dba CharmanderPokedexEntry
+	dba KindlantPokedexEntry
 	dba CharmeleonPokedexEntry
 	dba CharizardPokedexEntry
 	dba SquirtlePokedexEntry
@@ -16,8 +16,8 @@ PokedexDataPointerTable:
 	dba WeedlePokedexEntry
 	dba KakunaPokedexEntry
 	dba BeedrillPokedexEntry
-	dba PidgeyPokedexEntry
-	dba PidgeottoPokedexEntry
+	dba SpreaselPokedexEntry
+	dba BoingoosePokedexEntry
 	dba PidgeotPokedexEntry
 	dba RattataPokedexEntry
 	dba RaticatePokedexEntry

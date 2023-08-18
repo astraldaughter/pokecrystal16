@@ -13,10 +13,10 @@ FalknerGroup:
 	next_list_item ; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
 	db 7
-	dw PIDGEY
+	dw SPREASEL
 	dw TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
 	db 9
-	dw PIDGEOTTO
+	dw BOINGOOSE
 	dw TACKLE, MUD_SLAP, GUST, NO_MOVE
 	db -1 ; end
 
@@ -640,7 +640,7 @@ YoungsterGroup:
 	next_list_item ; YOUNGSTER (2)
 	db "MIKEY@", TRAINERTYPE_NORMAL
 	db 2
-	dw PIDGEY
+	dw SPREASEL
 	db 4
 	dw RATTATA
 	db -1 ; end
@@ -968,9 +968,9 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (1)
 	db "ROD@", TRAINERTYPE_NORMAL
 	db 7
-	dw PIDGEY
+	dw SPREASEL
 	db 7
-	dw PIDGEY
+	dw SPREASEL
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (2)
@@ -982,23 +982,23 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (3)
 	db "BRYAN@", TRAINERTYPE_NORMAL
 	db 12
-	dw PIDGEY
+	dw SPREASEL
 	db 14
-	dw PIDGEOTTO
+	dw BOINGOOSE
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (4)
 	db "THEO@", TRAINERTYPE_NORMAL
 	db 17
-	dw PIDGEY
+	dw SPREASEL
 	db 15
-	dw PIDGEY
+	dw SPREASEL
 	db 19
-	dw PIDGEY
+	dw SPREASEL
 	db 15
-	dw PIDGEY
+	dw SPREASEL
 	db 15
-	dw PIDGEY
+	dw SPREASEL
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (5)
@@ -1024,15 +1024,15 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (7)
 	db "VANCE@", TRAINERTYPE_NORMAL
 	db 25
-	dw PIDGEOTTO
+	dw BOINGOOSE
 	db 25
-	dw PIDGEOTTO
+	dw BOINGOOSE
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (8)
 	db "HANK@", TRAINERTYPE_NORMAL
 	db 12
-	dw PIDGEY
+	dw SPREASEL
 	db 34
 	dw PIDGEOT
 	db -1 ; end
@@ -1070,9 +1070,9 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (13)
 	db "PETER@", TRAINERTYPE_NORMAL
 	db 6
-	dw PIDGEY
+	dw SPREASEL
 	db 6
-	dw PIDGEY
+	dw SPREASEL
 	db 8
 	dw SPEAROW
 	db -1 ; end
@@ -1092,7 +1092,7 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (16)
 	db "BRET@", TRAINERTYPE_NORMAL
 	db 32
-	dw PIDGEOTTO
+	dw BOINGOOSE
 	db 32
 	dw FEAROW
 	db -1 ; end
@@ -1107,9 +1107,9 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (18)
 	db "VANCE@", TRAINERTYPE_NORMAL
 	db 32
-	dw PIDGEOTTO
+	dw BOINGOOSE
 	db 32
-	dw PIDGEOTTO
+	dw BOINGOOSE
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (19)
@@ -1181,7 +1181,7 @@ LassGroup:
 	db 28
 	dw GLOOM
 	db 31
-	dw PIDGEOTTO
+	dw BOINGOOSE
 	db 31
 	dw BELLOSSOM
 	db -1 ; end
@@ -1304,7 +1304,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (1)
 	db "NICK@", TRAINERTYPE_MOVES
 	db 26
-	dw CHARMANDER
+	dw KINDLANT
 	dw EMBER, SMOKESCREEN, RAGE, SCARY_FACE
 	db 26
 	dw SQUIRTLE
@@ -1435,7 +1435,7 @@ CooltrainerMGroup:
 	db 10
 	dw BULBASAUR
 	db 10
-	dw CHARMANDER
+	dw KINDLANT
 	db 10
 	dw SQUIRTLE
 	db -1 ; end
@@ -1445,7 +1445,7 @@ CooltrainerMGroup:
 	db 10
 	dw BULBASAUR
 	db 10
-	dw CHARMANDER
+	dw KINDLANT
 	db 10
 	dw SQUIRTLE
 	db -1 ; end
@@ -1455,7 +1455,7 @@ CooltrainerMGroup:
 	db 10
 	dw BULBASAUR
 	db 10
-	dw CHARMANDER
+	dw KINDLANT
 	db 10
 	dw SQUIRTLE
 	db -1 ; end
@@ -1485,7 +1485,7 @@ CooltrainerMGroup:
 	db 14
 	dw BULBASAUR
 	db 14
-	dw CHARMANDER
+	dw KINDLANT
 	db 14
 	dw SQUIRTLE
 	db -1 ; end
@@ -4870,7 +4870,7 @@ PokefanMGroup:
 	dw BULBASAUR
 	db BERRY
 	db 29
-	dw CHARMANDER
+	dw KINDLANT
 	db BERRY
 	db 29
 	dw SQUIRTLE
