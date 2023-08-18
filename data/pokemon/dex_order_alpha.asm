@@ -16,7 +16,7 @@ AlphabeticalPokedexOrder:
 	dw BEEDRILL
 	dw BELLOSSOM
 	dw BELLSPROUT
-	dw BLASTOISE
+	dw KELPESTARY
 	dw BLISSEY
 	dw BULBASAUR
 	dw BUTTERFREE
@@ -210,7 +210,7 @@ AlphabeticalPokedexOrder:
 	dw SNUBBULL
 	dw SPEAROW
 	dw SPINARAK
-	dw SQUIRTLE
+	dw FOALAKE
 	dw STANTLER
 	dw STARMIE
 	dw STARYU
@@ -242,7 +242,7 @@ AlphabeticalPokedexOrder:
 	dw VILEPLUME
 	dw VOLTORB
 	dw VULPIX
-	dw WARTORTLE
+	dw LOCHOLT
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING

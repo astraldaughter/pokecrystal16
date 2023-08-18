@@ -8,9 +8,9 @@ KantoMonSpecials:
 	db  50 ; KINDLANT
 	db  65 ; CHARMELEON
 	db  85 ; CHARIZARD
-	db  50 ; SQUIRTLE
-	db  65 ; WARTORTLE
-	db  85 ; BLASTOISE
+	db  50 ; FOALAKE
+	db  65 ; LOCHOLT
+	db  85 ; KELPESTARY
 	db  20 ; CATERPIE
 	db  25 ; METAPOD
 	db  80 ; BUTTERFREE

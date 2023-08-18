@@ -16,9 +16,9 @@ MonMenuIconPals:
 	icon_pals RED,    BROWN  ; KINDLANT
 	icon_pals RED,    BROWN  ; CHARMELEON
 	icon_pals RED,    PURPLE ; CHARIZARD
-	icon_pals BLUE,   TEAL   ; SQUIRTLE
-	icon_pals BLUE,   TEAL   ; WARTORTLE
-	icon_pals BLUE,   TEAL   ; BLASTOISE
+	icon_pals BLUE,   TEAL   ; FOALAKE
+	icon_pals BLUE,   TEAL   ; LOCHOLT
+	icon_pals BLUE,   TEAL   ; KELPESTARY
 	icon_pals GREEN,  BROWN  ; CATERPIE
 	icon_pals GREEN,  BROWN  ; METAPOD
 	icon_pals TEAL,   PINK   ; BUTTERFREE

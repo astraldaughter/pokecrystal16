@@ -181,9 +181,9 @@ CyndaquilPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke BOINGOOSE, 5, BERRY
+	givepoke LOCHOLT, 5, BERRY
 	closetext
-	loadwildmon KINDLANT, 5
+	loadwildmon LOCHOLT, 5
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
 	startbattle
 	reloadmapafterbattle
@@ -197,8 +197,8 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic SQUIRTLE
-	cry SQUIRTLE
+	pokepic FOALAKE
+	cry FOALAKE
 	waitbutton
 	closepokepic
 	opentext
@@ -210,12 +210,12 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, SQUIRTLE
+	getmonname STRING_BUFFER_3, FOALAKE
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke SQUIRTLE, 5, BERRY
+	givepoke FOALAKE, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript

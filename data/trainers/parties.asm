@@ -1307,7 +1307,7 @@ CooltrainerMGroup:
 	dw KINDLANT
 	dw EMBER, SMOKESCREEN, RAGE, SCARY_FACE
 	db 26
-	dw SQUIRTLE
+	dw FOALAKE
 	dw WITHDRAW, WATER_GUN, BITE, CURSE
 	db 26
 	dw BULBASAUR
@@ -1321,7 +1321,7 @@ CooltrainerMGroup:
 	db 24
 	dw CHARMELEON
 	db 24
-	dw WARTORTLE
+	dw LOCHOLT
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (3)
@@ -1437,7 +1437,7 @@ CooltrainerMGroup:
 	db 10
 	dw KINDLANT
 	db 10
-	dw SQUIRTLE
+	dw FOALAKE
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (14)
@@ -1447,7 +1447,7 @@ CooltrainerMGroup:
 	db 10
 	dw KINDLANT
 	db 10
-	dw SQUIRTLE
+	dw FOALAKE
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (15)
@@ -1457,7 +1457,7 @@ CooltrainerMGroup:
 	db 10
 	dw KINDLANT
 	db 10
-	dw SQUIRTLE
+	dw FOALAKE
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (16)
@@ -1477,7 +1477,7 @@ CooltrainerMGroup:
 	db 35
 	dw CHARMELEON
 	db 35
-	dw WARTORTLE
+	dw LOCHOLT
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (18)
@@ -1487,7 +1487,7 @@ CooltrainerMGroup:
 	db 14
 	dw KINDLANT
 	db 14
-	dw SQUIRTLE
+	dw FOALAKE
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (19)
@@ -1564,9 +1564,9 @@ CooltrainerFGroup:
 	db 27
 	dw MARILL
 	db 24
-	dw WARTORTLE
+	dw LOCHOLT
 	db 24
-	dw WARTORTLE
+	dw LOCHOLT
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (8)
@@ -1575,7 +1575,7 @@ CooltrainerFGroup:
 	dw PIKACHU
 	dw QUICK_ATTACK, DOUBLE_TEAM, THUNDERBOLT, THUNDER
 	db 32
-	dw BLASTOISE
+	dw KELPESTARY
 	dw BITE, CURSE, SURF, RAIN_DANCE
 	db -1 ; end
 
@@ -2725,7 +2725,7 @@ SwimmerMGroup:
 	db 18
 	dw SHELLDER
 	db 20
-	dw WARTORTLE
+	dw LOCHOLT
 	db 18
 	dw SHELLDER
 	db -1 ; end
@@ -4873,7 +4873,7 @@ PokefanMGroup:
 	dw KINDLANT
 	db BERRY
 	db 29
-	dw SQUIRTLE
+	dw FOALAKE
 	db BERRY
 	db -1 ; end
 
@@ -5164,7 +5164,7 @@ RedGroup:
 	dw CHARIZARD
 	dw FLAMETHROWER, WING_ATTACK, SLASH, FIRE_SPIN
 	db 77
-	dw BLASTOISE
+	dw KELPESTARY
 	dw RAIN_DANCE, SURF, BLIZZARD, WHIRLPOOL
 	db -1 ; end
 

@@ -11,9 +11,9 @@ IconPointers:
 	dw KindlantIcon
 	dw CharmeleonIcon
 	dw CharizardIcon
-	dw SquirtleIcon
-	dw WartortleIcon
-	dw BlastoiseIcon
+	dw FoalakeIcon
+	dw LocholtIcon
+	dw KelpestaryIcon
 	dw CaterpieIcon
 	dw MetapodIcon
 	dw ButterfreeIcon

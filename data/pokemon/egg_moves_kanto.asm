@@ -7,7 +7,7 @@ EggMovePointers1:
 	dw KindlantEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw SquirtleEggMoves
+	dw FoalakeEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -171,7 +171,7 @@ KindlantEggMoves:
 	dw BEAT_UP
 	dw -1 ; end
 
-SquirtleEggMoves:
+FoalakeEggMoves:
 	dw MIRROR_COAT
 	dw HAZE
 	dw MIST

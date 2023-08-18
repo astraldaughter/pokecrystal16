@@ -3287,7 +3287,7 @@ BattleTowerMons:
 	bigdw 165 ; SDef
 	db "RU-ZIyuRA@@"
 
-	dw BLASTOISE
+	dw KELPESTARY
 	db GOLD_BERRY
 	dw SURF, EARTHQUAKE, RAPID_SPIN, BLIZZARD
 
@@ -3965,7 +3965,7 @@ BattleTowerMons:
 	bigdw 159 ; SDef
 	db "RIZA-DON@@@"
 
-	dw BLASTOISE
+	dw KELPESTARY
 	db QUICK_CLAW
 	dw HYDRO_PUMP, ICE_PUNCH, HYPER_BEAM, IRON_TAIL
 

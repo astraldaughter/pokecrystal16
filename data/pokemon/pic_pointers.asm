@@ -25,12 +25,12 @@ PokemonPicPointers::
 	dba CharmeleonBackpic
 	dba CharizardFrontpic
 	dba CharizardBackpic
-	dba SquirtleFrontpic
-	dba SquirtleBackpic
-	dba WartortleFrontpic
-	dba WartortleBackpic
-	dba BlastoiseFrontpic
-	dba BlastoiseBackpic
+	dba FoalakeFrontpic
+	dba FoalakeBackpic
+	dba LocholtFrontpic
+	dba LocholtBackpic
+	dba KelpestaryFrontpic
+	dba KelpestaryBackpic
 	dba CaterpieFrontpic
 	dba CaterpieBackpic
 	dba MetapodFrontpic

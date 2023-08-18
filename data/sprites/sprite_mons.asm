@@ -10,7 +10,7 @@ SpriteMons:
 	dw GENGAR
 	dw ZUBAT
 	dw MAGIKARP
-	dw SQUIRTLE
+	dw FOALAKE
 	dw TOGEPI
 	dw BUTTERFREE
 	dw DIGLETT

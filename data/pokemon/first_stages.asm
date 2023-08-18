@@ -7,9 +7,9 @@ FirstEvoStages::
 	dw KINDLANT
 	dw KINDLANT
 	dw KINDLANT
-	dw SQUIRTLE
-	dw SQUIRTLE   ;08
-	dw SQUIRTLE
+	dw FOALAKE
+	dw FOALAKE   ;08
+	dw FOALAKE
 	dw CATERPIE
 	dw CATERPIE
 	dw CATERPIE

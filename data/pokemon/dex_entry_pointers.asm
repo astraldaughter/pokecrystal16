@@ -7,9 +7,9 @@ PokedexDataPointerTable:
 	dba KindlantPokedexEntry
 	dba CharmeleonPokedexEntry
 	dba CharizardPokedexEntry
-	dba SquirtlePokedexEntry
-	dba WartortlePokedexEntry
-	dba BlastoisePokedexEntry
+	dba FoalakePokedexEntry
+	dba LocholtPokedexEntry
+	dba KelpestaryPokedexEntry
 	dba CaterpiePokedexEntry
 	dba MetapodPokedexEntry
 	dba ButterfreePokedexEntry

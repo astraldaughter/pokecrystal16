@@ -7,9 +7,9 @@ EvosAttacksPointers1::
 	dw KindlantEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
-	dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
+	dw FoalakeEvosAttacks
+	dw LocholtEvosAttacks
+	dw KelpestaryEvosAttacks
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
@@ -255,8 +255,8 @@ CharizardEvosAttacks:
 	dbw 64, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-SquirtleEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, WARTORTLE
+FoalakeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 16, LOCHOLT
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 4, TAIL_WHIP
@@ -271,8 +271,8 @@ SquirtleEvosAttacks:
 	dbw 47, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-WartortleEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, BLASTOISE
+LocholtEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, KELPESTARY
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
@@ -289,7 +289,7 @@ WartortleEvosAttacks:
 	dbw 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-BlastoiseEvosAttacks:
+KelpestaryEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP

@@ -12,9 +12,9 @@ PokemonCries::
 	mon_cry CRY_CATERPIE,     56,  192 ; KINDLANT
 	mon_cry CRY_CATERPIE, 	  48,  256 ; CHARMELEON
 	mon_cry CRY_BLASTOISE,    48,  256 ; CHARIZARD
-	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
-	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
-	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
+	mon_cry CRY_LAPRAS,       80,  222 ; FOALAKE
+	mon_cry CRY_LAPRAS,       32,  256 ; LOCHOLT
+	mon_cry CRY_LAPRAS,       24,  432 ; KELPESTARY
 	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
