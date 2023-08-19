@@ -1,10 +1,10 @@
-	db "TINY BIRD@" ; species name
-	dw 100, 40 ; height, weight
+	db "WEASEL@" ; species name
+	dw 200, 100 ; height, weight
 
-	db   "It rapidly flaps"
-	next "its wings in the"
-	next "grass, stirring up"
+	db   "It hides in the"
+	next "undergrowth to"
+	next "hunt. When prey"
 
-	page "a dust cloud that"
-	next "drives insect prey"
-	next "out into the open.@"
+	page "approaches, it"
+	next "pounces at high"
+	next "speeds.@"

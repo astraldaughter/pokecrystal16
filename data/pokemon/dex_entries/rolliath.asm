@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 100, 80 ; height, weight
+	db "MUD ARMOR@" ; species name
+	dw 407, 2205 ; height, weight
 
-	db   "This #MON's"
-	next "impressive vital-"
-	next "ity allows it to"
+	db   "Its body is encas-"
+	next "ed in thick mud"
+	next "for protection."
 
-	page "live anywhere. It"
-	next "also multiplies"
-	next "very quickly.@"
+	page "The true shape of"
+	next "its body is a"
+	next "mystery.@"

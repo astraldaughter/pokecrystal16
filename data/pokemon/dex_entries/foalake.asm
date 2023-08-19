@@ -1,10 +1,10 @@
-	db "TINYTURTLE@" ; species name
-	dw 108, 200 ; height, weight
+	db "FOAL@" ; species name
+	dw 207, 419 ; height, weight
 
-	db   "When it feels"
-	next "threatened, it"
-	next "draws its legs"
+	db   "It learns to"
+	next "stand mere minutes"
+	next "after birth."
 
-	page "inside its shell"
-	next "and sprays water"
-	next "from its mouth.@"
+	page "However, this"
+	next "#MON is still"
+	next "prone to falls.@"

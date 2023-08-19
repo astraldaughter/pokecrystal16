@@ -1,10 +1,10 @@
-	db "TURTLE@" ; species name
-	dw 303, 500 ; height, weight
+	db "KELPIE@" ; species name
+	dw 311, 345 ; height, weight
 
-	db   "Its long, furry"
-	next "tail is a symbol"
-	next "of longevity,"
+	db   "This #MON is"
+	next "able to reach"
+	next "speeds that allow"
 
-	page "making it quite"
-	next "popular among"
-	next "older people.@"
+	page "it to run on the"
+	next "surface of water"
+	next "for a short time.@"

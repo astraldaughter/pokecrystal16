@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 411, 870 ; height, weight
+	db "ROLLING@" ; species name
+	dw 100, 221 ; height, weight
 
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
+	db   "It spends all its"
+	next "time gathering"
+	next "mud by rolling it"
 
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "3300 feet.@"
+	page "into balls, in"
+	next "preparation for"
+	next "its evolution.@"

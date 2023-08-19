@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 503, 1890 ; height, weight
+	db "ELUSIVE@" ; species name
+	dw 603, 2216 ; height, weight
 
-	db   "It firmly plants"
-	next "its feet on the"
-	next "ground before"
+	db   "Only seen on misty"
+	next "days from the"
+	next "shore, its strik-"
 
-	page "shooting water"
-	next "from the jets on"
-	next "its back.@"
+	page "ing beauty has led"
+	next "it to be a popular"
+	next "art subject.@"
