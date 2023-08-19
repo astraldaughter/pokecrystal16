@@ -267,6 +267,8 @@ MoveDescriptions1:
 	dw SuperpowerDescription
 	dw EcholocationDescription
 	dw UndertowDescription
+	dw DarkPulseDescription
+	dw IronHeadDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1319,3 +1321,11 @@ EcholocationDescription:
 UndertowDescription:
 	db 	 "An attack that may"
 	next "lower EVASION.@"
+
+DarkPulseDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+
+IronHeadDescription:
+	db   "An attack that may"
+	next "cause flinching.@"	

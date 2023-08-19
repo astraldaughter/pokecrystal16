@@ -159,7 +159,7 @@ AlphabeticalPokedexOrder:
 	dw PERSIAN
 	dw PHANPY
 	dw PICHU
-	dw PIDGEOT
+	dw ROLLABYE
 	dw BOINGOOSE
 	dw SPREASEL
 	dw PIKACHU
@@ -183,7 +183,7 @@ AlphabeticalPokedexOrder:
 	dw RAIKOU
 	dw RAPIDASH
 	dw RATICATE
-	dw RATTATA
+	dw ROLLIATH
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN

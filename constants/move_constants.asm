@@ -268,6 +268,8 @@
 	const SUPERPOWER   ; 104
 	const ECHOLOCATION ; 105
 	const UNDERTOW	   ; 106
+	const DARK_PULSE   ; 107
+	const IRON_HEAD	   ; 108
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

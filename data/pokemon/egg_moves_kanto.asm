@@ -19,7 +19,7 @@ EggMovePointers1:
 	dw SpreaselEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw RattataEggMoves
+	dw RolliathEggMoves
 	dw NoEggMoves1
 	dw SpearowEggMoves
 	dw NoEggMoves1
@@ -186,7 +186,7 @@ SpreaselEggMoves:
 	dw FORESIGHT
 	dw -1 ; end
 
-RattataEggMoves:
+RolliathEggMoves:
 	dw SCREECH
 	dw FLAME_WHEEL
 	dw FURY_SWIPES

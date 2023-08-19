@@ -150,7 +150,7 @@ Pokered_MonIndices:
 	db ABRA
 	db ALAKAZAM
 	db BOINGOOSE
-	db PIDGEOT
+	db ROLLABYE
 	db STARMIE
 	db BULBASAUR
 	db VENUSAUR
@@ -164,7 +164,7 @@ Pokered_MonIndices:
 	db BLISSEY ; MISSINGNO.
 	db PONYTA
 	db RAPIDASH
-	db RATTATA
+	db ROLLIATH
 	db RATICATE
 	db NIDORINO
 	db NIDORINA

@@ -290,6 +290,8 @@ BattleAnimations::
 	dw BattleAnim_Superpower
 	dw BattleAnim_Echolocation
 	dw BattleAnim_Undertow
+	dw BattleAnim_DarkPulse
+	dw BattleAnim_IronHead
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2627,6 +2629,7 @@ BattleAnim_SkyAttack:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_DarkPulse:
 BattleAnim_NightShade:
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgp $1b
@@ -4791,6 +4794,24 @@ BattleAnim_Echolocation:
 	anim_wait 16
 	anim_loop 2, .loop
 	anim_wait 32
+	anim_ret
+
+BattleAnim_IronHead:
+	anim_2gfx ANIM_GFX_REFLECT, ANIM_GFX_HIT
+	anim_obp0 $0
+	anim_sound 0, 0, SFX_RAGE
+	anim_call BattleAnim_TargetObj_1Row
+	anim_call BattleAnimSub_Metallic
+	anim_wait 4
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
+	anim_wait 32
+	anim_call BattleAnim_TargetObj_1Row
+	anim_bgeffect ANIM_BG_TACKLE, $0, BG_EFFECT_USER, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_HEADBUTT
+	anim_obj ANIM_OBJ_HIT_YFIX, 136, 56, $0
+	anim_wait 8
+	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnimSub_Drain:

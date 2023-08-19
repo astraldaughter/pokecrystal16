@@ -23,8 +23,8 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
 	mon_cry CRY_SENTRET,     106,  138 ; SPREASEL
 	mon_cry CRY_SENTRET,      36,  360 ; BOINGOOSE
-	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
-	mon_cry CRY_RATTATA,       0,  256 ; RATTATA
+	mon_cry CRY_SLOWKING,    361,  256 ; ROLLABYE
+	mon_cry CRY_KANGASKHAN,   16,  160 ; ROLLIATH
 	mon_cry CRY_RATTATA,      32,  383 ; RATICATE
 	mon_cry CRY_SPEAROW,       0,  256 ; SPEAROW
 	mon_cry CRY_FEAROW,       64,  288 ; FEAROW

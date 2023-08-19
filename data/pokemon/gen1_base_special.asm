@@ -19,8 +19,8 @@ KantoMonSpecials:
 	db  45 ; BEEDRILL
 	db  35 ; SPREASEL
 	db  50 ; BOINGOOSE
-	db  70 ; PIDGEOT
-	db  25 ; RATTATA
+	db  70 ; ROLLABYE
+	db  25 ; ROLLIATH
 	db  50 ; RATICATE
 	db  31 ; SPEAROW
 	db  61 ; FEAROW

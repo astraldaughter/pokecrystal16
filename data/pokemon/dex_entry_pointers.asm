@@ -18,8 +18,8 @@ PokedexDataPointerTable:
 	dba BeedrillPokedexEntry
 	dba SpreaselPokedexEntry
 	dba BoingoosePokedexEntry
-	dba PidgeotPokedexEntry
-	dba RattataPokedexEntry
+	dba RollabyePokedexEntry
+	dba RolliathPokedexEntry
 	dba RaticatePokedexEntry
 	dba SpearowPokedexEntry
 	dba FearowPokedexEntry

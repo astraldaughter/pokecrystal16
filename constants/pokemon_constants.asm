@@ -36,8 +36,8 @@
 	const BEEDRILL   ; 0f
 	const SPREASEL     ; 10
 	const BOINGOOSE  ; 11
-	const PIDGEOT    ; 12
-	const RATTATA    ; 13
+	const ROLLABYE    ; 12
+	const ROLLIATH    ; 13
 	const RATICATE   ; 14
 	const SPEAROW    ; 15
 	const FEAROW     ; 16

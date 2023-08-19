@@ -26,7 +26,7 @@ Speary:
 Rattey:
 	opentext
 	writetext RatteyText
-	cry RATTATA
+	cry ROLLIATH
 	waitbutton
 	closetext
 	end
@@ -48,7 +48,7 @@ ViridianNicknameSpeechHousePokefanMText:
 ViridianNicknameSpeechHouseLassText:
 	text "They're SPEARY--"
 	line "a SPEAROW--and"
-	cont "RATTEY--a RATTATA."
+	cont "RATTEY--a ROLLIATH."
 	done
 
 SpearyText:

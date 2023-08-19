@@ -47,10 +47,10 @@ PokemonPicPointers::
 	dba SpreaselBackpic
 	dba BoingooseFrontpic
 	dba BoingooseBackpic
-	dba PidgeotFrontpic
-	dba PidgeotBackpic
-	dba RattataFrontpic
-	dba RattataBackpic
+	dba RollabyeFrontpic
+	dba RollabyeBackpic
+	dba RolliathFrontpic
+	dba RolliathBackpic
 	dba RaticateFrontpic
 	dba RaticateBackpic
 	dba SpearowFrontpic

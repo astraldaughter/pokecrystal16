@@ -262,4 +262,6 @@ MoveNames::
 	li "SUPERPOWER"
 	li "ECHOLOCATION"
 	li "UNDERTOW"
+	li "DARK PULSE"
+	li "IRON HEAD"
 	assert_list_length NUM_ATTACKS

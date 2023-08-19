@@ -50,7 +50,7 @@ Route51Tutorial1:
 	follow ROUTE51_COOLTRAINER_M1, PLAYER
 	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData1b
 	stopfollow
-	loadwildmon RATTATA, 5
+	loadwildmon ROLLIATH, 5
 	catchtutorial BATTLETYPE_TUTORIAL
 	turnobject ROUTE51_COOLTRAINER_M1, UP
 	opentext
@@ -75,7 +75,7 @@ Route51Tutorial2:
 	follow ROUTE51_COOLTRAINER_M1, PLAYER
 	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData2b
 	stopfollow
-	loadwildmon RATTATA, 5
+	loadwildmon ROLLIATH, 5
 	catchtutorial BATTLETYPE_TUTORIAL
 	turnobject ROUTE51_COOLTRAINER_M1, UP
 	opentext
@@ -115,7 +115,7 @@ CatchingTutorialDudeScript:
 	yesorno
 	iffalse .Declined
 	closetext
-	loadwildmon RATTATA, 5
+	loadwildmon ROLLIATH, 5
 	catchtutorial BATTLETYPE_TUTORIAL
 	opentext
 	writetext CatchingTutorialDebriefText

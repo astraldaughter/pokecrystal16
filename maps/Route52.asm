@@ -24,7 +24,7 @@ YoungsterJoey_ImportantBattleScript:
 	pause 30
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE52_MONSTER2, Route52_JoeysRattataAttacksMovement
+	applymovement ROUTE52_MONSTER2, Route52_JoeysRolliathAttacksMovement
 	opentext
 	faceplayer
 	writetext Text_ThisIsABigBattle
@@ -32,7 +32,7 @@ YoungsterJoey_ImportantBattleScript:
 	turnobject ROUTE52_YOUNGSTER1, UP
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE52_MONSTER1, Route52_MikeysRattataAttacksMovement
+	applymovement ROUTE52_MONSTER1, Route52_MikeysRolliathAttacksMovement
 	special RestartMapMusic
 	end
 
@@ -248,20 +248,20 @@ Route52FruitTree2:
 Route52HiddenPotion:
 	hiddenitem POTION, EVENT_ROUTE_52_HIDDEN_POTION
 
-Route52_JoeysRattataAttacksMovement:
+Route52_JoeysRolliathAttacksMovement:
 	fix_facing
 	big_step UP
 	big_step DOWN
 	step_end
 
-Route52_MikeysRattataAttacksMovement:
+Route52_MikeysRolliathAttacksMovement:
 	fix_facing
 	big_step DOWN
 	big_step UP
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Go, ROLLIATH!"
 
 	para "TACKLE!"
 	done

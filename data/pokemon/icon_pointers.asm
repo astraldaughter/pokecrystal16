@@ -22,8 +22,8 @@ IconPointers:
 	dw BeedrillIcon
 	dw SpreaselIcon
 	dw BoingooseIcon
-	dw PidgeotIcon
-	dw RattataIcon
+	dw RollabyeIcon
+	dw RolliathIcon
 	dw RaticateIcon
 	dw SpearowIcon
 	dw FearowIcon

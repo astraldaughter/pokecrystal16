@@ -634,7 +634,7 @@ YoungsterGroup:
 	next_list_item ; YOUNGSTER (1)
 	db "JOEY@", TRAINERTYPE_NORMAL
 	db 4
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (2)
@@ -642,13 +642,13 @@ YoungsterGroup:
 	db 2
 	dw SPREASEL
 	db 4
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (3)
 	db "ALBERT@", TRAINERTYPE_NORMAL
 	db 6
-	dw RATTATA
+	dw ROLLIATH
 	db 8
 	dw ZUBAT
 	db -1 ; end
@@ -662,7 +662,7 @@ YoungsterGroup:
 	next_list_item ; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
 	db 7
-	dw RATTATA
+	dw ROLLIATH
 	db 10
 	dw SANDSHREW
 	db 8
@@ -682,7 +682,7 @@ YoungsterGroup:
 	next_list_item ; YOUNGSTER (7)
 	db "JOEY@", TRAINERTYPE_NORMAL
 	db 15
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (8)
@@ -1034,7 +1034,7 @@ BirdKeeperGroup:
 	db 12
 	dw SPREASEL
 	db 34
-	dw PIDGEOT
+	dw ROLLABYE
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (9)
@@ -1115,10 +1115,10 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (19)
 	db "VANCE@", TRAINERTYPE_MOVES
 	db 38
-	dw PIDGEOT
+	dw ROLLABYE
 	dw TOXIC, QUICK_ATTACK, WHIRLWIND, FLY
 	db 38
-	dw PIDGEOT
+	dw ROLLABYE
 	dw SWIFT, DETECT, STEEL_WING, FLY
 	db -1 ; end
 
@@ -1380,7 +1380,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (8)
 	db "RYAN@", TRAINERTYPE_MOVES
 	db 25
-	dw PIDGEOT
+	dw ROLLABYE
 	dw SAND_ATTACK, QUICK_ATTACK, WHIRLWIND, WING_ATTACK
 	db 27
 	dw ELECTABUZZ
@@ -1950,7 +1950,7 @@ GruntMGroup:
 	next_list_item ; GRUNTM (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 7
-	dw RATTATA
+	dw ROLLIATH
 	db 9
 	dw ZUBAT
 	db 9
@@ -1978,15 +1978,15 @@ GruntMGroup:
 	next_list_item ; GRUNTM (5)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 21
-	dw RATTATA
+	dw ROLLIATH
 	db 21
-	dw RATTATA
+	dw ROLLIATH
 	db 23
-	dw RATTATA
+	dw ROLLIATH
 	db 23
-	dw RATTATA
+	dw ROLLIATH
 	db 23
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (6)
@@ -2006,7 +2006,7 @@ GruntMGroup:
 	db 23
 	dw ZUBAT
 	db 23
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (8)
@@ -2040,7 +2040,7 @@ GruntMGroup:
 	db 23
 	dw KOFFING
 	db 25
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (12)
@@ -2052,7 +2052,7 @@ GruntMGroup:
 	next_list_item ; GRUNTM (13)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 27
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (14)
@@ -2074,13 +2074,13 @@ GruntMGroup:
 	next_list_item ; GRUNTM (16)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 16
-	dw RATTATA
+	dw ROLLIATH
 	db 16
-	dw RATTATA
+	dw ROLLIATH
 	db 16
-	dw RATTATA
+	dw ROLLIATH
 	db 16
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (17)
@@ -2092,11 +2092,11 @@ GruntMGroup:
 	next_list_item ; GRUNTM (18)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 17
-	dw RATTATA
+	dw ROLLIATH
 	db 17
 	dw ZUBAT
 	db 17
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (19)
@@ -2122,7 +2122,7 @@ GruntMGroup:
 	db 17
 	dw GRIMER
 	db 18
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (22)
@@ -2156,9 +2156,9 @@ GruntMGroup:
 	next_list_item ; GRUNTM (26)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 15
-	dw RATTATA
+	dw ROLLIATH
 	db 15
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (27)
@@ -2176,9 +2176,9 @@ GruntMGroup:
 	next_list_item ; GRUNTM (29)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 9
-	dw RATTATA
+	dw ROLLIATH
 	db 9
-	dw RATTATA
+	dw ROLLIATH
 	db -1 ; end
 
 	next_list_item ; GRUNTM (30)
@@ -5174,7 +5174,7 @@ BlueGroup:
 	next_list_item ; BLUE (1)
 	db "BLUE@", TRAINERTYPE_MOVES
 	db 56
-	dw PIDGEOT
+	dw ROLLABYE
 	dw QUICK_ATTACK, WHIRLWIND, WING_ATTACK, MIRROR_MOVE
 	db 54
 	dw ALAKAZAM

@@ -18,9 +18,9 @@ FirstEvoStages::
 	dw WEEDLE
 	dw SPREASEL     ;10
 	dw SPREASEL
-	dw PIDGEOT
-	dw PIDGEOT
-	dw RATTATA
+	dw ROLLABYE
+	dw ROLLABYE
+	dw ROLLIATH
 	dw SPEAROW
 	dw SPEAROW
 	dw EKANS

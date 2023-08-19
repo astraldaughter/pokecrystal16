@@ -18,8 +18,8 @@ EvosAttacksPointers1::
 	dw BeedrillEvosAttacks
 	dw SpreaselEvosAttacks
 	dw BoingooseEvosAttacks
-	dw PidgeotEvosAttacks
-	dw RattataEvosAttacks
+	dw RollabyeEvosAttacks
+	dw RolliathEvosAttacks
 	dw RaticateEvosAttacks
 	dw SpearowEvosAttacks
 	dw FearowEvosAttacks
@@ -211,7 +211,7 @@ KindlantEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, GROWL
-	dbw 1, UNDERTOW
+	dbw 1, IRON_HEAD
 	dbw 7, EMBER
 	dbw 13, SMOKESCREEN
 	dbw 19, RAGE
@@ -375,7 +375,7 @@ SpreaselEvosAttacks:
 	db 0 ; no more level-up moves
 
 BoingooseEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, PIDGEOT
+	dbbw EVOLVE_LEVEL, 36, ROLLABYE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, SAND_ATTACK
@@ -389,7 +389,7 @@ BoingooseEvosAttacks:
 	dbw 55, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-PidgeotEvosAttacks:
+RollabyeEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, SAND_ATTACK
@@ -404,7 +404,7 @@ PidgeotEvosAttacks:
 	dbw 61, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-RattataEvosAttacks:
+RolliathEvosAttacks:
 	dbbw EVOLVE_LEVEL, 20, RATICATE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE

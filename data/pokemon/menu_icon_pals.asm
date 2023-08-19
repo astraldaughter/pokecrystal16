@@ -27,8 +27,8 @@ MonMenuIconPals:
 	icon_pals RED,    BLUE   ; BEEDRILL
 	icon_pals BROWN,  RED    ; SPREASEL
 	icon_pals BROWN,  BROWN  ; BOINGOOSE
-	icon_pals BROWN,  GREEN  ; PIDGEOT
-	icon_pals PURPLE, GRAY   ; RATTATA
+	icon_pals BROWN,  GREEN  ; ROLLABYE
+	icon_pals PURPLE, GRAY   ; ROLLIATH
 	icon_pals BROWN,  BROWN  ; RATICATE
 	icon_pals BROWN,  BROWN  ; SPEAROW
 	icon_pals BROWN,  GRAY   ; FEAROW

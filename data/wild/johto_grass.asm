@@ -5,307 +5,307 @@ JohtoGrassWildMons:
 	def_grass_wildmons SPROUT_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, RATTATA
-	dbw 4, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 3, ROLLIATH
+	dbw 4, ROLLIATH
+	dbw 5, ROLLIATH
+	dbw 3, ROLLIATH
+	dbw 6, ROLLIATH
+	dbw 5, ROLLIATH
+	dbw 5, ROLLIATH
 	; day
-	dbw 3, RATTATA
-	dbw 4, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 3, ROLLIATH
+	dbw 4, ROLLIATH
+	dbw 5, ROLLIATH
+	dbw 3, ROLLIATH
+	dbw 6, ROLLIATH
+	dbw 5, ROLLIATH
+	dbw 5, ROLLIATH
 	; nite
 	dbw 3, GASTLY
 	dbw 4, GASTLY
 	dbw 5, GASTLY
-	dbw 3, RATTATA
+	dbw 3, ROLLIATH
 	dbw 6, GASTLY
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 5, ROLLIATH
+	dbw 5, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons SPROUT_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, RATTATA
-	dbw 4, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 3, ROLLIATH
+	dbw 4, ROLLIATH
+	dbw 5, ROLLIATH
+	dbw 3, ROLLIATH
+	dbw 6, ROLLIATH
+	dbw 5, ROLLIATH
+	dbw 5, ROLLIATH
 	; day
-	dbw 3, RATTATA
-	dbw 4, RATTATA
-	dbw 5, RATTATA
-	dbw 3, RATTATA
-	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 3, ROLLIATH
+	dbw 4, ROLLIATH
+	dbw 5, ROLLIATH
+	dbw 3, ROLLIATH
+	dbw 6, ROLLIATH
+	dbw 5, ROLLIATH
+	dbw 5, ROLLIATH
 	; nite
 	dbw 3, GASTLY
 	dbw 4, GASTLY
 	dbw 5, GASTLY
-	dbw 3, RATTATA
+	dbw 3, ROLLIATH
 	dbw 6, GASTLY
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 5, ROLLIATH
+	dbw 5, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; day
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; nite
 	dbw 20, GASTLY
 	dbw 21, GASTLY
 	dbw 22, GASTLY
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; day
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; nite
 	dbw 20, GASTLY
 	dbw 21, GASTLY
 	dbw 22, GASTLY
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_4F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; day
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; nite
 	dbw 20, GASTLY
 	dbw 21, GASTLY
 	dbw 22, GASTLY
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_5F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; day
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; nite
 	dbw 20, GASTLY
 	dbw 21, GASTLY
 	dbw 22, GASTLY
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_6F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; day
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; nite
 	dbw 20, GASTLY
 	dbw 21, GASTLY
 	dbw 22, GASTLY
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_7F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; day
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; nite
 	dbw 20, GASTLY
 	dbw 21, GASTLY
 	dbw 22, GASTLY
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_8F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; day
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; nite
 	dbw 20, GASTLY
 	dbw 21, GASTLY
 	dbw 22, GASTLY
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_9F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; day
-	dbw 20, RATTATA
-	dbw 21, RATTATA
-	dbw 22, RATTATA
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 20, ROLLIATH
+	dbw 21, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	; nite
 	dbw 20, GASTLY
 	dbw 21, GASTLY
 	dbw 22, GASTLY
-	dbw 22, RATTATA
-	dbw 23, RATTATA
-	dbw 24, RATTATA
-	dbw 24, RATTATA
+	dbw 22, ROLLIATH
+	dbw 23, ROLLIATH
+	dbw 24, ROLLIATH
+	dbw 24, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 13, RATTATA
+	dbw 13, ROLLIATH
 	dbw 14, KOFFING
-	dbw 15, RATTATA
+	dbw 15, ROLLIATH
 	dbw 14, ZUBAT
-	dbw 15, RATTATA
+	dbw 15, ROLLIATH
 	dbw 15, RATICATE
 	dbw 15, RATICATE
 	; day
-	dbw 13, RATTATA
+	dbw 13, ROLLIATH
 	dbw 14, KOFFING
-	dbw 15, RATTATA
+	dbw 15, ROLLIATH
 	dbw 14, ZUBAT
-	dbw 15, RATTATA
+	dbw 15, ROLLIATH
 	dbw 15, RATICATE
 	dbw 15, RATICATE
 	; nite
-	dbw 13, RATTATA
+	dbw 13, ROLLIATH
 	dbw 14, KOFFING
-	dbw 15, RATTATA
+	dbw 15, ROLLIATH
 	dbw 14, ZUBAT
-	dbw 15, RATTATA
+	dbw 15, ROLLIATH
 	dbw 15, RATICATE
 	dbw 15, RATICATE
 	end_grass_wildmons
@@ -313,7 +313,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons BURNED_TOWER_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 14, KOFFING
 	dbw 16, KOFFING
 	dbw 15, ZUBAT
@@ -321,7 +321,7 @@ JohtoGrassWildMons:
 	dbw 16, KOFFING
 	dbw 16, WEEZING
 	; day
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 14, KOFFING
 	dbw 16, KOFFING
 	dbw 15, ZUBAT
@@ -329,7 +329,7 @@ JohtoGrassWildMons:
 	dbw 16, KOFFING
 	dbw 16, WEEZING
 	; nite
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 14, KOFFING
 	dbw 16, KOFFING
 	dbw 15, ZUBAT
@@ -428,7 +428,7 @@ JohtoGrassWildMons:
 	dbw 6, GEODUDE
 	dbw 6, SANDSHREW
 	dbw 5, ZUBAT
-	dbw 4, RATTATA
+	dbw 4, ROLLIATH
 	dbw 7, ZUBAT
 	dbw 6, ONIX
 	dbw 6, ONIX
@@ -436,15 +436,15 @@ JohtoGrassWildMons:
 	dbw 6, GEODUDE
 	dbw 6, SANDSHREW
 	dbw 5, ZUBAT
-	dbw 4, RATTATA
+	dbw 4, ROLLIATH
 	dbw 7, ZUBAT
 	dbw 6, ONIX
 	dbw 6, ONIX
 	; nite
 	dbw 6, GEODUDE
-	dbw 6, RATTATA
+	dbw 6, ROLLIATH
 	dbw 5, WOOPER
-	dbw 4, RATTATA
+	dbw 4, ROLLIATH
 	dbw 7, ZUBAT
 	dbw 6, ONIX
 	dbw 6, ONIX
@@ -457,25 +457,25 @@ JohtoGrassWildMons:
 	dbw 6, ZUBAT
 	dbw 8, ZUBAT
 	dbw 8, ONIX
-	dbw 6, RATTATA
-	dbw 8, RATTATA
-	dbw 8, RATTATA
+	dbw 6, ROLLIATH
+	dbw 8, ROLLIATH
+	dbw 8, ROLLIATH
 	; day
 	dbw 8, GEODUDE
 	dbw 6, ZUBAT
 	dbw 8, ZUBAT
 	dbw 8, ONIX
-	dbw 6, RATTATA
-	dbw 8, RATTATA
-	dbw 8, RATTATA
+	dbw 6, ROLLIATH
+	dbw 8, ROLLIATH
+	dbw 8, ROLLIATH
 	; nite
 	dbw 8, GEODUDE
 	dbw 6, ZUBAT
 	dbw 8, WOOPER
 	dbw 8, ONIX
-	dbw 6, RATTATA
-	dbw 8, RATTATA
-	dbw 8, RATTATA
+	dbw 6, ROLLIATH
+	dbw 8, ROLLIATH
+	dbw 8, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
@@ -593,7 +593,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 13, ZUBAT
 	dbw 14, MACHOP
 	dbw 13, GOLBAT
@@ -601,7 +601,7 @@ JohtoGrassWildMons:
 	dbw 16, RATICATE
 	dbw 16, RATICATE
 	; day
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 13, ZUBAT
 	dbw 14, MACHOP
 	dbw 13, GOLBAT
@@ -609,7 +609,7 @@ JohtoGrassWildMons:
 	dbw 16, RATICATE
 	dbw 16, RATICATE
 	; nite
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 13, ZUBAT
 	dbw 14, MARILL
 	dbw 13, GOLBAT
@@ -622,7 +622,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 13, GEODUDE
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 15, MACHOP
 	dbw 14, RATICATE
 	dbw 15, ZUBAT
@@ -630,7 +630,7 @@ JohtoGrassWildMons:
 	dbw 15, GOLBAT
 	; day
 	dbw 13, GEODUDE
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 15, MACHOP
 	dbw 14, RATICATE
 	dbw 15, ZUBAT
@@ -638,7 +638,7 @@ JohtoGrassWildMons:
 	dbw 15, GOLBAT
 	; nite
 	dbw 13, GEODUDE
-	dbw 14, RATTATA
+	dbw 14, ROLLIATH
 	dbw 15, RATICATE
 	dbw 14, ZUBAT
 	dbw 15, MARILL
@@ -1241,7 +1241,7 @@ JohtoGrassWildMons:
 	dbw 2, SENTRET
 	dbw 3, SPREASEL
 	dbw 3, SENTRET
-	dbw 2, RATTATA
+	dbw 2, ROLLIATH
 	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; day
@@ -1249,15 +1249,15 @@ JohtoGrassWildMons:
 	dbw 2, SENTRET
 	dbw 3, SPREASEL
 	dbw 3, SENTRET
-	dbw 2, RATTATA
+	dbw 2, ROLLIATH
 	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; nite
 	dbw 2, HOOTHOOT
-	dbw 2, RATTATA
+	dbw 2, ROLLIATH
 	dbw 3, HOOTHOOT
-	dbw 3, RATTATA
-	dbw 2, RATTATA
+	dbw 3, ROLLIATH
+	dbw 2, ROLLIATH
 	dbw 3, HOOTHOOT
 	dbw 3, HOOTHOOT
 	end_grass_wildmons
@@ -1322,7 +1322,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 4, EKANS
-	dbw 5, RATTATA
+	dbw 5, ROLLIATH
 	dbw 7, BELLSPROUT
 	dbw 6, HOPPIP
 	dbw 7, SPREASEL
@@ -1330,7 +1330,7 @@ JohtoGrassWildMons:
 	dbw 7, HOPPIP
 	; day
 	dbw 4, EKANS
-	dbw 5, RATTATA
+	dbw 5, ROLLIATH
 	dbw 7, BELLSPROUT
 	dbw 6, HOPPIP
 	dbw 7, SPREASEL
@@ -1338,7 +1338,7 @@ JohtoGrassWildMons:
 	dbw 7, HOPPIP
 	; nite
 	dbw 4, WOOPER
-	dbw 5, RATTATA
+	dbw 5, ROLLIATH
 	dbw 7, BELLSPROUT
 	dbw 6, ZUBAT
 	dbw 7, HOOTHOOT
@@ -1349,7 +1349,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_33
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 6, RATTATA
+	dbw 6, ROLLIATH
 	dbw 6, SPEAROW
 	dbw 6, GEODUDE
 	dbw 6, HOPPIP
@@ -1357,7 +1357,7 @@ JohtoGrassWildMons:
 	dbw 7, HOPPIP
 	dbw 7, HOPPIP
 	; day
-	dbw 6, RATTATA
+	dbw 6, ROLLIATH
 	dbw 6, SPEAROW
 	dbw 6, GEODUDE
 	dbw 6, HOPPIP
@@ -1365,20 +1365,20 @@ JohtoGrassWildMons:
 	dbw 7, HOPPIP
 	dbw 7, HOPPIP
 	; nite
-	dbw 6, RATTATA
+	dbw 6, ROLLIATH
 	dbw 6, ZUBAT
 	dbw 6, GEODUDE
 	dbw 6, ZUBAT
-	dbw 7, RATTATA
-	dbw 7, RATTATA
-	dbw 7, RATTATA
+	dbw 7, ROLLIATH
+	dbw 7, ROLLIATH
+	dbw 7, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 10, SNUBBULL
-	dbw 11, RATTATA
+	dbw 11, ROLLIATH
 	dbw 12, SPREASEL
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
@@ -1386,7 +1386,7 @@ JohtoGrassWildMons:
 	dbw 10, DITTO
 	; day
 	dbw 10, SNUBBULL
-	dbw 11, RATTATA
+	dbw 11, ROLLIATH
 	dbw 12, SPREASEL
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
@@ -1394,7 +1394,7 @@ JohtoGrassWildMons:
 	dbw 10, DITTO
 	; nite
 	dbw 12, DROWZEE
-	dbw 11, RATTATA
+	dbw 11, ROLLIATH
 	dbw 12, HOOTHOOT
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
@@ -1489,7 +1489,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_38
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 16, RATTATA
+	dbw 16, ROLLIATH
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
 	dbw 16, BOINGOOSE
@@ -1497,7 +1497,7 @@ JohtoGrassWildMons:
 	dbw 13, MILTANK
 	dbw 13, MILTANK
 	; day
-	dbw 16, RATTATA
+	dbw 16, ROLLIATH
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
 	dbw 16, BOINGOOSE
@@ -1517,7 +1517,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 16, RATTATA
+	dbw 16, ROLLIATH
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
 	dbw 16, BOINGOOSE
@@ -1525,7 +1525,7 @@ JohtoGrassWildMons:
 	dbw 15, TAUROS
 	dbw 15, TAUROS
 	; day
-	dbw 16, RATTATA
+	dbw 16, ROLLIATH
 	dbw 16, RATICATE
 	dbw 16, MAGNEMITE
 	dbw 16, BOINGOOSE
@@ -1547,7 +1547,7 @@ JohtoGrassWildMons:
 	; morn
 	dbw 13, EKANS
 	dbw 14, SPEAROW
-	dbw 15, RATTATA
+	dbw 15, ROLLIATH
 	dbw 16, RATICATE
 	dbw 15, ARBOK
 	dbw 16, FEAROW
@@ -1555,13 +1555,13 @@ JohtoGrassWildMons:
 	; day
 	dbw 13, EKANS
 	dbw 14, SPEAROW
-	dbw 15, RATTATA
+	dbw 15, ROLLIATH
 	dbw 16, RATICATE
 	dbw 15, ARBOK
 	dbw 16, FEAROW
 	dbw 16, FEAROW
 	; nite
-	dbw 13, RATTATA
+	dbw 13, ROLLIATH
 	dbw 14, ZUBAT
 	dbw 15, RATICATE
 	dbw 16, GOLBAT
@@ -1660,26 +1660,26 @@ JohtoGrassWildMons:
 	dbw 2, GEODUDE
 	dbw 2, SPEAROW
 	dbw 3, GEODUDE
-	dbw 3, RATTATA
+	dbw 3, ROLLIATH
 	dbw 2, PHANPY
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 2, ROLLIATH
+	dbw 2, ROLLIATH
 	; day
 	dbw 2, GEODUDE
 	dbw 2, SPEAROW
 	dbw 3, GEODUDE
-	dbw 3, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 3, ROLLIATH
+	dbw 2, ROLLIATH
+	dbw 2, ROLLIATH
+	dbw 2, ROLLIATH
 	; nite
 	dbw 2, GEODUDE
-	dbw 2, RATTATA
+	dbw 2, ROLLIATH
 	dbw 3, GEODUDE
-	dbw 3, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 3, ROLLIATH
+	dbw 2, ROLLIATH
+	dbw 2, ROLLIATH
+	dbw 2, ROLLIATH
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
