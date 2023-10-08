@@ -270,6 +270,19 @@
 	const UNDERTOW	   ; 106
 	const DARK_PULSE   ; 107
 	const IRON_HEAD	   ; 108
+	const SPRINGSHOT   ; 109
+	const FLASH_CANNON ; 10a
+	const PLAY_ROUGH   ; 10b
+	const SHADOW_CLAW  ; 10c
+	const STEAMROLLER  ; 10d
+	const POISON_JAB   ; 10e
+	const X_SCISSOR	   ; 10f
+	const BUG_BUZZ	   ; 110
+	const LEAF_BLADE   ; 111
+	const ACCELEROCK   ; 112
+	const MAGNET_PULSE ; 113
+	const CALM_MIND	   ; 114
+	const DRAGON_DANCE ; 115
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -33,5 +33,7 @@ StallMoves:
 	dw SHARPEN
 	dw CONVERSION
 	dw SUBSTITUTE
-	dw FLAME_WHEEL
+	dw NASTY_PLOT
+	dw CALM_MIND
+	dw DRAGON_DANCE
 	dw -1 ; end

@@ -31,4 +31,7 @@ EncoreMoves:
 	dw AEROBLAST
 	dw COTTON_SPORE
 	dw POWDER_SNOW
+	dw NASTY_PLOT
+	dw CALM_MIND
+	dw DRAGON_DANCE
 	dw -1 ; end

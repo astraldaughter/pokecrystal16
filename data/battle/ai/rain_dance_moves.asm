@@ -12,4 +12,5 @@ RainDanceMoves:
 	dw CRABHAMMER
 	dw OCTAZOOKA
 	dw WHIRLPOOL
+	dw UNDERTOW
 	dw -1 ; end

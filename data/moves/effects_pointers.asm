@@ -161,4 +161,6 @@ MoveEffectsPointers:
 	dw DefenseCurl
 	dw MeteorBeam
 	dw Superpower
+	dw CalmMind
+	dw DragonDance
 	assert_table_length NUM_MOVE_EFFECTS

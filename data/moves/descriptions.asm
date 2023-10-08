@@ -269,6 +269,19 @@ MoveDescriptions1:
 	dw UndertowDescription
 	dw DarkPulseDescription
 	dw IronHeadDescription
+	dw SpringshotDescription
+	dw FlashCannonDescription
+	dw PlayRoughDescription
+	dw ShadowClawDescription
+	dw SteamrollerDescription
+	dw PoisonJabDescription
+	dw XScissorDescription
+	dw BugBuzzDescription
+	dw LeafBladeDescription
+	dw AccelerockDescription
+	dw MagnetPulseDescription
+	dw CalmMindDescription
+	dw DragonDanceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1329,3 +1342,55 @@ DarkPulseDescription:
 IronHeadDescription:
 	db   "An attack that may"
 	next "cause flinching.@"	
+
+SpringshotDescription:
+	db	 "An attack that can"
+	next "hit flying foes.@"
+
+FlashCannonDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"
+
+PlayRoughDescription:
+	db   "An attack that may"
+	next "lower ATTACK.@"
+
+ShadowClawDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+
+SteamrollerDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+
+PoisonJabDescription:
+	db   "An attack that may"
+	next "poison the foe.@"
+
+XScissorDescription:
+	db	 "Has a high criti-"
+	next "cal hit ratio.@"
+
+BugBuzzDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"
+
+LeafBladeDescription:
+	db	 "Has a high criti-"
+	next "cal hit ratio.@"
+
+AccelerockDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
+	
+MagnetPulseDescription:
+	db   "An attack that"
+	next "never misses.@"
+
+CalmMindDescription:
+	db   "Raises the user's"
+	next "SPECIAL stats.@"
+
+DragonDanceDescription:
+	db   "Raises the user's"
+	next "ATTACK and SPEED.@"

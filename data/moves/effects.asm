@@ -2143,3 +2143,37 @@ Superpower:
 	buildopponentrage
 	kingsrock
 	endmove
+
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	specialattackup
+	statupanim
+	statupmessage
+	statupfailtext
+	resetmiss
+	specialdefenseup
+	statupanim
+	statupmessage
+	statupfailtext
+	raisesub
+	endmove
+
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	attackup
+	statupanim
+	statupmessage
+	statupfailtext
+	resetmiss
+	speedup
+	statupanim
+	statupmessage
+	statupfailtext
+	raisesub
+	endmove
