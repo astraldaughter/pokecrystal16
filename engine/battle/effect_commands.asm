@@ -4666,6 +4666,7 @@ BattleCommand_AllStatsUp:
 	jp   BattleCommand_StatUpMessage
 
 ResetMiss:
+BattleCommand_ResetMiss:
 	xor a
 	ld [wAttackMissed], a
 	ret
@@ -5629,10 +5630,6 @@ BattleCommand_Charge:
 .BattleSpacePowerText:
 	text_far _BattleSpacePowerText
 	text_end
-
-BattleCommand_Unused3C:
-; effect0x3c
-	ret
 
 BattleCommand_TrapTarget:
 	ld a, [wAttackMissed]

@@ -97,8 +97,7 @@ MACRO connection
 ENDM
 
 
-	map_attributes NivaleTown, NIVALE_TOWN, $05, WEST | EAST
-	connection west, Route27, ROUTE_27, 0
+	map_attributes NivaleTown, NIVALE_TOWN, $05, EAST
 	connection east, Route51, ROUTE_51, 0
 
 	map_attributes CampanulaTown, CAMPANULA_TOWN, $05, SOUTH | WEST

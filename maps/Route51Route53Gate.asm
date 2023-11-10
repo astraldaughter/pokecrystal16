@@ -38,10 +38,10 @@ Route51Route53Gate_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  4,  0, ROUTE_53, 1
-	warp_event  5,  0, ROUTE_53, 2
-	warp_event  4,  7, ROUTE_51, 1
-	warp_event  5,  7, ROUTE_51, 1
+	warp_event  4,  0, ROUTE_51, 1
+	warp_event  5,  0, ROUTE_51, 2
+	warp_event  4,  7, ROUTE_53, 1
+	warp_event  5,  7, ROUTE_53, 1
 
 	def_coord_events
 

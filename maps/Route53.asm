@@ -5,11 +5,20 @@
 	const ROUTE53_FRUIT_TREE1
 	const ROUTE53_FRUIT_TREE2
 	const ROUTE53_POKE_BALL
+	const ROUTE53_HIKER
 
 Route53_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+Route53HikerScript:
+	faceplayer
+	opentext
+	writetext Route53HikerText
+	waitbutton
+	closetext
+	end
 
 TrainerCamperTed:
 	trainer CAMPER, TED, EVENT_BEAT_CAMPER_TED, CamperTedSeenText, CamperTedBeatenText, 0, .Script
@@ -168,6 +177,15 @@ Route53FruitTree1:
 Route53FruitTree2:
 	fruittree FRUITTREE_ROUTE_53_2
 
+Route53HikerText:
+	text "I'm packing up"
+	line "my campsite right"
+	cont "now."
+
+	para "Sorry, could you"
+	line "come back later?"
+	done
+
 HikerBaileySeenText:
 	text "Awright! I'll show"
 	line "you the power of"
@@ -252,7 +270,7 @@ Route53_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  7, 33, ROUTE_51_ROUTE_53_GATE, 1
+	warp_event  7,  1, ROUTE_51_ROUTE_53_GATE, 1
 	warp_event  8, 33, ROUTE_51_ROUTE_53_GATE, 2
 	warp_event 14,  5, DARK_CAVE_VIOLET_ENTRANCE, 3
 
@@ -268,3 +286,4 @@ Route53_MapEvents:
 	object_event  7,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route53FruitTree1, -1
 	object_event  8,  6, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route53FruitTree2, -1
 	object_event  1, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route53XSpeed, EVENT_ROUTE_53_X_SPEED
+	object_event  9, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 2, Route53HikerScript, EVENT_ROUTE_53_HIKER

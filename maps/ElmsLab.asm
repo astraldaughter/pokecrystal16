@@ -4,7 +4,6 @@
 	const ELMSLAB_POKE_BALL1
 	const ELMSLAB_POKE_BALL2
 	const ELMSLAB_POKE_BALL3
-	const ELMSLAB_OFFICER
 
 ElmsLab_MapScripts:
 	def_scene_scripts
@@ -348,9 +347,8 @@ ElmAfterTheftScript:
 	promptbutton
 	setevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	setflag ENGINE_MAIN_MENU_MOBILE_CHOICES
-	setmapscene ROUTE_51, SCENE_ROUTE51_CATCH_TUTORIAL
 	clearevent EVENT_ROUTE_52_YOUNGSTER_JOEY
-	setevent EVENT_ROUTE_52_BATTLE
+	setevent EVENT_ROUTE_53_HIKER
 	writetext ElmAfterTheftText6
 	waitbutton
 	closetext
@@ -553,25 +551,6 @@ AideScript_AfterTheft:
 	closetext
 	end
 
-MeetCopScript2:
-	applymovement PLAYER, MeetCopScript2_StepLeft
-
-MeetCopScript:
-	applymovement PLAYER, MeetCopScript_WalkUp
-CopScript:
-	turnobject ELMSLAB_OFFICER, LEFT
-	opentext
-	writetext ElmsLabOfficerText1
-	promptbutton
-	special NameRival
-	writetext ElmsLabOfficerText2
-	waitbutton
-	closetext
-	applymovement ELMSLAB_OFFICER, OfficerLeavesMovement
-	disappear ELMSLAB_OFFICER
-	setscene SCENE_ELMSLAB_NOOP
-	end
-
 ElmsLabWindow:
 	opentext
 	checkflag ENGINE_FLYPOINT_VIOLET
@@ -629,24 +608,6 @@ ElmsLab_WalkUpToElmMovement:
 
 ElmsLab_CantLeaveMovement:
 	step UP
-	step_end
-
-MeetCopScript2_StepLeft:
-	step LEFT
-	step_end
-
-MeetCopScript_WalkUp:
-	step UP
-	step UP
-	turn_head RIGHT
-	step_end
-
-OfficerLeavesMovement:
-	step DOWN
-	step DOWN
-	step DOWN
-	step DOWN
-	step DOWN
 	step_end
 
 AideWalksRight1:
@@ -816,8 +777,10 @@ ElmText_MissionFromMrPokemon:
 	text "Hey, listen."
 
 	para "One of my"
-	line "colleagues"
-	cont "just emailed me."
+	line "colleagues,"
+
+	para "PROF. CRYS,"
+	line "just emailed me."
 
 	para "Apparently, he's"
 	line "got some research"
@@ -872,13 +835,13 @@ TakeCyndaquilText:
 	done
 
 TakeTotodileText:
-	text "ELM: Do you want"
+	text "Do you want"
 	line "FOALAKE, the"
 	cont "water #MON?"
 	done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
+	text "So, you like"
 	line "CHIKORITA, the"
 	cont "grass #MON?"
 	done
@@ -907,7 +870,7 @@ ReceivedStarterText:
 	done
 
 ElmDirectionsText1:
-	text "My colleague"
+	text "PROF. CRYS"
 	line "lives on ROUTE"
 
 	para "52, just past"
@@ -932,8 +895,8 @@ ElmDirectionsText1:
 	done
 
 ElmDirectionsText2:
-	text "If your #MON gets"
-	line "hurt, heal it"
+	text "If your #MON"
+	line "gets hurt, heal it"
 	cont "with this machine."
 	done
 
@@ -949,8 +912,8 @@ GotElmsNumberText:
 
 ElmDescribesMrPokemonText:
 	text "I wonder what"
-	line "it is that my"
-	cont "colleague wants"
+	line "it is that"
+	cont "PROF.CRYS wants"
 
 	para "me to see so"
 	line "urgently…"
@@ -1390,8 +1353,6 @@ ElmsLab_MapEvents:
 	def_coord_events
 	coord_event  4,  6, SCENE_ELMSLAB_CANT_LEAVE, LabTryToLeaveScript
 	coord_event  5,  6, SCENE_ELMSLAB_CANT_LEAVE, LabTryToLeaveScript
-	coord_event  4,  5, SCENE_ELMSLAB_MEET_OFFICER, MeetCopScript
-	coord_event  5,  5, SCENE_ELMSLAB_MEET_OFFICER, MeetCopScript2
 	coord_event  4,  8, SCENE_ELMSLAB_AIDE_GIVES_POTION, AideScript_WalkPotion1
 	coord_event  5,  8, SCENE_ELMSLAB_AIDE_GIVES_POTION, AideScript_WalkPotion2
 	coord_event  4,  8, SCENE_ELMSLAB_AIDE_GIVES_POKE_BALLS, AideScript_WalkBalls1
@@ -1421,4 +1382,3 @@ ElmsLab_MapEvents:
 	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CyndaquilPokeBallScript, EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
 	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
 	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ChikoritaPokeBallScript, EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
-	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB

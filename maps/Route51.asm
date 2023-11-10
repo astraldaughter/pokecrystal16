@@ -1,5 +1,4 @@
 	object_const_def
-	const ROUTE51_COOLTRAINER_M1
 	const ROUTE51_YOUNGSTER
 	const ROUTE51_TEACHER1
 	const ROUTE51_FRUIT_TREE
@@ -36,111 +35,11 @@ Route51TuscanyCallback:
 	appear ROUTE51_TUSCANY
 	endcallback
 
-Route51Tutorial1:
-	turnobject ROUTE51_COOLTRAINER_M1, UP
-	showemote EMOTE_SHOCK, ROUTE51_COOLTRAINER_M1, 15
-	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData1a
-	turnobject PLAYER, LEFT
-	setevent EVENT_DUDE_TALKED_TO_YOU
-	opentext
-	writetext CatchingTutorialIntroText
-	yesorno
-	iffalse Script_RefusedTutorial1
-	closetext
-	follow ROUTE51_COOLTRAINER_M1, PLAYER
-	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData1b
-	stopfollow
-	loadwildmon ROLLIATH, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	turnobject ROUTE51_COOLTRAINER_M1, UP
-	opentext
-	writetext CatchingTutorialDebriefText
-	waitbutton
-	closetext
-	setscene SCENE_ROUTE51_NOOP
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
-	end
-
-Route51Tutorial2:
-	turnobject ROUTE51_COOLTRAINER_M1, UP
-	showemote EMOTE_SHOCK, ROUTE51_COOLTRAINER_M1, 15
-	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData2a
-	turnobject PLAYER, LEFT
-	setevent EVENT_DUDE_TALKED_TO_YOU
-	opentext
-	writetext CatchingTutorialIntroText
-	yesorno
-	iffalse Script_RefusedTutorial2
-	closetext
-	follow ROUTE51_COOLTRAINER_M1, PLAYER
-	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData2b
-	stopfollow
-	loadwildmon ROLLIATH, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	turnobject ROUTE51_COOLTRAINER_M1, UP
-	opentext
-	writetext CatchingTutorialDebriefText
-	waitbutton
-	closetext
-	setscene SCENE_ROUTE51_NOOP
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
-	end
-
-Script_RefusedTutorial1:
-	writetext CatchingTutorialDeclinedText
-	waitbutton
-	closetext
-	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData1b
-	setscene SCENE_ROUTE51_NOOP
-	end
-
-Script_RefusedTutorial2:
-	writetext CatchingTutorialDeclinedText
-	waitbutton
-	closetext
-	applymovement ROUTE51_COOLTRAINER_M1, DudeMovementData2b
-	setscene SCENE_ROUTE51_NOOP
-	end
-
-CatchingTutorialDudeScript:
-	faceplayer
-	opentext
-	readvar VAR_BOXSPACE
-	ifequal 0, .BoxFull
-	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
-	iftrue .BoxFull
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iffalse .BoxFull
-	writetext CatchingTutorialRepeatText
-	yesorno
-	iffalse .Declined
-	closetext
-	loadwildmon ROLLIATH, 5
-	catchtutorial BATTLETYPE_TUTORIAL
-	opentext
-	writetext CatchingTutorialDebriefText
-	waitbutton
-	closetext
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
-	end
-
-.BoxFull:
-	writetext CatchingTutorialBoxFullText
-	waitbutton
-	closetext
-	end
-
-.Declined:
-	writetext CatchingTutorialDeclinedText
-	waitbutton
-	closetext
-	end
-
 Route51YoungsterScript:
 	jumptextfaceplayer Route51YoungsterText
 
-Route51TeacherScript:
-	jumptextfaceplayer Route51TeacherText
+Route51LassScript:
+	jumptextfaceplayer Route51LassText
 
 Route51FisherScript:
 	jumptextfaceplayer Route51FisherText
@@ -212,85 +111,6 @@ Route51FruitTree:
 Route51Potion:
 	itemball POTION
 
-DudeMovementData1a:
-	step UP
-	step UP
-	step UP
-	step UP
-	step RIGHT
-	step RIGHT
-	step_end
-
-DudeMovementData2a:
-	step UP
-	step UP
-	step UP
-	step RIGHT
-	step RIGHT
-	step_end
-
-DudeMovementData1b:
-	step LEFT
-	step LEFT
-	step DOWN
-	step DOWN
-	step DOWN
-	step DOWN
-	step_end
-
-DudeMovementData2b:
-	step LEFT
-	step LEFT
-	step DOWN
-	step DOWN
-	step DOWN
-	step_end
-
-CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
-
-	para "knows when they'll"
-	line "pop out…"
-	done
-
-CatchingTutorialIntroText:
-	text "I've seen you a"
-	line "couple times. How"
-
-	para "many #MON have"
-	line "you caught?"
-
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
-	done
-
-CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
-
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
-	done
-
-CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
-
-	para "Anyway, if you"
-	line "want to catch"
-
-	para "#MON, you have"
-	line "to walk a lot."
-	done
-
-CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
-	done
-
 Route51YoungsterText:
 	text "Yo. How are your"
 	line "#MON?"
@@ -302,16 +122,15 @@ Route51YoungsterText:
 	line "of the grass."
 	done
 
-Route51TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+Route51LassText:
+	text "It's scary to jump"
+	line "off those ledges."
 
-	para "But you can go to"
-	line "NEW BARK without"
+	para "But if you do, you"
+	line "can get to NIVALE"
 
-	para "walking through"
-	line "the grass."
+	para "much quicker than"
+	line "taking the road."
 	done
 
 Route51FisherText:
@@ -399,14 +218,14 @@ TuscanyNotTuesdayText:
 	done
 
 Route51Sign1Text:
-	text "ROUTE 29"
+	text "ROUTE 51"
 
 	para "CAMPANULA CITY -"
 	line "NEW BARK TOWN"
 	done
 
 Route51Sign2Text:
-	text "ROUTE 29"
+	text "ROUTE 51"
 
 	para "CAMPANULA CITY -"
 	line "NEW BARK TOWN"
@@ -416,22 +235,20 @@ Route51_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 27,  1, ROUTE_51_ROUTE_53_GATE, 3
+	warp_event 31, 15, ROUTE_51_ROUTE_53_GATE, 1
+	warp_event 32, 15, ROUTE_51_ROUTE_53_GATE, 2
 
 	def_coord_events
-	coord_event 53,  8, SCENE_ROUTE51_CATCH_TUTORIAL, Route51Tutorial1
-	coord_event 53,  9, SCENE_ROUTE51_CATCH_TUTORIAL, Route51Tutorial2
 
 	def_bg_events
 	bg_event 51,  7, BGEVENT_READ, Route51Sign1
 	bg_event  7,  7, BGEVENT_READ, Route51Sign2
 
 	def_object_events
-	object_event 50, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CatchingTutorialDudeScript, -1
-	object_event 27, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route51YoungsterScript, -1
-	object_event 15, 11, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route51TeacherScript, -1
-	object_event 12,  2, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route51FruitTree, -1
-	object_event 25,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route51FisherScript, -1
-	object_event 13,  4, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route51CooltrainerMScript, -1
-	object_event 29, 12, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TuscanyScript, EVENT_ROUTE_51_TUSCANY_OF_TUESDAY
-	object_event 48,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route51Potion, EVENT_ROUTE_51_POTION
+	object_event 20, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route51YoungsterScript, -1
+	object_event 26, 10, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route51LassScript, -1
+	object_event 42,  4, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route51FruitTree, -1
+	object_event 27,  6, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route51FisherScript, -1
+	object_event 43,  5, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route51CooltrainerMScript, -1
+	object_event 51,  2, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TuscanyScript, EVENT_ROUTE_51_TUSCANY_OF_TUESDAY
+	object_event 24, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route51Potion, EVENT_ROUTE_51_POTION

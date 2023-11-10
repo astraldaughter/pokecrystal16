@@ -138,19 +138,19 @@ Rival1Group:
 	next_list_item ; RIVAL1 (1)
 	db "?@", TRAINERTYPE_NORMAL
 	db 5
-	dw CHIKORITA
+	dw BULBASAUR
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (2)
 	db "?@", TRAINERTYPE_NORMAL
 	db 5
-	dw CYNDAQUIL
+	dw KINDLANT
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (3)
 	db "?@", TRAINERTYPE_NORMAL
 	db 5
-	dw TOTODILE
+	dw FOALAKE
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (4)
@@ -632,20 +632,12 @@ ErikaGroup:
 
 YoungsterGroup:
 	next_list_item ; YOUNGSTER (1)
-	db "JOEY@", TRAINERTYPE_NORMAL
+	db "MIKEY@", TRAINERTYPE_NORMAL
 	db 4
-	dw ROLLIATH
+	dw SPREASEL
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (2)
-	db "MIKEY@", TRAINERTYPE_NORMAL
-	db 2
-	dw SPREASEL
-	db 4
-	dw ROLLIATH
-	db -1 ; end
-
-	next_list_item ; YOUNGSTER (3)
 	db "ALBERT@", TRAINERTYPE_NORMAL
 	db 6
 	dw ROLLIATH
@@ -653,13 +645,13 @@ YoungsterGroup:
 	dw ZUBAT
 	db -1 ; end
 
-	next_list_item ; YOUNGSTER (4)
+	next_list_item ; YOUNGSTER (3)
 	db "GORDON@", TRAINERTYPE_NORMAL
 	db 10
 	dw WOOPER
 	db -1 ; end
 
-	next_list_item ; YOUNGSTER (5)
+	next_list_item ; YOUNGSTER (4)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
 	db 7
 	dw ROLLIATH
@@ -671,7 +663,7 @@ YoungsterGroup:
 	dw SPEAROW
 	db -1 ; end
 
-	next_list_item ; YOUNGSTER (6)
+	next_list_item ; YOUNGSTER (5)
 	db "IAN@", TRAINERTYPE_NORMAL
 	db 10
 	dw MANKEY
@@ -679,26 +671,13 @@ YoungsterGroup:
 	dw DIGLETT
 	db -1 ; end
 
-	next_list_item ; YOUNGSTER (7)
-	db "JOEY@", TRAINERTYPE_NORMAL
-	db 15
-	dw ROLLIATH
-	db -1 ; end
-
-	next_list_item ; YOUNGSTER (8)
-	db "JOEY@", TRAINERTYPE_MOVES
-	db 21
-	dw RATICATE
-	dw TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
-	db -1 ; end
-
-	next_list_item ; YOUNGSTER (9)
+	next_list_item ; YOUNGSTER (6)
 	db "WARREN@", TRAINERTYPE_NORMAL
 	db 35
 	dw FEAROW
 	db -1 ; end
 
-	next_list_item ; YOUNGSTER (10)
+	next_list_item ; YOUNGSTER (7)
 	db "JIMMY@", TRAINERTYPE_NORMAL
 	db 33
 	dw RATICATE
@@ -706,32 +685,18 @@ YoungsterGroup:
 	dw ARBOK
 	db -1 ; end
 
-	next_list_item ; YOUNGSTER (11)
+	next_list_item ; YOUNGSTER (8)
 	db "OWEN@", TRAINERTYPE_NORMAL
 	db 35
 	dw GROWLITHE
 	db -1 ; end
 
-	next_list_item ; YOUNGSTER (12)
+	next_list_item ; YOUNGSTER (9)
 	db "JASON@", TRAINERTYPE_NORMAL
 	db 33
 	dw SANDSLASH
 	db 33
 	dw CROBAT
-	db -1 ; end
-
-	next_list_item ; YOUNGSTER (13)
-	db "JOEY@", TRAINERTYPE_MOVES
-	db 30
-	dw RATICATE
-	dw TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, PURSUIT
-	db -1 ; end
-
-	next_list_item ; YOUNGSTER (14)
-	db "JOEY@", TRAINERTYPE_MOVES
-	db 37
-	dw RATICATE
-	dw HYPER_BEAM, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
 
 	end_list_items

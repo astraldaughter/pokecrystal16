@@ -35,17 +35,23 @@ CampanulaPokecenter1FTeacherScript:
 	end
 
 CampanulaPokecenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
+	text "That PC is really"
+	line "handy. It lets me"
 
-	para "of #MON, and"
-	line "it's all free."
+	para "store as many"
+	line "#MON as I want."
+
+	para "Best of all?"
+	line "It's totally free!"
 	done
 
 CampanulaPokecenter1FGentlemanText:
 	text "That PC is free"
 	line "for any trainer"
 	cont "to use."
+
+	para "It's quite"
+	line "indispensable!"
 	done
 
 CampanulaPokecenter1FTeacherText:

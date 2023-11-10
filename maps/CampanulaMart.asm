@@ -41,32 +41,27 @@ CampanulaMartYoungsterScript:
 	jumptextfaceplayer CampanulaMartYoungsterText
 
 CampanulaMartCooltrainerMText:
-	text "They're fresh out"
+	text "Darn! They're out"
 	line "of # BALLS!"
 
-	para "When will they get"
-	line "more of them?"
+	para "I was hoping to"
+	line "grab some…"
 	done
 
 CampanulaMartCooltrainerMText_PokeBallsInStock:
-	text "# BALLS are in"
-	line "stock! Now I can"
-	cont "catch #MON!"
+	text "# BALLS are"
+	line "finally back in"
+	cont "stock!"
 	done
 
 CampanulaMartYoungsterText:
-	text "When I was walking"
-	line "in the grass, a"
+	text "They sell so many"
+	line "medicines for"
+	cont "#MON here…"
 
-	para "bug #MON poi-"
-	line "soned my #MON!"
-
-	para "I just kept going,"
-	line "but then my"
-	cont "#MON fainted."
-
-	para "You should keep an"
-	line "ANTIDOTE with you."
+	para "I'm not sure if"
+	line "there's enough"
+	cont "room in my bag!"
 	done
 
 CampanulaMart_MapEvents:

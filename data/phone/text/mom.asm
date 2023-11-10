@@ -135,7 +135,7 @@ MomPhoneNoPokedexText:
 	line "You're on a big"
 
 	para "mission for PROF."
-	line "ELM? Be good!"
+	line "FIR? Be good!"
 	done
 
 MomPhoneNoGymQuestText:
@@ -154,7 +154,7 @@ MomPhoneLectureText:
 	para "…… <PLAYER>?"
 	line "I heard from PROF."
 
-	para "ELM that you went"
+	para "FIR that you went"
 	line "on a long trip."
 
 	para "I wish you would"

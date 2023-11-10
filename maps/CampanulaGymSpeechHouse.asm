@@ -17,29 +17,35 @@ CampanulaGymSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CampanulaGymSpeechHousePokefanMText:
-	text "You're trying to"
-	line "see how good you"
+	text "Trainers who want"
+	line "to challenge"
 
-	para "are as a #MON"
-	line "trainer?"
+	para "themselves try"
+	line "to take on the"
 
-	para "You better visit"
-	line "the #MON GYMS"
+	para "#MON GYMS of"
+	line "NOSTA to prove"
 
-	para "all over JOHTO and"
+	para "their worth and"
 	line "collect BADGES."
+
+	para "Collecting all"
+	line "eight grants them"
+
+	para "the right to face"
+	line "the LEAGUE."
 	done
 
 CampanulaGymSpeechHouseBugCatcherText:
-	text "When I get older,"
-	line "I'm going to be a"
-	cont "GYM LEADER!"
+	text "I wanna take on"
+	line "the LEAGUE one"
+	cont "day."
 
-	para "I make my #MON"
-	line "battle with my"
+	para "Until then, I'm"
+	line "gonna train to"
 
-	para "friend's to make"
-	line "them tougher!"
+	para "be the best I"
+	line "can be!"
 	done
 
 CampanulaGymSpeechHouse_MapEvents:

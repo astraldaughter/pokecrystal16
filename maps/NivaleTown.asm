@@ -213,7 +213,7 @@ Text_CallMomOnGear:
 	done
 
 Text_TechnologyIncredible:
-	text "Technology
+	text "Technology"
 	line "is incredible!"
 
 	para "You can talk"

@@ -25,18 +25,27 @@ CampanulaEvolutionSpeechHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CampanulaEvolutionSpeechHouseYoungsterText:
-	text "#MON gain expe-"
-	line "rience in battle"
+	text "Some #MON"
+	line "evolve and change"
+	cont "form."
 
-	para "and change their"
-	line "form."
+	para "Most do it when"
+	line "they gain enough"
+
+	para "experience in"
+	line "battle, but some"
+
+	para "need to be given"
+	line "special items." 
 	done
 
 CampanulaEvolutionSpeechHouseLassText:
-	text "#MON change?"
+	text "None of my"
+	line "#MON have"
+	cont "evolved yet…"
 
-	para "I would be shocked"
-	line "if one did that!"
+	para "Maybe I need to"
+	line "train harder?"
 	done
 
 CampanulaEvolutionSpeechHouse_MapEvents:

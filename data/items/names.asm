@@ -68,7 +68,7 @@ ItemNames::
 	li "RED SCALE"
 	li "SECRETPOTION"
 	li "S.S.TICKET"
-	li "MYSTERY EGG"
+	li "FIELD NOTES"
 	li "CLEAR BELL"
 	li "SILVER WING"
 	li "MOOMOO MILK"
