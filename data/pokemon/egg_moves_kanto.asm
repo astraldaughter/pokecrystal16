@@ -21,9 +21,9 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw RolliathEggMoves
 	dw NoEggMoves1
-	dw SpearowEggMoves
+	dw ShootainerEggMoves
 	dw NoEggMoves1
-	dw EkansEggMoves
+	dw GiggilickEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -195,7 +195,7 @@ RolliathEggMoves:
 	dw REVERSAL
 	dw -1 ; end
 
-SpearowEggMoves:
+ShootainerEggMoves:
 	dw FAINT_ATTACK
 	dw FALSE_SWIPE
 	dw SCARY_FACE
@@ -203,7 +203,7 @@ SpearowEggMoves:
 	dw TRI_ATTACK
 	dw -1 ; end
 
-EkansEggMoves:
+GiggilickEggMoves:
 	dw PURSUIT
 	dw SLAM
 	dw SPITE

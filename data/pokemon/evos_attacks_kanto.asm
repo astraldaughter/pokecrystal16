@@ -20,11 +20,11 @@ EvosAttacksPointers1::
 	dw BoingooseEvosAttacks
 	dw RollabyeEvosAttacks
 	dw RolliathEvosAttacks
-	dw RaticateEvosAttacks
-	dw SpearowEvosAttacks
-	dw FearowEvosAttacks
-	dw EkansEvosAttacks
-	dw ArbokEvosAttacks
+	dw BambudEvosAttacks
+	dw ShootainerEvosAttacks
+	dw BambizierEvosAttacks
+	dw GiggilickEvosAttacks
+	dw HarlickinEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
 	dw SandshrewEvosAttacks
@@ -207,11 +207,12 @@ VenusaurEvosAttacks:
 	db 0 ; no more level-up moves
 
 KindlantEvosAttacks:
-	dbbw EVOLVE_LEVEL, 6, CHARIZARD
+	dbbw EVOLVE_LEVEL, 16, CHARMELEON
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
-	dbw 1, GROWL
-	dbw 1, IRON_HEAD
+	dbw 1, CHARGE_BEAM
+	dbw 1, CALM_MIND
+	dbw 1, DRAGON_DANCE
 	dbw 7, EMBER
 	dbw 13, SMOKESCREEN
 	dbw 19, RAGE
@@ -259,52 +260,56 @@ FoalakeEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, LOCHOLT
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 4, TAIL_WHIP
-	dbw 7, BUBBLE
-	dbw 10, WITHDRAW
-	dbw 13, WATER_GUN
-	dbw 18, BITE
-	dbw 23, RAPID_SPIN
-	dbw 28, PROTECT
-	dbw 33, RAIN_DANCE
-	dbw 40, SKULL_BASH
-	dbw 47, HYDRO_PUMP
+	dbw 1, GROWL
+	dbw 6, WATER_GUN
+	dbw 9, MIST
+	dbw 14, QUICK_ATTACK
+	dbw 17, SING
+	dbw 20, RAIN_DANCE
+	dbw 22, BUBBLEBEAM
+	dbw 25, DOUBLE_KICK
+	dbw 28, TAKE_DOWN
+	dbw 30, PERISH_SONG
+	dbw 33, UNDERTOW
+	dbw 36, MOONBLAST
+	dbw 41, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 LocholtEvosAttacks:
 	dbbw EVOLVE_LEVEL, 36, KELPESTARY
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 1, TAIL_WHIP
-	dbw 1, BUBBLE
-	dbw 4, TAIL_WHIP
-	dbw 7, BUBBLE
-	dbw 10, WITHDRAW
-	dbw 13, WATER_GUN
-	dbw 19, BITE
-	dbw 25, RAPID_SPIN
-	dbw 31, PROTECT
-	dbw 37, RAIN_DANCE
-	dbw 45, SKULL_BASH
-	dbw 53, HYDRO_PUMP
+	dbw 1, GROWL
+	dbw 6, WATER_GUN
+	dbw 9, MIST
+	dbw 14, QUICK_ATTACK
+	dbw 18, SING
+	dbw 22, RAIN_DANCE
+	dbw 25, BUBBLEBEAM
+	dbw 29, DOUBLE_KICK
+	dbw 33, TAKE_DOWN
+	dbw 35, PERISH_SONG
+	dbw 40, UNDERTOW
+	dbw 44, MOONBLAST
+	dbw 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 KelpestaryEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 1, TAIL_WHIP
-	dbw 1, BUBBLE
-	dbw 1, WITHDRAW
-	dbw 4, TAIL_WHIP
-	dbw 7, BUBBLE
-	dbw 10, WITHDRAW
-	dbw 13, WATER_GUN
-	dbw 19, BITE
-	dbw 25, RAPID_SPIN
-	dbw 31, PROTECT
-	dbw 42, RAIN_DANCE
-	dbw 55, SKULL_BASH
-	dbw 68, HYDRO_PUMP
+	dbw 1, GROWL
+	dbw 6, WATER_GUN
+	dbw 9, MIST
+	dbw 14, QUICK_ATTACK
+	dbw 18, SING
+	dbw 22, RAIN_DANCE
+	dbw 25, BUBBLEBEAM
+	dbw 29, DOUBLE_KICK
+	dbw 33, TAKE_DOWN
+	dbw 35, PERISH_SONG
+	dbw 41, UNDERTOW
+	dbw 46, MOONBLAST
+	dbw 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 CaterpieEvosAttacks:
@@ -362,34 +367,40 @@ BeedrillEvosAttacks:
 	db 0 ; no more level-up moves
 
 SpreaselEvosAttacks:
-	dbbw EVOLVE_LEVEL, 18, BOINGOOSE
+	dbbw EVOLVE_LEVEL, 20, BOINGOOSE
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 5, SAND_ATTACK
-	dbw 9, GUST
-	dbw 15, QUICK_ATTACK
-	dbw 21, WHIRLWIND
-	dbw 29, WING_ATTACK
-	dbw 37, AGILITY
-	dbw 47, MIRROR_MOVE
+	dbw 1, SCRATCH
+	dbw 1, TAIL_WHIP
+	dbw 5, QUICK_ATTACK
+	dbw 8, WRAP
+	dbw 13, FURY_SWIPES
+	dbw 17, PURSUIT
+	dbw 23, BITE
+	dbw 28, AGILITY
+	dbw 35, CRUNCH
+	dbw 41, PLAY_ROUGH
+	dbw 49, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 BoingooseEvosAttacks:
-	dbbw EVOLVE_LEVEL, 36, ROLLABYE
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, SAND_ATTACK
-	dbw 1, GUST
-	dbw 5, SAND_ATTACK
-	dbw 9, GUST
-	dbw 15, QUICK_ATTACK
-	dbw 23, WHIRLWIND
-	dbw 33, WING_ATTACK
-	dbw 43, AGILITY
-	dbw 55, MIRROR_MOVE
+	dbw 1, SCRATCH
+	dbw 1, TAIL_WHIP
+	dbw 5, QUICK_ATTACK
+	dbw 8, WRAP
+	dbw 13, FURY_SWIPES
+	dbw 17, PURSUIT
+	dbw 20, HYPER_FANG
+	dbw 24, BITE
+	dbw 30, SPRINGSHOT
+	dbw 34, AGILITY
+	dbw 38, CRUNCH
+	dbw 45, PLAY_ROUGH
+	dbw 54, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 RollabyeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, ROLLIATH
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, SAND_ATTACK
@@ -405,7 +416,6 @@ RollabyeEvosAttacks:
 	db 0 ; no more level-up moves
 
 RolliathEvosAttacks:
-	dbbw EVOLVE_LEVEL, 20, RATICATE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP
@@ -416,47 +426,61 @@ RolliathEvosAttacks:
 	dbw 34, SUPER_FANG
 	db 0 ; no more level-up moves
 
-RaticateEvosAttacks:
+BambudEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, SHOOTAINER
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, TAIL_WHIP
-	dbw 1, QUICK_ATTACK
-	dbw 7, QUICK_ATTACK
-	dbw 13, HYPER_FANG
-	dbw 20, SCARY_FACE
-	dbw 30, PURSUIT
-	dbw 40, SUPER_FANG
+	dbw 1, ABSORB
+	dbw 1, HARDEN
+	dbw 7, GROWTH
+	dbw 11, SLEEP_POWDER
+	dbw 11, POISONPOWDER
+	dbw 16, CONFUSION
+	dbw 21, LEECH_SEED
+	dbw 26, MEGA_DRAIN
+	dbw 29, MOONLIGHT
+	dbw 31, MIRROR_COAT
+	dbw 36, SAFEGUARD
+	dbw 41, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-SpearowEvosAttacks:
-	dbbw EVOLVE_LEVEL, 20, FEAROW
+ShootainerEvosAttacks:
+	dbbw EVOLVE_ITEM, LEAF_STONE, BAMBIZIER
 	db 0 ; no more evolutions
-	dbw 1, PECK
-	dbw 1, GROWL
-	dbw 7, LEER
-	dbw 13, FURY_ATTACK
-	dbw 25, PURSUIT
-	dbw 31, MIRROR_MOVE
-	dbw 37, DRILL_PECK
-	dbw 43, AGILITY
+	dbw 1, ABSORB
+	dbw 1, HARDEN
+	dbw 7, GROWTH
+	dbw 11, SLEEP_POWDER
+	dbw 11, POISONPOWDER
+	dbw 16, CONFUSION
+	dbw 22, LEECH_SEED
+	dbw 28, MEGA_DRAIN
+	dbw 31, MOONLIGHT
+	dbw 34, MIRROR_COAT
+	dbw 40, SAFEGUARD
+	dbw 46, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-FearowEvosAttacks:
+BambizierEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, PECK
-	dbw 1, GROWL
-	dbw 1, LEER
-	dbw 1, FURY_ATTACK
-	dbw 7, LEER
-	dbw 13, FURY_ATTACK
-	dbw 26, PURSUIT
-	dbw 32, MIRROR_MOVE
-	dbw 40, DRILL_PECK
-	dbw 47, AGILITY
+	dbw 1, CALM_MIND
+	dbw 1, ABSORB
+	dbw 1, HARDEN
+	dbw 7, GROWTH
+	dbw 11, SLEEP_POWDER
+	dbw 11, POISONPOWDER
+	dbw 16, CONFUSION
+	dbw 22, LEECH_SEED
+	dbw 28, MEGA_DRAIN
+	dbw 31, MOONLIGHT
+	dbw 34, MIRROR_COAT
+	dbw 40, SAFEGUARD
+	dbw 46, GIGA_DRAIN
+	dbw 50, PSYCHIC_M
+	dbw 54, MOONBLAST
 	db 0 ; no more level-up moves
 
-EkansEvosAttacks:
-	dbbw EVOLVE_LEVEL, 22, ARBOK
+GiggilickEvosAttacks:
+	dbbw EVOLVE_LEVEL, 22, HARLICKIN
 	db 0 ; no more evolutions
 	dbw 1, WRAP
 	dbw 1, LEER
@@ -468,7 +492,7 @@ EkansEvosAttacks:
 	dbw 43, HAZE
 	db 0 ; no more level-up moves
 
-ArbokEvosAttacks:
+HarlickinEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, WRAP
 	dbw 1, LEER

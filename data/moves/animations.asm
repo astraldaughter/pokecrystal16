@@ -305,6 +305,7 @@ BattleAnimations::
 	dw BattleAnim_MagnetPulse
 	dw BattleAnim_CalmMind
 	dw BattleAnim_DragonDance
+	dw BattleAnim_FairyRing
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -2452,6 +2453,7 @@ BattleAnim_Bonemerang:
 	anim_wait 24
 	anim_ret
 
+BattleAnim_FairyRing:
 BattleAnim_Swift:
 	anim_1gfx ANIM_GFX_OBJECTS
 	anim_sound 6, 2, SFX_METRONOME

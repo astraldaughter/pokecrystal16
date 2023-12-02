@@ -277,4 +277,5 @@ MoveNames::
 	li "MAGNET PULSE"
 	li "CALM MIND"
 	li "DRAGON DANCE"
+	li "FAIRY RING"
 	assert_list_length NUM_ATTACKS

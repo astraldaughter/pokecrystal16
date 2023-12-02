@@ -180,9 +180,9 @@ CyndaquilPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke KINDLANT, 5, BERRY
+	givepoke GIGGILICK, 5, BERRY
 	closetext
-	loadwildmon KINDLANT, 5
+	loadwildmon HARLICKIN, 5
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
 	startbattle
 	reloadmapafterbattle

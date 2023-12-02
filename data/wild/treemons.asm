@@ -19,15 +19,15 @@ TreeMons:
 TreeMonSet_City:
 TreeMonSet_Canyon:
 ; common
-	dbbw 50, 10, SPEAROW
-	dbbw 15, 10, SPEAROW
-	dbbw 15, 10, SPEAROW
+	dbbw 50, 10, SHOOTAINER
+	dbbw 15, 10, SHOOTAINER
+	dbbw 15, 10, SHOOTAINER
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
 	dbbw  5, 10, AIPOM
 	db -1
 ; rare
-	dbbw 50, 10, SPEAROW
+	dbbw 50, 10, SHOOTAINER
 	dbbw 15, 10, HERACROSS
 	dbbw 15, 10, HERACROSS
 	dbbw 10, 10, AIPOM
@@ -37,15 +37,15 @@ TreeMonSet_Canyon:
 
 TreeMonSet_Town:
 ; common
-	dbbw 50, 10, SPEAROW
-	dbbw 15, 10, EKANS
-	dbbw 15, 10, SPEAROW
+	dbbw 50, 10, SHOOTAINER
+	dbbw 15, 10, GIGGILICK
+	dbbw 15, 10, SHOOTAINER
 	dbbw 10, 10, AIPOM
 	dbbw  5, 10, AIPOM
 	dbbw  5, 10, AIPOM
 	db -1
 ; rare
-	dbbw 50, 10, SPEAROW
+	dbbw 50, 10, SHOOTAINER
 	dbbw 15, 10, HERACROSS
 	dbbw 15, 10, HERACROSS
 	dbbw 10, 10, AIPOM
@@ -74,7 +74,7 @@ TreeMonSet_Route:
 TreeMonSet_Kanto:
 ; common
 	dbbw 50, 10, HOOTHOOT
-	dbbw 15, 10, EKANS
+	dbbw 15, 10, GIGGILICK
 	dbbw 15, 10, HOOTHOOT
 	dbbw 10, 10, EXEGGCUTE
 	dbbw  5, 10, EXEGGCUTE

@@ -658,9 +658,9 @@ YoungsterGroup:
 	db 10
 	dw SANDSHREW
 	db 8
-	dw SPEAROW
+	dw SHOOTAINER
 	db 8
-	dw SPEAROW
+	dw SHOOTAINER
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (5)
@@ -674,15 +674,15 @@ YoungsterGroup:
 	next_list_item ; YOUNGSTER (6)
 	db "WARREN@", TRAINERTYPE_NORMAL
 	db 35
-	dw FEAROW
+	dw BAMBIZIER
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (7)
 	db "JIMMY@", TRAINERTYPE_NORMAL
 	db 33
-	dw RATICATE
+	dw BAMBUD
 	db 33
-	dw ARBOK
+	dw HARLICKIN
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (8)
@@ -941,7 +941,7 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (2)
 	db "ABE@", TRAINERTYPE_NORMAL
 	db 9
-	dw SPEAROW
+	dw SHOOTAINER
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (3)
@@ -979,11 +979,11 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (6)
 	db "DENIS@", TRAINERTYPE_NORMAL
 	db 18
-	dw SPEAROW
+	dw SHOOTAINER
 	db 20
-	dw FEAROW
+	dw BAMBIZIER
 	db 18
-	dw SPEAROW
+	dw SHOOTAINER
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (7)
@@ -1005,9 +1005,9 @@ BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (9)
 	db "ROY@", TRAINERTYPE_NORMAL
 	db 29
-	dw FEAROW
+	dw BAMBIZIER
 	db 35
-	dw FEAROW
+	dw BAMBIZIER
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (10)
@@ -1039,7 +1039,7 @@ BirdKeeperGroup:
 	db 6
 	dw SPREASEL
 	db 8
-	dw SPEAROW
+	dw SHOOTAINER
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (14)
@@ -1059,7 +1059,7 @@ BirdKeeperGroup:
 	db 32
 	dw BOINGOOSE
 	db 32
-	dw FEAROW
+	dw BAMBIZIER
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (17)
@@ -1112,7 +1112,7 @@ LassGroup:
 	db 30
 	dw GLOOM
 	db 34
-	dw ARBOK
+	dw HARLICKIN
 	db 30
 	dw GLOOM
 	db -1 ; end
@@ -1925,9 +1925,9 @@ GruntMGroup:
 	next_list_item ; GRUNTM (3)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 24
-	dw RATICATE
+	dw BAMBUD
 	db 24
-	dw RATICATE
+	dw BAMBUD
 	db -1 ; end
 
 	next_list_item ; GRUNTM (4)
@@ -1983,7 +1983,7 @@ GruntMGroup:
 	next_list_item ; GRUNTM (9)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 24
-	dw RATICATE
+	dw BAMBUD
 	db 26
 	dw KOFFING
 	db -1 ; end
@@ -2023,7 +2023,7 @@ GruntMGroup:
 	next_list_item ; GRUNTM (14)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 24
-	dw RATICATE
+	dw BAMBUD
 	db 24
 	dw GOLBAT
 	db -1 ; end
@@ -2135,7 +2135,7 @@ GruntMGroup:
 	next_list_item ; GRUNTM (28)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 19
-	dw RATICATE
+	dw BAMBUD
 	db -1 ; end
 
 	next_list_item ; GRUNTM (29)
@@ -2153,7 +2153,7 @@ GruntMGroup:
 	db 25
 	dw GOLBAT
 	db 30
-	dw ARBOK
+	dw HARLICKIN
 	db -1 ; end
 
 	next_list_item ; GRUNTM (31)
@@ -3020,7 +3020,7 @@ SailorGroup:
 	db 17
 	dw POLIWHIRL
 	db 17
-	dw RATICATE
+	dw BAMBUD
 	db 19
 	dw KRABBY
 	db -1 ; end
@@ -3062,9 +3062,9 @@ SailorGroup:
 	next_list_item ; SAILOR (6)
 	db "JEFF@", TRAINERTYPE_NORMAL
 	db 32
-	dw RATICATE
+	dw BAMBUD
 	db 32
-	dw RATICATE
+	dw BAMBUD
 	db -1 ; end
 
 	next_list_item ; SAILOR (7)
@@ -4027,7 +4027,7 @@ ExecutiveMGroup:
 	db 22
 	dw ZUBAT
 	db 24
-	dw RATICATE
+	dw BAMBUD
 	db 22
 	dw KOFFING
 	db -1 ; end
@@ -4554,7 +4554,7 @@ CamperGroup:
 	next_list_item ; CAMPER (22)
 	db "QUENTIN@", TRAINERTYPE_NORMAL
 	db 30
-	dw FEAROW
+	dw BAMBIZIER
 	db 30
 	dw PRIMEAPE
 	db 30
@@ -4567,7 +4567,7 @@ ExecutiveFGroup:
 	next_list_item ; EXECUTIVEF (1)
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
 	db 32
-	dw ARBOK
+	dw HARLICKIN
 	dw WRAP, POISON_STING, BITE, GLARE
 	db 32
 	dw VILEPLUME
@@ -4580,7 +4580,7 @@ ExecutiveFGroup:
 	next_list_item ; EXECUTIVEF (2)
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
 	db 23
-	dw ARBOK
+	dw HARLICKIN
 	dw WRAP, LEER, POISON_STING, BITE
 	db 23
 	dw GLOOM
@@ -5183,13 +5183,13 @@ GruntFGroup:
 	db 9
 	dw ZUBAT
 	db 11
-	dw EKANS
+	dw GIGGILICK
 	db -1 ; end
 
 	next_list_item ; GRUNTF (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 26
-	dw ARBOK
+	dw HARLICKIN
 	db -1 ; end
 
 	next_list_item ; GRUNTF (3)
@@ -5203,11 +5203,11 @@ GruntFGroup:
 	next_list_item ; GRUNTF (4)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 21
-	dw EKANS
+	dw GIGGILICK
 	db 23
 	dw ODDISH
 	db 21
-	dw EKANS
+	dw GIGGILICK
 	db 24
 	dw GLOOM
 	db -1 ; end
@@ -5215,7 +5215,7 @@ GruntFGroup:
 	next_list_item ; GRUNTF (5)
 	db "GRUNT@", TRAINERTYPE_MOVES
 	db 18
-	dw EKANS
+	dw GIGGILICK
 	dw WRAP, LEER, POISON_STING, BITE
 	db 18
 	dw GLOOM

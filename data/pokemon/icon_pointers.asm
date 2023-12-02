@@ -24,11 +24,11 @@ IconPointers:
 	dw BoingooseIcon
 	dw RollabyeIcon
 	dw RolliathIcon
-	dw RaticateIcon
-	dw SpearowIcon
-	dw FearowIcon
-	dw EkansIcon
-	dw ArbokIcon
+	dw BambudIcon
+	dw ShootainerIcon
+	dw BambizierIcon
+	dw GiggilickIcon
+	dw HarlickinIcon
 	dw PikachuIcon
 	dw RaichuIcon
 	dw SandshrewIcon

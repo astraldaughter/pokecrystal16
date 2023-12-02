@@ -7,7 +7,7 @@ AlphabeticalPokedexOrder:
 	dw AIPOM
 	dw ALAKAZAM
 	dw AMPHAROS
-	dw ARBOK
+	dw HARLICKIN
 	dw ARCANINE
 	dw ARIADOS
 	dw ARTICUNO
@@ -51,7 +51,7 @@ AlphabeticalPokedexOrder:
 	dw DUGTRIO
 	dw DUNSPARCE
 	dw EEVEE
-	dw EKANS
+	dw GIGGILICK
 	dw ELECTABUZZ
 	dw ELECTRODE
 	dw ELEKID
@@ -60,7 +60,7 @@ AlphabeticalPokedexOrder:
 	dw EXEGGCUTE
 	dw EXEGGUTOR
 	dw FARFETCH_D
-	dw FEAROW
+	dw BAMBIZIER
 	dw FERALIGATR
 	dw FLAAFFY
 	dw FLAREON
@@ -182,7 +182,7 @@ AlphabeticalPokedexOrder:
 	dw RAICHU
 	dw RAIKOU
 	dw RAPIDASH
-	dw RATICATE
+	dw BAMBUD
 	dw ROLLIATH
 	dw REMORAID
 	dw RHYDON
@@ -208,7 +208,7 @@ AlphabeticalPokedexOrder:
 	dw SNEASEL
 	dw SNORLAX
 	dw SNUBBULL
-	dw SPEAROW
+	dw SHOOTAINER
 	dw SPINARAK
 	dw FOALAKE
 	dw STANTLER

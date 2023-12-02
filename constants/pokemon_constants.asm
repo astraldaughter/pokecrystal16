@@ -38,11 +38,11 @@
 	const BOINGOOSE  ; 11
 	const ROLLABYE    ; 12
 	const ROLLIATH    ; 13
-	const RATICATE   ; 14
-	const SPEAROW    ; 15
-	const FEAROW     ; 16
-	const EKANS      ; 17
-	const ARBOK      ; 18
+	const BAMBUD   ; 14
+	const SHOOTAINER    ; 15
+	const BAMBIZIER     ; 16
+	const GIGGILICK      ; 17
+	const HARLICKIN      ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b

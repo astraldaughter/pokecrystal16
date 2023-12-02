@@ -282,6 +282,7 @@ MoveDescriptions1:
 	dw MagnetPulseDescription
 	dw CalmMindDescription
 	dw DragonDanceDescription
+	dw FairyRingDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1394,3 +1395,7 @@ CalmMindDescription:
 DragonDanceDescription:
 	db   "Raises the user's"
 	next "ATTACK and SPEED.@"
+
+FairyRingDescription:
+	db   "Traps the foe for"
+	next "2-5 turns.@"

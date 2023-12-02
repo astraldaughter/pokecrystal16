@@ -7,8 +7,8 @@ AsleepTreeMonsNite:
 	dw WEEDLE
 	dw KAKUNA
 	dw BEEDRILL
-	dw SPEAROW
-	dw EKANS
+	dw SHOOTAINER
+	dw GIGGILICK
 	dw EXEGGCUTE
 	dw LEDYBA
 	dw AIPOM

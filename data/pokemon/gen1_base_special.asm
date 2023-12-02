@@ -21,11 +21,11 @@ KantoMonSpecials:
 	db  50 ; BOINGOOSE
 	db  70 ; ROLLABYE
 	db  25 ; ROLLIATH
-	db  50 ; RATICATE
-	db  31 ; SPEAROW
-	db  61 ; FEAROW
-	db  40 ; EKANS
-	db  65 ; ARBOK
+	db  50 ; BAMBUD
+	db  31 ; SHOOTAINER
+	db  61 ; BAMBIZIER
+	db  40 ; GIGGILICK
+	db  65 ; HARLICKIN
 	db  50 ; PIKACHU
 	db  90 ; RAICHU
 	db  30 ; SANDSHREW

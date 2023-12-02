@@ -4,7 +4,7 @@ Pokered_MonIndices:
 	db KANGASKHAN
 	db NIDORAN_M
 	db CLEFAIRY
-	db SPEAROW
+	db SHOOTAINER
 	db VOLTORB
 	db NIDOKING
 	db SLOWBRO
@@ -34,7 +34,7 @@ Pokered_MonIndices:
 	db SHUCKLE ; MISSINGNO.
 	db GROWLITHE
 	db ONIX
-	db FEAROW
+	db BAMBIZIER
 	db SPREASEL
 	db SLOWPOKE
 	db KADABRA
@@ -44,7 +44,7 @@ Pokered_MonIndices:
 	db MR__MIME
 	db HITMONLEE
 	db HITMONCHAN
-	db ARBOK
+	db HARLICKIN
 	db PARASECT
 	db PSYDUCK
 	db DROWZEE
@@ -107,7 +107,7 @@ Pokered_MonIndices:
 	db VAPOREON
 	db MACHOP
 	db ZUBAT
-	db EKANS
+	db GIGGILICK
 	db PARAS
 	db POLIWHIRL
 	db POLIWRATH
@@ -165,7 +165,7 @@ Pokered_MonIndices:
 	db PONYTA
 	db RAPIDASH
 	db ROLLIATH
-	db RATICATE
+	db BAMBUD
 	db NIDORINO
 	db NIDORINA
 	db GEODUDE

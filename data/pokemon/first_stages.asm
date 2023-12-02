@@ -20,11 +20,11 @@ FirstEvoStages::
 	dw SPREASEL
 	dw ROLLABYE
 	dw ROLLABYE
-	dw ROLLIATH
-	dw SPEAROW
-	dw SPEAROW
-	dw EKANS
-	dw EKANS      ;18
+	dw BAMBUD
+	dw BAMBUD
+	dw BAMBUD
+	dw GIGGILICK
+	dw GIGGILICK      ;18
 	dw PICHU
 	dw PICHU
 	dw SANDSHREW

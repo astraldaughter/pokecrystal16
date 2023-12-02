@@ -20,11 +20,11 @@ PokedexDataPointerTable:
 	dba BoingoosePokedexEntry
 	dba RollabyePokedexEntry
 	dba RolliathPokedexEntry
-	dba RaticatePokedexEntry
-	dba SpearowPokedexEntry
-	dba FearowPokedexEntry
-	dba EkansPokedexEntry
-	dba ArbokPokedexEntry
+	dba BambudPokedexEntry
+	dba ShootainerPokedexEntry
+	dba BambizierPokedexEntry
+	dba GiggilickPokedexEntry
+	dba HarlickinPokedexEntry
 	dba PikachuPokedexEntry
 	dba RaichuPokedexEntry
 	dba SandshrewPokedexEntry

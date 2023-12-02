@@ -23,7 +23,7 @@ SpriteMons:
 	dw BULBASAUR
 	dw JIGGLYPUFF
 	dw GRIMER
-	dw EKANS
+	dw GIGGILICK
 	dw PARAS
 	dw TENTACOOL
 	dw TAUROS

@@ -25,11 +25,11 @@ PokemonCries::
 	mon_cry CRY_SENTRET,      36,  360 ; BOINGOOSE
 	mon_cry CRY_SLOWKING,    361,  256 ; ROLLABYE
 	mon_cry CRY_KANGASKHAN,   16,  160 ; ROLLIATH
-	mon_cry CRY_RATTATA,      32,  383 ; RATICATE
-	mon_cry CRY_SPEAROW,       0,  256 ; SPEAROW
-	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
-	mon_cry CRY_EKANS,        18,  192 ; EKANS
-	mon_cry CRY_EKANS,       224,  144 ; ARBOK
+	mon_cry CRY_ODDISH,      167,  256 ; BAMBUD
+	mon_cry CRY_ODDISH,      128,  128 ; SHOOTAINER
+	mon_cry CRY_VULPIX,      288,  256 ; BAMBIZIER
+	mon_cry CRY_DROWZEE,     296,  224 ; GIGGILICK
+	mon_cry CRY_DROWZEE,      40,  256 ; HARLICKIN
 	mon_cry CRY_BULBASAUR,   238,  129 ; PIKACHU
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW

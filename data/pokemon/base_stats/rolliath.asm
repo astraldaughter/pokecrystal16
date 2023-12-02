@@ -1,11 +1,11 @@
 	db 0 ; species ID placeholder
 
-	db  30,  56,  35,  72,  25,  35
+	db  75,  115,  130,  40,  50,  75
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
-	db 255 ; catch rate
-	db 57 ; base exp
+	db BUG, GROUND ; type
+	db 90 ; catch rate
+	db 170 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
@@ -14,7 +14,7 @@
 	INCBIN "gfx/pokemon/rolliath/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
 	tmhm HEADBUTT, CURSE, TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, SNORE, BLIZZARD, ICY_WIND, PROTECT, ENDURE, FRUSTRATION, IRON_TAIL, THUNDER, RETURN, DIG, SHADOW_BALL, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, DEFENSE_CURL, REST, ATTRACT, THIEF

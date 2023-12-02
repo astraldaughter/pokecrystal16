@@ -51,16 +51,16 @@ PokemonPicPointers::
 	dba RollabyeBackpic
 	dba RolliathFrontpic
 	dba RolliathBackpic
-	dba RaticateFrontpic
-	dba RaticateBackpic
-	dba SpearowFrontpic
-	dba SpearowBackpic
-	dba FearowFrontpic
-	dba FearowBackpic
-	dba EkansFrontpic
-	dba EkansBackpic
-	dba ArbokFrontpic
-	dba ArbokBackpic
+	dba BambudFrontpic
+	dba BambudBackpic
+	dba ShootainerFrontpic
+	dba ShootainerBackpic
+	dba BambizierFrontpic
+	dba BambizierBackpic
+	dba GiggilickFrontpic
+	dba GiggilickBackpic
+	dba HarlickinFrontpic
+	dba HarlickinBackpic
 	dba PikachuFrontpic
 	dba PikachuBackpic
 	dba RaichuFrontpic

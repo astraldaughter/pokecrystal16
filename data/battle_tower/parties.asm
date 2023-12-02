@@ -1658,7 +1658,7 @@ BattleTowerMons:
 	bigdw 65 ; SDef
 	db "RINGUMA@@@@"
 
-	dw FEAROW
+	dw BAMBIZIER
 	db BRIGHTPOWDER
 	dw MIRROR_MOVE, PURSUIT, PECK, SWIFT
 
@@ -5405,7 +5405,7 @@ BattleTowerMons:
 	bigdw 218 ; SDef
 	db "HAGANE-RU@@"
 
-	dw FEAROW
+	dw BAMBIZIER
 	db KINGS_ROCK
 	dw DRILL_PECK, STEEL_WING, HYPER_BEAM, MUD_SLAP
 
