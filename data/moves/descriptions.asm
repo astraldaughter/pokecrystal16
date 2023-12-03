@@ -283,6 +283,8 @@ MoveDescriptions1:
 	dw CalmMindDescription
 	dw DragonDanceDescription
 	dw FairyRingDescription
+	dw DrainingKissDescription
+	dw BibbidiBopDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1399,3 +1401,11 @@ DragonDanceDescription:
 FairyRingDescription:
 	db   "Traps the foe for"
 	next "2-5 turns.@"
+
+DrainingKissDescription:
+	db   "Steals 1/2 of the"
+	next "damage inflicted.@"
+
+BibbidiBopDescription:
+	db   "Repeatedly slaps"
+	next "2-5 times.@"

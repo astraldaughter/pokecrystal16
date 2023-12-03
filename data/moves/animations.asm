@@ -306,6 +306,8 @@ BattleAnimations::
 	dw BattleAnim_CalmMind
 	dw BattleAnim_DragonDance
 	dw BattleAnim_FairyRing
+	dw BattleAnim_DrainingKiss
+	dw BattleAnim_BibbidiBop
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -703,6 +705,7 @@ BattleAnim_KarateChop:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_BibbidiBop:
 BattleAnim_Doubleslap:
 	anim_1gfx ANIM_GFX_HIT
 	anim_if_param_equal $1, .alternate
@@ -2433,6 +2436,7 @@ BattleAnim_Mimic:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_DrainingKiss:
 BattleAnim_LovelyKiss:
 	anim_2gfx ANIM_GFX_OBJECTS, ANIM_GFX_ANGELS
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0

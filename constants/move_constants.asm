@@ -284,6 +284,8 @@
 	const CALM_MIND	   ; 114
 	const DRAGON_DANCE ; 115
 	const FAIRY_RING   ; 116
+	const DRAININGKISS ; 117
+	const BIBBIDI_BOP  ; 118
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

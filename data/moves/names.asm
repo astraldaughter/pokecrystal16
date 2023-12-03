@@ -278,4 +278,6 @@ MoveNames::
 	li "CALM MIND"
 	li "DRAGON DANCE"
 	li "FAIRY RING"
+	li "DRAININGKISS"
+	li "BIBBIDI BOP"
 	assert_list_length NUM_ATTACKS
