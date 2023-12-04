@@ -1258,6 +1258,9 @@ PlaceMoveData:
 	hlcoord 12, 12
 	ld de, String_MoveAtk
 	call PlaceString
+	hlcoord 12, 13
+	ld de, String_MoveAcc
+	call PlaceString
 	ld a, [wCurSpecies]
 	ld b, a
 	farcall GetMoveCategoryName
@@ -1270,6 +1273,18 @@ PlaceMoveData:
 	ld [hl], "/"
 	inc hl
 	predef PrintMoveType
+	; print move accuracy
+	ld a, [wCurSpecies]
+	ld l, a
+	ld a, MOVE_ACC
+	call GetMoveAttribute
+	call Adjust_percent
+	hlcoord 16, 13
+	ld [wTextDecimalByte], a
+	ld de, wTextDecimalByte
+	lb bc, 1, 3
+	call PrintNum
+	; print move power
 	ld a, [wCurSpecies]
 	ld l, a
 	ld a, MOVE_POWER
@@ -1300,6 +1315,8 @@ String_MoveType_Bottom:
 	db "│        └@"
 String_MoveAtk:
 	db "ATK/@"
+String_MoveAcc:
+	db "ACC/@"
 String_MoveNoPower:
 	db "---@"
 
@@ -1362,4 +1379,25 @@ PlaceMoveScreenRightArrow:
 .legal
 	hlcoord 18, 0
 	ld [hl], "▶"
+	ret
+
+Adjust_percent:
+	; hMultiplicand 
+	; hMultiplier. Result in hProduct.
+	ldh [hMultiplicand], a
+	ld a, 100
+	ldh [hMultiplier], a
+	call Multiply
+	; Divide hDividend length b (max 4 bytes) by hDivisor. Result in hQuotient.
+	; All values are big endian.
+	ld b, 2
+	; ldh a, [hProduct]
+	; ldh [hDividend], a
+	ld a, 255
+	ldh [hDivisor], a
+	call Divide
+	ldh a, [hQuotient + 3]
+	cp 100
+	ret z
+	inc a
 	ret
