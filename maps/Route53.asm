@@ -270,7 +270,7 @@ Route53_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  7,  1, ROUTE_51_ROUTE_53_GATE, 1
+	warp_event  7,  1, ROUTE_51_ROUTE_53_GATE, 3
 	warp_event  8, 33, ROUTE_51_ROUTE_53_GATE, 2
 	warp_event 14,  5, DARK_CAVE_VIOLET_ENTRANCE, 3
 
