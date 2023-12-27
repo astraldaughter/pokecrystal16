@@ -286,6 +286,13 @@
 	const FAIRY_RING   ; 116
 	const DRAININGKISS ; 117
 	const BIBBIDI_BOP  ; 118
+	const DRAGON_CLAW  ; 119
+	const ICICLE_CRASH ; 11a
+	const AQUA_JET	   ; 11b
+	const DRAGON_ROAR  ; 11c
+	const HYPER_VOICE  ; 11d
+	const ZEN_HEADBUTT ; 11e
+	const PSYCHO_CUT   ; 11f
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

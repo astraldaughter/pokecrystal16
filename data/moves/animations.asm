@@ -308,6 +308,13 @@ BattleAnimations::
 	dw BattleAnim_FairyRing
 	dw BattleAnim_DrainingKiss
 	dw BattleAnim_BibbidiBop
+	dw BattleAnim_DragonClaw
+	dw BattleAnim_IcicleCrash
+	dw BattleAnim_AquaJet
+	dw BattleAnim_DragonRoar
+	dw BattleAnim_HyperVoice
+	dw BattleAnim_ZenHeadbutt
+	dw BattleAnim_PsychoCut
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1865,6 +1872,7 @@ BattleAnim_Fissure:
 	anim_loop 4, .loop
 	anim_ret
 
+BattleAnim_DragonRoar:
 BattleAnim_Growl:
 	anim_1gfx ANIM_GFX_NOISE
 	anim_battlergfx_2row
@@ -3000,6 +3008,7 @@ BattleAnim_Barrier:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_AquaJet:
 BattleAnim_Waterfall:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_2Row
@@ -4944,6 +4953,84 @@ BattleAnim_LeafBlade:
 	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $5c
 	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $90
 	anim_wait 32
+	anim_ret
+
+BattleAnim_DragonClaw:
+	anim_2gfx ANIM_GFX_FIRE, ANIM_GFX_CUT
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
+.loop
+	anim_sound 0, 0, SFX_EMBER
+	anim_obj ANIM_OBJ_SACRED_FIRE, 48, 104, $0
+	anim_wait 8
+	anim_loop 8, .loop
+	anim_wait 96
+	anim_sound 0, 1, SFX_CUT
+	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, 148, 36, $0
+	anim_wait 32
+	anim_ret
+
+BattleAnim_IcicleCrash:
+	anim_1gfx ANIM_GFX_ICE
+.loop
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $e, $4, $0
+	anim_sound 0, 1, SFX_STRENGTH
+	anim_obj ANIM_OBJ_ICICLE_CRASH, 128, 64, $40
+	anim_wait 2
+	anim_obj ANIM_OBJ_ICICLE_CRASH, 120, 68, $30
+	anim_wait 2
+	anim_obj ANIM_OBJ_ICICLE_CRASH, 152, 68, $30
+	anim_wait 2
+	anim_obj ANIM_OBJ_ICICLE_CRASH, 144, 64, $40
+	anim_wait 2
+	anim_obj ANIM_OBJ_ICICLE_CRASH, 136, 68, $30
+	anim_wait 2
+	anim_jumpuntil .loop
+	anim_wait 64
+	anim_call BattleAnimSub_Ice
+	anim_wait 32
+	anim_ret
+
+BattleAnim_HyperVoice:
+	anim_1gfx ANIM_GFX_NOISE
+	anim_battlergfx_2row
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+.loop
+	anim_cry $0
+	anim_call BattleAnimSub_Sound
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $e, $4, $0
+	anim_wait 32
+	anim_loop 3, .loop
+	anim_ret
+
+BattleAnim_ZenHeadbutt:
+	anim_1gfx ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_HEADBUTT
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
+	anim_wait 32
+	anim_sound 0, 1, SFX_TACKLE
+	anim_obj ANIM_OBJ_HIT_YFIX, 136, 56, $0
+	anim_wait 8
+	anim_call BattleAnim_UserObj_2Row
+	anim_sound 0, 1, SFX_PSYCHIC
+	anim_bgeffect ANIM_BG_NIGHT_SHADE, $0, BG_EFFECT_TARGET, $8
+	anim_wait 128
+	anim_incbgeffect ANIM_BG_NIGHT_SHADE
+	anim_call BattleAnim_ShowMon_1
+	anim_ret
+
+BattleAnim_PsychoCut:
+	anim_1gfx ANIM_GFX_CUT
+	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
+	anim_bgeffect ANIM_BG_PSYCHIC, $0, $0, $0
+	anim_sound 6, 2, SFX_PSYCHIC
+	anim_wait 64
+	anim_sound 0, 1, SFX_CUT
+	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_wait 32
+	anim_incbgeffect ANIM_BG_PSYCHIC
+	anim_wait 4
 	anim_ret
 
 BattleAnimSub_Drain:

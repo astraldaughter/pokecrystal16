@@ -280,4 +280,11 @@ MoveNames::
 	li "FAIRY RING"
 	li "DRAININGKISS"
 	li "BIBBIDI BOP"
+	li "DRAGON CLAW"
+	li "ICICLE CRASH"
+	li "AQUA JET"
+	li "DRAGON ROAR"
+	li "HYPER VOICE"
+	li "ZEN HEADBUTT"
+	li "PSYCHO CUT"
 	assert_list_length NUM_ATTACKS

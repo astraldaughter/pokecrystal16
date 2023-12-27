@@ -285,6 +285,13 @@ MoveDescriptions1:
 	dw FairyRingDescription
 	dw DrainingKissDescription
 	dw BibbidiBopDescription
+	dw DragonClawDescription
+	dw IcicleCrashDescription
+	dw AquaJetDescription
+	dw DragonRoarDescription
+	dw HyperVoiceDescription
+	dw ZenHeadbuttDescription
+	dw PsychoCutDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1409,3 +1416,31 @@ DrainingKissDescription:
 BibbidiBopDescription:
 	db   "Repeatedly slaps"
 	next "2-5 times.@"
+
+DragonClawDescription:
+	db	 "Slashes with"
+	next "sharp claws.@"
+
+IcicleCrashDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+
+AquaJetDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
+
+DragonRoarDescription:
+	db   "Sharply lowers the"
+	next "foe's SPCL.ATK.@"
+
+HyperVoiceDescription:
+	db   "Attacks with harsh"
+	next "sound waves.@"
+
+ZenHeadbuttDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+
+PsychoCutDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
