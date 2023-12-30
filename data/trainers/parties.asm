@@ -138,7 +138,7 @@ Rival1Group:
 	next_list_item ; RIVAL1 (1)
 	db "?@", TRAINERTYPE_NORMAL
 	db 5
-	dw BULBASAUR
+	dw KIWEE
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (2)
@@ -1134,11 +1134,11 @@ LassGroup:
 	next_list_item ; LASS (6)
 	db "LINDA@", TRAINERTYPE_NORMAL
 	db 30
-	dw BULBASAUR
+	dw KIWEE
 	db 32
-	dw IVYSAUR
+	dw FRONDODO
 	db 34
-	dw VENUSAUR
+	dw TROPIKOEKA
 	db -1 ; end
 
 	next_list_item ; LASS (7)
@@ -1275,14 +1275,14 @@ CooltrainerMGroup:
 	dw FOALAKE
 	dw WITHDRAW, WATER_GUN, BITE, CURSE
 	db 26
-	dw BULBASAUR
+	dw KIWEE
 	dw LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERM (2)
 	db "AARON@", TRAINERTYPE_NORMAL
 	db 24
-	dw IVYSAUR
+	dw FRONDODO
 	db 24
 	dw CHARMELEON
 	db 24
@@ -1398,7 +1398,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (13)
 	db "ERICK@", TRAINERTYPE_NORMAL
 	db 10
-	dw BULBASAUR
+	dw KIWEE
 	db 10
 	dw KINDLANT
 	db 10
@@ -1408,7 +1408,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (14)
 	db "ANDY@", TRAINERTYPE_NORMAL
 	db 10
-	dw BULBASAUR
+	dw KIWEE
 	db 10
 	dw KINDLANT
 	db 10
@@ -1418,7 +1418,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (15)
 	db "TYLER@", TRAINERTYPE_NORMAL
 	db 10
-	dw BULBASAUR
+	dw KIWEE
 	db 10
 	dw KINDLANT
 	db 10
@@ -1448,7 +1448,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (18)
 	db "STEVE@", TRAINERTYPE_NORMAL
 	db 14
-	dw BULBASAUR
+	dw KIWEE
 	db 14
 	dw KINDLANT
 	db 14
@@ -1564,13 +1564,13 @@ CooltrainerFGroup:
 	next_list_item ; COOLTRAINERF (11)
 	db "MEGAN@", TRAINERTYPE_MOVES
 	db 32
-	dw BULBASAUR
+	dw KIWEE
 	dw GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
 	db 32
-	dw IVYSAUR
+	dw FRONDODO
 	dw GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
 	db 32
-	dw VENUSAUR
+	dw TROPIKOEKA
 	dw BODY_SLAM, SLEEP_POWDER, RAZOR_LEAF, SWEET_SCENT
 	db -1 ; end
 
@@ -1594,7 +1594,7 @@ CooltrainerFGroup:
 	next_list_item ; COOLTRAINERF (14)
 	db "QUINN@", TRAINERTYPE_NORMAL
 	db 38
-	dw IVYSAUR
+	dw FRONDODO
 	db 38
 	dw STARMIE
 	db -1 ; end
@@ -4153,7 +4153,7 @@ PicnickerGroup:
 	db 9
 	dw HOPPIP
 	db 12
-	dw BULBASAUR
+	dw KIWEE
 	db -1 ; end
 
 	next_list_item ; PICNICKER (3)
@@ -4202,7 +4202,7 @@ PicnickerGroup:
 	db 14
 	dw HOPPIP
 	db 17
-	dw IVYSAUR
+	dw FRONDODO
 	db -1 ; end
 
 	next_list_item ; PICNICKER (10)
@@ -4254,7 +4254,7 @@ PicnickerGroup:
 	db 26
 	dw SKIPLOOM
 	db 29
-	dw IVYSAUR
+	dw FRONDODO
 	db -1 ; end
 
 	next_list_item ; PICNICKER (16)
@@ -4335,7 +4335,7 @@ PicnickerGroup:
 	db 30
 	dw SKIPLOOM
 	db 32
-	dw IVYSAUR
+	dw FRONDODO
 	db -1 ; end
 
 	next_list_item ; PICNICKER (25)
@@ -4347,7 +4347,7 @@ PicnickerGroup:
 	dw JUMPLUFF
 	dw SUNNY_DAY, SLEEP_POWDER, LEECH_SEED, COTTON_SPORE
 	db 38
-	dw VENUSAUR
+	dw TROPIKOEKA
 	dw SOLARBEAM, RAZOR_LEAF, HEADBUTT, MUD_SLAP
 	db -1 ; end
 
@@ -4832,7 +4832,7 @@ PokefanMGroup:
 	next_list_item ; POKEFANM (5)
 	db "CARTER@", TRAINERTYPE_ITEM
 	db 29
-	dw BULBASAUR
+	dw KIWEE
 	db BERRY
 	db 29
 	dw KINDLANT
@@ -5123,7 +5123,7 @@ RedGroup:
 	dw SNORLAX
 	dw AMNESIA, SNORE, REST, BODY_SLAM
 	db 77
-	dw VENUSAUR
+	dw TROPIKOEKA
 	dw SUNNY_DAY, GIGA_DRAIN, SYNTHESIS, SOLARBEAM
 	db 77
 	dw CHARIZARD

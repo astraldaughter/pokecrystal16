@@ -13,12 +13,12 @@ PokemonPicPointers::
 	table_width 3 * 2, PokemonPicPointers
 	dbw -1, -1 ; unused
 	dbw -1, -1 ; unused
-	dba BulbasaurFrontpic
-	dba BulbasaurBackpic
-	dba IvysaurFrontpic
-	dba IvysaurBackpic
-	dba VenusaurFrontpic
-	dba VenusaurBackpic
+	dba KiweeFrontpic
+	dba KiweeBackpic
+	dba FrondodoFrontpic
+	dba FrondodoBackpic
+	dba TropikoekaFrontpic
+	dba TropikoekaBackpic
 	dba KindlantFrontpic
 	dba KindlantBackpic
 	dba CharmeleonFrontpic

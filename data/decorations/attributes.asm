@@ -42,7 +42,7 @@ DecorationAttributes:
 	decoration DECO_PLANT,   SURF_PIKA_DOLL,  SET_UP_DOLL,       EVENT_DECO_SURFING_PIKACHU_DOLL,    SPRITE_SURFING_PIKACHU
 	decoration DECO_DOLL,    5,               SET_UP_DOLL,       EVENT_DECO_CLEFAIRY_DOLL,           SPRITE_CLEFAIRY
 	decoration DECO_DOLL,    6,               SET_UP_DOLL,       EVENT_DECO_JIGGLYPUFF_DOLL,         SPRITE_JIGGLYPUFF
-	decoration DECO_DOLL,    0,               SET_UP_DOLL,       EVENT_DECO_BULBASAUR_DOLL,          SPRITE_BULBASAUR
+	decoration DECO_DOLL,    0,               SET_UP_DOLL,       EVENT_DECO_KIWEE_DOLL,          SPRITE_KIWEE
 	decoration DECO_DOLL,    1,               SET_UP_DOLL,       EVENT_DECO_KINDLANT_DOLL,         SPRITE_KINDLANT
 	decoration DECO_DOLL,    2,               SET_UP_DOLL,       EVENT_DECO_FOALAKE_DOLL,           SPRITE_FOALAKE
 	decoration DECO_DOLL,    9,               SET_UP_DOLL,       EVENT_DECO_POLIWAG_DOLL,            SPRITE_POLIWAG
@@ -64,7 +64,7 @@ DecorationAttributes:
 	assert_table_length NUM_DECOS + NUM_DECO_CATEGORIES + 1
 
 DecorationAttributePokemonNames:
-	dw BULBASAUR  ;  0
+	dw KIWEE  ;  0
 	dw KINDLANT ;  1
 	dw FOALAKE   ;  2
 	dw WEEDLE     ;  3

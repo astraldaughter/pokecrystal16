@@ -1,9 +1,9 @@
 SECTION "Mon Icons 1", ROMX
 
 NullIcon::
-BulbasaurIcon::  INCBIN "gfx/icons/bulbasaur.2bpp"
-IvysaurIcon::    INCBIN "gfx/icons/ivysaur.2bpp"
-VenusaurIcon::   INCBIN "gfx/icons/venusaur.2bpp"
+KiweeIcon::  INCBIN "gfx/icons/kiwee.2bpp"
+FrondodoIcon::    INCBIN "gfx/icons/frondodo.2bpp"
+TropikoekaIcon::   INCBIN "gfx/icons/tropikoeka.2bpp"
 KindlantIcon:: INCBIN "gfx/icons/kindlant.2bpp"
 CharmeleonIcon:: INCBIN "gfx/icons/charmeleon.2bpp"
 CharizardIcon::  INCBIN "gfx/icons/charizard.2bpp"

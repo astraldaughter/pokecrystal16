@@ -27,9 +27,9 @@ BaseData::
 	indirect_table_end
 
 BaseData1:
-INCLUDE "data/pokemon/base_stats/bulbasaur.asm"
-INCLUDE "data/pokemon/base_stats/ivysaur.asm"
-INCLUDE "data/pokemon/base_stats/venusaur.asm"
+INCLUDE "data/pokemon/base_stats/kiwee.asm"
+INCLUDE "data/pokemon/base_stats/frondodo.asm"
+INCLUDE "data/pokemon/base_stats/tropikoeka.asm"
 INCLUDE "data/pokemon/base_stats/kindlant.asm"
 INCLUDE "data/pokemon/base_stats/charmeleon.asm"
 INCLUDE "data/pokemon/base_stats/charizard.asm"

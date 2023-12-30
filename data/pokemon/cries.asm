@@ -6,16 +6,16 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH, PokemonCries
-	mon_cry CRY_BULBASAUR,   128,  129 ; BULBASAUR
-	mon_cry CRY_BULBASAUR,    32,  256 ; IVYSAUR
-	mon_cry CRY_BULBASAUR,     0,  320 ; VENUSAUR
+	mon_cry CRY_SPEAROW,    -111,  120 ; KIWEE
+	mon_cry CRY_SPEAROW,    -151,  180 ; FRONDODO
+	mon_cry CRY_FEAROW,     -207,  384 ; TROPIKOEKA
 	mon_cry CRY_CATERPIE,     56,  192 ; KINDLANT
 	mon_cry CRY_CATERPIE, 	  48,  256 ; CHARMELEON
 	mon_cry CRY_BLASTOISE,    48,  256 ; CHARIZARD
 	mon_cry CRY_LAPRAS,       80,  222 ; FOALAKE
 	mon_cry CRY_LAPRAS,       32,  256 ; LOCHOLT
 	mon_cry CRY_LAPRAS,       24,  432 ; KELPESTARY
-	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
+	mon_cry CRY_SPINARAK,     63,  400 ; CATERPIE
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
 	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE

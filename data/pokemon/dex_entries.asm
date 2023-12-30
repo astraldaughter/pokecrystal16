@@ -1,8 +1,8 @@
 SECTION "Pokedex Entries 001-064", ROMX
 
-BulbasaurPokedexEntry::  INCLUDE "data/pokemon/dex_entries/bulbasaur.asm"
-IvysaurPokedexEntry::    INCLUDE "data/pokemon/dex_entries/ivysaur.asm"
-VenusaurPokedexEntry::   INCLUDE "data/pokemon/dex_entries/venusaur.asm"
+KiweePokedexEntry::  INCLUDE "data/pokemon/dex_entries/kiwee.asm"
+FrondodoPokedexEntry::    INCLUDE "data/pokemon/dex_entries/frondodo.asm"
+TropikoekaPokedexEntry::   INCLUDE "data/pokemon/dex_entries/tropikoeka.asm"
 KindlantPokedexEntry:: INCLUDE "data/pokemon/dex_entries/kindlant.asm"
 CharmeleonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmeleon.asm"
 CharizardPokedexEntry::  INCLUDE "data/pokemon/dex_entries/charizard.asm"

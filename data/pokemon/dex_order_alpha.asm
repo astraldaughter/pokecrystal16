@@ -18,7 +18,7 @@ AlphabeticalPokedexOrder:
 	dw BELLSPROUT
 	dw KELPESTARY
 	dw BLISSEY
-	dw BULBASAUR
+	dw KIWEE
 	dw BUTTERFREE
 	dw CATERPIE
 	dw CELEBI
@@ -94,7 +94,7 @@ AlphabeticalPokedexOrder:
 	dw HOUNDOUR
 	dw HYPNO
 	dw IGGLYBUFF
-	dw IVYSAUR
+	dw FRONDODO
 	dw JIGGLYPUFF
 	dw JOLTEON
 	dw JUMPLUFF
@@ -237,7 +237,7 @@ AlphabeticalPokedexOrder:
 	dw VAPOREON
 	dw VENOMOTH
 	dw VENONAT
-	dw VENUSAUR
+	dw TROPIKOEKA
 	dw VICTREEBEL
 	dw VILEPLUME
 	dw VOLTORB

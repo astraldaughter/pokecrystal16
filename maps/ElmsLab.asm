@@ -224,8 +224,8 @@ ChikoritaPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic BULBASAUR
-	cry BULBASAUR
+	pokepic KIWEE
+	cry KIWEE
 	waitbutton
 	closepokepic
 	opentext
@@ -237,12 +237,12 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, BULBASAUR
+	getmonname STRING_BUFFER_3, KIWEE
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke BULBASAUR, 5, BERRY
+	givepoke KIWEE, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterChikoritaMovement
 	sjump ElmDirectionsScript

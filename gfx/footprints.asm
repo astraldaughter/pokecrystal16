@@ -1,9 +1,9 @@
 Footprints:
 	table_width LEN_1BPP_TILE * 4, Footprints
 
-INCBIN "gfx/footprints/bulbasaur.1bpp"
-INCBIN "gfx/footprints/ivysaur.1bpp"
-INCBIN "gfx/footprints/venusaur.1bpp"
+INCBIN "gfx/footprints/kiwee.1bpp"
+INCBIN "gfx/footprints/frondodo.1bpp"
+INCBIN "gfx/footprints/tropikoeka.1bpp"
 INCBIN "gfx/footprints/kindlant.1bpp"
 INCBIN "gfx/footprints/charmeleon.1bpp"
 INCBIN "gfx/footprints/charizard.1bpp"

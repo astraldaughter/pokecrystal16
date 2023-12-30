@@ -1,9 +1,9 @@
 FirstEvoStages::
 	; lists the lowest stage for each Pokémon
 	table_width 2, FirstEvoStages
-	dw BULBASAUR
-	dw BULBASAUR
-	dw BULBASAUR
+	dw KIWEE
+	dw KIWEE
+	dw KIWEE
 	dw KINDLANT
 	dw KINDLANT
 	dw KINDLANT

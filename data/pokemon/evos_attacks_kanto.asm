@@ -1,9 +1,9 @@
 SECTION "Evolutions and Attacks 1", ROMX
 
 EvosAttacksPointers1::
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
+	dw KiweeEvosAttacks
+	dw FrondodoEvosAttacks
+	dw TropikoekaEvosAttacks
 	dw KindlantEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
@@ -154,56 +154,55 @@ EvosAttacksPointers1::
 	dw MewEvosAttacks
 .IndirectEnd::
 
-BulbasaurEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, IVYSAUR
-	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 4, GROWL
-	dbw 7, LEECH_SEED
-	dbw 10, VINE_WHIP
-	dbw 15, POISONPOWDER
-	dbw 15, SLEEP_POWDER
-	dbw 20, RAZOR_LEAF
-	dbw 25, SWEET_SCENT
-	dbw 32, GROWTH
-	dbw 39, SYNTHESIS
-	dbw 46, SOLARBEAM
-	db 0 ; no more level-up moves
-
-IvysaurEvosAttacks:
-	dbbw EVOLVE_LEVEL, 32, VENUSAUR
+KiweeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 16, FRONDODO
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 1, LEECH_SEED
-	dbw 4, GROWL
-	dbw 7, LEECH_SEED
-	dbw 10, VINE_WHIP
-	dbw 15, POISONPOWDER
-	dbw 15, SLEEP_POWDER
-	dbw 22, RAZOR_LEAF
-	dbw 29, SWEET_SCENT
-	dbw 38, GROWTH
-	dbw 47, SYNTHESIS
-	dbw 56, SOLARBEAM
+	dbw 7, VINE_WHIP
+	dbw 9, PECK
+	dbw 15, FURY_ATTACK
+	dbw 17, SWEET_SCENT
+	dbw 21, RAZOR_LEAF
+	dbw 25, SYNTHESIS
+	dbw 30, STOMP
+	dbw 34, DRILL_PECK
+	dbw 38, LEAF_BLADE
+	dbw 41, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
+FrondodoEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, TROPIKOEKA
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 1, LEECH_SEED
-	dbw 1, VINE_WHIP
-	dbw 4, GROWL
-	dbw 7, LEECH_SEED
-	dbw 10, VINE_WHIP
-	dbw 15, POISONPOWDER
-	dbw 15, SLEEP_POWDER
-	dbw 22, RAZOR_LEAF
-	dbw 29, SWEET_SCENT
-	dbw 41, GROWTH
-	dbw 53, SYNTHESIS
-	dbw 65, SOLARBEAM
+	dbw 7, VINE_WHIP
+	dbw 9, PECK
+	dbw 15, FURY_ATTACK
+	dbw 18, SWEET_SCENT
+	dbw 23, RAZOR_LEAF
+	dbw 28, SYNTHESIS
+	dbw 34, STOMP
+	dbw 39, DRILL_PECK
+	dbw 44, LEAF_BLADE
+	dbw 48, SWORDS_DANCE
+	db 0 ; no more level-up moves
+
+TropikoekaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 1, GROWL
+	dbw 7, VINE_WHIP
+	dbw 9, PECK
+	dbw 15, FURY_ATTACK
+	dbw 18, SWEET_SCENT
+	dbw 23, RAZOR_LEAF
+	dbw 28, SYNTHESIS
+	dbw 34, STOMP
+	dbw 40, DRILL_PECK
+	dbw 45, LEAF_BLADE
+	dbw 49, SWORDS_DANCE
+	dbw 52, SOLARBEAM
 	db 0 ; no more level-up moves
 
 KindlantEvosAttacks:
@@ -261,7 +260,6 @@ FoalakeEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 1, PSYCHO_CUT
 	dbw 6, WATER_GUN
 	dbw 9, MIST
 	dbw 14, QUICK_ATTACK

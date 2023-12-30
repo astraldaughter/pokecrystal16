@@ -5,9 +5,9 @@ IconPointers:
 ; entries correspond to ICON_* constants (see constants/icon_constants.asm)
 	table_width 2, IconPointers
 	dw NullIcon
-	dw BulbasaurIcon
-	dw IvysaurIcon
-	dw VenusaurIcon
+	dw KiweeIcon
+	dw FrondodoIcon
+	dw TropikoekaIcon
 	dw KindlantIcon
 	dw CharmeleonIcon
 	dw CharizardIcon

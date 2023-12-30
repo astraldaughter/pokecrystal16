@@ -157,18 +157,18 @@ Footprints:
 	table_width LEN_1BPP_TILE * 4, Footprints
 
 ; 001-008 top halves
-INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_top
-INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_top
-INCBIN "gfx/footprints/venusaur.1bpp",   footprint_top
+INCBIN "gfx/footprints/kiwee.1bpp",  footprint_top
+INCBIN "gfx/footprints/frondodo.1bpp",    footprint_top
+INCBIN "gfx/footprints/tropikoeka.1bpp",   footprint_top
 INCBIN "gfx/footprints/kindlant.1bpp", footprint_top
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 ; 001-008 bottom halves
-INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/venusaur.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/kiwee.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/frondodo.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/tropikoeka.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/kindlant.1bpp", footprint_bottom
 INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
@@ -188,9 +188,9 @@ Store footprints contiguously:
 Footprints:
 	table_width LEN_1BPP_TILE * 4, Footprints
 
-INCBIN "gfx/footprints/bulbasaur.1bpp"
-INCBIN "gfx/footprints/ivysaur.1bpp"
-INCBIN "gfx/footprints/venusaur.1bpp"
+INCBIN "gfx/footprints/kiwee.1bpp"
+INCBIN "gfx/footprints/frondodo.1bpp"
+INCBIN "gfx/footprints/tropikoeka.1bpp"
 INCBIN "gfx/footprints/kindlant.1bpp"
 INCBIN "gfx/footprints/charmeleon.1bpp"
 INCBIN "gfx/footprints/charizard.1bpp"

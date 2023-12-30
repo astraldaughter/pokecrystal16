@@ -20,7 +20,7 @@ SpriteMons:
 	dw KINDLANT
 	dw JYNX
 	dw STARMIE
-	dw BULBASAUR
+	dw KIWEE
 	dw JIGGLYPUFF
 	dw GRIMER
 	dw GIGGILICK

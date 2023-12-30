@@ -10,9 +10,9 @@ ENDM
 MonMenuIconPals:
 	table_width 1, MonMenuIconPals
 	;         normal, shiny
-	icon_pals TEAL,   GREEN  ; BULBASAUR
-	icon_pals TEAL,   GREEN  ; IVYSAUR
-	icon_pals TEAL,   GREEN  ; VENUSAUR
+	icon_pals TEAL,   GREEN  ; KIWEE
+	icon_pals TEAL,   GREEN  ; FRONDODO
+	icon_pals TEAL,   GREEN  ; TROPIKOEKA
 	icon_pals RED,    BROWN  ; KINDLANT
 	icon_pals RED,    BROWN  ; CHARMELEON
 	icon_pals RED,    PURPLE ; CHARIZARD

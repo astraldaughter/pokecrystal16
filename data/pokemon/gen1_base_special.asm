@@ -2,9 +2,9 @@
 
 KantoMonSpecials:
 	table_width 1, KantoMonSpecials
-	db  65 ; BULBASAUR
-	db  80 ; IVYSAUR
-	db 100 ; VENUSAUR
+	db  65 ; KIWEE
+	db  80 ; FRONDODO
+	db 100 ; TROPIKOEKA
 	db  50 ; KINDLANT
 	db  65 ; CHARMELEON
 	db  85 ; CHARIZARD

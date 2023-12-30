@@ -4,9 +4,9 @@
 	db "?????@@@@@"
 PokemonNames::
 	table_width NAME_LENGTH - 1, PokemonNames
-	db "BULBASAUR@"
-	db "IVYSAUR@@@"
-	db "VENUSAUR@@"
+	db "KIWEE@@@@@"
+	db "FRONDODO@@"
+	db "TROPIKOEKA"
 	db "KINDLANT@@"
 	db "CHARMELEON"
 	db "SCORNET@@@"

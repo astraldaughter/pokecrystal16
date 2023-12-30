@@ -64,7 +64,7 @@ PokefanmCarterBeatenText:
 
 PokefanmCarterAfterBattleText:
 	text "FOALAKE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	line "DER and KIWEE…"
 
 	para "I think that's a"
 	line "well-balanced mix."
