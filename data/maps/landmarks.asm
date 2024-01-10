@@ -15,13 +15,13 @@ Landmarks:
 	landmark  36,  72, Route53Name
 	landmark  36,  76, DiglettsCaveName
 	landmark  60,  76, Route31Name
-	landmark  84,  60, VioletCityName
+	landmark  36,  84, VioletCityName
 	landmark  85,  58, SproutTowerName
 	landmark  84,  92, Route32Name
 	landmark  76,  76, RuinsOfAlphName
 	landmark  84, 124, UnionCaveName
 	landmark  82, 124, Route33Name
-	landmark  68, 124, AzaleaTownName
+	landmark  76, 100, AzaleaTownName
 	landmark  70, 122, SlowpokeWellName
 	landmark  52, 120, IlexForestName
 	landmark  52, 112, Route34Name
@@ -36,7 +36,7 @@ Landmarks:
 	landmark  66,  42, BurnedTowerName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
-	landmark  36,  60, OlivineCityName
+	landmark  108, 68, OlivineCityName
 	landmark  38,  62, LighthouseName
 	landmark  28,  56, BattleTowerName
 	landmark  28,  64, Route40Name
@@ -109,11 +109,11 @@ Landmarks:
 
 NivaleTownName:     db "NIVALE¯TOWN@"
 CampanulaTownName: db "CAMPANULA¯TOWN@"
-VioletCityName:      db "VIOLET CITY@"
-AzaleaTownName:      db "AZALEA TOWN@"
+VioletCityName:      db "EDELWEISS¯CITY@"
+AzaleaTownName:      db "FREESIA¯TOWN@"
 GoldenrodCityName:   db "GOLDENROD¯CITY@"
 EcruteakCityName:    db "ECRUTEAK¯CITY@"
-OlivineCityName:     db "OLIVINE¯CITY@"
+OlivineCityName:     db "HELIANTHA¯CITY@"
 CianwoodCityName:    db "CIANWOOD¯CITY@"
 MahoganyTownName:    db "MAHOGANY¯TOWN@"
 BlackthornCityName:  db "BLACKTHORN¯CITY@"

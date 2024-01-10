@@ -164,8 +164,7 @@ CampanulaTown_RivalExitsStageLeft:
 	big_step RIGHT
 	big_step RIGHT
 	big_step RIGHT
-	big_step UP
-	big_step UP
+	big_step RIGHT
 	big_step RIGHT
 	big_step RIGHT
 	step_end
@@ -174,8 +173,8 @@ CampanulaRivalText_Seen:
 	text "<……> <……> <……>"
 
 	para "You must be"
-	line "PROF.FIR's pet"
-	cont "trainer."
+	line "that kid PROF.FIR"
+	cont "mentioned."
 
 	para "Gotta say, not"
 	line "what I expected."
@@ -186,9 +185,10 @@ CampanulaRivalText_Seen:
 	line "I'm saying?"
 
 	para "Put it this way,"
-	line "you're outmatched."
+	line "you're outta your"
+	cont "league."
 
-	para "I'll show you"
+	para "Let me show you"
 	line "what I mean!"
 	done
 

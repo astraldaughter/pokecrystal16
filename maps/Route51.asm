@@ -220,15 +220,15 @@ TuscanyNotTuesdayText:
 Route51Sign1Text:
 	text "ROUTE 51"
 
-	para "CAMPANULA CITY -"
-	line "NEW BARK TOWN"
+	para "CAMPANULA TOWN -"
+	line "NIVALE TOWN"
 	done
 
 Route51Sign2Text:
 	text "ROUTE 51"
 
-	para "CAMPANULA CITY -"
-	line "NEW BARK TOWN"
+	para "NIVALE TOWN -"
+	line "CAMPANULA TOWN"
 	done
 
 Route51_MapEvents:

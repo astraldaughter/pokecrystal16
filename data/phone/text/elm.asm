@@ -120,15 +120,22 @@ ElmPhoneDiscoveredPokerusText:
 	done
 
 ElmPhoneDisasterText:
-	text "Hello? <PLAY_G>?"
+	text "H-hello? <PLAY_G>?"
 	line "I just got word"
 	cont "from PROF.CRYS."
 
 	para "You have the"
 	line "NOTES, correct?"
 
-	para "Get back here as"
-	line "quick as you can!"
+	para "T-that's good"
+	line "news, at least…"
+
+	para "Um, can you get"
+	line "back here quickly?"
+
+	para "It's, uh… I-I'll'"
+	line "explain when you"
+	cont "get here."
 	done
 
 ElmPhoneEggAssistantText:

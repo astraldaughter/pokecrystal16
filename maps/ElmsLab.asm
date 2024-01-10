@@ -337,20 +337,12 @@ ElmAfterTheftScript:
 	writetext ElmAfterTheftText2
 	waitbutton
 	takeitem MYSTERY_EGG
-	scall ElmJumpBackScript1
 	writetext ElmAfterTheftText3
-	waitbutton
-	scall ElmJumpBackScript2
-	writetext ElmAfterTheftText4
-	promptbutton
-	writetext ElmAfterTheftText5
 	promptbutton
 	setevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	setflag ENGINE_MAIN_MENU_MOBILE_CHOICES
 	clearevent EVENT_ROUTE_52_YOUNGSTER_JOEY
 	setevent EVENT_ROUTE_53_HIKER
-	writetext ElmAfterTheftText6
-	waitbutton
 	closetext
 	setscene SCENE_ELMSLAB_AIDE_GIVES_POKE_BALLS
 	end
@@ -842,7 +834,7 @@ TakeTotodileText:
 
 TakeChikoritaText:
 	text "So, you like"
-	line "CHIKORITA, the"
+	line "KIWEE, the"
 	cont "grass #MON?"
 	done
 
@@ -936,78 +928,93 @@ ElmsLabHealingMachineText2:
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>, this"
-	line "is terrible…"
+	text "FIR: A-ah! You're"
+	line "back!"
 
-	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	para "I trust you have"
+	line "those notes…?"
 	done
 
 ElmAfterTheftText2:
 	text "<PLAYER> handed"
-	line "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	line "the FIELD NOTES"
+	cont "to PROF.FIR."
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
-	done
+	text "FIR: Thank you"
+	line "very much for your"
+	cont "help!"
 
-ElmAfterTheftText4:
-	text "But… Is it a"
-	line "#MON EGG?"
+	para "I'm sure these"
+	line "will be a good"
+	cont "read…"
 
-	para "If it is, it is a"
-	line "great discovery!"
-	done
+	para "Oh! Right, I"
+	line "should explain"
 
-ElmAfterTheftText5:
-	text "ELM: What?!?"
+	para "why I sounded"
+	line "nervous earlier…"
 
-if !DEF(_DEBUG)
-	para "PROF.OAK gave you"
+	para "You see, I gave"
+	line "another #MON"
+
+	para "to a relative of"
+	line "an old friend of"
+	cont "mine as a favor…"
+
+	para "…their name?"
+	line "It's LILY."
+
+	para "Oh! You've met"
+	line "her already?"
+
+	para "Th-then you proba-"
+	line "bly understand why"
+	cont "I sounded shaken."
+
+	para "She's…"
+
+	para "…pretty intimidat-"
+	line "ing, isn't she?"
+
+	para "<……><……><……>"
+
+	para "Oh! Is that…"
 	line "a #DEX?"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "Did PROF. CRYS"
+	line "give you that?"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "He's a really good"
+	line "judge of trainers,"
 
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
+	para "so if he gave you"
+	line "that, he must have"
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "faith in your"
+	line "ability…"
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Oh! I know!"
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	para "Why don't you try"
+	line "taking on the GYMS"
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
-endc
-	done
+	para "of NOSTA? It's a"
+	line "popular way for"
 
-ElmAfterTheftText6:
-	text "…<PLAY_G>. The"
-	line "road to the"
+	para "trainers to test"
+	line "their strength."
 
-	para "championship will"
-	line "be a long one."
+	para "…I think the"
+	line "closest GYM to"
 
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+	para "here is the one in"
+	line "EDELWEISS CITY…?"
+
+	para "In any case,"
+	line "I wish you the"
+	cont "best of luck!"
 	done
 
 ElmStudyingEggText:
