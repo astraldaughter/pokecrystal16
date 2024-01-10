@@ -1,7 +1,7 @@
 	db "TINY KIWI@" ; species name
 	dw 108, 110 ; height, weight
 
-	db 	 "It hides in the
+	db 	 "It hides in the"
 	text "undergrowth using"
 	text "its leaves as"
 
