@@ -219,7 +219,7 @@ JohtoWaterWildMons:
 	dbw 20, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons VIOLET_CITY
+	def_water_wildmons EDELWEISS_CITY
 	db 2 percent ; encounter rate
 	dbw 20, POLIWAG
 	dbw 15, POLIWAG

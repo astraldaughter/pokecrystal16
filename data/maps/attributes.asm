@@ -104,10 +104,8 @@ ENDM
 	connection south, Route52, ROUTE_52, 5
 	connection west, Route51, ROUTE_51, 0
 
-	map_attributes VioletCity, VIOLET_CITY, $05, SOUTH | WEST | EAST
-	connection south, Route32, ROUTE_32, 0
-	connection west, Route36, ROUTE_36, 0
-	connection east, Route31, ROUTE_31, 9
+	map_attributes EdelweissCity, EDELWEISS_CITY, $05, NORTH
+	connection north, Route53, ROUTE_53, 6
 
 	map_attributes AzaleaTown, AZALEA_TOWN, $05, WEST | EAST
 	connection west, Route34, ROUTE_34, -18
@@ -162,11 +160,15 @@ ENDM
 	map_attributes Route52, ROUTE_52, $05, NORTH
 	connection north, CampanulaTown, CAMPANULA_TOWN, -5
 
+	map_attributes Route53, ROUTE_53, $05, NORTH | SOUTH
+	connection north, Route51, ROUTE_51, -12
+	connection south, EdelweissCity, EDELWEISS_CITY, -6
+
 	map_attributes Route31, ROUTE_31, $05, WEST
-	connection west, VioletCity, VIOLET_CITY, -9
+	connection west, EdelweissCity, EDELWEISS_CITY, -9
 
 	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH
-	connection north, VioletCity, VIOLET_CITY, 0
+	connection north, EdelweissCity, EDELWEISS_CITY, 0
 	connection south, Route33, ROUTE_33, 0
 
 	map_attributes Route33, ROUTE_33, $05, NORTH | WEST
@@ -184,7 +186,7 @@ ENDM
 	map_attributes Route36, ROUTE_36, $05, NORTH | SOUTH | EAST
 	connection north, Route37, ROUTE_37, 10
 	connection south, Route35, ROUTE_35, 0
-	connection east, VioletCity, VIOLET_CITY, 0
+	connection east, EdelweissCity, EDELWEISS_CITY, 0
 
 	map_attributes Route37, ROUTE_37, $05, NORTH | SOUTH
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
@@ -221,10 +223,6 @@ ENDM
 	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
 	connection north, BlackthornCity, BLACKTHORN_CITY, 0
 	connection west, Route53, ROUTE_53, 36
-
-	map_attributes Route53, ROUTE_53, $05, NORTH | EAST
-	connection north, Route51, ROUTE_51, -12
-	connection east, Route45, ROUTE_45, -36
 
 	map_attributes PewterCity, PEWTER_CITY, $0f, SOUTH | EAST
 	connection south, Route2, ROUTE_2, 5
@@ -471,7 +469,7 @@ ENDM
 	map_attributes MahoganyGym, MAHOGANY_GYM, $00, 0
 	map_attributes MahoganyPokecenter1F, MAHOGANY_POKECENTER_1F, $00, 0
 	map_attributes Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $00, 0
-	map_attributes DiglettsCave, DIGLETTS_CAVE, $09, 0
+	map_attributes FoothillCaves, FOOTHILL_CAVES, $09, 0
 	map_attributes MountMoon, MOUNT_MOON, $09, 0
 	map_attributes UndergroundPath, UNDERGROUND_PATH, $00, 0
 	map_attributes RockTunnel1F, ROCK_TUNNEL_1F, $09, 0
@@ -521,9 +519,8 @@ ENDM
 	map_attributes VioletMart, VIOLET_MART, $00, 0
 	map_attributes VioletGym, VIOLET_GYM, $00, 0
 	map_attributes EarlsPokemonAcademy, EARLS_POKEMON_ACADEMY, $00, 0
-	map_attributes VioletNicknameSpeechHouse, VIOLET_NICKNAME_SPEECH_HOUSE, $00, 0
+	map_attributes EdelweissGymLeaderSpeechHouse, EDELWEISS_GYM_LEADER_SPEECH_HOUSE, $00, 0
 	map_attributes VioletPokecenter1F, VIOLET_POKECENTER_1F, $00, 0
-	map_attributes VioletKylesHouse, VIOLET_KYLES_HOUSE, $00, 0
 	map_attributes Route32RuinsOfAlphGate, ROUTE_32_RUINS_OF_ALPH_GATE, $00, 0
 	map_attributes Route32Pokecenter1F, ROUTE_32_POKECENTER_1F, $00, 0
 	map_attributes Route35GoldenrodGate, ROUTE_35_GOLDENROD_GATE, $00, 0
@@ -689,6 +686,7 @@ ENDM
 	map_attributes CampanulaGymSpeechHouse, CAMPANULA_GYM_SPEECH_HOUSE, $00, 0
 	map_attributes GuideGentsHouse, GUIDE_GENTS_HOUSE, $00, 0
 	map_attributes CampanulaEvolutionSpeechHouse, CAMPANULA_EVOLUTION_SPEECH_HOUSE, $00, 0
-	map_attributes Route52BerryHouse, ROUTE_52_BERRY_HOUSE, $00, 0
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $00, 0
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0
+	map_attributes Route53EdelweissGate, ROUTE_53_EDELWEISS_GATE, $00, 0
+	map_attributes EdelweissCraftShop, EDELWEISS_CRAFT_SHOP, $00, 0

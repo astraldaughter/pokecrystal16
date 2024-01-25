@@ -14,24 +14,21 @@ Route51Route53GateYoungsterScript:
 	jumptextfaceplayer Route51Route53GateYoungsterText
 
 Route51Route53GateOfficerText:
-	text "You can't climb"
-	line "ledges."
+	text "The road ahead"
+	line "gets rocky."
 
-	para "But you can jump"
-	line "down from them to"
-	cont "take a shortcut."
+	para "You'd better"
+	line "be careful."
 	done
 
 Route51Route53GateYoungsterText:
-	text "Different kinds of"
-	line "#MON appear"
-	cont "past here."
+	text "There's a cave"
+	line "just ahead."
 
-	para "If you want to"
-	line "catch them all,"
+	para "I bet there's"
+	line "different kinds"
 
-	para "you have to look"
-	line "everywhere."
+	para "of #MON inside…"
 	done
 
 Route51Route53Gate_MapEvents:

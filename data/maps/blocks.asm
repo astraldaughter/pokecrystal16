@@ -161,7 +161,6 @@ Route5CleanseTagHouse_Blocks:
 CampanulaGymSpeechHouse_Blocks:
 GuideGentsHouse_Blocks:
 CampanulaEvolutionSpeechHouse_Blocks:
-Route52BerryHouse_Blocks:
 	INCBIN "maps/House1.ablk"
 
 SafariZoneFuchsiaGateBeta_Blocks:
@@ -174,8 +173,9 @@ Route34IlexForestGate_Blocks:
 Route6SaffronGate_Blocks:
 Route40BattleTowerGate_Blocks:
 Route2Gate_Blocks:
-Route51Route53Gate_Blocks:
 Route5SaffronGate_Blocks:
+Route51Route53Gate_Blocks:
+Route53EdelweissGate_Blocks:
 	INCBIN "maps/NorthSouthGate.ablk"
 
 CinnabarIsland_Blocks:
@@ -355,8 +355,8 @@ TimeCapsule_Blocks:
 
 EcruteakLugiaSpeechHouse_Blocks:
 EcruteakItemfinderHouse_Blocks:
-VioletNicknameSpeechHouse_Blocks:
-VioletKylesHouse_Blocks:
+EdelweissGymLeaderSpeechHouse_Blocks:
+EdelweissCraftShop_Blocks:
 	INCBIN "maps/House2.ablk"
 
 UnionCaveB1F_Blocks:
@@ -424,8 +424,8 @@ NivaleTown_Blocks:
 CampanulaTown_Blocks:
 	INCBIN "maps/CampanulaTown.ablk"
 
-VioletCity_Blocks:
-	INCBIN "maps/VioletCity.ablk"
+EdelweissCity_Blocks:
+	INCBIN "maps/EdelweissCity.ablk"
 
 AzaleaTown_Blocks:
 	INCBIN "maps/AzaleaTown.ablk"
@@ -787,8 +787,8 @@ RockTunnel1F_Blocks:
 RockTunnelB1F_Blocks:
 	INCBIN "maps/RockTunnelB1F.ablk"
 
-DiglettsCave_Blocks:
-	INCBIN "maps/DiglettsCave.ablk"
+FoothillCaves_Blocks:
+	INCBIN "maps/FoothillCaves.ablk"
 
 MountMoon_Blocks:
 	INCBIN "maps/MountMoon.ablk"

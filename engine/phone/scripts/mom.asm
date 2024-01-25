@@ -29,7 +29,7 @@ MomPhoneInTown:
 	readvar VAR_MAPGROUP
 	ifequal GROUP_NIVALE_TOWN, .nivale
 	ifequal GROUP_CAMPANULA_TOWN, .campanula
-	ifequal GROUP_VIOLET_CITY, .violet
+	ifequal GROUP_EDELWEISS_CITY, .violet
 	ifequal GROUP_AZALEA_TOWN, .azalea
 	ifequal GROUP_GOLDENROD_CITY, .goldenrod
 	farwritetext MomPhoneGenericAreaText

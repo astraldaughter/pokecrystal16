@@ -27,7 +27,7 @@ TreeMonMaps:
 	treemon_map ROUTE_53,                  TREEMON_SET_CANYON
 	treemon_map NIVALE_TOWN,             TREEMON_SET_CITY
 	treemon_map CAMPANULA_TOWN,          TREEMON_SET_CITY
-	treemon_map VIOLET_CITY,               TREEMON_SET_CITY
+	treemon_map EDELWEISS_CITY,               TREEMON_SET_CITY
 	treemon_map AZALEA_TOWN,               TREEMON_SET_TOWN
 	treemon_map CIANWOOD_CITY,             TREEMON_SET_CITY
 	treemon_map GOLDENROD_CITY,            TREEMON_SET_CITY

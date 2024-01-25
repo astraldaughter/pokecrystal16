@@ -98,7 +98,10 @@ Route52CooltrainerFText:
 Route52SignText:
 	text "ROUTE 52"
 
-	para "CAMPANULA TOWN -"
+	para "NORTH:"
+	line "CAMPANULA TOWN"
+
+	para "SOUTH:"
 	line "FREESIA WOODS"
 	done
 

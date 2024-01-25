@@ -43,6 +43,12 @@ FoothillCavesSignText:
 
 Route53SignText:
 	text "ROUTE 53"
+
+	para "NORTH:"
+	line "ROUTE 51"
+
+	para "SOUTH:"
+	line "EDELWEISS CITY"
 	done
 
 Route53_MapEvents:
@@ -50,8 +56,10 @@ Route53_MapEvents:
 
 	def_warp_events
 	warp_event   7,  1, ROUTE_51_ROUTE_53_GATE, 3
-	warp_event	12, 11, DIGLETTS_CAVE, 1
-	warp_event	10, 19, DIGLETTS_CAVE, 2
+	warp_event	12, 11, FOOTHILL_CAVES, 1
+	warp_event	10, 19, FOOTHILL_CAVES, 2
+	warp_event   7, 33, ROUTE_53_EDELWEISS_GATE, 1
+	warp_event   8, 33, ROUTE_53_EDELWEISS_GATE, 2
 
 	def_coord_events
 

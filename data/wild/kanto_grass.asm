@@ -2,7 +2,7 @@
 
 KantoGrassWildMons:
 
-	def_grass_wildmons DIGLETTS_CAVE
+	def_grass_wildmons FOOTHILL_CAVES
 	db 4 percent, 2 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 3, DIGLETT

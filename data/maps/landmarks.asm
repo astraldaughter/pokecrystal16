@@ -13,9 +13,9 @@ Landmarks:
 	landmark  60,  60, CampanulaTownName
 	landmark  60,  76, Route52Name
 	landmark  36,  72, Route53Name
-	landmark  36,  76, DiglettsCaveName
+	landmark  36,  76, FoothillCavesName
+	landmark  36,  84, EdelweissCityName
 	landmark  60,  76, Route31Name
-	landmark  36,  84, VioletCityName
 	landmark  85,  58, SproutTowerName
 	landmark  84,  92, Route32Name
 	landmark  76,  76, RuinsOfAlphName
@@ -109,7 +109,7 @@ Landmarks:
 
 NivaleTownName:     db "NIVALE¯TOWN@"
 CampanulaTownName: db "CAMPANULA¯TOWN@"
-VioletCityName:      db "EDELWEISS¯CITY@"
+EdelweissCityName:      db "EDELWEISS¯CITY@"
 AzaleaTownName:      db "FREESIA¯TOWN@"
 GoldenrodCityName:   db "GOLDENROD¯CITY@"
 EcruteakCityName:    db "ECRUTEAK¯CITY@"
@@ -204,7 +204,7 @@ IlexForestName:      db "ILEX¯FOREST@"
 BurnedTowerName:     db "BURNED¯TOWER@"
 FastShipName:        db "FAST SHIP@"
 ViridianForestName:  db "VIRIDIAN¯FOREST@" ; unreferenced
-DiglettsCaveName:    db "FOOTHILL¯CAVES@"
+FoothillCavesName:    db "FOOTHILL¯CAVES@"
 TohjoFallsName:      db "TOHJO FALLS@"
 UndergroundName:     db "UNDERGROUND@"
 BattleTowerName:     db "BATTLE¯TOWER@"

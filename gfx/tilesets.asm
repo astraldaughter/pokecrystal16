@@ -336,6 +336,14 @@ INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
 TilesetAerodactylWordRoomMeta::
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
 
+TilesetRuinsDungeonGFX::
+INCBIN "data/tilesets/ruins_dungeon.2bpp.lz"
+
+TilesetRuinsDungeonMeta::
+INCBIN "data/tilesets/ruins_dungeon_metatiles.bin"
+
+TilesetRuinsDungeonColl::
+INCLUDE "data/tilesets/ruins_dungeon_collision.asm"
 
 SECTION "Tileset Data 9", ROMX
 

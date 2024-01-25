@@ -6,8 +6,10 @@
 	const LANDMARK_ROUTE_51          ; 02
 	const LANDMARK_CAMPANULA_TOWN  ; 03
 	const LANDMARK_ROUTE_52          ; 04
+	const LANDMARK_ROUTE_53          ; 2d
+	const LANDMARK_FOOTHILL_CAVES     ; 3e
 	const LANDMARK_ROUTE_31          ; 05
-	const LANDMARK_VIOLET_CITY       ; 06
+	const LANDMARK_EDELWEISS_CITY       ; 06
 	const LANDMARK_SPROUT_TOWER      ; 07
 	const LANDMARK_ROUTE_32          ; 08
 	const LANDMARK_RUINS_OF_ALPH     ; 09
@@ -46,8 +48,6 @@
 	const LANDMARK_DRAGONS_DEN       ; 2a
 	const LANDMARK_ROUTE_45          ; 2b
 	const LANDMARK_DARK_CAVE         ; 2c
-	const LANDMARK_ROUTE_53          ; 2d
-	const LANDMARK_DIGLETTS_CAVE     ; 3e
 	const LANDMARK_SILVER_CAVE       ; 2e
 DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_PALLET_TOWN       ; 2f

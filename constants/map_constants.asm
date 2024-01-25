@@ -146,7 +146,7 @@ ENDM
 	map_const DRAGONS_DEN_B1F,                             20, 18 ; 81
 	map_const DRAGON_SHRINE,                                5,  5 ; 82
 	map_const TOHJO_FALLS,                                 15,  9 ; 83
-	map_const DIGLETTS_CAVE,                               10, 18 ; 84
+	map_const FOOTHILL_CAVES,                               10, 18 ; 84
 	map_const MOUNT_MOON,                                  15,  9 ; 85
 	map_const UNDERGROUND_PATH,                             3, 14 ; 86
 	map_const ROCK_TUNNEL_1F,                              15, 18 ; 87
@@ -177,8 +177,7 @@ ENDM
 	map_const BLACKTHORN_POKECENTER_1F,                     5,  4 ;  6
 	map_const MOVE_DELETERS_HOUSE,                          4,  4 ;  7
 	map_const ROUTE_45,                                    10, 45 ;  8
-	map_const ROUTE_53,                                    10, 18 ;  9
-	map_const BLACKTHORN_CITY,                             20, 18 ; 10
+	map_const BLACKTHORN_CITY,                             20, 18 ;  9
 	endgroup
 
 	newgroup CINNABAR                                             ;  6
@@ -232,23 +231,21 @@ ENDM
 	endgroup
 
 	newgroup VIOLET                                               ; 10
-	map_const ROUTE_32,                                    10, 45 ;  1
-	map_const ROUTE_35,                                    10, 18 ;  2
-	map_const ROUTE_36,                                    30,  9 ;  3
-	map_const ROUTE_37,                                    10,  9 ;  4
-	map_const VIOLET_CITY,                                 20, 18 ;  5
-	map_const VIOLET_MART,                                  6,  4 ;  6
-	map_const VIOLET_GYM,                                   5,  8 ;  7
-	map_const EARLS_POKEMON_ACADEMY,                        4,  8 ;  8
-	map_const VIOLET_NICKNAME_SPEECH_HOUSE,                 4,  4 ;  9
-	map_const VIOLET_POKECENTER_1F,                         5,  4 ; 10
-	map_const VIOLET_KYLES_HOUSE,                           4,  4 ; 11
-	map_const ROUTE_32_RUINS_OF_ALPH_GATE,                  5,  4 ; 12
-	map_const ROUTE_32_POKECENTER_1F,                       5,  4 ; 13
-	map_const ROUTE_35_GOLDENROD_GATE,                      5,  4 ; 14
-	map_const ROUTE_35_NATIONAL_PARK_GATE,                  4,  4 ; 15
-	map_const ROUTE_36_RUINS_OF_ALPH_GATE,                  5,  4 ; 16
-	map_const ROUTE_36_NATIONAL_PARK_GATE,                  5,  4 ; 17
+	map_const ROUTE_32,                                    10, 45 ;  2
+	map_const ROUTE_35,                                    10, 18 ;  3
+	map_const ROUTE_36,                                    30,  9 ;  4
+	map_const ROUTE_37,                                    10,  9 ;  5
+	map_const VIOLET_MART,                                  6,  4 ;  7
+	map_const VIOLET_GYM,                                   5,  8 ;  8
+	map_const EARLS_POKEMON_ACADEMY,                        4,  8 ;  9
+	map_const EDELWEISS_GYM_LEADER_SPEECH_HOUSE,                 4,  4 ; 10
+	map_const VIOLET_POKECENTER_1F,                         5,  4 ; 11
+	map_const ROUTE_32_RUINS_OF_ALPH_GATE,                  5,  4 ; 13
+	map_const ROUTE_32_POKECENTER_1F,                       5,  4 ; 14
+	map_const ROUTE_35_GOLDENROD_GATE,                      5,  4 ; 15
+	map_const ROUTE_35_NATIONAL_PARK_GATE,                  4,  4 ; 16
+	map_const ROUTE_36_RUINS_OF_ALPH_GATE,                  5,  4 ; 17
+	map_const ROUTE_36_NATIONAL_PARK_GATE,                  5,  4 ; 18
 	endgroup
 
 	newgroup GOLDENROD                                            ; 11
@@ -487,18 +484,24 @@ ENDM
 	map_const ROUTE_5_CLEANSE_TAG_HOUSE,                    4,  4 ; 15
 	endgroup
 
-	newgroup CAMPANULA                                          ; 26
+	newgroup CAMPANULA                                            ; 26
 	map_const ROUTE_52,                                    16, 27 ;  1
 	map_const ROUTE_31,                                    20,  9 ;  2
-	map_const CAMPANULA_TOWN,                            20,  9 ;  3
-	map_const CAMPANULA_MART,                             6,  4 ;  4
-	map_const CAMPANULA_POKECENTER_1F,                    5,  4 ;  5
-	map_const CAMPANULA_GYM_SPEECH_HOUSE,                 4,  4 ;  6
+	map_const CAMPANULA_TOWN,                              20,  9 ;  3
+	map_const CAMPANULA_MART,                               6,  4 ;  4
+	map_const CAMPANULA_POKECENTER_1F,                      5,  4 ;  5
+	map_const CAMPANULA_GYM_SPEECH_HOUSE,                   4,  4 ;  6
 	map_const GUIDE_GENTS_HOUSE,                            4,  4 ;  7
-	map_const CAMPANULA_EVOLUTION_SPEECH_HOUSE,           4,  4 ;  8
-	map_const ROUTE_52_BERRY_HOUSE,                         4,  4 ;  9
-	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
-	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
+	map_const CAMPANULA_EVOLUTION_SPEECH_HOUSE,             4,  4 ;  8
+	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 9
+	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 10
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 26
+	newgroup EDELWEISS								              ; 27
+	map_const ROUTE_53,                                    10, 18 ;  1
+	map_const ROUTE_53_EDELWEISS_GATE,					    5,  4 ;  2
+	map_const EDELWEISS_CITY,                              20, 18 ;  3
+	map_const EDELWEISS_CRAFT_SHOP,                         4,  4 ;  4
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 27

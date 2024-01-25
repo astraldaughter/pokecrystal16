@@ -30,6 +30,7 @@ OutdoorSprites:
 	dw NivaleGroupSprites
 	dw SaffronGroupSprites
 	dw CampanulaGroupSprites
+	dw EdelweissGroupSprites
 	assert_table_length NUM_MAP_GROUPS
 
 PalletGroupSprites:
@@ -332,6 +333,7 @@ NivaleGroupSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 
+EdelweissGroupSprites:
 CampanulaGroupSprites:
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY

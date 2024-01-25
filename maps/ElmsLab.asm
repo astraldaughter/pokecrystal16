@@ -180,12 +180,8 @@ CyndaquilPokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke GIGGILICK, 5, BERRY
+	givepoke KINDLANT, 5, BERRY
 	closetext
-	loadwildmon HARLICKIN, 5
-	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
-	startbattle
-	reloadmapafterbattle
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
 	applymovement PLAYER, AfterCyndaquilMovement
@@ -341,7 +337,6 @@ ElmAfterTheftScript:
 	promptbutton
 	setevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	setflag ENGINE_MAIN_MENU_MOBILE_CHOICES
-	clearevent EVENT_ROUTE_52_YOUNGSTER_JOEY
 	setevent EVENT_ROUTE_53_HIKER
 	closetext
 	setscene SCENE_ELMSLAB_AIDE_GIVES_POKE_BALLS

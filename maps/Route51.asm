@@ -99,11 +99,8 @@ TuscanyNotTuesdayScript:
 	closetext
 	end
 
-Route51Sign1:
-	jumptext Route51Sign1Text
-
-Route51Sign2:
-	jumptext Route51Sign2Text
+Route51Sign:
+	jumptext Route51SignText
 
 Route51FruitTree:
 	fruittree FRUITTREE_ROUTE_51
@@ -217,17 +214,13 @@ TuscanyNotTuesdayText:
 	cont "is unfortunate…"
 	done
 
-Route51Sign1Text:
+Route51SignText:
 	text "ROUTE 51"
 
-	para "CAMPANULA TOWN -"
+	para "WEST:"
 	line "NIVALE TOWN"
-	done
-
-Route51Sign2Text:
-	text "ROUTE 51"
-
-	para "NIVALE TOWN -"
+	
+	para "EAST:"
 	line "CAMPANULA TOWN"
 	done
 
@@ -241,8 +234,8 @@ Route51_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event 51,  7, BGEVENT_READ, Route51Sign1
-	bg_event  7,  7, BGEVENT_READ, Route51Sign2
+	bg_event 51,  7, BGEVENT_READ, Route51Sign
+	bg_event  7,  7, BGEVENT_READ, Route51Sign
 
 	def_object_events
 	object_event 20, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route51YoungsterScript, -1
