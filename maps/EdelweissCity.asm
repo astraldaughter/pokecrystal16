@@ -93,6 +93,7 @@ EdelweissCityGrampsText:
 	para "That changed when"
 	line "they discovered"
 	cont "those RUINS."
+	done
 
 
 EdelweissCityFisherText_Question:

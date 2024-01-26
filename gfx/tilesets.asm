@@ -75,15 +75,6 @@ INCBIN "data/tilesets/players_house_metatiles.bin"
 TilesetPlayersHouseColl::
 INCLUDE "data/tilesets/players_house_collision.asm"
 
-TilesetMansionGFX::
-INCBIN "gfx/tilesets/mansion.2bpp.lz"
-
-TilesetMansionMeta::
-INCBIN "data/tilesets/mansion_metatiles.bin"
-
-TilesetMansionColl::
-INCLUDE "data/tilesets/mansion_collision.asm"
-
 TilesetCaveGFX::
 INCBIN "gfx/tilesets/cave.2bpp.lz"
 
@@ -337,13 +328,22 @@ TilesetAerodactylWordRoomMeta::
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
 
 TilesetRuinsDungeonGFX::
-INCBIN "data/tilesets/ruins_dungeon.2bpp.lz"
+INCBIN "gfx/tilesets/ruins_dungeon.2bpp.lz"
 
 TilesetRuinsDungeonMeta::
 INCBIN "data/tilesets/ruins_dungeon_metatiles.bin"
 
 TilesetRuinsDungeonColl::
 INCLUDE "data/tilesets/ruins_dungeon_collision.asm"
+
+TilesetMansionGFX::
+INCBIN "gfx/tilesets/mansion.2bpp.lz"
+
+TilesetMansionMeta::
+INCBIN "data/tilesets/mansion_metatiles.bin"
+
+TilesetMansionColl::
+INCLUDE "data/tilesets/mansion_collision.asm"
 
 SECTION "Tileset Data 9", ROMX
 
@@ -459,3 +459,6 @@ INCBIN "data/tilesets/omanyte_word_room_attributes.bin"
 
 TilesetAerodactylWordRoomAttr::
 INCBIN "data/tilesets/aerodactyl_word_room_attributes.bin"
+
+TilesetRuinsDungeonAttr::
+INCBIN "data/tilesets/ruins_dungeon_attributes.bin"
