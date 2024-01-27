@@ -292,6 +292,7 @@ MoveDescriptions1:
 	dw HyperVoiceDescription
 	dw ZenHeadbuttDescription
 	dw PsychoCutDescription
+	dw StoneCrashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1444,3 +1445,7 @@ ZenHeadbuttDescription:
 PsychoCutDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
+
+StoneCrashDescription:
+	db   "May miss and hurt"
+	next "the user.@"

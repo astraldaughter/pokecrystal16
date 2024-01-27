@@ -315,6 +315,7 @@ BattleAnimations::
 	dw BattleAnim_HyperVoice
 	dw BattleAnim_ZenHeadbutt
 	dw BattleAnim_PsychoCut
+	dw BattleAnim_StoneCrash
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -5031,6 +5032,40 @@ BattleAnim_PsychoCut:
 	anim_wait 32
 	anim_incbgeffect ANIM_BG_PSYCHIC
 	anim_wait 4
+	anim_ret
+
+BattleAnim_StoneCrash:
+	anim_2gfx ANIM_GFX_ROCKS, ANIM_GFX_HIT
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
+	anim_if_param_equal $1, .alternate
+	anim_bgeffect ANIM_BG_BODY_SLAM, $0, BG_EFFECT_USER, $0
+	anim_wait 3
+	anim_sound 0, 1, SFX_SPARK
+	anim_obj ANIM_OBJ_HIT_YFIX, 128, 56, $0
+	anim_sound 0, 1, SFX_SPARK
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $28
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $5c
+	anim_sound 0, 1, SFX_SPARK
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $10
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $e8
+	anim_sound 0, 1, SFX_SPARK
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $9c
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $d0
+	anim_wait 6
+	anim_sound 0, 1, SFX_SPARK
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $1c
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $50
+	anim_sound 0, 1, SFX_SPARK
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $dc
+	anim_obj ANIM_OBJ_ROCK_SMASH, 128, 64, $90
+	anim_wait 32
+	anim_ret
+
+	.alternate:
+	anim_wait 8
+	anim_sound 0, 0, SFX_DOUBLE_KICK
+	anim_obj ANIM_OBJ_HIT, 44, 88, $0
+	anim_wait 16
 	anim_ret
 
 BattleAnimSub_Drain:

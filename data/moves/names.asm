@@ -287,4 +287,5 @@ MoveNames::
 	li "HYPER VOICE"
 	li "ZEN HEADBUTT"
 	li "PSYCHO CUT"
+	li "STONE CRASH"
 	assert_list_length NUM_ATTACKS

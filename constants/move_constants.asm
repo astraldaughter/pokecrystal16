@@ -293,6 +293,7 @@
 	const HYPER_VOICE  ; 11d
 	const ZEN_HEADBUTT ; 11e
 	const PSYCHO_CUT   ; 11f
+	const STONE_CRASH  ; 120
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
