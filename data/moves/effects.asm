@@ -2028,28 +2028,6 @@ Solarbeam:
 	kingsrock
 	endmove
 
-Thunder:
-	checkobedience
-	usedmovetext
-	doturn
-	critical
-	damagestats
-	damagecalc
-	thunderaccuracy
-	checkhit
-	effectchance
-	stab
-	damagevariation
-	moveanim
-	failuretext
-	applydamage
-	criticaltext
-	supereffectivetext
-	checkfaint
-	buildopponentrage
-	paralyzetarget
-	endmove
-
 Teleport:
 	checkobedience
 	usedmovetext
@@ -2176,4 +2154,11 @@ DragonDance:
 	statupmessage
 	statupfailtext
 	raisesub
+	endmove
+
+Hail:
+	checkobedience
+	usedmovetext
+	doturn
+	starthail
 	endmove

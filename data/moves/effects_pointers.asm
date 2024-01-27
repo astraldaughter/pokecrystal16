@@ -154,7 +154,7 @@ MoveEffectsPointers:
 	dw Gust
 	dw Stomp
 	dw Solarbeam
-	dw Thunder
+	dw ParalyzeHit ; for Thunder, purposefully with different EFFECT_* constant
 	dw Teleport
 	dw BeatUp
 	dw Fly
@@ -163,4 +163,6 @@ MoveEffectsPointers:
 	dw Superpower
 	dw CalmMind
 	dw DragonDance
+	dw FreezeHit ; for Blizzard, purposefully with different EFFECT_* constant
+	dw Hail
 	assert_table_length NUM_MOVE_EFFECTS

@@ -1,13 +1,15 @@
-BattleCommand_StartSandstorm:
+BattleCommand_StartHail:
+; starthail
+
 	ld a, [wBattleWeather]
-	cp WEATHER_SANDSTORM
+	cp WEATHER_HAIL
 	jr z, .failed
 
-	ld a, WEATHER_SANDSTORM
+	ld a, WEATHER_HAIL
 	ld [wBattleWeather], a
 	call GetUserItem
 	ld a, b
-	cp HELD_SMOOTH_ROCK
+	cp HELD_ICY_ROCK
 	jr nz, .NormalDuration
 	ld a, 8
 	jr .continue
@@ -18,7 +20,7 @@ BattleCommand_StartSandstorm:
 .continue
 	ld [wWeatherCount], a
 	call AnimateCurrentMove
-	ld hl, SandstormBrewedText
+	ld hl, ItStartedToHailText
 	jp StdBattleTextbox
 
 .failed

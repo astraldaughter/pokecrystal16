@@ -293,6 +293,7 @@ MoveDescriptions1:
 	dw ZenHeadbuttDescription
 	dw PsychoCutDescription
 	dw StoneCrashDescription
+	dw HailDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1099,6 +1100,7 @@ OutrageDescription:
 	next "and confuses user.@"
 
 SandstormDescription:
+HailDescription:
 	db   "Inflicts damage"
 	next "every turn.@"
 

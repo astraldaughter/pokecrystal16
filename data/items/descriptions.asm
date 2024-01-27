@@ -190,10 +190,10 @@ ItemDescriptions:
 	dw BlueSkyMailDesc
 	dw MusicMailDesc
 	dw MirageMailDesc
-	dw QuestionMarkDesc
-	dw QuestionMarkDesc
-	dw QuestionMarkDesc
-	dw QuestionMarkDesc
+	dw HeatRockDesc
+	dw DampRockDesc
+	dw SmoothRockDesc
+	dw IcyRockDesc
 	assert_table_length NUM_ITEMS
 	dw QuestionMarkDesc
 	dw QuestionMarkDesc
@@ -915,3 +915,19 @@ MusicMailDesc:
 MirageMailDesc:
 	db   "MEW-print MAIL."
 	next "(HOLD)@"
+
+HeatRockDesc:
+	db	 "Extends SUNNY DAY"
+	next "duration. (HOLD)@"
+
+DampRockDesc:
+	db	 "Extends RAIN DANCE"
+	next "duration. (HOLD)@"
+
+SmoothRockDesc:
+	db	 "Extends SANDSTORM"
+	next "duration. (HOLD)@"
+
+IcyRockDesc:
+	db	 "Extends HAIL"
+	next "duration. (HOLD)@"

@@ -195,10 +195,10 @@
 	const BLUESKY_MAIL ; bb
 	const MUSIC_MAIL   ; bc
 	const MIRAGE_MAIL  ; bd
-	const ITEM_BE      ; be
-	const ITEM_DC      ; bf
-	const ITEM_C3      ; c0
-	const ITEM_FA      ; c1
+	const HEAT_ROCK    ; be
+	const DAMP_ROCK    ; bf
+	const SMOOTH_ROCK  ; c0
+	const ICY_ROCK     ; c1
 DEF NUM_ITEMS EQU const_value - 1
 
 DEF __tmhm_value__ = 1

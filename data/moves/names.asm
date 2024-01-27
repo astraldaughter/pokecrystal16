@@ -288,4 +288,5 @@ MoveNames::
 	li "ZEN HEADBUTT"
 	li "PSYCHO CUT"
 	li "STONE CRASH"
+	li "HAIL"
 	assert_list_length NUM_ATTACKS

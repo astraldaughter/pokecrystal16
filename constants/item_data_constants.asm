@@ -134,3 +134,9 @@ DEF MAIL_STRUCT_LENGTH_JP EQU $2a ; mailmsg_jp struct
 	const HELD_BRIGHTPOWDER
 	const_skip
 	const HELD_FOCUS_BAND
+
+	const_next 80
+	const HELD_HEAT_ROCK
+	const HELD_DAMP_ROCK
+	const HELD_SMOOTH_ROCK
+	const HELD_ICY_ROCK
