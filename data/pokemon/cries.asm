@@ -30,8 +30,8 @@ PokemonCries::
 	mon_cry CRY_VULPIX,      288,  256 ; BAMBIZIER
 	mon_cry CRY_DROWZEE,     296,  224 ; GIGGILICK
 	mon_cry CRY_DROWZEE,      40,  256 ; HARLICKIN
-	mon_cry CRY_BULBASAUR,   238,  129 ; PIKACHU
-	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
+	mon_cry CRY_NATU,    	 -82,   96 ; JABOA
+	mon_cry CRY_GOLEM,       144,  256 ; JERBOXER
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW
 	mon_cry CRY_NIDORAN_M,   255,  383 ; SANDSLASH
 	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F

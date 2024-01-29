@@ -34,8 +34,8 @@ MonMenuIconPals:
 	icon_pals BROWN,  GRAY   ; BAMBIZIER
 	icon_pals PURPLE, BLUE   ; GIGGILICK
 	icon_pals PINK,   BLUE   ; HARLICKIN
-	icon_pals RED,    RED    ; PIKACHU
-	icon_pals RED,    BROWN  ; RAICHU
+	icon_pals RED, 	  PURPLE ; JABOA
+	icon_pals BROWN,  PURPLE ; JERBOXER
 	icon_pals BROWN,  GRAY   ; SANDSHREW
 	icon_pals BROWN,  GRAY   ; SANDSLASH
 	icon_pals BLUE,   PURPLE ; NIDORAN_F

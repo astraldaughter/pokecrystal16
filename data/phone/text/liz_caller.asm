@@ -140,7 +140,7 @@ LizSurfPikachuGossipText:
 	para "But I can't seem"
 	line "to get a hold of a"
 
-	para "SURF PIKACHU DOLL."
+	para "SURF JABOA DOLL."
 	line "None of my friends"
 
 	para "have it. It must"

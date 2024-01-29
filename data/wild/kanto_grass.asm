@@ -206,16 +206,16 @@ KantoGrassWildMons:
 	dbw 5, SPREASEL
 	dbw 7, BUTTERFREE
 	dbw 7, LEDIAN
-	dbw 4, PIKACHU
-	dbw 4, PIKACHU
+	dbw 4, JABOA
+	dbw 4, JABOA
 	; day
 	dbw 3, CATERPIE
 	dbw 3, SPREASEL
 	dbw 5, SPREASEL
 	dbw 7, BUTTERFREE
 	dbw 7, BOINGOOSE
-	dbw 4, PIKACHU
-	dbw 4, PIKACHU
+	dbw 4, JABOA
+	dbw 4, JABOA
 	; nite
 	dbw 3, HOOTHOOT
 	dbw 3, SPINARAK

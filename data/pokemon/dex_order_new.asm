@@ -23,8 +23,8 @@ NewPokedexOrder:
 	dw SENTRET
 	dw FURRET
 	dw PICHU
-	dw PIKACHU
-	dw RAICHU
+	dw JABOA
+	dw JERBOXER
 	dw CATERPIE
 	dw METAPOD
 	dw BUTTERFREE

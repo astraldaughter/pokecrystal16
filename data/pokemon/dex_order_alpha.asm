@@ -162,7 +162,7 @@ AlphabeticalPokedexOrder:
 	dw ROLLABYE
 	dw BOINGOOSE
 	dw SPREASEL
-	dw PIKACHU
+	dw JABOA
 	dw PILOSWINE
 	dw PINECO
 	dw PINSIR
@@ -179,7 +179,7 @@ AlphabeticalPokedexOrder:
 	dw QUAGSIRE
 	dw QUILAVA
 	dw QWILFISH
-	dw RAICHU
+	dw JERBOXER
 	dw RAIKOU
 	dw RAPIDASH
 	dw BAMBUD

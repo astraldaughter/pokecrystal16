@@ -29,8 +29,8 @@ IconPointers:
 	dw BambizierIcon
 	dw GiggilickIcon
 	dw HarlickinIcon
-	dw PikachuIcon
-	dw RaichuIcon
+	dw JaboaIcon
+	dw JerboxerIcon
 	dw SandshrewIcon
 	dw SandslashIcon
 	dw NidoranFIcon

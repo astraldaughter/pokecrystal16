@@ -119,7 +119,7 @@ BuenaPhoneScript_RandomCaller:
 	sjump .finish
 
 .seven
-	writetext BuenaPhonePikachuFanClubText
+	writetext BuenaPhoneJaboaFanClubText
 	sjump .finish
 
 .eight

@@ -154,7 +154,7 @@ ScriptCommandTable:
 	dw Script_closepokepic               ; 57
 	dw Script__2dmenu                    ; 58
 	dw Script_verticalmenu               ; 59
-	dw Script_loadpikachudata            ; 5a
+	dw Script_loadjaboadata            ; 5a
 	dw Script_randomwildmon              ; 5b
 	dw Script_loadtemptrainer            ; 5c
 	dw Script_loadwildmon                ; 5d
@@ -1111,8 +1111,8 @@ EarthquakeMovement:
 	step_end
 .End
 
-Script_loadpikachudata:
-	ld hl, PIKACHU
+Script_loadjaboadata:
+	ld hl, JABOA
 	call GetPokemonIDFromIndex
 	ld [wTempWildMonSpecies], a
 	ld a, 5

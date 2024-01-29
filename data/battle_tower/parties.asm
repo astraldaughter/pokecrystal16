@@ -872,7 +872,7 @@ BattleTowerMons:
 	bigdw 54 ; SDef
 	db "RAPURASU@@@"
 
-	dw PIKACHU
+	dw JABOA
 	db LIGHT_BALL
 	dw THUNDERBOLT, THUNDER_WAVE, STRENGTH, TOXIC
 

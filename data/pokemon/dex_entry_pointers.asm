@@ -25,8 +25,8 @@ PokedexDataPointerTable:
 	dba BambizierPokedexEntry
 	dba GiggilickPokedexEntry
 	dba HarlickinPokedexEntry
-	dba PikachuPokedexEntry
-	dba RaichuPokedexEntry
+	dba JaboaPokedexEntry
+	dba JerboxerPokedexEntry
 	dba SandshrewPokedexEntry
 	dba SandslashPokedexEntry
 	dba NidoranFPokedexEntry

@@ -549,7 +549,7 @@ LtSurgeGroup:
 	next_list_item ; LT_SURGE (1)
 	db "LT.SURGE@", TRAINERTYPE_MOVES
 	db 44
-	dw RAICHU
+	dw JERBOXER
 	dw THUNDER_WAVE, QUICK_ATTACK, THUNDERBOLT, THUNDER
 	db 40
 	dw ELECTRODE
@@ -1537,7 +1537,7 @@ CooltrainerFGroup:
 	next_list_item ; COOLTRAINERF (8)
 	db "JOYCE@", TRAINERTYPE_MOVES
 	db 36
-	dw PIKACHU
+	dw JABOA
 	dw QUICK_ATTACK, DOUBLE_TEAM, THUNDERBOLT, THUNDER
 	db 32
 	dw KELPESTARY
@@ -2182,7 +2182,7 @@ GentlemanGroup:
 	next_list_item ; GENTLEMAN (3)
 	db "GREGORY@", TRAINERTYPE_NORMAL
 	db 37
-	dw PIKACHU
+	dw JABOA
 	db 33
 	dw FLAAFFY
 	db -1 ; end
@@ -4159,7 +4159,7 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (3)
 	db "BROOKE@", TRAINERTYPE_MOVES
 	db 16
-	dw PIKACHU
+	dw JABOA
 	dw THUNDERSHOCK, GROWL, QUICK_ATTACK, DOUBLE_TEAM
 	db -1 ; end
 
@@ -4244,7 +4244,7 @@ PicnickerGroup:
 	db 30
 	dw NIDORINA
 	db 34
-	dw RAICHU
+	dw JERBOXER
 	db -1 ; end
 
 	next_list_item ; PICNICKER (15)
@@ -4298,7 +4298,7 @@ PicnickerGroup:
 	dw PONYTA
 	dw DOUBLE_TEAM, STOMP, FIRE_SPIN, SUNNY_DAY
 	db 34
-	dw RAICHU
+	dw JERBOXER
 	dw SWIFT, MUD_SLAP, QUICK_ATTACK, THUNDERBOLT
 	db 36
 	dw PONYTA
@@ -4789,14 +4789,14 @@ PokefanMGroup:
 	next_list_item ; POKEFANM (1)
 	db "WILLIAM@", TRAINERTYPE_ITEM
 	db 14
-	dw RAICHU
+	dw JERBOXER
 	db BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (2)
 	db "DEREK@", TRAINERTYPE_ITEM
 	db 17
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db -1 ; end
 
@@ -4810,22 +4810,22 @@ PokefanMGroup:
 	next_list_item ; POKEFANM (4)
 	db "JOSHUA@", TRAINERTYPE_ITEM
 	db 23
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db 23
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db 23
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db 23
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db 23
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db 23
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db -1 ; end
 
@@ -4879,14 +4879,14 @@ PokefanMGroup:
 	next_list_item ; POKEFANM (10)
 	db "DEREK@", TRAINERTYPE_ITEM
 	db 19
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db -1 ; end
 
 	next_list_item ; POKEFANM (11)
 	db "DEREK@", TRAINERTYPE_ITEM
 	db 36
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db -1 ; end
 
@@ -5064,7 +5064,7 @@ PokefanFGroup:
 	next_list_item ; POKEFANF (2)
 	db "RUTH@", TRAINERTYPE_ITEM
 	db 17
-	dw PIKACHU
+	dw JABOA
 	db BERRY
 	db -1 ; end
 
@@ -5114,7 +5114,7 @@ RedGroup:
 	next_list_item ; RED (1)
 	db "RED@", TRAINERTYPE_MOVES
 	db 81
-	dw PIKACHU
+	dw JABOA
 	dw CHARM, QUICK_ATTACK, THUNDERBOLT, THUNDER
 	db 73
 	dw ESPEON

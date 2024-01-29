@@ -25,8 +25,8 @@ EvosAttacksPointers1::
 	dw BambizierEvosAttacks
 	dw GiggilickEvosAttacks
 	dw HarlickinEvosAttacks
-	dw PikachuEvosAttacks
-	dw RaichuEvosAttacks
+	dw JaboaEvosAttacks
+	dw JerboxerEvosAttacks
 	dw SandshrewEvosAttacks
 	dw SandslashEvosAttacks
 	dw NidoranFEvosAttacks
@@ -505,28 +505,41 @@ HarlickinEvosAttacks:
 	dbw 51, HAZE
 	db 0 ; no more level-up moves
 
-PikachuEvosAttacks:
-	dbbw EVOLVE_ITEM, THUNDERSTONE, RAICHU
+JaboaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 28, JERBOXER
 	db 0 ; no more evolutions
-	dbw 1, THUNDERSHOCK
-	dbw 1, GROWL
-	dbw 6, TAIL_WHIP
-	dbw 8, THUNDER_WAVE
-	dbw 11, QUICK_ATTACK
-	dbw 15, DOUBLE_TEAM
-	dbw 20, SLAM
-	dbw 26, THUNDERBOLT
-	dbw 33, AGILITY
-	dbw 41, THUNDER
-	dbw 50, LIGHT_SCREEN
+	dbw 1, POUND
+	dbw 1, TAIL_WHIP
+	dbw 7, SAND_ATTACK
+	dbw 11, LOW_KICK
+	dbw 14, FOCUS_ENERGY
+	dbw 16, ENDURE
+	dbw 19, DOUBLE_KICK
+	dbw 22, SLAM
+	dbw 26, COUNTER
+	dbw 30, JUMP_KICK
+	dbw 34, SWORDS_DANCE
+	dbw 38, MEGA_KICK
+	dbw 41, REVERSAL
+	dbw 44, HI_JUMP_KICK
 	db 0 ; no more level-up moves
 
-RaichuEvosAttacks:
+JerboxerEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, THUNDERSHOCK
+	dbw 1, POUND
 	dbw 1, TAIL_WHIP
-	dbw 1, QUICK_ATTACK
-	dbw 1, THUNDERBOLT
+	dbw 7, SAND_ATTACK
+	dbw 11, LOW_KICK
+	dbw 14, FOCUS_ENERGY
+	dbw 16, ENDURE
+	dbw 19, DOUBLE_KICK
+	dbw 22, SLAM
+	dbw 26, COUNTER
+	dbw 31, JUMP_KICK
+	dbw 36, SWORDS_DANCE
+	dbw 41, MEGA_KICK
+	dbw 45, REVERSAL
+	dbw 50, HI_JUMP_KICK
 	db 0 ; no more level-up moves
 
 SandshrewEvosAttacks:

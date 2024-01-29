@@ -14,7 +14,7 @@ DerekCheekPinchingText:
 
 DerekDefeatedMonText:
 	text "Oh, and recently,"
-	line "my PIKACHU beat a"
+	line "my JABOA beat a"
 	cont "wild @"
 	text_ram wStringBuffer4
 	text "!"
@@ -27,10 +27,10 @@ DerekDefeatedMonText:
 	para "Don't you think"
 	line "that's astounding?"
 
-	para "My PIKACHU is"
+	para "My JABOA is"
 	line "awesome!"
 
-	para "My PIKACHU is the"
+	para "My JABOA is the"
 	line "greatest!"
 	done
 
@@ -67,7 +67,7 @@ DerekBugCatchingContestText:
 	para "I think I'll"
 	line "participate with"
 
-	para "PIKACHU to show"
+	para "JABOA to show"
 	line "off its cuteness."
 	done
 
@@ -75,21 +75,21 @@ DerekFoundItemText:
 	text "I'd like you to"
 	line "have a NUGGET."
 
-	para "My PIKACHU just"
+	para "My JABOA just"
 	line "loves it."
 
 	para "I'm certain your"
-	line "PIKACHU will love"
+	line "JABOA will love"
 	cont "it too!"
 	done
 
 DerekLetsGetTogetherText:
 	text "How is your"
-	line "PIKACHU doing?"
+	line "JABOA doing?"
 
 	para "Let's get together"
 	line "and brag about our"
-	cont "PIKACHU!"
+	cont "JABOA!"
 	done
 
 DerekComePickUpText:

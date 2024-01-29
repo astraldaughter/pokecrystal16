@@ -15,7 +15,7 @@ SpriteMons:
 	dw BUTTERFREE
 	dw DIGLETT
 	dw POLIWAG
-	dw PIKACHU
+	dw JABOA
 	dw CLEFAIRY
 	dw KINDLANT
 	dw JYNX

@@ -26,8 +26,8 @@ KantoMonSpecials:
 	db  61 ; BAMBIZIER
 	db  40 ; GIGGILICK
 	db  65 ; HARLICKIN
-	db  50 ; PIKACHU
-	db  90 ; RAICHU
+	db  50 ; JABOA
+	db  90 ; JERBOXER
 	db  30 ; SANDSHREW
 	db  55 ; SANDSLASH
 	db  40 ; NIDORAN_F

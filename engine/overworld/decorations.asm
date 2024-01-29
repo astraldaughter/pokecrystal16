@@ -208,7 +208,7 @@ FindOwnedBeds:
 	db DECO_FEATHERY_BED ; 2
 	db DECO_PINK_BED ; 3
 	db DECO_POLKADOT_BED ; 4
-	db DECO_PIKACHU_BED ; 5
+	db DECO_JABOA_BED ; 5
 	db -1
 
 DecoCarpetMenu:
@@ -259,7 +259,7 @@ FindOwnedPosters:
 
 .posters:
 	db DECO_TOWN_MAP ; 10
-	db DECO_PIKACHU_POSTER ; 11
+	db DECO_JABOA_POSTER ; 11
 	db DECO_CLEFAIRY_POSTER ; 12
 	db DECO_JIGGLYPUFF_POSTER ; 13
 	db -1
@@ -294,8 +294,8 @@ FindOwnedOrnaments:
 	jp FindOwnedDecosInCategory
 
 .ornaments:
-	db DECO_PIKACHU_DOLL ; 1e
-	db DECO_SURF_PIKACHU_DOLL ; 1f
+	db DECO_JABOA_DOLL ; 1e
+	db DECO_SURF_JABOA_DOLL ; 1f
 	db DECO_CLEFAIRY_DOLL ; 20
 	db DECO_JIGGLYPUFF_DOLL ; 21
 	db DECO_KIWEE_DOLL ; 22
@@ -1013,7 +1013,7 @@ DecorationDesc_Poster:
 
 DecorationDesc_PosterPointers:
 	dbw DECO_TOWN_MAP, DecorationDesc_TownMapPoster
-	dbw DECO_PIKACHU_POSTER, DecorationDesc_PikachuPoster
+	dbw DECO_JABOA_POSTER, DecorationDesc_JaboaPoster
 	dbw DECO_CLEFAIRY_POSTER, DecorationDesc_ClefairyPoster
 	dbw DECO_JIGGLYPUFF_POSTER, DecorationDesc_JigglypuffPoster
 	db -1
@@ -1030,11 +1030,11 @@ DecorationDesc_TownMapPoster:
 	text_far _LookTownMapText
 	text_end
 
-DecorationDesc_PikachuPoster:
-	jumptext .LookPikachuPosterText
+DecorationDesc_JaboaPoster:
+	jumptext .LookJaboaPosterText
 
-.LookPikachuPosterText:
-	text_far _LookPikachuPosterText
+.LookJaboaPosterText:
+	text_far _LookJaboaPosterText
 	text_end
 
 DecorationDesc_ClefairyPoster:

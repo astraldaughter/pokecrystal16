@@ -249,14 +249,14 @@ BuenaPhoneRadioCardQuestionsText:
 	line "again!"
 	done
 
-BuenaPhonePikachuFanClubText:
+BuenaPhoneJaboaFanClubText:
 	text "I'm elated that"
 	line "more people are"
 
 	para "taking part in my"
 	line "PASSWORD show."
 
-	para "But when PIKACHU"
+	para "But when JABOA"
 	line "was the password,"
 
 	para "it was uh… whew…"
@@ -266,7 +266,7 @@ BuenaPhonePikachuFanClubText:
 	line "came in out in"
 
 	para "droves, shouting"
-	line "'PIKACHU!' over"
+	line "'JABOA!' over"
 
 	para "and over. I mean,"
 	line "they were loud."

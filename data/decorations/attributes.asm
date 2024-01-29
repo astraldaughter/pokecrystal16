@@ -13,7 +13,7 @@ DecorationAttributes:
 	decoration DECO_BED,     FEATHERY_BED,    SET_UP_BED,        EVENT_DECO_BED_1,                   $1b
 	decoration DECO_BED,     PINK_BED,        SET_UP_BED,        EVENT_DECO_BED_2,                   $1c
 	decoration DECO_BED,     POLKADOT_BED,    SET_UP_BED,        EVENT_DECO_BED_3,                   $1d
-	decoration DECO_BED,     PIKACHU_BED,     SET_UP_BED,        EVENT_DECO_BED_4,                   $1e
+	decoration DECO_BED,     JABOA_BED,     SET_UP_BED,        EVENT_DECO_BED_4,                   $1e
 	decoration DECO_PLANT,   PUT_IT_AWAY,     PUT_AWAY_CARPET,   EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1, 0
 	decoration DECO_CARPET,  RED_CARPET,      SET_UP_CARPET,     EVENT_DECO_CARPET_1,                $08
 	decoration DECO_CARPET,  BLUE_CARPET,     SET_UP_CARPET,     EVENT_DECO_CARPET_2,                $0b
@@ -38,8 +38,8 @@ DecorationAttributes:
 	decoration DECO_BIGDOLL, 16,              SET_UP_BIG_DOLL,   EVENT_DECO_BIG_ONIX_DOLL,           SPRITE_BIG_ONIX
 	decoration DECO_BIGDOLL, 20,              SET_UP_BIG_DOLL,   EVENT_DECO_BIG_LAPRAS_DOLL,         SPRITE_BIG_LAPRAS
 	decoration DECO_PLANT,   PUT_IT_AWAY,     PUT_AWAY_DOLL,     EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1, 0
-	decoration DECO_DOLL,    4,               SET_UP_DOLL,       EVENT_DECO_PIKACHU_DOLL,            SPRITE_PIKACHU
-	decoration DECO_PLANT,   SURF_PIKA_DOLL,  SET_UP_DOLL,       EVENT_DECO_SURFING_PIKACHU_DOLL,    SPRITE_SURFING_PIKACHU
+	decoration DECO_DOLL,    4,               SET_UP_DOLL,       EVENT_DECO_JABOA_DOLL,            SPRITE_JABOA
+	decoration DECO_PLANT,   SURF_PIKA_DOLL,  SET_UP_DOLL,       EVENT_DECO_SURFING_JABOA_DOLL,    SPRITE_SURFING_JABOA
 	decoration DECO_DOLL,    5,               SET_UP_DOLL,       EVENT_DECO_CLEFAIRY_DOLL,           SPRITE_CLEFAIRY
 	decoration DECO_DOLL,    6,               SET_UP_DOLL,       EVENT_DECO_JIGGLYPUFF_DOLL,         SPRITE_JIGGLYPUFF
 	decoration DECO_DOLL,    0,               SET_UP_DOLL,       EVENT_DECO_KIWEE_DOLL,          SPRITE_KIWEE
@@ -68,7 +68,7 @@ DecorationAttributePokemonNames:
 	dw KINDLANT ;  1
 	dw FOALAKE   ;  2
 	dw WEEDLE     ;  3
-	dw PIKACHU    ;  4
+	dw JABOA    ;  4
 	dw CLEFAIRY   ;  5
 	dw JIGGLYPUFF ;  6
 	dw ODDISH     ;  7

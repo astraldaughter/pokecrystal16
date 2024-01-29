@@ -440,17 +440,19 @@ AlreadySurfingText:
 GetSurfType:
 ; Surfing on Pikachu uses an alternate sprite.
 ; This is done by using a separate movement type.
+; This code is dummied out since Pikachu is gone now, but preserved 
+; in case I decide to add a mon with a custom Surf sprite.
 
-	ld a, [wCurPartyMon]
-	ld e, a
-	ld d, 0
-	ld hl, PIKACHU
-	call GetPokemonIDFromIndex
-	ld hl, wPartySpecies
-	add hl, de
-	cp [hl]
-	ld a, PLAYER_SURF_PIKA
-	ret z
+;	ld a, [wCurPartyMon]
+;	ld e, a
+;	ld d, 0
+;	ld hl, PIKACHU
+;	call GetPokemonIDFromIndex
+;	ld hl, wPartySpecies
+;	add hl, de
+;	cp [hl]
+;	ld a, PLAYER_SURF_PIKA
+;	ret z
 	ld a, PLAYER_SURF
 	ret
 

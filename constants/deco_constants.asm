@@ -38,7 +38,7 @@ DEF NUM_DECO_TYPES EQU const_value - 1
 	const _DOLL
 	const BIG_
 	const FEATHERY_BED
-	const PIKACHU_BED
+	const JABOA_BED
 	const PINK_BED
 	const POLKADOT_BED
 	const RED_CARPET
@@ -82,7 +82,7 @@ ENDM
 	deco  FEATHERY_BED
 	deco  PINK_BED
 	deco  POLKADOT_BED
-	deco  PIKACHU_BED
+	deco  JABOA_BED
 ; FindOwnedCarpets.carpets values (see engine/overworld/decorations.asm)
 	const CARPETS
 	deco  RED_CARPET
@@ -97,7 +97,7 @@ ENDM
 ; FindOwnedPosters.posters values (see engine/overworld/decorations.asm)
 	const POSTERS
 	deco  TOWN_MAP
-	deco  PIKACHU_POSTER
+	deco  JABOA_POSTER
 	deco  CLEFAIRY_POSTER
 	deco  JIGGLYPUFF_POSTER
 ; FindOwnedConsoles.consoles values (see engine/overworld/decorations.asm)
@@ -113,8 +113,8 @@ ENDM
 	deco  BIG_LAPRAS_DOLL
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS
-	deco  PIKACHU_DOLL
-	deco  SURF_PIKACHU_DOLL
+	deco  JABOA_DOLL
+	deco  SURF_JABOA_DOLL
 	deco  CLEFAIRY_DOLL
 	deco  JIGGLYPUFF_DOLL
 	deco  KIWEE_DOLL

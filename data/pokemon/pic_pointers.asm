@@ -61,10 +61,10 @@ PokemonPicPointers::
 	dba GiggilickBackpic
 	dba HarlickinFrontpic
 	dba HarlickinBackpic
-	dba PikachuFrontpic
-	dba PikachuBackpic
-	dba RaichuFrontpic
-	dba RaichuBackpic
+	dba JaboaFrontpic
+	dba JaboaBackpic
+	dba JerboxerFrontpic
+	dba JerboxerBackpic
 	dba SandshrewFrontpic
 	dba SandshrewBackpic
 	dba SandslashFrontpic
