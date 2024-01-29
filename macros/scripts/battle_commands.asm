@@ -179,8 +179,9 @@ ENDM
 	command supereffectivelooptext  ; ac
 	command startloop               ; ad
 	command curl                    ; ae
-	command superpower				; af
-	command starthail				; b0
+	command starthail				; af
+	command calmmind				; b0
+	command dragondance				; b1
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1

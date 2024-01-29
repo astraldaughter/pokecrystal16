@@ -264,7 +264,7 @@ MoveDescriptions1:
 	dw NastyPlotDescription
 	dw PowerGemDescription
 	dw ChargeBeamDescription
-	dw SuperpowerDescription
+	dw HeartBreakDescription
 	dw EcholocationDescription
 	dw UndertowDescription
 	dw DarkPulseDescription
@@ -1336,9 +1336,9 @@ ChargeBeamDescription:
 	db   "An attack that ups"
 	next "user's SPCL.ATK.@"
 
-SuperpowerDescription:
-	db	"Powerful, but"
-	next "lowers stats.@"
+HeartBreakDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
 
 EcholocationDescription:
 	db   "Raises the user's"

@@ -3664,18 +3664,6 @@ UpdateMoveData:
 	jp CopyName1
 
 BattleCommand_SleepTarget:
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_SLEEP
-	jr nz, .not_protected_by_item
-
-	ld a, [hl]
-	ld [wNamedObjectIndex], a
-	call GetItemName
-	ld hl, ProtectedByText
-	jr .fail
-
-.not_protected_by_item
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 	ld d, h
@@ -3740,11 +3728,11 @@ BattleCommand_PoisonTarget:
 	ld a, [wTypeModifier]
 	and $7f
 	ret z
-	call CheckIfTargetIsPoisonType
+	ld a, POISON
+	call CheckIfTargetIsGivenType ; Don't poison a Poison-type
 	ret z
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_POISON
+	ld a, STEEL ; Don't poison a Steel-type either
+	call CheckIfTargetIsGivenType
 	ret z
 	ld a, [wEffectFailed]
 	and a
@@ -3769,7 +3757,12 @@ BattleCommand_Poison:
 	and $7f
 	jp z, .failed
 
-	call CheckIfTargetIsPoisonType
+	ld a, POISON
+	call CheckIfTargetIsGivenType
+	jp z, .failed
+
+	ld a, STEEL
+	call CheckIfTargetIsGivenType
 	jp z, .failed
 
 	ld a, BATTLE_VARS_STATUS_OPP
@@ -3779,17 +3772,6 @@ BattleCommand_Poison:
 	and 1 << PSN
 	jp nz, .failed
 
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_POISON
-	jr nz, .do_poison
-	ld a, [hl]
-	ld [wNamedObjectIndex], a
-	call GetItemName
-	ld hl, ProtectedByText
-	jr .failed
-
-.do_poison
 	ld hl, DidntAffect1Text
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVar
@@ -3847,7 +3829,8 @@ BattleCommand_Poison:
 	cp EFFECT_TOXIC
 	ret
 
-CheckIfTargetIsPoisonType:
+CheckIfTargetIsGivenType:
+	ld b, a
 	ld de, wEnemyMonType1
 	ldh a, [hBattleTurn]
 	and a
@@ -3856,10 +3839,10 @@ CheckIfTargetIsPoisonType:
 .ok
 	ld a, [de]
 	inc de
-	cp POISON
+	cp b
 	ret z
 	ld a, [de]
-	cp POISON
+	cp b
 	ret
 
 PoisonOpponent:
@@ -3983,11 +3966,8 @@ BattleCommand_BurnTarget:
 	ld a, [wTypeModifier]
 	and $7f
 	ret z
-	call CheckMoveTypeMatchesTarget ; Don't burn a Fire-type
-	ret z
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_BURN
+	ld a, FIRE ; Don't burn a Fire-type
+	call CheckIfTargetIsGivenType
 	ret z
 	ld a, [wEffectFailed]
 	and a
@@ -4050,11 +4030,8 @@ BattleCommand_FreezeTarget:
 	ld a, [wBattleWeather]
 	cp WEATHER_SUN
 	ret z
-	call CheckMoveTypeMatchesTarget ; Don't freeze an Ice-type
-	ret z
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_FREEZE
+	ld a, ICE ; Don't freeze an Ice-type
+	call CheckIfTargetIsGivenType
 	ret z
 	ld a, [wEffectFailed]
 	and a
@@ -4098,10 +4075,6 @@ BattleCommand_ParalyzeTarget:
 	ld a, [wTypeModifier]
 	and $7f
 	ret z
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_PARALYZE
-	ret z
 	ld a, [wEffectFailed]
 	and a
 	ret nz
@@ -4119,6 +4092,59 @@ BattleCommand_ParalyzeTarget:
 	call PrintParalyze
 	ld hl, UseHeldStatusHealingItem
 	jp CallBattleCore
+
+BattleCommand_CalmMind:
+	lb bc, SP_ATTACK, SP_DEFENSE
+	jr DoubleUp
+BattleCommand_DragonDance:
+	lb bc, ATTACK, SPEED
+	jr DoubleUp
+DoubleUp:
+; stats to raise are in bc
+	push bc ; StatUp clobbers c (via CheckIfStatCanBeRaised), which we want to retain
+	call ResetMiss
+	call BattleCommand_StatUp
+	ld a, [wFailedMessage]
+	ld d, a ; note for 2nd stat
+	ld e, 0	; track if we've shown animation
+	and a
+	call z, .msg_animate
+	pop bc
+	ld b, c
+	push de
+	call ResetMiss
+	call BattleCommand_StatUp
+	pop de
+	ld a, [wFailedMessage]
+	and a
+	jr z, .msg_animate
+	and d ; if this result in a being nonzero, we want to give a failure message
+	ret z
+	ld b, ABILITY + 1
+	call GetStatName
+	call AnimateFailedMove
+	ld hl, WontRiseAnymoreText
+	jp StdBattleTextbox
+.msg_animate
+	ld a, e
+	and a
+	push de
+	jr nz, .statupmessage
+	inc a
+	ld [wBattleAnimParam], a
+	
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	ld e, a
+	ld d, 0
+	call AnimateCurrentMove
+	pop de
+	inc e
+	push de
+.statupmessage
+	call BattleCommand_StatUpMessage
+	pop de
+	ret
 
 BattleCommand_AttackUp:
 	ld b, ATTACK
@@ -5759,10 +5785,6 @@ BattleCommand_Recoil:
 	jp StdBattleTextbox
 
 BattleCommand_ConfuseTarget:
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_CONFUSE
-	ret z
 	ld a, [wEffectFailed]
 	and a
 	ret nz
@@ -5777,18 +5799,6 @@ BattleCommand_ConfuseTarget:
 	jr BattleCommand_FinishConfusingTarget
 
 BattleCommand_Confuse:
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_CONFUSE
-	jr nz, .no_item_protection
-	ld a, [hl]
-	ld [wNamedObjectIndex], a
-	call GetItemName
-	call AnimateFailedMove
-	ld hl, ProtectedByText
-	jp StdBattleTextbox
-
-.no_item_protection
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVarAddr
 	bit SUBSTATUS_CONFUSED, [hl]
@@ -5865,16 +5875,6 @@ BattleCommand_Paralyze:
 	ld a, [wTypeModifier]
 	and $7f
 	jr z, .didnt_affect
-	call GetOpponentItem
-	ld a, b
-	cp HELD_PREVENT_PARALYZE
-	jr nz, .no_item_protection
-	ld a, [hl]
-	ld [wNamedObjectIndex], a
-	call GetItemName
-	call AnimateFailedMove
-	ld hl, ProtectedByText
-	jp StdBattleTextbox
 
 .no_item_protection
 	ld a, BATTLE_VARS_STATUS_OPP
@@ -5914,42 +5914,6 @@ BattleCommand_Paralyze:
 	call AnimateFailedMove
 	jp PrintDoesntAffect
 
-CheckMoveTypeMatchesTarget:
-; Compare move type to opponent type.
-; Return z if matching the opponent type,
-; unless the move is Normal (Tri Attack).
-
-	push hl
-
-	ld hl, wEnemyMonType1
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .ok
-	ld hl, wBattleMonType1
-.ok
-
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVar
-	and TYPE_MASK
-	cp NORMAL
-	jr z, .normal
-
-	cp [hl]
-	jr z, .return
-
-	inc hl
-	cp [hl]
-
-.return
-	pop hl
-	ret
-
-.normal
-	ld a, 1
-	and a
-	pop hl
-	ret
-
 INCLUDE "engine/battle/move_effects/substitute.asm"
 
 BattleCommand_RechargeNextTurn:
@@ -5969,8 +5933,6 @@ EndRechargeOpp:
 	ret
 
 INCLUDE "engine/battle/move_effects/rage.asm"
-
-INCLUDE "engine/battle/move_effects/superpower.asm"
 
 BattleCommand_DoubleFlyingDamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP

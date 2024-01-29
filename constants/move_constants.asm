@@ -265,7 +265,7 @@
 	const NASTY_PLOT   ; 101
 	const POWER_GEM	   ; 102
 	const CHARGE_BEAM  ; 103
-	const SUPERPOWER   ; 104
+	const HEART_BREAK   ; 104
 	const ECHOLOCATION ; 105
 	const UNDERTOW	   ; 106
 	const DARK_PULSE   ; 107

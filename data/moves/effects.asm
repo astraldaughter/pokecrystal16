@@ -2100,60 +2100,18 @@ MeteorBeam:
 	statupmessage
 	endmove
 
-Superpower:
-	checkobedience
-	usedmovetext
-	doturn
-	critical
-	effectchance
-	damagestats
-	damagecalc
-	stab
-	damagevariation
-	checkhit
-	moveanim
-	failuretext
-	applydamage
-	criticaltext
-	supereffectivetext
-	superpower
-	checkfaint
-	buildopponentrage
-	kingsrock
-	endmove
-
 CalmMind:
 	checkobedience
 	usedmovetext
 	doturn
-	lowersub
-	specialattackup
-	statupanim
-	statupmessage
-	statupfailtext
-	resetmiss
-	specialdefenseup
-	statupanim
-	statupmessage
-	statupfailtext
-	raisesub
+	calmmind
 	endmove
 
 DragonDance:
 	checkobedience
 	usedmovetext
 	doturn
-	lowersub
-	attackup
-	statupanim
-	statupmessage
-	statupfailtext
-	resetmiss
-	speedup
-	statupanim
-	statupmessage
-	statupfailtext
-	raisesub
+	dragondance
 	endmove
 
 Hail:

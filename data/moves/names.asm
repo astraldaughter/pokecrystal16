@@ -259,7 +259,7 @@ MoveNames::
 	li "NASTY PLOT"
 	li "POWER GEM"
 	li "CHARGE BEAM"
-	li "SUPERPOWER"
+	li "HEART BREAK"
 	li "ECHOLOCATION"
 	li "UNDERTOW"
 	li "DARK PULSE"

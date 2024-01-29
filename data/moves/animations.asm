@@ -288,7 +288,7 @@ BattleAnimations::
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_PowerGem
 	dw BattleAnim_ChargeBeam
-	dw BattleAnim_Superpower
+	dw BattleAnim_HeartBreak
 	dw BattleAnim_Echolocation
 	dw BattleAnim_Undertow
 	dw BattleAnim_DarkPulse
@@ -4795,28 +4795,17 @@ BattleAnim_ChargeBeam:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_Superpower:
-	anim_2gfx ANIM_GFX_CHARGE, ANIM_GFX_HIT
-	anim_sound 0, 0, SFX_SWORDS_DANCE
-	anim_obj ANIM_OBJ_GROWTH, 48, 108, $0
-	anim_obj ANIM_OBJ_GROWTH, 48, 108, $8
-	anim_obj ANIM_OBJ_GROWTH, 48, 108, $10
-	anim_obj ANIM_OBJ_GROWTH, 48, 108, $18
-	anim_obj ANIM_OBJ_GROWTH, 48, 108, $20
-	anim_obj ANIM_OBJ_GROWTH, 48, 108, $28
-	anim_obj ANIM_OBJ_GROWTH, 48, 108, $30
-	anim_obj ANIM_OBJ_GROWTH, 48, 108, $38
-	anim_wait 64
+BattleAnim_HeartBreak:
+	anim_2gfx ANIM_GFX_OBJECTS, ANIM_GFX_HIT
+	anim_sound 0, 0, SFX_ATTRACT
+	anim_obj ANIM_OBJ_HEART, 128, 40, $0
+	anim_wait 40
 	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $10
 	anim_bgeffect ANIM_BG_TACKLE, $0, BG_EFFECT_USER, $0
-	anim_wait 3
-	anim_sound 0, 1, SFX_TACKLE
-	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 128, 48, $0
-	anim_wait 6
-	anim_sound 0, 1, SFX_TACKLE
-	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 144, 48, $0
-	anim_wait 3
+	anim_wait 4
+	anim_sound 0, 1, SFX_BEAT_UP
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 48, $0
+	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 

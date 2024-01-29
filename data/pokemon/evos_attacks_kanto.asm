@@ -260,8 +260,6 @@ FoalakeEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, GROWL
-	dbw 1, HAIL
-	dbw 1, SANDSTORM
 	dbw 6, WATER_GUN
 	dbw 9, MIST
 	dbw 14, QUICK_ATTACK

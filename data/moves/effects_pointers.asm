@@ -160,7 +160,6 @@ MoveEffectsPointers:
 	dw Fly
 	dw DefenseCurl
 	dw MeteorBeam
-	dw Superpower
 	dw CalmMind
 	dw DragonDance
 	dw FreezeHit ; for Blizzard, purposefully with different EFFECT_* constant
