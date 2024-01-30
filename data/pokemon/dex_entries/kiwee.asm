@@ -2,8 +2,8 @@
 	dw 108, 110 ; height, weight
 
 	db 	 "It hides in the"
-	text "undergrowth using"
-	text "its leaves as"
+	next "undergrowth using"
+	next "its leaves as"
 
 	page "camouflage. It"
 	next "eats berries with"
