@@ -147,6 +147,10 @@ CheckPartyFullAfterContest:
 	ret
 
 GiveANickname_YesNo:
+if DEF(_DEBUG)
+    scf
+    ret
+ENDC
 	ld hl, CaughtAskNicknameText
 	call PrintText
 	jp YesNoBox
