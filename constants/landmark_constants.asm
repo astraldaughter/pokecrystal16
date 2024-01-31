@@ -2,14 +2,14 @@
 	const_def
 	const LANDMARK_SPECIAL           ; 00
 ; Johto landmarks
-	const LANDMARK_NIVALE_TOWN     ; 01
+	const LANDMARK_NIVALE_TOWN       ; 01
 	const LANDMARK_ROUTE_51          ; 02
-	const LANDMARK_CAMPANULA_TOWN  ; 03
+	const LANDMARK_CAMPANULA_TOWN    ; 03
 	const LANDMARK_ROUTE_52          ; 04
-	const LANDMARK_ROUTE_53          ; 2d
-	const LANDMARK_FOOTHILL_CAVES     ; 3e
+	const LANDMARK_ROUTE_53          ; 05
+	const LANDMARK_FOOTHILL_CAVES    ; 06
+	const LANDMARK_EDELWEISS_CITY    ; 07
 	const LANDMARK_ROUTE_31          ; 05
-	const LANDMARK_EDELWEISS_CITY       ; 06
 	const LANDMARK_SPROUT_TOWER      ; 07
 	const LANDMARK_ROUTE_32          ; 08
 	const LANDMARK_RUINS_OF_ALPH     ; 09

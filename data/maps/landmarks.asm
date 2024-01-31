@@ -107,9 +107,9 @@ Landmarks:
 	landmark 140, 116, FastShipName
 	assert_table_length NUM_LANDMARKS
 
-NivaleTownName:     db "NIVALE¯TOWN@"
-CampanulaTownName: db "CAMPANULA¯TOWN@"
-EdelweissCityName:      db "EDELWEISS¯CITY@"
+NivaleTownName:      db "NIVALE¯TOWN@"
+CampanulaTownName:   db "CAMPANULA¯TOWN@"
+EdelweissCityName:   db "EDELWEISS¯CITY@"
 AzaleaTownName:      db "FREESIA¯TOWN@"
 GoldenrodCityName:   db "GOLDENROD¯CITY@"
 EcruteakCityName:    db "ECRUTEAK¯CITY@"

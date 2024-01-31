@@ -164,11 +164,9 @@ ENDM
 	connection north, Route51, ROUTE_51, -12
 	connection south, EdelweissCity, EDELWEISS_CITY, -6
 
-	map_attributes Route31, ROUTE_31, $05, WEST
-	connection west, EdelweissCity, EDELWEISS_CITY, -9
+	map_attributes Route31, ROUTE_31, $05, 0
 
-	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH
-	connection north, EdelweissCity, EDELWEISS_CITY, 0
+	map_attributes Route32, ROUTE_32, $05, SOUTH
 	connection south, Route33, ROUTE_33, 0
 
 	map_attributes Route33, ROUTE_33, $05, NORTH | WEST
@@ -183,10 +181,9 @@ ENDM
 	connection north, Route36, ROUTE_36, 0
 	connection south, GoldenrodCity, GOLDENROD_CITY, -5
 
-	map_attributes Route36, ROUTE_36, $05, NORTH | SOUTH | EAST
+	map_attributes Route36, ROUTE_36, $05, NORTH | SOUTH
 	connection north, Route37, ROUTE_37, 10
 	connection south, Route35, ROUTE_35, 0
-	connection east, EdelweissCity, EDELWEISS_CITY, 0
 
 	map_attributes Route37, ROUTE_37, $05, NORTH | SOUTH
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
