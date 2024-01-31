@@ -187,8 +187,8 @@ AlphabeticalPokedexOrder:
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN
-	dw SANDSHREW
-	dw SANDSLASH
+	dw SOCKIT
+	dw MEOWTLET
 	dw SCIZOR
 	dw SCYTHER
 	dw SEADRA

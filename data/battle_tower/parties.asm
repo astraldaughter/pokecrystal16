@@ -3341,7 +3341,7 @@ BattleTowerMons:
 	bigdw 104 ; SDef
 	db "SAIDON@@@@@"
 
-	dw SANDSLASH
+	dw MEOWTLET
 	db SCOPE_LENS
 	dw EARTHQUAKE, SLASH, HYPER_BEAM, SNORE
 

@@ -27,7 +27,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw SandshrewEggMoves
+	dw SockitEggMoves
 	dw NoEggMoves1
 	dw NidoranFEggMoves
 	dw NoEggMoves1
@@ -211,7 +211,7 @@ GiggilickEggMoves:
 	dw CRUNCH
 	dw -1 ; end
 
-SandshrewEggMoves:
+SockitEggMoves:
 	dw FLAIL
 	dw SAFEGUARD
 	dw COUNTER

@@ -426,7 +426,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 6, GEODUDE
-	dbw 6, SANDSHREW
+	dbw 6, SOCKIT
 	dbw 5, ZUBAT
 	dbw 4, ROLLIATH
 	dbw 7, ZUBAT
@@ -434,7 +434,7 @@ JohtoGrassWildMons:
 	dbw 6, ONIX
 	; day
 	dbw 6, GEODUDE
-	dbw 6, SANDSHREW
+	dbw 6, SOCKIT
 	dbw 5, ZUBAT
 	dbw 4, ROLLIATH
 	dbw 7, ZUBAT

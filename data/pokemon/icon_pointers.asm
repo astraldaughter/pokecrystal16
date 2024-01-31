@@ -31,8 +31,8 @@ IconPointers:
 	dw HarlickinIcon
 	dw JaboaIcon
 	dw JerboxerIcon
-	dw SandshrewIcon
-	dw SandslashIcon
+	dw SockitIcon
+	dw MeowtletIcon
 	dw NidoranFIcon
 	dw NidorinaIcon
 	dw NidoqueenIcon

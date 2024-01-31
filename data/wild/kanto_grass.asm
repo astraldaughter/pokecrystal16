@@ -35,7 +35,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 6, ZUBAT
 	dbw 8, GEODUDE
-	dbw 8, SANDSHREW
+	dbw 8, SOCKIT
 	dbw 12, PARAS
 	dbw 10, GEODUDE
 	dbw 8, CLEFAIRY
@@ -43,7 +43,7 @@ KantoGrassWildMons:
 	; day
 	dbw 6, ZUBAT
 	dbw 8, GEODUDE
-	dbw 8, SANDSHREW
+	dbw 8, SOCKIT
 	dbw 12, PARAS
 	dbw 10, GEODUDE
 	dbw 8, CLEFAIRY
@@ -121,7 +121,7 @@ KantoGrassWildMons:
 	dbw 32, RHYHORN
 	dbw 33, ONIX
 	dbw 34, GOLBAT
-	dbw 35, SANDSLASH
+	dbw 35, MEOWTLET
 	dbw 35, RHYDON
 	dbw 35, RHYDON
 	; day
@@ -129,7 +129,7 @@ KantoGrassWildMons:
 	dbw 32, RHYHORN
 	dbw 33, ONIX
 	dbw 34, GOLBAT
-	dbw 35, SANDSLASH
+	dbw 35, MEOWTLET
 	dbw 35, RHYDON
 	dbw 35, RHYDON
 	; nite
@@ -234,16 +234,16 @@ KantoGrassWildMons:
 	dbw 8, GIGGILICK
 	dbw 10, BAMBUD
 	dbw 10, HARLICKIN
-	dbw 10, SANDSHREW
-	dbw 10, SANDSHREW
+	dbw 10, SOCKIT
+	dbw 10, SOCKIT
 	; day
 	dbw 5, SHOOTAINER
 	dbw 5, ROLLIATH
 	dbw 8, GIGGILICK
 	dbw 10, BAMBUD
 	dbw 10, HARLICKIN
-	dbw 10, SANDSHREW
-	dbw 10, SANDSHREW
+	dbw 10, SOCKIT
+	dbw 10, SOCKIT
 	; nite
 	dbw 5, ROLLIATH
 	dbw 10, ROLLIATH
@@ -262,16 +262,16 @@ KantoGrassWildMons:
 	dbw 8, GIGGILICK
 	dbw 10, BAMBUD
 	dbw 10, HARLICKIN
-	dbw 10, SANDSHREW
-	dbw 10, SANDSHREW
+	dbw 10, SOCKIT
+	dbw 10, SOCKIT
 	; day
 	dbw 5, SHOOTAINER
 	dbw 5, ROLLIATH
 	dbw 8, GIGGILICK
 	dbw 10, BAMBUD
 	dbw 10, HARLICKIN
-	dbw 10, SANDSHREW
-	dbw 10, SANDSHREW
+	dbw 10, SOCKIT
+	dbw 10, SOCKIT
 	; nite
 	dbw 5, ROLLIATH
 	dbw 10, ROLLIATH
@@ -762,7 +762,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 28, DODUO
-	dbw 28, SANDSLASH
+	dbw 28, MEOWTLET
 	dbw 32, PONYTA
 	dbw 30, BAMBUD
 	dbw 30, DODUO
@@ -770,7 +770,7 @@ KantoGrassWildMons:
 	dbw 30, HARLICKIN
 	; day
 	dbw 28, DODUO
-	dbw 28, SANDSLASH
+	dbw 28, MEOWTLET
 	dbw 32, PONYTA
 	dbw 30, BAMBUD
 	dbw 30, DODUO

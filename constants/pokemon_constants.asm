@@ -45,8 +45,8 @@
 	const HARLICKIN      ; 18
 	const JABOA    ; 19
 	const JERBOXER     ; 1a
-	const SANDSHREW  ; 1b
-	const SANDSLASH  ; 1c
+	const SOCKIT  ; 1b
+	const MEOWTLET  ; 1c
 	const NIDORAN_F  ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f

@@ -28,8 +28,8 @@ KantoMonSpecials:
 	db  65 ; HARLICKIN
 	db  50 ; JABOA
 	db  90 ; JERBOXER
-	db  30 ; SANDSHREW
-	db  55 ; SANDSLASH
+	db  30 ; SOCKIT
+	db  55 ; MEOWTLET
 	db  40 ; NIDORAN_F
 	db  55 ; NIDORINA
 	db  75 ; NIDOQUEEN

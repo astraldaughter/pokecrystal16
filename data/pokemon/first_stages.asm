@@ -27,8 +27,8 @@ FirstEvoStages::
 	dw GIGGILICK      ;18
 	dw PICHU
 	dw PICHU
-	dw SANDSHREW
-	dw SANDSHREW
+	dw SOCKIT
+	dw SOCKIT
 	dw NIDORAN_F
 	dw NIDORAN_F
 	dw NIDORAN_F

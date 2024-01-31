@@ -27,8 +27,8 @@ PokedexDataPointerTable:
 	dba HarlickinPokedexEntry
 	dba JaboaPokedexEntry
 	dba JerboxerPokedexEntry
-	dba SandshrewPokedexEntry
-	dba SandslashPokedexEntry
+	dba SockitPokedexEntry
+	dba MeowtletPokedexEntry
 	dba NidoranFPokedexEntry
 	dba NidorinaPokedexEntry
 	dba NidoqueenPokedexEntry

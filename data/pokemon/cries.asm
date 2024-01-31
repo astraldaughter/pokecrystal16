@@ -32,8 +32,8 @@ PokemonCries::
 	mon_cry CRY_DROWZEE,      40,  256 ; HARLICKIN
 	mon_cry CRY_NATU,    	 -82,   96 ; JABOA
 	mon_cry CRY_GOLEM,       144,  256 ; JERBOXER
-	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW
-	mon_cry CRY_NIDORAN_M,   255,  383 ; SANDSLASH
+	mon_cry CRY_VENONAT,     186,  256 ; SOCKIT
+	mon_cry CRY_VENONAT,      67,  113 ; MEOWTLET
 	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F
 	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA
 	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN

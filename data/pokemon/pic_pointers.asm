@@ -65,10 +65,10 @@ PokemonPicPointers::
 	dba JaboaBackpic
 	dba JerboxerFrontpic
 	dba JerboxerBackpic
-	dba SandshrewFrontpic
-	dba SandshrewBackpic
-	dba SandslashFrontpic
-	dba SandslashBackpic
+	dba SockitFrontpic
+	dba SockitBackpic
+	dba MeowtletFrontpic
+	dba MeowtletBackpic
 	dba NidoranFFrontpic
 	dba NidoranFBackpic
 	dba NidorinaFrontpic

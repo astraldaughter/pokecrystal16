@@ -27,8 +27,8 @@ EvosAttacksPointers1::
 	dw HarlickinEvosAttacks
 	dw JaboaEvosAttacks
 	dw JerboxerEvosAttacks
-	dw SandshrewEvosAttacks
-	dw SandslashEvosAttacks
+	dw SockitEvosAttacks
+	dw MeowtletEvosAttacks
 	dw NidoranFEvosAttacks
 	dw NidorinaEvosAttacks
 	dw NidoqueenEvosAttacks
@@ -542,31 +542,41 @@ JerboxerEvosAttacks:
 	dbw 50, HI_JUMP_KICK
 	db 0 ; no more level-up moves
 
-SandshrewEvosAttacks:
-	dbbw EVOLVE_LEVEL, 22, SANDSLASH
+SockitEvosAttacks:
+	dbbw EVOLVE_LEVEL, 30, MEOWTLET
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
-	dbw 6, DEFENSE_CURL
-	dbw 11, SAND_ATTACK
-	dbw 17, POISON_STING
-	dbw 23, SLASH
-	dbw 30, SWIFT
-	dbw 37, FURY_SWIPES
-	dbw 45, SANDSTORM
+	dbw 1, LEER
+	dbw 6, THUNDERSHOCK
+	dbw 10, BITE
+	dbw 15, FURY_SWIPES
+	dbw 19, THUNDER_WAVE
+	dbw 21, PURSUIT
+	dbw 24, SWIFT
+	dbw 27, SPARK
+	dbw 29, SCREECH
+	dbw 34, SLASH
+	dbw 39, THUNDERBOLT
+	dbw 44, PLAY_ROUGH
+	dbw 48, THUNDER
 	db 0 ; no more level-up moves
 
-SandslashEvosAttacks:
+MeowtletEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
-	dbw 1, DEFENSE_CURL
-	dbw 1, SAND_ATTACK
-	dbw 6, DEFENSE_CURL
-	dbw 11, SAND_ATTACK
-	dbw 17, POISON_STING
-	dbw 24, SLASH
-	dbw 33, SWIFT
-	dbw 42, FURY_SWIPES
-	dbw 52, SANDSTORM
+	dbw 1, LEER
+	dbw 6, THUNDERSHOCK
+	dbw 10, BITE
+	dbw 15, FURY_SWIPES
+	dbw 19, THUNDER_WAVE
+	dbw 21, PURSUIT
+	dbw 24, SWIFT
+	dbw 27, SPARK
+	dbw 29, SCREECH
+	dbw 35, SLASH
+	dbw 41, THUNDERBOLT
+	dbw 47, PLAY_ROUGH
+	dbw 52, THUNDER
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:

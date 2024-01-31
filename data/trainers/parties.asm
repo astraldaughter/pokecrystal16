@@ -656,7 +656,7 @@ YoungsterGroup:
 	db 7
 	dw ROLLIATH
 	db 10
-	dw SANDSHREW
+	dw SOCKIT
 	db 8
 	dw SHOOTAINER
 	db 8
@@ -694,7 +694,7 @@ YoungsterGroup:
 	next_list_item ; YOUNGSTER (9)
 	db "JASON@", TRAINERTYPE_NORMAL
 	db 33
-	dw SANDSLASH
+	dw MEOWTLET
 	db 33
 	dw CROBAT
 	db -1 ; end
@@ -1391,7 +1391,7 @@ CooltrainerMGroup:
 	next_list_item ; COOLTRAINERM (12)
 	db "BRIAN@", TRAINERTYPE_MOVES
 	db 35
-	dw SANDSLASH
+	dw MEOWTLET
 	dw SAND_ATTACK, POISON_STING, SLASH, SWIFT
 	db -1 ; end
 
@@ -3533,7 +3533,7 @@ HikerGroup:
 	next_list_item ; HIKER (14)
 	db "NOLAND@", TRAINERTYPE_NORMAL
 	db 31
-	dw SANDSLASH
+	dw MEOWTLET
 	db 33
 	dw GOLEM
 	db -1 ; end
@@ -3549,7 +3549,7 @@ HikerGroup:
 	next_list_item ; HIKER (16)
 	db "KENNY@", TRAINERTYPE_NORMAL
 	db 27
-	dw SANDSLASH
+	dw MEOWTLET
 	db 29
 	dw GRAVELER
 	db 31
@@ -4386,7 +4386,7 @@ CamperGroup:
 	next_list_item ; CAMPER (4)
 	db "ELLIOT@", TRAINERTYPE_NORMAL
 	db 13
-	dw SANDSHREW
+	dw SOCKIT
 	db 15
 	dw MARILL
 	db -1 ; end
@@ -4408,7 +4408,7 @@ CamperGroup:
 	db 33
 	dw GOLDUCK
 	db 31
-	dw SANDSLASH
+	dw MEOWTLET
 	db -1 ; end
 
 	next_list_item ; CAMPER (8)
@@ -4510,15 +4510,15 @@ CamperGroup:
 	next_list_item ; CAMPER (18)
 	db "JERRY@", TRAINERTYPE_NORMAL
 	db 37
-	dw SANDSLASH
+	dw MEOWTLET
 	db -1 ; end
 
 	next_list_item ; CAMPER (19)
 	db "SPENCER@", TRAINERTYPE_NORMAL
 	db 17
-	dw SANDSHREW
+	dw SOCKIT
 	db 17
-	dw SANDSLASH
+	dw MEOWTLET
 	db 19
 	dw ZUBAT
 	db -1 ; end
