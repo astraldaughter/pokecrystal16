@@ -47,9 +47,9 @@
 	const JERBOXER     ; 1a
 	const SOCKIT  ; 1b
 	const MEOWTLET  ; 1c
-	const NIDORAN_F  ; 1d
-	const NIDORINA   ; 1e
-	const NIDOQUEEN  ; 1f
+	const PEBBLUNT  ; 1d
+	const KNAPPLITH   ; 1e
+	const AXECUTOR  ; 1f
 	const NIDORAN_M  ; 20
 	const NIDORINO   ; 21
 	const NIDOKING   ; 22

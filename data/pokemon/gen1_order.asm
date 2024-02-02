@@ -14,8 +14,8 @@ Pokered_MonIndices:
 	db EXEGGCUTE
 	db GRIMER
 	db GENGAR
-	db NIDORAN_F
-	db NIDOQUEEN
+	db PEBBLUNT
+	db AXECUTOR
 	db CUBONE
 	db RHYHORN
 	db LAPRAS
@@ -167,7 +167,7 @@ Pokered_MonIndices:
 	db ROLLIATH
 	db BAMBUD
 	db NIDORINO
-	db NIDORINA
+	db KNAPPLITH
 	db GEODUDE
 	db PORYGON
 	db AERODACTYL

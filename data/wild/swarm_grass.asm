@@ -35,7 +35,7 @@ SwarmGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 12, NIDORAN_M
-	dbw 12, NIDORAN_F
+	dbw 12, PEBBLUNT
 	dbw 12, YANMA
 	dbw 14, YANMA
 	dbw 14, SPREASEL
@@ -43,7 +43,7 @@ SwarmGrassWildMons:
 	dbw 10, DITTO
 	; day
 	dbw 12, NIDORAN_M
-	dbw 12, NIDORAN_F
+	dbw 12, PEBBLUNT
 	dbw 12, YANMA
 	dbw 14, YANMA
 	dbw 14, SPREASEL
@@ -51,7 +51,7 @@ SwarmGrassWildMons:
 	dbw 10, DITTO
 	; nite
 	dbw 12, NIDORAN_M
-	dbw 12, NIDORAN_F
+	dbw 12, PEBBLUNT
 	dbw 12, YANMA
 	dbw 14, YANMA
 	dbw 14, HOOTHOOT

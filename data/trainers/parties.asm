@@ -1556,7 +1556,7 @@ CooltrainerFGroup:
 	db 31
 	dw STARMIE
 	db 33
-	dw NIDOQUEEN
+	dw AXECUTOR
 	db 31
 	dw STARMIE
 	db -1 ; end
@@ -1636,7 +1636,7 @@ CooltrainerFGroup:
 	db 34
 	dw STARMIE
 	db 36
-	dw NIDOQUEEN
+	dw AXECUTOR
 	db 34
 	dw STARMIE
 	db -1 ; end
@@ -1648,7 +1648,7 @@ CooltrainerFGroup:
 	db NO_ITEM
 	dw DOUBLE_TEAM, PSYCHIC_M, WATERFALL, CONFUSE_RAY
 	db 40
-	dw NIDOQUEEN
+	dw AXECUTOR
 	db PINK_BOW
 	dw EARTHQUAKE, DOUBLE_KICK, TOXIC, BODY_SLAM
 	db 38
@@ -1823,7 +1823,7 @@ PokemaniacGroup:
 	next_list_item ; POKEMANIAC (4)
 	db "SHANE@", TRAINERTYPE_NORMAL
 	db 16
-	dw NIDORINA
+	dw KNAPPLITH
 	db 16
 	dw NIDORINO
 	db -1 ; end
@@ -1900,7 +1900,7 @@ PokemaniacGroup:
 	db 17
 	dw NIDOKING
 	db 17
-	dw NIDOQUEEN
+	dw AXECUTOR
 	db -1 ; end
 
 	end_list_items
@@ -4143,7 +4143,7 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (1)
 	db "LIZ@", TRAINERTYPE_NORMAL
 	db 9
-	dw NIDORAN_F
+	dw PEBBLUNT
 	db -1 ; end
 
 	next_list_item ; PICNICKER (2)
@@ -4172,7 +4172,7 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (5)
 	db "CINDY@", TRAINERTYPE_NORMAL
 	db 36
-	dw NIDOQUEEN
+	dw AXECUTOR
 	db -1 ; end
 
 	next_list_item ; PICNICKER (6)
@@ -4218,7 +4218,7 @@ PicnickerGroup:
 	db 15
 	dw WEEPINBELL
 	db 15
-	dw NIDORINA
+	dw KNAPPLITH
 	db -1 ; end
 
 	next_list_item ; PICNICKER (12)
@@ -4228,7 +4228,7 @@ PicnickerGroup:
 	db 19
 	dw NIDORINO
 	db 21
-	dw NIDOQUEEN
+	dw AXECUTOR
 	db -1 ; end
 
 	next_list_item ; PICNICKER (13)
@@ -4242,7 +4242,7 @@ PicnickerGroup:
 	next_list_item ; PICNICKER (14)
 	db "EDNA@", TRAINERTYPE_NORMAL
 	db 30
-	dw NIDORINA
+	dw KNAPPLITH
 	db 34
 	dw JERBOXER
 	db -1 ; end
@@ -4312,7 +4312,7 @@ PicnickerGroup:
 	db 26
 	dw NIDORINO
 	db 26
-	dw NIDOQUEEN
+	dw AXECUTOR
 	db -1 ; end
 
 	next_list_item ; PICNICKER (23)
@@ -4324,7 +4324,7 @@ PicnickerGroup:
 	dw NIDOKING
 	dw EARTHQUAKE, DOUBLE_KICK, POISON_STING, IRON_TAIL
 	db 32
-	dw NIDOQUEEN
+	dw AXECUTOR
 	dw EARTHQUAKE, DOUBLE_KICK, TAIL_WHIP, BODY_SLAM
 	db -1 ; end
 

@@ -69,12 +69,12 @@ PokemonPicPointers::
 	dba SockitBackpic
 	dba MeowtletFrontpic
 	dba MeowtletBackpic
-	dba NidoranFFrontpic
-	dba NidoranFBackpic
-	dba NidorinaFrontpic
-	dba NidorinaBackpic
-	dba NidoqueenFrontpic
-	dba NidoqueenBackpic
+	dba PebbluntFrontpic
+	dba PebbluntBackpic
+	dba KnapplithFrontpic
+	dba KnapplithBackpic
+	dba AxecutorFrontpic
+	dba AxecutorBackpic
 	dba NidoranMFrontpic
 	dba NidoranMBackpic
 	dba NidorinoFrontpic

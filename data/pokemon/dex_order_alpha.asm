@@ -142,10 +142,10 @@ AlphabeticalPokedexOrder:
 	dw MURKROW
 	dw NATU
 	dw NIDOKING
-	dw NIDOQUEEN
-	dw NIDORAN_F
+	dw AXECUTOR
+	dw PEBBLUNT
 	dw NIDORAN_M
-	dw NIDORINA
+	dw KNAPPLITH
 	dw NIDORINO
 	dw NINETALES
 	dw NOCTOWL

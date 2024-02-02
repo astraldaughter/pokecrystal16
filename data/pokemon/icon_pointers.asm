@@ -33,9 +33,9 @@ IconPointers:
 	dw JerboxerIcon
 	dw SockitIcon
 	dw MeowtletIcon
-	dw NidoranFIcon
-	dw NidorinaIcon
-	dw NidoqueenIcon
+	dw PebbluntIcon
+	dw KnapplithIcon
+	dw AxecutorIcon
 	dw NidoranMIcon
 	dw NidorinoIcon
 	dw NidokingIcon

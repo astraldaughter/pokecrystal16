@@ -30,9 +30,9 @@ KantoMonSpecials:
 	db  90 ; JERBOXER
 	db  30 ; SOCKIT
 	db  55 ; MEOWTLET
-	db  40 ; NIDORAN_F
-	db  55 ; NIDORINA
-	db  75 ; NIDOQUEEN
+	db  40 ; PEBBLUNT
+	db  55 ; KNAPPLITH
+	db  75 ; AXECUTOR
 	db  40 ; NIDORAN_M
 	db  55 ; NIDORINO
 	db  75 ; NIDOKING

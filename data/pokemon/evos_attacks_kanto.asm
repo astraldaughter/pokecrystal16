@@ -29,9 +29,9 @@ EvosAttacksPointers1::
 	dw JerboxerEvosAttacks
 	dw SockitEvosAttacks
 	dw MeowtletEvosAttacks
-	dw NidoranFEvosAttacks
-	dw NidorinaEvosAttacks
-	dw NidoqueenEvosAttacks
+	dw PebbluntEvosAttacks
+	dw KnapplithEvosAttacks
+	dw AxecutorEvosAttacks
 	dw NidoranMEvosAttacks
 	dw NidorinoEvosAttacks
 	dw NidokingEvosAttacks
@@ -579,39 +579,55 @@ MeowtletEvosAttacks:
 	dbw 52, THUNDER
 	db 0 ; no more level-up moves
 
-NidoranFEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, NIDORINA
+PebbluntEvosAttacks:
+	dbbw EVOLVE_LEVEL, 25, KNAPPLITH
 	db 0 ; no more evolutions
-	dbw 1, GROWL
 	dbw 1, TACKLE
-	dbw 8, SCRATCH
-	dbw 12, DOUBLE_KICK
-	dbw 17, POISON_STING
-	dbw 23, TAIL_WHIP
-	dbw 30, BITE
-	dbw 38, FURY_SWIPES
+	dbw 1, HARDEN
+	dbw 7, SHARPEN
+	dbw 10, ROCK_THROW
+	dbw 14, ROCK_POLISH
+	dbw 19, HEADBUTT
+	dbw 27, SCARY_FACE
+	dbw 30, SWAGGER
+	dbw 32, ROCK_SLIDE
+	dbw 36, SANDSTORM
+	dbw 41, DOUBLE_EDGE
+	dbw 46, STONE_CRASH
 	db 0 ; no more level-up moves
 
-NidorinaEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
+KnapplithEvosAttacks:
+	dbbw EVOLVE_LEVEL, 40, AXECUTOR
 	db 0 ; no more evolutions
-	dbw 1, GROWL
 	dbw 1, TACKLE
-	dbw 8, SCRATCH
-	dbw 12, DOUBLE_KICK
-	dbw 19, POISON_STING
-	dbw 27, TAIL_WHIP
-	dbw 36, BITE
-	dbw 46, FURY_SWIPES
+	dbw 1, HARDEN
+	dbw 7, SHARPEN
+	dbw 10, ROCK_THROW
+	dbw 14, ROCK_POLISH
+	dbw 19, HEADBUTT
+	dbw 25, SLASH
+	dbw 28, SCARY_FACE
+	dbw 34, ROCK_SLIDE
+	dbw 39, SANDSTORM
+	dbw 44, DOUBLE_EDGE
+	dbw 50, STONE_CRASH
 	db 0 ; no more level-up moves
 
-NidoqueenEvosAttacks:
+AxecutorEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 1, SCRATCH
-	dbw 1, DOUBLE_KICK
-	dbw 1, TAIL_WHIP
-	dbw 23, BODY_SLAM
+	dbw 1, HARDEN
+	dbw 7, SHARPEN
+	dbw 10, ROCK_THROW
+	dbw 14, ROCK_POLISH
+	dbw 19, HEADBUTT
+	dbw 25, SLASH
+	dbw 28, SCARY_FACE
+	dbw 34, ROCK_SLIDE
+	dbw 39, SANDSTORM
+	dbw 40, THRASH
+	dbw 44, DOUBLE_EDGE
+	dbw 52, STONE_CRASH
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:

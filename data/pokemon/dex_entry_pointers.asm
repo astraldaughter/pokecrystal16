@@ -29,9 +29,9 @@ PokedexDataPointerTable:
 	dba JerboxerPokedexEntry
 	dba SockitPokedexEntry
 	dba MeowtletPokedexEntry
-	dba NidoranFPokedexEntry
-	dba NidorinaPokedexEntry
-	dba NidoqueenPokedexEntry
+	dba PebbluntPokedexEntry
+	dba KnapplithPokedexEntry
+	dba AxecutorPokedexEntry
 	dba NidoranMPokedexEntry
 	dba NidorinoPokedexEntry
 	dba NidokingPokedexEntry

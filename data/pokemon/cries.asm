@@ -34,9 +34,9 @@ PokemonCries::
 	mon_cry CRY_GOLEM,       144,  256 ; JERBOXER
 	mon_cry CRY_VENONAT,     186,  256 ; SOCKIT
 	mon_cry CRY_VENONAT,      67,  113 ; MEOWTLET
-	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F
-	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA
-	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
+	mon_cry CRY_SLOWKING,    256,  208 ; PEBBLUNT
+	mon_cry CRY_SLOWKING,    192,  256 ; KNAPPLITH
+	mon_cry CRY_RAICHU,     -512,  256 ; AXECUTOR
 	mon_cry CRY_NIDORAN_M,     0,  256 ; NIDORAN_M
 	mon_cry CRY_NIDORAN_M,    44,  320 ; NIDORINO
 	mon_cry CRY_RAICHU,        0,  256 ; NIDOKING

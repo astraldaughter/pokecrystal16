@@ -29,9 +29,9 @@ FirstEvoStages::
 	dw PICHU
 	dw SOCKIT
 	dw SOCKIT
-	dw NIDORAN_F
-	dw NIDORAN_F
-	dw NIDORAN_F
+	dw PEBBLUNT
+	dw PEBBLUNT
+	dw PEBBLUNT
 	dw NIDORAN_M  ;20
 	dw NIDORAN_M
 	dw NIDORAN_M

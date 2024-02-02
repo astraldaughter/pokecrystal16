@@ -38,9 +38,9 @@ MonMenuIconPals:
 	icon_pals BROWN,  PURPLE ; JERBOXER
 	icon_pals PURPLE, BLUE   ; SOCKIT
 	icon_pals PURPLE, BLUE   ; MEOWTLET
-	icon_pals BLUE,   PURPLE ; NIDORAN_F
-	icon_pals BLUE,   PURPLE ; NIDORINA
-	icon_pals BLUE,   GRAY   ; NIDOQUEEN
+	icon_pals BLUE,   PURPLE ; PEBBLUNT
+	icon_pals BLUE,   PURPLE ; KNAPPLITH
+	icon_pals BLUE,   GRAY   ; AXECUTOR
 	icon_pals PURPLE, BLUE   ; NIDORAN_M
 	icon_pals PURPLE, BLUE   ; NIDORINO
 	icon_pals PURPLE, BLUE   ; NIDOKING
