@@ -48,33 +48,33 @@ _TitleScreen:
 
 ; lines 3-4
 	hlbgcoord 0, 3
-	ld bc, 2 * BG_MAP_WIDTH
+	ld bc, 6 * BG_MAP_WIDTH
 	ld a, 2
 	call ByteFill
 ; line 5
-	hlbgcoord 0, 5
-	ld bc, BG_MAP_WIDTH
-	ld a, 3
-	call ByteFill
+;	hlbgcoord 0, 5
+;	ld bc, BG_MAP_WIDTH
+;	ld a, 3
+;	call ByteFill
 ; line 6
-	hlbgcoord 0, 6
-	ld bc, BG_MAP_WIDTH
-	ld a, 4
-	call ByteFill
+;	hlbgcoord 0, 6
+;	ld bc, BG_MAP_WIDTH
+;	ld a, 4
+;	call ByteFill
 ; line 7
-	hlbgcoord 0, 7
-	ld bc, BG_MAP_WIDTH
-	ld a, 5
-	call ByteFill
+;	hlbgcoord 0, 7
+;	ld bc, BG_MAP_WIDTH
+;	ld a, 5
+;	call ByteFill
 ; lines 8-9
-	hlbgcoord 0, 8
-	ld bc, 2 * BG_MAP_WIDTH
-	ld a, 6
-	call ByteFill
+;	hlbgcoord 0, 8
+;	ld bc, 2 * BG_MAP_WIDTH
+;	ld a, 6
+;	call ByteFill
 
 ; 'CRYSTAL VERSION'
-	hlbgcoord 5, 9
-	ld bc, 11 ; length of version text
+	hlbgcoord 4, 9
+	ld bc, 12 ; length of version text
 	ld a, 1
 	call ByteFill
 
@@ -112,8 +112,8 @@ _TitleScreen:
 	call DrawTitleGraphic
 
 ; Draw copyright text
-	hlbgcoord 3, 0, vBGMap1
-	lb bc, 1, 13
+	hlbgcoord 2, 0, vBGMap1
+	lb bc, 1, 15
 	ld d, $c
 	ld e, 16
 	call DrawTitleGraphic
