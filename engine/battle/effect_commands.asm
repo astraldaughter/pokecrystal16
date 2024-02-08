@@ -2801,18 +2801,18 @@ ThickClubBoost:
 	pop bc
 	ret
 
-LightBallBoost: ; Dummied out since Pikachu is gone now
+LightBallBoost: ; Dummied out by replacing the species ID with Celebi's for the time being.
 ; Return in hl the stat value at hl.
 
 ; If the attacking monster is Pikachu and it's
 ; holding a Light Ball, double it.
-;	push bc
-;	push de
-;	ld bc, PIKACHU
-;	ld d, LIGHT_BALL
-;	call SpeciesItemBoost
-;	pop de
-;	pop bc
+	push bc
+	push de
+	ld bc, CELEBI
+	ld d, LIGHT_BALL
+	call SpeciesItemBoost
+	pop de
+	pop bc
 	ret
 
 SpeciesItemBoost:
