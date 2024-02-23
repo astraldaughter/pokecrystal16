@@ -168,3 +168,25 @@
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; a7
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; a8
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; a9
+	tilecoll WALL, HEADBUTT_TREE, WALL, HEADBUTT_TREE ; aa
+	tilecoll HEADBUTT_TREE, WALL, HEADBUTT_TREE, WALL ; ab
+	tilecoll UP_WALL, UP_WALL, HEADBUTT_TREE, HEADBUTT_TREE ; ac
+	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, WALL ; ad
+	tilecoll WALL, HEADBUTT_TREE, WALL, WALL ; ae
+	tilecoll HEADBUTT_TREE, WALL, WALL, WALL ; af
+	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, HEADBUTT_TREE ; b0
+	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, HEADBUTT_TREE ; b1
+	tilecoll WATER, WATER, WATER, WATER ; b2
+	tilecoll WALL, WALL, WALL, WALL ; b3
+	tilecoll WALL, WALL, WALL, WALL ; b4
+	tilecoll WALL, WALL, WALL, WALL ; b5
+	tilecoll WALL, WALL, WALL, WALL ; b6
+	tilecoll WALL, WALL, WALL, WALL ; b7
+	tilecoll WALL, WALL, WALL, WALL ; b8
+	tilecoll WALL, WALL, WALL, WALL ; b9
+	tilecoll WALL, WALL, WALL, WALL ; ba
+	tilecoll WALL, WALL, WALL, WALL ; bb
+	tilecoll WALL, WALL, WALL, WALL ; bc
+	tilecoll WALL, WALL, WALL, WALL ; bd
+	tilecoll WALL, WALL, WALL, WALL ; be
+	tilecoll WALL, WALL, WALL, WALL ; bf

@@ -2,7 +2,6 @@
 	const CAMPANULATOWN_RIVAL
 	const CAMPANULATOWN_TEACHER
 	const CAMPANULATOWN_YOUNGSTER
-	const CAMPANULATOWN_FISHER
 
 CampanulaTown_MapScripts:
 	def_scene_scripts
@@ -118,23 +117,6 @@ CampanulaYoungsterScript:
 .HavePokedex:
 	writetext CampanulaYoungsterText_HavePokedex
 	waitbutton
-	closetext
-	end
-
-MysticWaterGuy:
-	faceplayer
-	opentext
-	checkevent EVENT_GOT_MYSTIC_WATER_IN_CAMPANULA
-	iftrue .After
-	writetext MysticWaterGuyTextBefore
-	promptbutton
-	verbosegiveitem MYSTIC_WATER
-	iffalse .Exit
-	setevent EVENT_GOT_MYSTIC_WATER_IN_CAMPANULA
-.After:
-	writetext MysticWaterGuyTextAfter
-	waitbutton
-.Exit:
 	closetext
 	end
 
@@ -254,22 +236,6 @@ CampanulaYoungsterText_HavePokedex:
 	line "a #MON CENTER."
 	done
 
-MysticWaterGuyTextBefore:
-	text "A #MON I caught"
-	line "had an item."
-
-	para "I think it's"
-	line "MYSTIC WATER."
-
-	para "I don't need it,"
-	line "so do you want it?"
-	done
-
-MysticWaterGuyTextAfter:
-	text "Back to fishing"
-	line "for me, then."
-	done
-
 CampanulaTownSignText:
 	text "CAMPANULA TOWN"
 
@@ -300,4 +266,3 @@ CampanulaTown_MapEvents:
 	object_event  5,  8, SPRITE_RIVAL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_CAMPANULA_TOWN
 	object_event 16, 12, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CampanulaTeacherScript, -1
 	object_event 12, 10, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CampanulaYoungsterScript, -1
-	object_event 32, 14, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MysticWaterGuy, -1

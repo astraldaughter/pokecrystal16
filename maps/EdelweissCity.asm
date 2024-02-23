@@ -156,6 +156,8 @@ EdelweissCity_MapEvents:
 	warp_event  19,  1, ROUTE_53_EDELWEISS_GATE, 3
 	warp_event  11, 15, EDELWEISS_CRAFT_SHOP, 1
 	warp_event  23, 13, EDELWEISS_GYM_LEADER_SPEECH_HOUSE, 1
+	warp_event  27, 13, EDELWEISS_MART, 1
+	warp_event  15,  9, EDELWEISS_POKECENTER_1F, 1
 
 	def_coord_events
 
@@ -166,6 +168,6 @@ EdelweissCity_MapEvents:
 	bg_event  9, 15, BGEVENT_READ, CraftsmanSignScript
 
 	def_object_events
-	object_event  28, 20, SPRITE_RIVAL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 2, EdelweissCityRivalScript, EVENT_RIVAL_EDELWEISS_TOWN
+	object_event  28, 20, SPRITE_RIVAL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 2, EdelweissCityRivalScript, -1
 	object_event  29, 26, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 2, EdelweissCityFisherScript, -1
 	object_event  20, 17, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 2, EdelweissCityGrampsScript, -1
