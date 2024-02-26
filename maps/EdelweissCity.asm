@@ -158,6 +158,7 @@ EdelweissCity_MapEvents:
 	warp_event  23, 13, EDELWEISS_GYM_LEADER_SPEECH_HOUSE, 1
 	warp_event  27, 13, EDELWEISS_MART, 1
 	warp_event  15,  9, EDELWEISS_POKECENTER_1F, 1
+	warp_event  15, 15, EDELWEISS_SPEEDUP_HOUSE, 1
 
 	def_coord_events
 

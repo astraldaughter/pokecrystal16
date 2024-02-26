@@ -23,7 +23,7 @@ TreeMonMaps:
 	treemon_map ROUTE_42,                  TREEMON_SET_TOWN
 	treemon_map ROUTE_43,                  TREEMON_SET_LAKE
 	treemon_map ROUTE_44,                  TREEMON_SET_CANYON
-	treemon_map ROUTE_45,                  TREEMON_SET_CANYON
+	treemon_map ROUTE_61,                  TREEMON_SET_CANYON
 	treemon_map ROUTE_53,                  TREEMON_SET_CANYON
 	treemon_map NIVALE_TOWN,             TREEMON_SET_CITY
 	treemon_map CAMPANULA_TOWN,          TREEMON_SET_CITY

@@ -10,7 +10,7 @@
 	const_def
 	const MART_CAMPANULA
 	const MART_CAMPANULA_DEX
-	const MART_VIOLET
+	const MART_EDELWEISS
 	const MART_AZALEA
 	const MART_CIANWOOD
 	const MART_GOLDENROD_2F_1

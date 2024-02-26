@@ -28,8 +28,8 @@ RoamMaps:
 	roam_map ROUTE_39, ROUTE_38
 	roam_map ROUTE_42, ROUTE_43, ROUTE_44, ROUTE_37, ROUTE_38
 	roam_map ROUTE_43, ROUTE_42, ROUTE_44
-	roam_map ROUTE_44, ROUTE_42, ROUTE_43, ROUTE_45
-	roam_map ROUTE_45, ROUTE_44, ROUTE_53
-	roam_map ROUTE_53, ROUTE_45, ROUTE_51
+	roam_map ROUTE_44, ROUTE_42, ROUTE_43, ROUTE_61
+	roam_map ROUTE_61, ROUTE_44, ROUTE_53
+	roam_map ROUTE_53, ROUTE_61, ROUTE_51
 	assert_list_length NUM_ROAMMON_MAPS
 	db -1 ; end

@@ -9,10 +9,10 @@
 	const LANDMARK_ROUTE_53          ; 05
 	const LANDMARK_FOOTHILL_CAVES    ; 06
 	const LANDMARK_EDELWEISS_CITY    ; 07
+	const LANDMARK_RUINS_OF_ALPH     ; 08
 	const LANDMARK_ROUTE_31          ; 05
 	const LANDMARK_SPROUT_TOWER      ; 07
 	const LANDMARK_ROUTE_32          ; 08
-	const LANDMARK_RUINS_OF_ALPH     ; 09
 	const LANDMARK_UNION_CAVE        ; 0a
 	const LANDMARK_ROUTE_33          ; 0b
 	const LANDMARK_AZALEA_TOWN       ; 0c
@@ -46,7 +46,7 @@
 	const LANDMARK_ICE_PATH          ; 28
 	const LANDMARK_BLACKTHORN_CITY   ; 29
 	const LANDMARK_DRAGONS_DEN       ; 2a
-	const LANDMARK_ROUTE_45          ; 2b
+	const LANDMARK_ROUTE_61          ; 2b
 	const LANDMARK_DARK_CAVE         ; 2c
 	const LANDMARK_SILVER_CAVE       ; 2e
 DEF KANTO_LANDMARK EQU const_value

@@ -3,7 +3,7 @@ Marts:
 	table_width 2, Marts
 	dw MartCampanula
 	dw MartCampanulaDex
-	dw MartViolet
+	dw MartEdelweiss
 	dw MartAzalea
 	dw MartCianwood
 	dw MartGoldenrod2F1
@@ -54,7 +54,7 @@ MartCampanulaDex:
 	db AWAKENING
 	db -1 ; end
 
-MartViolet:
+MartEdelweiss:
 	db 10 ; # items
 	db POKE_BALL
 	db POTION
@@ -65,7 +65,7 @@ MartViolet:
 	db X_DEFEND
 	db X_ATTACK
 	db X_SPEED
-	db FLOWER_MAIL
+	db TM_FALSE_SWIPE
 	db -1 ; end
 
 MartAzalea:

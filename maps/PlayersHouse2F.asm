@@ -64,7 +64,7 @@ if DEF(_DEBUG)
 	giveitem MAX_REPEL, 99
 	giveitem MASTER_BALL, 99
 	giveitem RARE_CANDY, 99
-	giveitem THUNDERSTONE, 1
+	giveitem EXP_SHARE, 1
 	; all badges
 	setflag ENGINE_ZEPHYRBADGE
 	setflag ENGINE_HIVEBADGE

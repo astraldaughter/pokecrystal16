@@ -309,10 +309,12 @@ NeighborText:
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "MOM's making a"
+	line "dish from"
+	cont "another region!"
 
-	para "CINNABAR VOLCANO"
-	line "BURGER!"
+	para "It's VOLCANO"
+	line "BAKEMEAT!"
 	done
 
 PlayersHouse1FSinkText:

@@ -58,8 +58,8 @@ Route41_Blocks:
 Route33_Blocks:
 	INCBIN "maps/Route33.ablk"
 
-Route45_Blocks:
-	INCBIN "maps/Route45.ablk"
+Route61_Blocks:
+	INCBIN "maps/Route61.ablk"
 
 Route51_Blocks:
 	INCBIN "maps/Route51.ablk"
@@ -261,7 +261,7 @@ EcruteakMart_Blocks:
 BlackthornMart_Blocks:
 CeruleanMart_Blocks:
 AzaleaMart_Blocks:
-VioletMart_Blocks:
+EdelweissMart_Blocks:
 VermilionMart_Blocks:
 PewterMart_Blocks:
 FuchsiaMart_Blocks:
@@ -282,7 +282,7 @@ CinnabarPokecenter1F_Blocks:
 CeruleanPokecenter1F_Blocks:
 Route10Pokecenter1F_Blocks:
 AzaleaPokecenter1F_Blocks:
-VioletPokecenter1F_Blocks:
+EdelweissPokecenter1F_Blocks:
 Route32Pokecenter1F_Blocks:
 GoldenrodPokecenter1F_Blocks:
 VermilionPokecenter1F_Blocks:
@@ -355,6 +355,7 @@ TimeCapsule_Blocks:
 
 EcruteakLugiaSpeechHouse_Blocks:
 EcruteakItemfinderHouse_Blocks:
+EdelweissSpeedupHouse_Blocks:
 EdelweissGymLeaderSpeechHouse_Blocks:
 EdelweissCraftShop_Blocks:
 	INCBIN "maps/House2.ablk"

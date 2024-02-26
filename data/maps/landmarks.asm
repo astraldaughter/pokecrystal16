@@ -15,10 +15,10 @@ Landmarks:
 	landmark  36,  72, Route53Name
 	landmark  36,  76, FoothillCavesName
 	landmark  36,  84, EdelweissCityName
+	landmark  40,  84, RuinsOfAlphName
 	landmark  60,  76, Route31Name
 	landmark  85,  58, SproutTowerName
 	landmark  84,  92, Route32Name
-	landmark  76,  76, RuinsOfAlphName
 	landmark  84, 124, UnionCaveName
 	landmark  82, 124, Route33Name
 	landmark  76, 100, AzaleaTownName
@@ -52,7 +52,7 @@ Landmarks:
 	landmark 130,  38, IcePathName
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
-	landmark 132,  64, Route45Name
+	landmark  28,  84, Route61Name
 	landmark 112,  72, DarkCaveName
 	
 	landmark 148,  68, SilverCaveName
@@ -120,7 +120,7 @@ BlackthornCityName:  db "BLACKTHORN¯CITY@"
 LakeOfRageName:      db "LAKE OF¯RAGE@"
 SilverCaveName:      db "SILVER CAVE@"
 SproutTowerName:     db "SPROUT¯TOWER@"
-RuinsOfAlphName:     db "RUINS¯OF ALPH@"
+RuinsOfAlphName:     db "EDELWEISS¯RUINS@"
 UnionCaveName:       db "UNION CAVE@"
 SlowpokeWellName:    db "SLOWPOKE¯WELL@"
 RadioTowerName:      db "RADIO TOWER@"
@@ -197,7 +197,7 @@ Route41Name:         db "ROUTE 41@"
 Route42Name:         db "ROUTE 42@"
 Route43Name:         db "ROUTE 43@"
 Route44Name:         db "ROUTE 44@"
-Route45Name:         db "ROUTE 45@"
+Route61Name:         db "ROUTE 61@"
 Route53Name:         db "ROUTE 53@"
 DarkCaveName:        db "DARK CAVE@"
 IlexForestName:      db "ILEX¯FOREST@"

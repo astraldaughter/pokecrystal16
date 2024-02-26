@@ -6,18 +6,34 @@ FoothillCaves_MapScripts:
 
 	def_callbacks
 
-FoothillCavesPokefanMScript:
-	jumptextfaceplayer FoothillCavesPokefanMText
+TrainerHikerAnthony:
+	trainer HIKER, ANTHONY, EVENT_BEAT_HIKER_ANTHONY, HikerAnthonySeenText, HikerAnthonyBeatenText, 0, .Script
 
-FoothillCavesHiddenMaxRevive:
-	hiddenitem MAX_REVIVE, EVENT_FOOTHILL_CAVES_HIDDEN_MAX_REVIVE
+.Script:
+	endifjustbattled
+	opentext
+	writetext HikerAnthonyAfterText
+	waitbutton
+	closetext
+	end
 
-FoothillCavesPokefanMText:
-	text "A bunch of DIGLETT"
-	line "popped out of the"
+HikerAnthonySeenText:
+	text "I just broke camp!"
+	line "I'm raring to go!"
+	done
 
-	para "ground! That was"
-	line "shocking."
+HikerAnthonyBeatenText:
+	text "Guess now's good"
+	line "for a break…"
+	done
+
+HikerAnthonyAfterText:
+	text "An important part"
+	line "of any long hike"
+
+	para "is knowing when"
+	line "to take a"
+	cont "breather."
 	done
 
 FoothillCaves_MapEvents:
@@ -30,7 +46,6 @@ FoothillCaves_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event  6, 11, BGEVENT_ITEM, FoothillCavesHiddenMaxRevive
 
 	def_object_events
-	object_event  3, 31, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FoothillCavesPokefanMScript, -1
+	object_event  11, 21, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerHikerAnthony, -1

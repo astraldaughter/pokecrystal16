@@ -101,11 +101,16 @@ ENDM
 	connection east, Route51, ROUTE_51, 0
 
 	map_attributes CampanulaTown, CAMPANULA_TOWN, $05, SOUTH | WEST
-	connection south, Route52, ROUTE_52, 5
+	connection south, Route52, ROUTE_52, 8
 	connection west, Route51, ROUTE_51, 0
 
-	map_attributes EdelweissCity, EDELWEISS_CITY, $05, NORTH
+	map_attributes EdelweissCity, EDELWEISS_CITY, $71, NORTH | WEST | EAST
 	connection north, Route53, ROUTE_53, 6
+	connection west, Route61, ROUTE_61, 9
+	connection east, RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, -5
+
+	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $71, WEST
+	connection west, EdelweissCity, EDELWEISS_CITY, 5
 
 	map_attributes AzaleaTown, AZALEA_TOWN, $05, WEST | EAST
 	connection west, Route34, ROUTE_34, -18
@@ -135,8 +140,7 @@ ENDM
 	map_attributes LakeOfRage, LAKE_OF_RAGE, $05, SOUTH
 	connection south, Route43, ROUTE_43, 5
 
-	map_attributes BlackthornCity, BLACKTHORN_CITY, $71, SOUTH | WEST
-	connection south, Route45, ROUTE_45, 0
+	map_attributes BlackthornCity, BLACKTHORN_CITY, $71, WEST
 	connection west, Route44, ROUTE_44, 9
 
 	map_attributes SilverCaveOutside, SILVER_CAVE_OUTSIDE, $2c, EAST
@@ -158,7 +162,7 @@ ENDM
 	connection east, CampanulaTown, CAMPANULA_TOWN, 0
 
 	map_attributes Route52, ROUTE_52, $05, NORTH
-	connection north, CampanulaTown, CAMPANULA_TOWN, -5
+	connection north, CampanulaTown, CAMPANULA_TOWN, -8
 
 	map_attributes Route53, ROUTE_53, $05, NORTH | SOUTH
 	connection north, Route51, ROUTE_51, -12
@@ -217,9 +221,8 @@ ENDM
 	connection west, MahoganyTown, MAHOGANY_TOWN, 0
 	connection east, BlackthornCity, BLACKTHORN_CITY, -9
 
-	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
-	connection north, BlackthornCity, BLACKTHORN_CITY, 0
-	connection west, Route53, ROUTE_53, 36
+	map_attributes Route61, ROUTE_61, $71, EAST
+	connection east, EdelweissCity, EDELWEISS_CITY, -9
 
 	map_attributes PewterCity, PEWTER_CITY, $0f, SOUTH | EAST
 	connection south, Route2, ROUTE_2, 5
@@ -389,7 +392,6 @@ ENDM
 	map_attributes RadioTower3F, RADIO_TOWER_3F, $00, 0
 	map_attributes RadioTower4F, RADIO_TOWER_4F, $00, 0
 	map_attributes RadioTower5F, RADIO_TOWER_5F, $00, 0
-	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $05, 0
 	map_attributes RuinsOfAlphHoOhChamber, RUINS_OF_ALPH_HO_OH_CHAMBER, $00, 0
 	map_attributes RuinsOfAlphKabutoChamber, RUINS_OF_ALPH_KABUTO_CHAMBER, $00, 0
 	map_attributes RuinsOfAlphOmanyteChamber, RUINS_OF_ALPH_OMANYTE_CHAMBER, $00, 0
@@ -513,11 +515,12 @@ ENDM
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $00, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $00, 0
 	map_attributes Route43Gate, ROUTE_43_GATE, $00, 0
-	map_attributes VioletMart, VIOLET_MART, $00, 0
+	map_attributes EdelweissMart, EDELWEISS_MART, $00, 0
 	map_attributes VioletGym, VIOLET_GYM, $00, 0
 	map_attributes EarlsPokemonAcademy, EARLS_POKEMON_ACADEMY, $00, 0
+	map_attributes EdelweissSpeedupHouse, EDELWEISS_SPEEDUP_HOUSE, $00, 0
 	map_attributes EdelweissGymLeaderSpeechHouse, EDELWEISS_GYM_LEADER_SPEECH_HOUSE, $00, 0
-	map_attributes VioletPokecenter1F, VIOLET_POKECENTER_1F, $00, 0
+	map_attributes EdelweissPokecenter1F, EDELWEISS_POKECENTER_1F, $00, 0
 	map_attributes Route32RuinsOfAlphGate, ROUTE_32_RUINS_OF_ALPH_GATE, $00, 0
 	map_attributes Route32Pokecenter1F, ROUTE_32_POKECENTER_1F, $00, 0
 	map_attributes Route35GoldenrodGate, ROUTE_35_GOLDENROD_GATE, $00, 0

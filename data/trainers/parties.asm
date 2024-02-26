@@ -3406,10 +3406,8 @@ GuitaristGroup:
 HikerGroup:
 	next_list_item ; HIKER (1)
 	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 16
-	dw GEODUDE
-	db 18
-	dw MACHAMP
+	db 5
+	dw PEBBLUNT
 	db -1 ; end
 
 	next_list_item ; HIKER (2)
@@ -3437,14 +3435,6 @@ HikerGroup:
 	db 23
 	dw GEODUDE
 	db 25
-	dw MACHOP
-	db -1 ; end
-
-	next_list_item ; HIKER (5)
-	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 11
-	dw GEODUDE
-	db 11
 	dw MACHOP
 	db -1 ; end
 
@@ -3508,16 +3498,6 @@ HikerGroup:
 	dw GEODUDE
 	db 13
 	dw GEODUDE
-	db -1 ; end
-
-	next_list_item ; HIKER (12)
-	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 25
-	dw GRAVELER
-	db 27
-	dw GRAVELER
-	db 29
-	dw MACHOKE
 	db -1 ; end
 
 	next_list_item ; HIKER (13)
@@ -3589,28 +3569,6 @@ HikerGroup:
 	dw ONIX
 	db -1 ; end
 
-	next_list_item ; HIKER (21)
-	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 30
-	dw GRAVELER
-	db 30
-	dw GRAVELER
-	db 32
-	dw MACHOKE
-	db -1 ; end
-
-	next_list_item ; HIKER (22)
-	db "ANTHONY@", TRAINERTYPE_MOVES
-	db 34
-	dw GRAVELER
-	dw MAGNITUDE, SELFDESTRUCT, DEFENSE_CURL, ROLLOUT
-	db 36
-	dw GOLEM
-	dw MAGNITUDE, SELFDESTRUCT, DEFENSE_CURL, ROLLOUT
-	db 34
-	dw MACHOKE
-	dw KARATE_CHOP, VITAL_THROW, HEADBUTT, DIG
-	db -1 ; end
 
 	end_list_items
 

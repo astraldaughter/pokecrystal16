@@ -176,7 +176,6 @@ ENDM
 	map_const BLACKTHORN_MART,                              6,  4 ;  5
 	map_const BLACKTHORN_POKECENTER_1F,                     5,  4 ;  6
 	map_const MOVE_DELETERS_HOUSE,                          4,  4 ;  7
-	map_const ROUTE_45,                                    10, 45 ;  8
 	map_const BLACKTHORN_CITY,                             20, 18 ;  9
 	endgroup
 
@@ -235,11 +234,8 @@ ENDM
 	map_const ROUTE_35,                                    10, 18 ;  3
 	map_const ROUTE_36,                                    30,  9 ;  4
 	map_const ROUTE_37,                                    10,  9 ;  5
-	map_const VIOLET_MART,                                  6,  4 ;  7
 	map_const VIOLET_GYM,                                   5,  8 ;  8
 	map_const EARLS_POKEMON_ACADEMY,                        4,  8 ;  9
-	map_const EDELWEISS_GYM_LEADER_SPEECH_HOUSE,                 4,  4 ; 10
-	map_const VIOLET_POKECENTER_1F,                         5,  4 ; 11
 	map_const ROUTE_32_RUINS_OF_ALPH_GATE,                  5,  4 ; 13
 	map_const ROUTE_32_POKECENTER_1F,                       5,  4 ; 14
 	map_const ROUTE_35_GOLDENROD_GATE,                      5,  4 ; 15
@@ -502,6 +498,11 @@ ENDM
 	map_const ROUTE_53_EDELWEISS_GATE,					    5,  4 ;  2
 	map_const EDELWEISS_CITY,                              20, 18 ;  3
 	map_const EDELWEISS_CRAFT_SHOP,                         4,  4 ;  4
+	map_const EDELWEISS_MART,                               6,  4 ;  5
+	map_const EDELWEISS_POKECENTER_1F,                      5,  4 ;  6
+	map_const ROUTE_61,                                    13, 11 ;  7
+	map_const EDELWEISS_GYM_LEADER_SPEECH_HOUSE,			4,  4 ;  8
+	map_const EDELWEISS_SPEEDUP_HOUSE,						4,  4 ;  9
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 27

@@ -222,7 +222,7 @@ ENDM
 DEF TM01 EQU const_value
 	add_tm DYNAMICPUNCH ; c2
 	add_tm HEADBUTT     ; c3
-	add_tm CURSE        ; c4
+	add_tm FALSE_SWIPE  ; c4
 	add_tm ROLLOUT      ; c5
 	add_tm ROAR         ; c6
 	add_tm TOXIC        ; c7
