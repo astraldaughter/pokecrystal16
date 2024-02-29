@@ -140,6 +140,7 @@ INCLUDE "audio/music/postcredits.asm"
 SECTION "New Songs", ROMX
 
 INCLUDE "audio/music/untitledbattletheme.asm"
+INCLUDE "audio/music/lavareefzone.asm"
 
 SECTION "Sound Effects", ROMX
 

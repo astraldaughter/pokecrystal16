@@ -107,5 +107,7 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
+; hack originals!
 	dba Music_UntitledBattle
+	dba Music_LavaReefZone
 	assert_table_length NUM_MUSIC_SONGS
