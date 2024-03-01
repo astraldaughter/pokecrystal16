@@ -25,16 +25,16 @@ FirstEvoStages::
 	dw BAMBUD
 	dw GIGGILICK
 	dw GIGGILICK      ;18
-	dw PICHU
-	dw PICHU
+	dw JABOA
+	dw JABOA
 	dw SOCKIT
 	dw SOCKIT
 	dw PEBBLUNT
 	dw PEBBLUNT
 	dw PEBBLUNT
-	dw NIDORAN_M  ;20
-	dw NIDORAN_M
-	dw NIDORAN_M
+	dw TECTOC  ;20
+	dw TECTOC
+	dw TECTOC
 	dw CLEFFA
 	dw CLEFFA
 	dw VULPIX

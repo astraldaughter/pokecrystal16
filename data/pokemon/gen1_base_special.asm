@@ -33,8 +33,8 @@ KantoMonSpecials:
 	db  40 ; PEBBLUNT
 	db  55 ; KNAPPLITH
 	db  75 ; AXECUTOR
-	db  40 ; NIDORAN_M
-	db  55 ; NIDORINO
+	db  40 ; TECTOC
+	db  55 ; APOCAROC
 	db  75 ; NIDOKING
 	db  60 ; CLEFAIRY
 	db  85 ; CLEFABLE

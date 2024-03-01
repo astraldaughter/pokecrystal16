@@ -749,5 +749,5 @@ Daycare_CheckAlternateOffspring:
 	ret
 
 .alternate_offspring_table
-	dw PEBBLUNT, NIDORAN_M
+	dw PEBBLUNT, TECTOC
 	dw -1

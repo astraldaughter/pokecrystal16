@@ -32,8 +32,8 @@ PokedexDataPointerTable:
 	dba PebbluntPokedexEntry
 	dba KnapplithPokedexEntry
 	dba AxecutorPokedexEntry
-	dba NidoranMPokedexEntry
-	dba NidorinoPokedexEntry
+	dba TectocPokedexEntry
+	dba ApocarocPokedexEntry
 	dba NidokingPokedexEntry
 	dba ClefairyPokedexEntry
 	dba ClefablePokedexEntry

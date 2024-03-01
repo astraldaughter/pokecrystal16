@@ -32,8 +32,8 @@ EvosAttacksPointers1::
 	dw PebbluntEvosAttacks
 	dw KnapplithEvosAttacks
 	dw AxecutorEvosAttacks
-	dw NidoranMEvosAttacks
-	dw NidorinoEvosAttacks
+	dw TectocEvosAttacks
+	dw ApocarocEvosAttacks
 	dw NidokingEvosAttacks
 	dw ClefairyEvosAttacks
 	dw ClefableEvosAttacks
@@ -630,30 +630,41 @@ AxecutorEvosAttacks:
 	dbw 52, STONE_CRASH
 	db 0 ; no more level-up moves
 
-NidoranMEvosAttacks:
-	dbbw EVOLVE_LEVEL, 16, NIDORINO
+TectocEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, APOCAROC
 	db 0 ; no more evolutions
-	dbw 1, LEER
-	dbw 1, TACKLE
-	dbw 8, HORN_ATTACK
-	dbw 12, DOUBLE_KICK
-	dbw 17, POISON_STING
-	dbw 23, FOCUS_ENERGY
-	dbw 30, FURY_ATTACK
-	dbw 38, HORN_DRILL
+	dbw 1, RAPID_SPIN
+	dbw 1, HARDEN
+	dbw 4, PSYWAVE
+	dbw 10, ROLLOUT
+	dbw 14, CONFUSION
+	dbw 18, SANDSTORM
+	dbw 20, MAGNITUDE
+	dbw 24, CONFUSE_RAY
+	dbw 28, ANCIENTPOWER
+	dbw 33, MOONLIGHT
+	dbw 37, FUTURE_SIGHT
+	dbw 40, PSYCHIC
+	dbw 46, EARTHQUAKE
+	dbw 52, MOONBLAST
 	db 0 ; no more level-up moves
 
-NidorinoEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, NIDOKING
+ApocarocEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, LEER
-	dbw 1, TACKLE
-	dbw 8, HORN_ATTACK
-	dbw 12, DOUBLE_KICK
-	dbw 19, POISON_STING
-	dbw 27, FOCUS_ENERGY
-	dbw 36, FURY_ATTACK
-	dbw 46, HORN_DRILL
+	dbw 1, RAPID_SPIN
+	dbw 1, HARDEN
+	dbw 4, PSYWAVE
+	dbw 10, ROLLOUT
+	dbw 14, CONFUSION
+	dbw 18, SANDSTORM
+	dbw 20, MAGNITUDE
+	dbw 24, CONFUSE_RAY
+	dbw 28, ANCIENTPOWER
+	dbw 33, MOONLIGHT
+	dbw 38, FUTURE_SIGHT
+	dbw 42, PSYCHIC
+	dbw 49, EARTHQUAKE
+	dbw 56, MOONBLAST
 	db 0 ; no more level-up moves
 
 NidokingEvosAttacks:

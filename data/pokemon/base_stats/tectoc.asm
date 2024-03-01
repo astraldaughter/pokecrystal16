@@ -1,20 +1,20 @@
 	db 0 ; species ID placeholder
 
-	db  46,  57,  40,  50,  40,  40
+	db  36,  48,  72,  36,  48,  60
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, POISON ; type
-	db 235 ; catch rate
+	db GROUND, PSYCHIC ; type
+	db 255 ; catch rate
 	db 60 ; base exp
 	db NO_ITEM, NO_ITEM ; items
-	db GENDER_F0 ; gender ratio
+	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/nidoran_m/front.dimensions"
+	INCBIN "gfx/pokemon/tectoc/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_MONSTER, EGG_GROUND ; egg groups
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset
 	tmhm

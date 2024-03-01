@@ -37,8 +37,8 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    256,  208 ; PEBBLUNT
 	mon_cry CRY_SLOWKING,    192,  256 ; KNAPPLITH
 	mon_cry CRY_RAICHU,     -512,  256 ; AXECUTOR
-	mon_cry CRY_NIDORAN_M,     0,  256 ; NIDORAN_M
-	mon_cry CRY_NIDORAN_M,    44,  320 ; NIDORINO
+	mon_cry CRY_SLOWKING,    -96,  182 ; TECTOC
+	mon_cry CRY_SLOWKING,   -256,  256 ; APOCAROC
 	mon_cry CRY_RAICHU,        0,  256 ; NIDOKING
 	mon_cry CRY_CLEFAIRY,    204,  129 ; CLEFAIRY
 	mon_cry CRY_CLEFAIRY,    170,  160 ; CLEFABLE

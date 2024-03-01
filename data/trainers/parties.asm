@@ -1825,7 +1825,7 @@ PokemaniacGroup:
 	db 16
 	dw KNAPPLITH
 	db 16
-	dw NIDORINO
+	dw APOCAROC
 	db -1 ; end
 
 	next_list_item ; POKEMANIAC (5)
@@ -4184,7 +4184,7 @@ PicnickerGroup:
 	db 19
 	dw WEEPINBELL
 	db 19
-	dw NIDORINO
+	dw APOCAROC
 	db 21
 	dw AXECUTOR
 	db -1 ; end
@@ -4268,7 +4268,7 @@ PicnickerGroup:
 	db 24
 	dw WEEPINBELL
 	db 26
-	dw NIDORINO
+	dw APOCAROC
 	db 26
 	dw AXECUTOR
 	db -1 ; end
@@ -4322,7 +4322,7 @@ CamperGroup:
 	next_list_item ; CAMPER (1)
 	db "ROLAND@", TRAINERTYPE_NORMAL
 	db 9
-	dw NIDORAN_M
+	dw TECTOC
 	db -1 ; end
 
 	next_list_item ; CAMPER (2)
@@ -4382,13 +4382,13 @@ CamperGroup:
 	next_list_item ; CAMPER (9)
 	db "HARVEY@", TRAINERTYPE_NORMAL
 	db 15
-	dw NIDORINO
+	dw APOCAROC
 	db -1 ; end
 
 	next_list_item ; CAMPER (10)
 	db "DALE@", TRAINERTYPE_NORMAL
 	db 15
-	dw NIDORINO
+	dw APOCAROC
 	db -1 ; end
 
 	next_list_item ; CAMPER (11)

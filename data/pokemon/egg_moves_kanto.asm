@@ -32,7 +32,7 @@ EggMovePointers1:
 	dw PebbluntEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw NidoranMEggMoves
+	dw TectocEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -229,7 +229,7 @@ PebbluntEggMoves:
 	dw BEAT_UP
 	dw -1 ; end
 
-NidoranMEggMoves:
+TectocEggMoves:
 	dw SUPERSONIC
 	dw DISABLE
 	dw TAKE_DOWN

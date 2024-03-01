@@ -75,10 +75,10 @@ PokemonPicPointers::
 	dba KnapplithBackpic
 	dba AxecutorFrontpic
 	dba AxecutorBackpic
-	dba NidoranMFrontpic
-	dba NidoranMBackpic
-	dba NidorinoFrontpic
-	dba NidorinoBackpic
+	dba TectocFrontpic
+	dba TectocBackpic
+	dba ApocarocFrontpic
+	dba ApocarocBackpic
 	dba NidokingFrontpic
 	dba NidokingBackpic
 	dba ClefairyFrontpic

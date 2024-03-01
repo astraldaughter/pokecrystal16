@@ -1,6 +1,6 @@
 	object_const_def
 	const PEWTERNIDORANSPEECHHOUSE_SUPER_NERD
-	const PEWTERNIDORANSPEECHHOUSE_NIDORAN_M
+	const PEWTERNIDORANSPEECHHOUSE_TECTOC
 
 PewterNidoranSpeechHouse_MapScripts:
 	def_scene_scripts
@@ -13,7 +13,7 @@ PewterNidoranSpeechHouseSuperNerdScript:
 PewterNidoran:
 	opentext
 	writetext PewterNidoranText
-	cry NIDORAN_M
+	cry TECTOC
 	waitbutton
 	closetext
 	end

@@ -34,7 +34,7 @@ SwarmGrassWildMons:
 	map_id ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 12, NIDORAN_M
+	dbw 12, TECTOC
 	dbw 12, PEBBLUNT
 	dbw 12, YANMA
 	dbw 14, YANMA
@@ -42,7 +42,7 @@ SwarmGrassWildMons:
 	dbw 10, DITTO
 	dbw 10, DITTO
 	; day
-	dbw 12, NIDORAN_M
+	dbw 12, TECTOC
 	dbw 12, PEBBLUNT
 	dbw 12, YANMA
 	dbw 14, YANMA
@@ -50,7 +50,7 @@ SwarmGrassWildMons:
 	dbw 10, DITTO
 	dbw 10, DITTO
 	; nite
-	dbw 12, NIDORAN_M
+	dbw 12, TECTOC
 	dbw 12, PEBBLUNT
 	dbw 12, YANMA
 	dbw 14, YANMA

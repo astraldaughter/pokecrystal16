@@ -453,7 +453,7 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_13
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 23, NIDORINO
+	dbw 23, APOCAROC
 	dbw 23, KNAPPLITH
 	dbw 25, BOINGOOSE
 	dbw 25, HOPPIP
@@ -461,7 +461,7 @@ KantoGrassWildMons:
 	dbw 27, HOPPIP
 	dbw 25, CHANSEY
 	; day
-	dbw 23, NIDORINO
+	dbw 23, APOCAROC
 	dbw 23, KNAPPLITH
 	dbw 25, BOINGOOSE
 	dbw 25, HOPPIP
@@ -481,7 +481,7 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_14
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 26, NIDORINO
+	dbw 26, APOCAROC
 	dbw 26, KNAPPLITH
 	dbw 28, BOINGOOSE
 	dbw 28, HOPPIP
@@ -489,7 +489,7 @@ KantoGrassWildMons:
 	dbw 30, SKIPLOOM
 	dbw 28, CHANSEY
 	; day
-	dbw 26, NIDORINO
+	dbw 26, APOCAROC
 	dbw 26, KNAPPLITH
 	dbw 28, BOINGOOSE
 	dbw 28, HOPPIP
@@ -509,7 +509,7 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_15
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 23, NIDORINO
+	dbw 23, APOCAROC
 	dbw 23, KNAPPLITH
 	dbw 25, BOINGOOSE
 	dbw 25, HOPPIP
@@ -517,7 +517,7 @@ KantoGrassWildMons:
 	dbw 27, HOPPIP
 	dbw 25, CHANSEY
 	; day
-	dbw 23, NIDORINO
+	dbw 23, APOCAROC
 	dbw 23, KNAPPLITH
 	dbw 25, BOINGOOSE
 	dbw 25, HOPPIP

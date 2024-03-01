@@ -369,7 +369,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons NATIONAL_PARK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 12, NIDORAN_M
+	dbw 12, TECTOC
 	dbw 12, PEBBLUNT
 	dbw 14, LEDYBA
 	dbw 13, SPREASEL
@@ -378,7 +378,7 @@ JohtoGrassWildMons:
 	dbw 10, WEEDLE
 	; day
 	dbw 12, PEBBLUNT
-	dbw 12, NIDORAN_M
+	dbw 12, TECTOC
 	dbw 14, SUNKERN
 	dbw 13, SPREASEL
 	dbw 10, CATERPIE

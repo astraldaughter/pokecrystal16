@@ -2,7 +2,7 @@ Pokered_MonIndices:
 	table_width 1, Pokered_MonIndices
 	db RHYDON
 	db KANGASKHAN
-	db NIDORAN_M
+	db TECTOC
 	db CLEFAIRY
 	db SHOOTAINER
 	db VOLTORB
@@ -166,7 +166,7 @@ Pokered_MonIndices:
 	db RAPIDASH
 	db ROLLIATH
 	db BAMBUD
-	db NIDORINO
+	db APOCAROC
 	db KNAPPLITH
 	db GEODUDE
 	db PORYGON

@@ -144,9 +144,9 @@ AlphabeticalPokedexOrder:
 	dw NIDOKING
 	dw AXECUTOR
 	dw PEBBLUNT
-	dw NIDORAN_M
+	dw TECTOC
 	dw KNAPPLITH
-	dw NIDORINO
+	dw APOCAROC
 	dw NINETALES
 	dw NOCTOWL
 	dw OCTILLERY

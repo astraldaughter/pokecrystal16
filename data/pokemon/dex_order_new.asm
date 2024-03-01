@@ -99,8 +99,8 @@ NewPokedexOrder:
 	dw PEBBLUNT
 	dw KNAPPLITH
 	dw AXECUTOR
-	dw NIDORAN_M
-	dw NIDORINO
+	dw TECTOC
+	dw APOCAROC
 	dw NIDOKING
 	dw YANMA
 	dw SUNKERN

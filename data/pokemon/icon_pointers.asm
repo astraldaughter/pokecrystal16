@@ -36,8 +36,8 @@ IconPointers:
 	dw PebbluntIcon
 	dw KnapplithIcon
 	dw AxecutorIcon
-	dw NidoranMIcon
-	dw NidorinoIcon
+	dw TectocIcon
+	dw ApocarocIcon
 	dw NidokingIcon
 	dw ClefairyIcon
 	dw ClefableIcon

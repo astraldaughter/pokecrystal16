@@ -29,9 +29,9 @@ MonMenuIconPals:
 	icon_pals BROWN,  BLUE   ; BOINGOOSE
 	icon_pals BROWN,  GREEN  ; ROLLABYE
 	icon_pals PURPLE, GRAY   ; ROLLIATH
-	icon_pals BROWN,  BROWN  ; BAMBUD
-	icon_pals BROWN,  BROWN  ; SHOOTAINER
-	icon_pals BROWN,  GRAY   ; BAMBIZIER
+	icon_pals GREEN,  BROWN  ; BAMBUD
+	icon_pals GREEN,  BROWN  ; SHOOTAINER
+	icon_pals GREEN,  GRAY   ; BAMBIZIER
 	icon_pals PURPLE, BLUE   ; GIGGILICK
 	icon_pals PINK,   BLUE   ; HARLICKIN
 	icon_pals RED, 	  PURPLE ; JABOA
@@ -41,8 +41,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; PEBBLUNT
 	icon_pals BLUE,   PURPLE ; KNAPPLITH
 	icon_pals BLUE,   GRAY   ; AXECUTOR
-	icon_pals PURPLE, BLUE   ; NIDORAN_M
-	icon_pals PURPLE, BLUE   ; NIDORINO
+	icon_pals BROWN, BLUE   ; TECTOC
+	icon_pals BROWN, BLUE   ; APOCAROC
 	icon_pals PURPLE, BLUE   ; NIDOKING
 	icon_pals BROWN,  GREEN  ; CLEFAIRY
 	icon_pals BROWN,  GREEN  ; CLEFABLE
