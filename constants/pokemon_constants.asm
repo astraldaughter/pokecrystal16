@@ -50,8 +50,8 @@
 	const PEBBLUNT  ; 1d
 	const KNAPPLITH   ; 1e
 	const AXECUTOR  ; 1f
-	const NIDORAN_M  ; 20
-	const NIDORINO   ; 21
+	const TECTOC  ; 20
+	const APOCAROC   ; 21
 	const NIDOKING   ; 22
 	const CLEFAIRY   ; 23
 	const CLEFABLE   ; 24
