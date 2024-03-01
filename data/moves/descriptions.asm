@@ -294,6 +294,7 @@ MoveDescriptions1:
 	dw PsychoCutDescription
 	dw StoneCrashDescription
 	dw HailDescription
+	dw WildThunderDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1451,3 +1452,7 @@ PsychoCutDescription:
 StoneCrashDescription:
 	db   "May miss and hurt"
 	next "the user.@"
+
+WildThunderDescription:
+	db   "Works 2-3 turns"
+	next "and confuses user.@"

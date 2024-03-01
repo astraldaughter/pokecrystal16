@@ -318,6 +318,7 @@ BattleAnimations::
 	dw BattleAnim_PsychoCut
 	dw BattleAnim_StoneCrash
 	dw BattleAnim_Hail
+	dw BattleAnim_WildThunder
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -1314,6 +1315,7 @@ BattleAnim_ThunderWave:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_WildThunder:
 BattleAnim_Thunder:
 	anim_1gfx ANIM_GFX_LIGHTNING
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $6, $20

@@ -289,4 +289,5 @@ MoveNames::
 	li "PSYCHO CUT"
 	li "STONE CRASH"
 	li "HAIL"
+	li "WILD THUNDER"
 	assert_list_length NUM_ATTACKS
