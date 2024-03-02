@@ -644,7 +644,7 @@ TectocEvosAttacks:
 	dbw 28, ANCIENTPOWER
 	dbw 33, MOONLIGHT
 	dbw 37, FUTURE_SIGHT
-	dbw 40, PSYCHIC
+	dbw 40, PSYCHIC_M
 	dbw 46, EARTHQUAKE
 	dbw 52, MOONBLAST
 	db 0 ; no more level-up moves
@@ -662,7 +662,7 @@ ApocarocEvosAttacks:
 	dbw 28, ANCIENTPOWER
 	dbw 33, MOONLIGHT
 	dbw 38, FUTURE_SIGHT
-	dbw 42, PSYCHIC
+	dbw 42, PSYCHIC_M
 	dbw 49, EARTHQUAKE
 	dbw 56, MOONBLAST
 	db 0 ; no more level-up moves
