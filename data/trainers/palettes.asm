@@ -7,7 +7,8 @@ TrainerPalettes:
 	table_width PAL_COLOR_SIZE * 2, TrainerPalettes
 
 PlayerPalette:
-INCBIN "gfx/player/chris.pal", middle_colors
+INCLUDE "gfx/player/chris.pal"
+
 INCBIN "gfx/trainers/falkner.gbcpal", middle_colors
 INCBIN "gfx/trainers/whitney.gbcpal", middle_colors
 INCBIN "gfx/trainers/bugsy.gbcpal", middle_colors
