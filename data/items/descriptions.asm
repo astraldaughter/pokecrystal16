@@ -465,7 +465,7 @@ ItemfinderDesc:
 
 ExpShareDesc:
 	db   "Shares battle EXP."
-	next "Points.@"
+	next "Points. (HOLD)@"
 
 OldRodDesc:
 	db   "Use by water to"
