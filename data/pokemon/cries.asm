@@ -15,9 +15,9 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,       80,  222 ; FOALAKE
 	mon_cry CRY_LAPRAS,       32,  256 ; LOCHOLT
 	mon_cry CRY_LAPRAS,       24,  432 ; KELPESTARY
-	mon_cry CRY_SPINARAK,     63,  400 ; CATERPIE
-	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
-	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
+	mon_cry CRY_SPINARAK,    -63,  400 ; MIGRUB
+	mon_cry CRY_DIGLETT,     -32,  129 ; PUPOTH
+	mon_cry CRY_RAICHU,	    -120,  336 ; YOGSOMOTH
 	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL

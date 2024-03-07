@@ -11,9 +11,9 @@ KantoMonSpecials:
 	db  50 ; FOALAKE
 	db  65 ; LOCHOLT
 	db  85 ; KELPESTARY
-	db  20 ; CATERPIE
-	db  25 ; METAPOD
-	db  80 ; BUTTERFREE
+	db  20 ; MIGRUB
+	db  25 ; PUPOTH
+	db  80 ; YOGSOMOTH
 	db  20 ; WEEDLE
 	db  25 ; KAKUNA
 	db  45 ; BEEDRILL

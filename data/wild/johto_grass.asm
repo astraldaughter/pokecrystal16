@@ -373,7 +373,7 @@ JohtoGrassWildMons:
 	dbw 12, PEBBLUNT
 	dbw 14, LEDYBA
 	dbw 13, SPREASEL
-	dbw 10, CATERPIE
+	dbw 10, MIGRUB
 	dbw 10, WEEDLE
 	dbw 10, WEEDLE
 	; day
@@ -381,7 +381,7 @@ JohtoGrassWildMons:
 	dbw 12, TECTOC
 	dbw 14, SUNKERN
 	dbw 13, SPREASEL
-	dbw 10, CATERPIE
+	dbw 10, MIGRUB
 	dbw 10, WEEDLE
 	dbw 10, WEEDLE
 	; nite
@@ -593,17 +593,17 @@ JohtoGrassWildMons:
 	def_grass_wildmons ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, CATERPIE
+	dbw 5, MIGRUB
 	dbw 5, WEEDLE
-	dbw 7, METAPOD
+	dbw 7, PUPOTH
 	dbw 7, KAKUNA
 	dbw 7, SPREASEL
 	dbw 6, PARAS
 	dbw 6, PARAS
 	; day
-	dbw 5, CATERPIE
+	dbw 5, MIGRUB
 	dbw 5, WEEDLE
-	dbw 7, METAPOD
+	dbw 7, PUPOTH
 	dbw 7, KAKUNA
 	dbw 7, SPREASEL
 	dbw 6, PARAS
@@ -1294,16 +1294,16 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 3, LEDYBA
-	dbw 3, CATERPIE
-	dbw 4, CATERPIE
+	dbw 3, MIGRUB
+	dbw 4, MIGRUB
 	dbw 4, SPREASEL
 	dbw 3, WEEDLE
 	dbw 4, HOPPIP
 	dbw 4, HOPPIP
 	; day
 	dbw 3, SPREASEL
-	dbw 3, CATERPIE
-	dbw 4, CATERPIE
+	dbw 3, MIGRUB
+	dbw 4, MIGRUB
 	dbw 4, SPREASEL
 	dbw 3, WEEDLE
 	dbw 4, HOPPIP
@@ -1322,7 +1322,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 4, LEDYBA
-	dbw 4, CATERPIE
+	dbw 4, MIGRUB
 	dbw 5, BELLSPROUT
 	dbw 5, SPREASEL
 	dbw 4, WEEDLE
@@ -1330,7 +1330,7 @@ JohtoGrassWildMons:
 	dbw 5, HOPPIP
 	; day
 	dbw 4, SPREASEL
-	dbw 4, CATERPIE
+	dbw 4, MIGRUB
 	dbw 5, BELLSPROUT
 	dbw 5, SPREASEL
 	dbw 4, WEEDLE

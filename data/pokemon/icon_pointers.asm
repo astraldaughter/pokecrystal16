@@ -14,9 +14,9 @@ IconPointers:
 	dw FoalakeIcon
 	dw LocholtIcon
 	dw KelpestaryIcon
-	dw CaterpieIcon
-	dw MetapodIcon
-	dw ButterfreeIcon
+	dw MigrubIcon
+	dw PupothIcon
+	dw YogsomothIcon
 	dw WeedleIcon
 	dw KakunaIcon
 	dw BeedrillIcon

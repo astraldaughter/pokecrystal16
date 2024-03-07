@@ -12,7 +12,7 @@ SpriteMons:
 	dw MAGIKARP
 	dw FOALAKE
 	dw TOGEPI
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	dw DIGLETT
 	dw POLIWAG
 	dw JABOA

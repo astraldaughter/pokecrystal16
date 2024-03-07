@@ -173,18 +173,18 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, CATERPIE
+	dbw 3, MIGRUB
 	dbw 3, LEDYBA
 	dbw 5, SPREASEL
-	dbw 7, BUTTERFREE
+	dbw 7, YOGSOMOTH
 	dbw 7, LEDIAN
 	dbw 4, JABOA
 	dbw 4, JABOA
 	; day
-	dbw 3, CATERPIE
+	dbw 3, MIGRUB
 	dbw 3, SPREASEL
 	dbw 5, SPREASEL
-	dbw 7, BUTTERFREE
+	dbw 7, YOGSOMOTH
 	dbw 7, BOINGOOSE
 	dbw 4, JABOA
 	dbw 4, JABOA
@@ -677,21 +677,21 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_24
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 8, CATERPIE
-	dbw 10, CATERPIE
-	dbw 12, METAPOD
+	dbw 8, MIGRUB
+	dbw 10, MIGRUB
+	dbw 12, PUPOTH
 	dbw 12, ABRA
 	dbw 10, BELLSPROUT
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
+	dbw 14, YOGSOMOTH
+	dbw 14, YOGSOMOTH
 	; day
-	dbw 8, CATERPIE
+	dbw 8, MIGRUB
 	dbw 12, SUNKERN
-	dbw 10, CATERPIE
+	dbw 10, MIGRUB
 	dbw 12, ABRA
 	dbw 10, BELLSPROUT
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
+	dbw 14, YOGSOMOTH
+	dbw 14, YOGSOMOTH
 	; nite
 	dbw 10, VENONAT
 	dbw 10, ODDISH
@@ -705,21 +705,21 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_25
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 10, CATERPIE
+	dbw 10, MIGRUB
 	dbw 10, SPREASEL
 	dbw 12, BOINGOOSE
-	dbw 12, METAPOD
+	dbw 12, PUPOTH
 	dbw 10, BELLSPROUT
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
+	dbw 14, YOGSOMOTH
+	dbw 14, YOGSOMOTH
 	; day
-	dbw 10, CATERPIE
+	dbw 10, MIGRUB
 	dbw 10, SPREASEL
 	dbw 12, BOINGOOSE
-	dbw 12, METAPOD
+	dbw 12, PUPOTH
 	dbw 10, BELLSPROUT
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
+	dbw 14, YOGSOMOTH
+	dbw 14, YOGSOMOTH
 	; nite
 	dbw 10, ODDISH
 	dbw 10, HOOTHOOT

@@ -19,8 +19,8 @@ AlphabeticalPokedexOrder:
 	dw KELPESTARY
 	dw BLISSEY
 	dw KIWEE
-	dw BUTTERFREE
-	dw CATERPIE
+	dw YOGSOMOTH
+	dw MIGRUB
 	dw CELEBI
 	dw CHANSEY
 	dw CHARIZARD
@@ -131,7 +131,7 @@ AlphabeticalPokedexOrder:
 	dw MAROWAK
 	dw MEGANIUM
 	dw MEOWTH
-	dw METAPOD
+	dw PUPOTH
 	dw MEW
 	dw MEWTWO
 	dw MILTANK

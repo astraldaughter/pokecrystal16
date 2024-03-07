@@ -25,9 +25,9 @@ NewPokedexOrder:
 	dw PICHU
 	dw JABOA
 	dw JERBOXER
-	dw CATERPIE
-	dw METAPOD
-	dw BUTTERFREE
+	dw MIGRUB
+	dw PUPOTH
+	dw YOGSOMOTH
 	dw WEEDLE
 	dw KAKUNA
 	dw BEEDRILL

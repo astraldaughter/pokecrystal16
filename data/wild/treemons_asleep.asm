@@ -1,9 +1,9 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
-	dw CATERPIE
-	dw METAPOD
-	dw BUTTERFREE
+	dw MIGRUB
+	dw PUPOTH
+	dw YOGSOMOTH
 	dw WEEDLE
 	dw KAKUNA
 	dw BEEDRILL

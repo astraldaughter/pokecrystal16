@@ -39,7 +39,7 @@ BugsyGroup:
 	next_list_item ; BUGSY (1)
 	db "BUGSY@", TRAINERTYPE_MOVES
 	db 14
-	dw METAPOD
+	dw PUPOTH
 	dw TACKLE, STRING_SHOT, HARDEN, NO_MOVE
 	db 14
 	dw KAKUNA
@@ -1608,7 +1608,7 @@ CooltrainerFGroup:
 	next_list_item ; COOLTRAINERF (16)
 	db "CYBIL@", TRAINERTYPE_MOVES
 	db 25
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	dw CONFUSION, SLEEP_POWDER, WHIRLWIND, GUST
 	db 25
 	dw BELLOSSOM
@@ -1716,7 +1716,7 @@ BeautyGroup:
 	db 28
 	dw VILEPLUME
 	db 34
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	db -1 ; end
 
 	next_list_item ; BEAUTY (7)
@@ -2259,9 +2259,9 @@ BugCatcherGroup:
 	next_list_item ; BUG_CATCHER (1)
 	db "DON@", TRAINERTYPE_NORMAL
 	db 3
-	dw CATERPIE
+	dw MIGRUB
 	db 3
-	dw CATERPIE
+	dw MIGRUB
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (2)
@@ -2269,7 +2269,7 @@ BugCatcherGroup:
 	db 32
 	dw BEEDRILL
 	db 32
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (3)
@@ -2285,13 +2285,13 @@ BugCatcherGroup:
 	next_list_item ; BUG_CATCHER (4)
 	db "WADE@", TRAINERTYPE_NORMAL
 	db 2
-	dw CATERPIE
+	dw MIGRUB
 	db 2
-	dw CATERPIE
+	dw MIGRUB
 	db 3
 	dw WEEDLE
 	db 2
-	dw CATERPIE
+	dw MIGRUB
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (5)
@@ -2307,7 +2307,7 @@ BugCatcherGroup:
 	next_list_item ; BUG_CATCHER (6)
 	db "AL@", TRAINERTYPE_NORMAL
 	db 12
-	dw CATERPIE
+	dw MIGRUB
 	db 12
 	dw WEEDLE
 	db -1 ; end
@@ -2335,25 +2335,25 @@ BugCatcherGroup:
 	next_list_item ; BUG_CATCHER (10)
 	db "WADE@", TRAINERTYPE_NORMAL
 	db 9
-	dw METAPOD
+	dw PUPOTH
 	db 9
-	dw METAPOD
+	dw PUPOTH
 	db 10
 	dw KAKUNA
 	db 9
-	dw METAPOD
+	dw PUPOTH
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (11)
 	db "WADE@", TRAINERTYPE_NORMAL
 	db 14
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	db 14
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	db 15
 	dw BEEDRILL
 	db 14
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (12)
@@ -2378,32 +2378,32 @@ BugCatcherGroup:
 	next_list_item ; BUG_CATCHER (15)
 	db "WADE@", TRAINERTYPE_MOVES
 	db 24
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	dw CONFUSION, POISONPOWDER, SUPERSONIC, WHIRLWIND
 	db 24
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	dw CONFUSION, STUN_SPORE, SUPERSONIC, WHIRLWIND
 	db 25
 	dw BEEDRILL
 	dw FURY_ATTACK, FOCUS_ENERGY, TWINEEDLE, RAGE
 	db 24
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	dw CONFUSION, SLEEP_POWDER, SUPERSONIC, WHIRLWIND
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (16)
 	db "WADE@", TRAINERTYPE_MOVES
 	db 30
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	dw CONFUSION, POISONPOWDER, SUPERSONIC, GUST
 	db 30
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	dw CONFUSION, STUN_SPORE, SUPERSONIC, GUST
 	db 32
 	dw BEEDRILL
 	dw FURY_ATTACK, PURSUIT, TWINEEDLE, DOUBLE_TEAM
 	db 34
-	dw BUTTERFREE
+	dw YOGSOMOTH
 	dw PSYBEAM, SLEEP_POWDER, GUST, WHIRLWIND
 	db -1 ; end
 

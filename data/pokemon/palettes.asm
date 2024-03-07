@@ -51,12 +51,12 @@ INCBIN "gfx/pokemon/locholt/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/locholt/shiny.pal"
 INCBIN "gfx/pokemon/kelpestary/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/kelpestary/shiny.pal"
-INCBIN "gfx/pokemon/caterpie/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/caterpie/shiny.pal"
-INCBIN "gfx/pokemon/metapod/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/metapod/shiny.pal"
-INCBIN "gfx/pokemon/butterfree/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/butterfree/shiny.pal"
+INCBIN "gfx/pokemon/migrub/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/migrub/shiny.pal"
+INCBIN "gfx/pokemon/pupoth/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/pupoth/shiny.pal"
+INCBIN "gfx/pokemon/yogsomoth/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/yogsomoth/shiny.pal"
 INCBIN "gfx/pokemon/weedle/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/weedle/shiny.pal"
 INCBIN "gfx/pokemon/kakuna/front.gbcpal", middle_colors

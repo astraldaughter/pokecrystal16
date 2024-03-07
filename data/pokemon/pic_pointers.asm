@@ -31,12 +31,12 @@ PokemonPicPointers::
 	dba LocholtBackpic
 	dba KelpestaryFrontpic
 	dba KelpestaryBackpic
-	dba CaterpieFrontpic
-	dba CaterpieBackpic
-	dba MetapodFrontpic
-	dba MetapodBackpic
-	dba ButterfreeFrontpic
-	dba ButterfreeBackpic
+	dba MigrubFrontpic
+	dba MigrubBackpic
+	dba PupothFrontpic
+	dba PupothBackpic
+	dba YogsomothFrontpic
+	dba YogsomothBackpic
 	dba WeedleFrontpic
 	dba WeedleBackpic
 	dba KakunaFrontpic

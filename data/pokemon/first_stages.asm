@@ -10,9 +10,9 @@ FirstEvoStages::
 	dw FOALAKE
 	dw FOALAKE   ;08
 	dw FOALAKE
-	dw CATERPIE
-	dw CATERPIE
-	dw CATERPIE
+	dw MIGRUB
+	dw MIGRUB
+	dw MIGRUB
 	dw WEEDLE
 	dw WEEDLE
 	dw WEEDLE

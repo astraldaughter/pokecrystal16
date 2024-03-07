@@ -10,9 +10,9 @@ PokedexDataPointerTable:
 	dba FoalakePokedexEntry
 	dba LocholtPokedexEntry
 	dba KelpestaryPokedexEntry
-	dba CaterpiePokedexEntry
-	dba MetapodPokedexEntry
-	dba ButterfreePokedexEntry
+	dba MigrubPokedexEntry
+	dba PupothPokedexEntry
+	dba YogsomothPokedexEntry
 	dba WeedlePokedexEntry
 	dba KakunaPokedexEntry
 	dba BeedrillPokedexEntry

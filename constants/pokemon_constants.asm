@@ -28,9 +28,9 @@
 	const FOALAKE   ; 07
 	const LOCHOLT  ; 08
 	const KELPESTARY  ; 09
-	const CATERPIE   ; 0a
-	const METAPOD    ; 0b
-	const BUTTERFREE ; 0c
+	const MIGRUB   ; 0a
+	const PUPOTH    ; 0b
+	const YOGSOMOTH ; 0c
 	const WEEDLE     ; 0d
 	const KAKUNA     ; 0e
 	const BEEDRILL   ; 0f

@@ -19,9 +19,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; FOALAKE
 	icon_pals BLUE,   TEAL   ; LOCHOLT
 	icon_pals BLUE,   TEAL   ; KELPESTARY
-	icon_pals GREEN,  BROWN  ; CATERPIE
-	icon_pals GREEN,  BROWN  ; METAPOD
-	icon_pals TEAL,   PINK   ; BUTTERFREE
+	icon_pals RED,    PINK   ; MIGRUB
+	icon_pals RED,    PINK   ; PUPOTH
+	icon_pals RED,    PINK   ; YOGSOMOTH
 	icon_pals RED,    GREEN  ; WEEDLE
 	icon_pals BROWN,  GREEN  ; KAKUNA
 	icon_pals RED,    BLUE   ; BEEDRILL
@@ -41,8 +41,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; PEBBLUNT
 	icon_pals BLUE,   PURPLE ; KNAPPLITH
 	icon_pals BLUE,   GRAY   ; AXECUTOR
-	icon_pals BROWN, BLUE   ; TECTOC
-	icon_pals BROWN, BLUE   ; APOCAROC
+	icon_pals BROWN,  GREEN  ; TECTOC
+	icon_pals BROWN,  GREEN  ; APOCAROC
 	icon_pals PURPLE, BLUE   ; NIDOKING
 	icon_pals BROWN,  GREEN  ; CLEFAIRY
 	icon_pals BROWN,  GREEN  ; CLEFABLE

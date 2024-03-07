@@ -10,9 +10,9 @@ EvosAttacksPointers1::
 	dw FoalakeEvosAttacks
 	dw LocholtEvosAttacks
 	dw KelpestaryEvosAttacks
-	dw CaterpieEvosAttacks
-	dw MetapodEvosAttacks
-	dw ButterfreeEvosAttacks
+	dw MigrubEvosAttacks
+	dw PupothEvosAttacks
+	dw YogsomothEvosAttacks
 	dw WeedleEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
@@ -311,32 +311,39 @@ KelpestaryEvosAttacks:
 	dbw 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-CaterpieEvosAttacks:
-	dbbw EVOLVE_LEVEL, 7, METAPOD
+MigrubEvosAttacks:
+	dbbw EVOLVE_LEVEL, 8, PUPOTH
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, STRING_SHOT
+	dbw 5, CONSTRICT
 	db 0 ; no more level-up moves
 
-MetapodEvosAttacks:
-	dbbw EVOLVE_LEVEL, 10, BUTTERFREE
+PupothEvosAttacks:
+	dbbw EVOLVE_LEVEL, 15, YOGSOMOTH
 	db 0 ; no more evolutions
-	dbw 1, HARDEN
-	dbw 7, HARDEN
+	dbw 1, PSYWAVE
+	dbw 8, PSYWAVE
+	dbw 13, SUPERSONIC
 	db 0 ; no more level-up moves
 
-ButterfreeEvosAttacks:
+YogsomothEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, CONFUSION
-	dbw 10, CONFUSION
-	dbw 13, POISONPOWDER
-	dbw 14, STUN_SPORE
-	dbw 15, SLEEP_POWDER
-	dbw 18, SUPERSONIC
-	dbw 23, WHIRLWIND
-	dbw 28, GUST
-	dbw 34, PSYBEAM
-	dbw 40, SAFEGUARD
+	dbw 15, CONFUSION
+	dbw 18, SLEEP_POWDER
+	dbw 18, POISONPOWDER
+	dbw 23, PSYBEAM
+	dbw 27, REFLECT
+	dbw 30, NASTY_PLOT
+	dbw 33, DARK_PULSE
+	dbw 36, CONFUSE_RAY
+	dbw 40, MOONLIGHT
+	dbw 44, BUG_BUZZ
+	dbw 49, FUTURE_SIGHT
+	dbw 52, METEOR_BEAM
+	dbw 55, MOONBLAST
+	dbw 58, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
