@@ -706,10 +706,8 @@ SECTION "Enemy Trainer Parties 2", ROMX
 SchoolboyGroup:
 	next_list_item ; SCHOOLBOY (1)
 	db "JACK@", TRAINERTYPE_NORMAL
-	db 12
-	dw ODDISH
-	db 15
-	dw VOLTORB
+	db 7
+	dw GIGGILICK
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (2)
@@ -807,22 +805,6 @@ SchoolboyGroup:
 	db -1 ; end
 
 	next_list_item ; SCHOOLBOY (13)
-	db "JACK@", TRAINERTYPE_NORMAL
-	db 14
-	dw ODDISH
-	db 17
-	dw VOLTORB
-	db -1 ; end
-
-	next_list_item ; SCHOOLBOY (14)
-	db "JACK@", TRAINERTYPE_NORMAL
-	db 28
-	dw GLOOM
-	db 31
-	dw ELECTRODE
-	db -1 ; end
-
-	next_list_item ; SCHOOLBOY (15)
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 17
 	dw TANGELA
@@ -830,7 +812,7 @@ SchoolboyGroup:
 	dw YANMA
 	db -1 ; end
 
-	next_list_item ; SCHOOLBOY (16)
+	next_list_item ; SCHOOLBOY (14)
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 20
 	dw NATU
@@ -842,7 +824,7 @@ SchoolboyGroup:
 	dw YANMA
 	db -1 ; end
 
-	next_list_item ; SCHOOLBOY (17)
+	next_list_item ; SCHOOLBOY (15)
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 19
 	dw MR__MIME
@@ -850,7 +832,7 @@ SchoolboyGroup:
 	dw MAGNEMITE
 	db -1 ; end
 
-	next_list_item ; SCHOOLBOY (18)
+	next_list_item ; SCHOOLBOY (16)
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 27
 	dw MR__MIME
@@ -858,30 +840,7 @@ SchoolboyGroup:
 	dw MAGNETON
 	db -1 ; end
 
-	next_list_item ; SCHOOLBOY (19)
-	db "JACK@", TRAINERTYPE_NORMAL
-	db 30
-	dw GLOOM
-	db 33
-	dw GROWLITHE
-	db 33
-	dw ELECTRODE
-	db -1 ; end
-
-	next_list_item ; SCHOOLBOY (20)
-	db "JACK@", TRAINERTYPE_MOVES
-	db 35
-	dw ELECTRODE
-	dw SCREECH, SONICBOOM, ROLLOUT, LIGHT_SCREEN
-	db 35
-	dw GROWLITHE
-	dw SUNNY_DAY, LEER, TAKE_DOWN, FLAME_WHEEL
-	db 37
-	dw VILEPLUME
-	dw SOLARBEAM, SLEEP_POWDER, ACID, MOONLIGHT
-	db -1 ; end
-
-	next_list_item ; SCHOOLBOY (21)
+	next_list_item ; SCHOOLBOY (17)
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 27
 	dw NATU
@@ -893,7 +852,7 @@ SchoolboyGroup:
 	dw YANMA
 	db -1 ; end
 
-	next_list_item ; SCHOOLBOY (22)
+	next_list_item ; SCHOOLBOY (18)
 	db "ALAN@", TRAINERTYPE_MOVES
 	db 35
 	dw XATU
@@ -909,7 +868,7 @@ SchoolboyGroup:
 	dw TAIL_WHIP, SLAM, AMNESIA, EARTHQUAKE
 	db -1 ; end
 
-	next_list_item ; SCHOOLBOY (23)
+	next_list_item ; SCHOOLBOY (19)
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 30
 	dw MR__MIME
@@ -917,7 +876,7 @@ SchoolboyGroup:
 	dw MAGNETON
 	db -1 ; end
 
-	next_list_item ; SCHOOLBOY (24)
+	next_list_item ; SCHOOLBOY (20)
 	db "CHAD@", TRAINERTYPE_MOVES
 	db 34
 	dw MR__MIME

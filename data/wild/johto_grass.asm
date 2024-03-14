@@ -394,7 +394,7 @@ JohtoGrassWildMons:
 	dbw 12, VENONAT
 	end_grass_wildmons
 
-	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
+	def_grass_wildmons EDELWEISS_RUINS_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 20, NATU
@@ -422,32 +422,32 @@ JohtoGrassWildMons:
 	dbw 22, QUAGSIRE
 	end_grass_wildmons
 
-	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
+	def_grass_wildmons EDELWEISS_RUINS_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
 	; day
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
 	; nite
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
-	dbw 5, UNOWN
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
+	dbw 5, TECTOC
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F

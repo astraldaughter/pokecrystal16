@@ -1762,9 +1762,9 @@ This is a mistake with the left-hand warp carpet corner tiles in [gfx/tilesets/p
 
 ### The Ruins of Alph research center's roof color at night looks wrong
 
-The dungeons' map group mostly has indoor maps that don't need roof colors, but [maps/RuinsOfAlphOutside.blk](https://github.com/pret/pokecrystal/blob/master/maps/RuinsOfAlphOutside.blk) is an exception. It appears to have poorly-chosen roof colors: the morning/day colors are the same default gray as the unused group 0, and the night colors combine the light default gray and the dark red of Cinnabar's night roofs.
+The dungeons' map group mostly has indoor maps that don't need roof colors, but [maps/EdelweissRuinsOutside.blk](https://github.com/pret/pokecrystal/blob/master/maps/EdelweissRuinsOutside.blk) is an exception. It appears to have poorly-chosen roof colors: the morning/day colors are the same default gray as the unused group 0, and the night colors combine the light default gray and the dark red of Cinnabar's night roofs.
 
-![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/ruins_of_alph_outside.png)
+![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/edelweiss_ruins_outside.png)
 
 **Fix:** Edit [gfx/tilesets/roofs.pal](https://github.com/pret/pokecrystal/blob/master/gfx/tilesets/roofs.pal) to use the same red colors as Cinnabar (which are not actually seen in-game):
 
@@ -1776,7 +1776,7 @@ The dungeons' map group mostly has indoor maps that don't need roof colors, but 
 +	RGB 18,05,09, 17,08,07 ; nite
 ```
 
-![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/ruins_of_alph_outside_cinnabar.png)
+![image](https://raw.githubusercontent.com/pret/pokecrystal/master/docs/images/edelweiss_ruins_outside_cinnabar.png)
 
 
 ### A hatching Unown egg would not show the right letter

@@ -107,9 +107,9 @@ ENDM
 	map_attributes EdelweissCity, EDELWEISS_CITY, $71, NORTH | WEST | EAST
 	connection north, Route53, ROUTE_53, 6
 	connection west, Route61, ROUTE_61, 9
-	connection east, RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, -5
+	connection east, EdelweissRuinsOutside, EDELWEISS_RUINS_OUTSIDE, -5
 
-	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $71, WEST
+	map_attributes EdelweissRuinsOutside, EDELWEISS_RUINS_OUTSIDE, $71, WEST
 	connection west, EdelweissCity, EDELWEISS_CITY, 5
 
 	map_attributes AzaleaTown, AZALEA_TOWN, $05, WEST | EAST
@@ -396,7 +396,7 @@ ENDM
 	map_attributes RuinsOfAlphKabutoChamber, RUINS_OF_ALPH_KABUTO_CHAMBER, $00, 0
 	map_attributes RuinsOfAlphOmanyteChamber, RUINS_OF_ALPH_OMANYTE_CHAMBER, $00, 0
 	map_attributes RuinsOfAlphAerodactylChamber, RUINS_OF_ALPH_AERODACTYL_CHAMBER, $00, 0
-	map_attributes RuinsOfAlphInnerChamber, RUINS_OF_ALPH_INNER_CHAMBER, $00, 0
+	map_attributes EdelweissRuins1F, EDELWEISS_RUINS_1F, $00, 0
 	map_attributes RuinsOfAlphResearchCenter, RUINS_OF_ALPH_RESEARCH_CENTER, $00, 0
 	map_attributes RuinsOfAlphHoOhItemRoom, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, $00, 0
 	map_attributes RuinsOfAlphKabutoItemRoom, RUINS_OF_ALPH_KABUTO_ITEM_ROOM, $00, 0

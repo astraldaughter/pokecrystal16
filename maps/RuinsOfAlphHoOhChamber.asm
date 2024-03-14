@@ -55,10 +55,9 @@ RuinsOfAlphHoOhChamberPuzzle:
 	end
 
 .PuzzleComplete:
-	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
+	setevent EVENT_EDELWEISS_RUINS_1F_TOURISTS
 	setevent EVENT_SOLVED_HO_OH_PUZZLE
 	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_Z
-	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, SCENE_RUINSOFALPHINNERCHAMBER_STRANGE_PRESENCE
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 15
 	changeblock 2, 2, $18 ; left hole
@@ -145,10 +144,10 @@ RuinsOfAlphHoOhChamber_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 1
-	warp_event  4,  9, RUINS_OF_ALPH_OUTSIDE, 1
-	warp_event  3,  3, RUINS_OF_ALPH_INNER_CHAMBER, 2
-	warp_event  4,  3, RUINS_OF_ALPH_INNER_CHAMBER, 3
+	warp_event  3,  9, EDELWEISS_RUINS_OUTSIDE, 1
+	warp_event  4,  9, EDELWEISS_RUINS_OUTSIDE, 1
+	warp_event  3,  3, EDELWEISS_RUINS_1F, 2
+	warp_event  4,  3, EDELWEISS_RUINS_1F, 3
 	warp_event  4,  0, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, 1
 
 	def_coord_events

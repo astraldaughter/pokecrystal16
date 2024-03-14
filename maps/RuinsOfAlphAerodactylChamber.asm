@@ -54,10 +54,9 @@ RuinsOfAlphAerodactylChamberPuzzle:
 	end
 
 .PuzzleComplete:
-	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
+	setevent EVENT_EDELWEISS_RUINS_1F_TOURISTS
 	setevent EVENT_SOLVED_AERODACTYL_PUZZLE
 	setflag ENGINE_UNLOCKED_UNOWNS_S_TO_W
-	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, SCENE_RUINSOFALPHINNERCHAMBER_STRANGE_PRESENCE
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 15
 	changeblock 2, 2, $18 ; left hole
@@ -144,10 +143,10 @@ RuinsOfAlphAerodactylChamber_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 4
-	warp_event  4,  9, RUINS_OF_ALPH_OUTSIDE, 4
-	warp_event  3,  3, RUINS_OF_ALPH_INNER_CHAMBER, 8
-	warp_event  4,  3, RUINS_OF_ALPH_INNER_CHAMBER, 9
+	warp_event  3,  9, EDELWEISS_RUINS_OUTSIDE, 4
+	warp_event  4,  9, EDELWEISS_RUINS_OUTSIDE, 4
+	warp_event  3,  3, EDELWEISS_RUINS_1F, 8
+	warp_event  4,  3, EDELWEISS_RUINS_1F, 9
 	warp_event  4,  0, RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM, 1
 
 	def_coord_events

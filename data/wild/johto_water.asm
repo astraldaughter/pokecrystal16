@@ -2,7 +2,7 @@
 
 JohtoWaterWildMons:
 
-	def_water_wildmons RUINS_OF_ALPH_OUTSIDE
+	def_water_wildmons EDELWEISS_RUINS_OUTSIDE
 	db 2 percent ; encounter rate
 	dbw 15, WOOPER
 	dbw 20, QUAGSIRE

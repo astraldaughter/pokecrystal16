@@ -1455,7 +1455,6 @@ RadioChannels:
 	dbw 28, .PokemonMusic           ; 07.5
 	dbw 32, .LuckyChannel           ; 08.5
 	dbw 40, .BuenasPassword         ; 10.5
-	dbw 52, .RuinsOfAlphRadio       ; 13.5
 	dbw 64, .PlacesAndPeople        ; 16.5
 	dbw 72, .LetsAllSing            ; 18.5
 	dbw 78, .PokeFluteRadio         ; 20.0
@@ -1486,12 +1485,6 @@ RadioChannels:
 	call .InJohto
 	jr nc, .NoSignal
 	jp LoadStation_BuenasPassword
-
-.RuinsOfAlphRadio:
-	ld a, [wPokegearMapPlayerIconLandmark]
-	cp LANDMARK_RUINS_OF_ALPH
-	jr nz, .NoSignal
-	jp LoadStation_UnownRadio
 
 .PlacesAndPeople:
 	call .InJohto

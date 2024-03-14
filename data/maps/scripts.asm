@@ -21,12 +21,12 @@ INCLUDE "maps/GoldenrodGameCorner.asm"
 
 SECTION "Map Scripts 2", ROMX
 
-INCLUDE "maps/RuinsOfAlphOutside.asm"
+INCLUDE "maps/EdelweissRuinsOutside.asm"
 INCLUDE "maps/RuinsOfAlphHoOhChamber.asm"
 INCLUDE "maps/RuinsOfAlphKabutoChamber.asm"
 INCLUDE "maps/RuinsOfAlphOmanyteChamber.asm"
 INCLUDE "maps/RuinsOfAlphAerodactylChamber.asm"
-INCLUDE "maps/RuinsOfAlphInnerChamber.asm"
+INCLUDE "maps/EdelweissRuins1F.asm"
 INCLUDE "maps/RuinsOfAlphResearchCenter.asm"
 INCLUDE "maps/RuinsOfAlphHoOhItemRoom.asm"
 INCLUDE "maps/RuinsOfAlphKabutoItemRoom.asm"

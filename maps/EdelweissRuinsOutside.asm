@@ -1,7 +1,7 @@
 	object_const_def
 
 
-RuinsOfAlphOutside_MapScripts:
+EdelweissRuinsOutside_MapScripts:
 	def_scene_scripts
 
 
@@ -15,10 +15,11 @@ RuinsVisitorCentreSignText:
 	line "VISITORS' CENTER"
 	done
 
-RuinsOfAlphOutside_MapEvents:
+EdelweissRuinsOutside_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
+	warp_event  10,  3, EDELWEISS_RUINS_1F, 1
 
 	def_coord_events
 

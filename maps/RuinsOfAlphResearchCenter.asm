@@ -103,7 +103,7 @@ RuinsOfAlphResearchCenterScientist1Script:
 	writetext RuinsOfAlphResearchCenterScientist1Text_GotAllUnown
 	waitbutton
 	closetext
-	clearevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
+	clearevent EVENT_EDELWEISS_RUINS_OUTSIDE_TOURIST_YOUNGSTERS
 	end
 
 RuinsOfAlphResearchCenterScientist2Script:
@@ -391,8 +391,8 @@ RuinsOfAlphResearchCenter_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  7, RUINS_OF_ALPH_OUTSIDE, 6
-	warp_event  3,  7, RUINS_OF_ALPH_OUTSIDE, 6
+	warp_event  2,  7, EDELWEISS_RUINS_OUTSIDE, 6
+	warp_event  3,  7, EDELWEISS_RUINS_OUTSIDE, 6
 
 	def_coord_events
 

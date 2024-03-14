@@ -1,5 +1,6 @@
 	object_const_def
 	const FOOTHILLCAVES_POKEFAN_M
+	const FOOTHILLCAVES_POKE_BALL
 
 FoothillCaves_MapScripts:
 	def_scene_scripts
@@ -16,6 +17,12 @@ TrainerHikerAnthony:
 	waitbutton
 	closetext
 	end
+
+FoothillCavesPokeBall:
+	itemball POKE_BALL
+
+FoothillCavesHiddenPotion:
+	hiddenitem POTION, EVENT_FOOTHILL_CAVES_HIDDEN_POTION
 
 HikerAnthonySeenText:
 	text "I just broke camp!"
@@ -46,6 +53,8 @@ FoothillCaves_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 5, 13, BGEVENT_ITEM, FoothillCavesHiddenPotion
 
 	def_object_events
 	object_event  11, 21, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerHikerAnthony, -1
+	object_event  12, 23, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, FoothillCavesPokeBall, EVENT_FOOTHILL_CAVES_POKE_BALL

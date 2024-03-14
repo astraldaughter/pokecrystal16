@@ -383,11 +383,11 @@ KurtsHouse_Blocks:
 GoldenrodMagnetTrainStation_Blocks:
 	INCBIN "maps/GoldenrodMagnetTrainStation.ablk"
 
-RuinsOfAlphOutside_Blocks:
-	INCBIN "maps/RuinsOfAlphOutside.ablk"
+EdelweissRuinsOutside_Blocks:
+	INCBIN "maps/EdelweissRuinsOutside.ablk"
 
-RuinsOfAlphInnerChamber_Blocks:
-	INCBIN "maps/RuinsOfAlphInnerChamber.ablk"
+EdelweissRuins1F_Blocks:
+	INCBIN "maps/EdelweissRuins1F.ablk"
 
 RuinsOfAlphHoOhChamber_Blocks:
 RuinsOfAlphKabutoChamber_Blocks:

@@ -121,7 +121,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const JASON
 
 	trainerclass SCHOOLBOY ; 17
-	const JACK1
+	const JACK
 	const KIPP
 	const ALAN1
 	const JOHNNY
@@ -133,14 +133,10 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const CHAD1
 	const NATE
 	const RICKY
-	const JACK2
-	const JACK3
 	const ALAN2
 	const ALAN3
 	const CHAD2
 	const CHAD3
-	const JACK4
-	const JACK5
 	const ALAN4
 	const ALAN5
 	const CHAD4
