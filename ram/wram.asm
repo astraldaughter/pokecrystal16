@@ -3101,13 +3101,13 @@ wTinTower1FSceneID::                              db
 wBurnedTower1FSceneID::                           db
 wBurnedTowerB1FSceneID::                          db
 wRadioTower5FSceneID::                            db
-wRuinsOfAlphOutsideSceneID::                      db
+wEdelweissRuinsOutsideSceneID::                      db
 wRuinsOfAlphResearchCenterSceneID::               db
 wRuinsOfAlphHoOhChamberSceneID::                  db
 wRuinsOfAlphKabutoChamberSceneID::                db
 wRuinsOfAlphOmanyteChamberSceneID::               db
 wRuinsOfAlphAerodactylChamberSceneID::            db
-wRuinsOfAlphInnerChamberSceneID::                 db
+wEdelweissRuins1FSceneID::                 db
 wMahoganyMart1FSceneID::                          db
 wTeamRocketBaseB1FSceneID::                       db
 wTeamRocketBaseB2FSceneID::                       db
