@@ -290,4 +290,5 @@ MoveNames::
 	li "STONE CRASH"
 	li "HAIL"
 	li "WILD THUNDER"
+	li "INEBRIATE"
 	assert_list_length NUM_ATTACKS

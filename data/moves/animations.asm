@@ -319,6 +319,7 @@ BattleAnimations::
 	dw BattleAnim_StoneCrash
 	dw BattleAnim_Hail
 	dw BattleAnim_WildThunder
+	dw BattleAnim_Inebriate
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -5075,6 +5076,15 @@ BattleAnim_InHail:
 	anim_wait 8
 	anim_loop 8, .loop
 	anim_wait 8
+	anim_ret
+
+BattleAnim_Inebriate:
+	anim_2gfx ANIM_GFX_POISON, ANIM_GFX_WATER
+	anim_sound 0, 1, SFX_LICK
+	anim_obj ANIM_OBJ_LICK, 136, 56, $0
+	anim_wait 64
+	anim_call BattleAnimSub_Sludge
+	anim_wait 64
 	anim_ret
 
 BattleAnimSub_Drain:

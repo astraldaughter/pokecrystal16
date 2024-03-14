@@ -295,6 +295,7 @@ MoveDescriptions1:
 	dw StoneCrashDescription
 	dw HailDescription
 	dw WildThunderDescription
+	dw InebriateDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -577,8 +578,8 @@ SeismicTossDescription:
 	next "equals damage HP.@"
 
 StrengthDescription:
-	db   "A powerful physi-"
-	next "cal attack.@"
+	db   "An attack that may"
+	next "up user's ATTACK.@"
 
 AbsorbDescription:
 	db   "Steals 1/2 of the"
@@ -732,6 +733,7 @@ SmokescreenDescription:
 	db   "Lowers the foe's"
 	next "accuracy.@"
 
+InebriateDescription:
 ConfuseRayDescription:
 	db   "A move that causes"
 	next "confusion.@"
