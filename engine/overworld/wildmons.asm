@@ -949,6 +949,20 @@ RandomPhoneMon:
 	inc hl
 	ld c, a
 	ld a, 3
+; TRAINERTYPE_DVS uses 2 more bytes
+	bit TRAINERTYPE_DVS_F, c
+	jr z, .no_dvs
+	inc a
+	inc a
+.no_dvs
+; TRAINERTYPE_STAT_EXP uses NUM_EXP_STATS * 2 (10) more bytes
+	bit TRAINERTYPE_STAT_EXP_F, c
+	jr z, .no_stat_exp
+	ld a, NUM_EXP_STATS * 2
+	add c
+	ld c, a
+.no_stat_exp
+; TRAINERTYPE_ITEM uses 1 more byte
 	bit TRAINERTYPE_ITEM_F, c
 	jr z, .no_item
 	inc a
